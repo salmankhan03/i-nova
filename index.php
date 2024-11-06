@@ -100,7 +100,7 @@
         </div>
 
         <div class="container section-padding">
-            <div class="title text-center pb-4">In the box</div>
+            <div class="title text-center pb-4">In the Box</div>
             <img src="https://dummyimage.com/3000x1000" alt="in the box" class="img-fluid" style="border-radius: 20px">
         </div>
         
