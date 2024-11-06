@@ -6,7 +6,7 @@
             .horizontal-line {
                 border-top: 1px solid #fff; /* Line thickness and color */
                 width: 100%; /* Full width of the container */
-                margin: 20px 0; /* Optional vertical spacing */
+                margin-bottom: 20px; /* Optional vertical spacing */
             }
 
             #scrollToTopBtn {

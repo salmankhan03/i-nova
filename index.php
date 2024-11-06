@@ -27,6 +27,7 @@
             </div>
         </div>
 
+        <!-- Specification -->
         <div class="spec" id="spec">
             <!-- <img src="https://dummyimage.com/3000x2000" alt="spec" class="banner"> -->
             <div class="container section-padding">
@@ -96,6 +97,11 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="container section-padding">
+            <div class="title text-center pb-4">In the box</div>
+            <img src="https://dummyimage.com/3000x1000" alt="in the box" class="img-fluid" style="border-radius: 20px">
         </div>
         
         <?php include 'footer.php'; ?>
