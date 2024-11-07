@@ -36,7 +36,7 @@
         <div class="bg-black">
             <div class="container">
                 <nav class="nav">
-                    <a class="logo" href="index.php">Your Logo</a>
+                    <a class="logo text-white" href="index.php">Your Logo</a>
                     <div class="nav-links nav-links-white">
                         <a href="index.php">PHONE</a>
                         <a href="support.php">SUPPORT</a>
