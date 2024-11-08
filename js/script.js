@@ -25,10 +25,11 @@ filterButtons.forEach(button => {
 });
 
 
-document.querySelectorAll('.question').forEach(question => {
+document.querySelectorAll('.question-wrap').forEach(question => {
     question.addEventListener('click', function () {
         const answer = this.nextElementSibling;
+        const icon = this.querySelector('.faq-icon');
         answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
-        this.querySelector('::before').content = answer.style.display === 'block' ? '-' : '+';
+        icon.classList.toggle('open');
     });
 });
