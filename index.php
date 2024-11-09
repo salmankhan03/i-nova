@@ -33,44 +33,78 @@
                 <div class="col-xl-6">
                     <p>Lorem ipsum dolor sit amet consectetur at sed volutpat nullam dis sit commodo porttitor etiam.</p>
                 </div>
-                <!-- <div class="highlights-container"> -->
-                    <div class="row">
-                        <div class="col-6 col-lg-4 col-xl-2">
-                            <div class="highlight-wrap">
-                                <img src="img/phone/icons/icon_size.svg" alt="screen" class="highlight-icon">
-                                <div class="highlight-text">5.45" TFT LCD</div>
-                                <div class="highlight-text">480x960</div>
-                            </div>
-                        </div>
-                        <div class="col-6 col-lg-4 col-xl-2">
-                            <div class="highlight-wrap">
-                                <img src="img/phone/icons/icon_camera.svg" alt="screen" class="highlight-icon">
-                                <div class="highlight-text">5MP Back</div>
-                                <div class="highlight-text">2MP Front</div>
-                            </div>
-                        </div>
-                        <div class="col-6 col-lg-4 col-xl-2">
-                            <div class="highlight-wrap">
-                                <img src="img/phone/icons/icon_processor.svg" alt="screen" class="highlight-icon">
-                                <div class="highlight-text">Quad Core</div>
-                                <div class="highlight-text">2.0GHz</div>
-                            </div>
-                        </div>
-                        <div class="col-6 col-lg-4 col-xl-2">
-                            <div class="highlight-wrap">
-                                <img src="img/phone/icons/icon_memory.svg" alt="screen" class="highlight-icon">
-                                <div class="highlight-text">3GB RAM</div>
-                                <div class="highlight-text">32GB ROM</div>
-                            </div>
-                        </div>
-                        <div class="col-6 col-lg-4 col-xl-2">
-                            <div class="highlight-wrap">
-                                <img src="img/phone/icons/icon_dualsim.svg" alt="screen" class="highlight-icon">
-                                <div class="highlight-text">Dual Sim</div>
-                            </div>
+
+                <div class="row">
+                    <div class="col-6 col-md-4 col-lg-4 col-xl-2">
+                        <div class="highlight-wrap">
+                            <img src="img/phone/icons/icon_size.svg" alt="screen" class="highlight-icon">
+                            <div class="highlight-text">5.45" TFT LCD</div>
+                            <div class="highlight-text">480x960</div>
                         </div>
                     </div>
-                <!-- </div> -->
+
+                    <div class="col-6 col-md-4 col-lg-4 col-xl-2">
+                        <div class="highlight-wrap">
+                            <img src="img/phone/icons/icon_camera.svg" alt="camera" class="highlight-icon">
+                            <div class="highlight-text">5MP Back</div>
+                            <div class="highlight-text">2MP Front</div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-4 col-xl-2">
+                        <div class="highlight-wrap">
+                            <img src="img/phone/icons/icon_processor.svg" alt="processor" class="highlight-icon">
+                            <div class="highlight-text">Quad Core</div>
+                            <div class="highlight-text">2.0GHz</div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-4 col-xl-2">
+                        <div class="highlight-wrap">
+                            <img src="img/phone/icons/icon_memory.svg" alt="memory" class="highlight-icon">
+                            <div class="highlight-text">3GB RAM</div>
+                            <div class="highlight-text">32GB ROM</div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-6 col-md-4 col-lg-4 col-xl-2">
+                        <div class="highlight-wrap">
+                            <img src="img/phone/icons/icon_dualsim.svg" alt="dual-sim" class="highlight-icon">
+                            <div class="highlight-text">Dual Sim</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Details -->
+        <!-- Android 14 -->
+        <div class="container section-padding">
+            <div class="details-image android">
+                <div class="row">
+                    <div class="col-md-6 details-text-wrap">
+                        <div class="title">Android 14</div>
+                        <div class="details-text">Customizable, Accessible, Protective. Complete with the latest personalization, security and privacy features.</div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="https://dummyimage.com/300x500/000" alt="android" class="img-fluid phone">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Customizable Casing -->
+        <div class="container section-padding">
+            <div class="details-image android">
+                <div class="row">
+                    <div class="col-md-6 details-text-wrap">
+                        <div class="title">Customizable Casing</div>
+                        <div class="details-text">Customizable, Accessible</div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="https://dummyimage.com/300x500/000" alt="android" class="img-fluid phone">
+                    </div>
+                </div>
             </div>
         </div>
 
