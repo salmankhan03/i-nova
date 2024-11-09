@@ -97,9 +97,26 @@ a {
     padding-bottom: 50px;
 }
 
+.highlights-container {
+    display: flex;
+}
+
+.highlight-wrap {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 20px; */
+    flex: 1;
+}
+
+.highlight-icon {
+    width: 50px;
+    padding-bottom: 20px;
+}
+
 .spec {
-    /* background-image: url('https://dummyimage.com/3000x2000'); */
-    background-color: black;
+    background-image: url('https://dummyimage.com/3000x2000/000');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -110,7 +127,7 @@ a {
   }
 
 hr {
-    border-top: 2px solid white;
+    border-top: 2px solid #fff;
     margin: 10px 0 !important;
 }
 
@@ -200,7 +217,7 @@ hr {
 }
 
 .answer {
-    display: none; /* Hide answer by default */
+    display: none;
     margin-top: 5px;
     padding-left: 52px;
 }

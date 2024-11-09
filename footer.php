@@ -13,11 +13,11 @@
                 position: fixed;
                 bottom: 20px;
                 right: 20px;
-                display: none; /* Hidden by default */
-                background-color: #0c73b2;
-                color: white;
+                display: none;
+                background-color: white;
+                color: black;
                 padding: 10px 18px;
-                border: none;
+                border: 1px solid black;
                 border-radius: 5px;
                 font-size: 18px;
                 cursor: pointer;
@@ -25,9 +25,9 @@
             }
 
             #scrollToTopBtn:hover {
-                color: #0c73b2;
-                background-color: white;
-                border: 1px solid #0c73b2;
+                color: white;
+                background-color: black;
+                border: 1px solid white;
             }
 
         </style>

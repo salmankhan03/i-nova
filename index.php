@@ -20,16 +20,62 @@
         </div>
 
         <div class="banner-container" id="overview">
-            <img src="https://dummyimage.com/3000x2000" alt="banner" class="banner">
+            <img src="https://dummyimage.com/3000x2000/00000" alt="banner" class="banner">
             <div class="container banner-text" style="height: 400px;">
                 <div class="heading">Say hello to <br/> Northlight 4G</div>
                 <div class="title position-absolute bottom-0 end-0">Budget Friendly,<br/> Superb Quality</div>
             </div>
         </div>
 
+        <!-- highlights -->
+        <div class="container section-padding">
+            <div class="row">
+                <div class="col-xl-6">
+                    <p>Lorem ipsum dolor sit amet consectetur at sed volutpat nullam dis sit commodo porttitor etiam.</p>
+                </div>
+                <!-- <div class="highlights-container"> -->
+                    <div class="row">
+                        <div class="col-6 col-lg-4 col-xl-2">
+                            <div class="highlight-wrap">
+                                <img src="img/phone/icons/icon_size.svg" alt="screen" class="highlight-icon">
+                                <div class="highlight-text">5.45" TFT LCD</div>
+                                <div class="highlight-text">480x960</div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-4 col-xl-2">
+                            <div class="highlight-wrap">
+                                <img src="img/phone/icons/icon_camera.svg" alt="screen" class="highlight-icon">
+                                <div class="highlight-text">5MP Back</div>
+                                <div class="highlight-text">2MP Front</div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-4 col-xl-2">
+                            <div class="highlight-wrap">
+                                <img src="img/phone/icons/icon_processor.svg" alt="screen" class="highlight-icon">
+                                <div class="highlight-text">Quad Core</div>
+                                <div class="highlight-text">2.0GHz</div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-4 col-xl-2">
+                            <div class="highlight-wrap">
+                                <img src="img/phone/icons/icon_memory.svg" alt="screen" class="highlight-icon">
+                                <div class="highlight-text">3GB RAM</div>
+                                <div class="highlight-text">32GB ROM</div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-4 col-xl-2">
+                            <div class="highlight-wrap">
+                                <img src="img/phone/icons/icon_dualsim.svg" alt="screen" class="highlight-icon">
+                                <div class="highlight-text">Dual Sim</div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- </div> -->
+            </div>
+        </div>
+
         <!-- Specification -->
         <div class="spec" id="spec">
-            <!-- <img src="https://dummyimage.com/3000x2000" alt="spec" class="banner"> -->
             <div class="container section-padding">
                 <div class="row pb-5">
                     <div class="col-6 col-md-4">

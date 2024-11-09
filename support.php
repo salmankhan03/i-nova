@@ -61,59 +61,55 @@
                     </div>
                 </div>
             
-        
-
                 <div class="row pt-3">
                     <div class="col-md-10 col-lg-7 mx-auto">
                         <!-- Filter Bar -->
-                        <!-- <div> -->
-                            <div class="faq-filter">
-                                <div class="filter-btn active" data-category="all">All</div>
-                                <div class="filter-btn" data-category="products">Products</div>
-                                <div class="filter-btn text-nowrap" data-category="order">Order & Shipping</div>
-                                <div class="filter-btn me-0" data-category="support">Support</div>
-                            </div>
-                            <!-- FAQ Questions -->
-                            <div class="faq-questions text-start">
-                                <div class="px-3">
-                                    <div class="faq-item" data-category="products">
-                                        <div class="question-wrap">
-                                            <span class="fa-solid fa-angle-right faq-icon"></span>
-                                            <div class="question">What is the warranty for the products?</div>
-                                        </div>
-                                        <p class="answer">The warranty lasts for 1 year.</p>
+                        <div class="faq-filter">
+                            <div class="filter-btn active" data-category="all">All</div>
+                            <div class="filter-btn" data-category="products">Products</div>
+                            <div class="filter-btn text-nowrap" data-category="order">Order & Shipping</div>
+                            <div class="filter-btn me-0" data-category="support">Support</div>
+                        </div>
+                        <!-- FAQ Questions -->
+                        <div class="faq-questions text-start">
+                            <div class="px-3">
+                                <div class="faq-item" data-category="products">
+                                    <div class="question-wrap">
+                                        <span class="fa-solid fa-angle-right faq-icon"></span>
+                                        <div class="question">What is the warranty for the products?</div>
                                     </div>
-                                    <div class="faq-item" data-category="products">
-                                        <div class="question-wrap">
-                                            <span class="fa-solid fa-angle-right faq-icon"></span>
-                                            <div class="question">How do I return a product?</div>
-                                        </div>
-                                        <p class="answer">Visit our returns page to start a return request.</p>
+                                    <p class="answer">The warranty lasts for 1 year.</p>
+                                </div>
+                                <div class="faq-item" data-category="products">
+                                    <div class="question-wrap">
+                                        <span class="fa-solid fa-angle-right faq-icon"></span>
+                                        <div class="question">How do I return a product?</div>
                                     </div>
-                                    <div class="faq-item" data-category="order">
-                                        <div class="question-wrap">
-                                            <span class="fa-solid fa-angle-right faq-icon"></span>
-                                            <div class="question">How do I track my shipment?</div>
-                                        </div>
-                                        <p class="answer">You can track your shipment using the tracking number provided in the confirmation email.</p>
+                                    <p class="answer">Visit our returns page to start a return request.</p>
+                                </div>
+                                <div class="faq-item" data-category="order">
+                                    <div class="question-wrap">
+                                        <span class="fa-solid fa-angle-right faq-icon"></span>
+                                        <div class="question">How do I track my shipment?</div>
                                     </div>
-                                    <div class="faq-item" data-category="order">
-                                        <div class="question-wrap">
-                                            <span class="fa-solid fa-angle-right faq-icon"></span>
-                                            <div class="question">What are the shipping costs?</div>
-                                        </div>
-                                        <p class="answer">Shipping costs depend on your location and the size of the order.</p>
+                                    <p class="answer">You can track your shipment using the tracking number provided in the confirmation email.</p>
+                                </div>
+                                <div class="faq-item" data-category="order">
+                                    <div class="question-wrap">
+                                        <span class="fa-solid fa-angle-right faq-icon"></span>
+                                        <div class="question">What are the shipping costs?</div>
                                     </div>
-                                    <div class="faq-item" data-category="support">
-                                        <div class="question-wrap">
-                                            <span class="fa-solid fa-angle-right faq-icon"></span>
-                                            <div class="question">How do I contact customer support?</div>
-                                        </div>
-                                        <p class="answer">You can reach customer support via email or phone.</p>
+                                    <p class="answer">Shipping costs depend on your location and the size of the order.</p>
+                                </div>
+                                <div class="faq-item" data-category="support">
+                                    <div class="question-wrap">
+                                        <span class="fa-solid fa-angle-right faq-icon"></span>
+                                        <div class="question">How do I contact customer support?</div>
                                     </div>
+                                    <p class="answer">You can reach customer support via email or phone.</p>
                                 </div>
                             </div>
-                        <!-- </div> -->
+                        </div>
                     </div>
                 </div>
             </div>
