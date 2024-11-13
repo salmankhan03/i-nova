@@ -217,24 +217,17 @@ a {
 }
 
 .feature-background.visible .feature-image {
-    right: 5%; /* Move to the desired position */
+    right: 2%; /* Move to the desired position */
     opacity: 1; /* Fade in */
 }
 
 .spec {
-    background-image: url('https://dummyimage.com/3000x2000/000');
+    background-image: url('../img/phone/img_spec.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* width: 100vw; */
     display: flex;
     justify-content: center;
-    color: white;
-  }
-
-hr {
-    border-top: 2px solid #fff;
-    margin: 10px 0 !important;
 }
 
 .spec-wrap {

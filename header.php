@@ -19,7 +19,7 @@
             </nav>
         </div>
 
-        <script>
+        <!-- <script>
             //highlight the current page's navigation link
             const currentLocation = window.location.href;
             const menuItem = document.querySelectorAll('.nav-links a');
@@ -32,6 +32,6 @@
                     menuItem[i].classList.remove('active');
                 }
             }
-        </script>
+        </script> -->
     </body>
 </html>
