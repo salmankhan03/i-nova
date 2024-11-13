@@ -1,21 +1,21 @@
 <?php
-// Database configuration
-$servername = "localhost";
-$username = "root"; // Replace with your DB username
-$password = ""; // Replace with your DB password
-$dbname = "my_database"; // Replace with your DB name
+    // Database configuration
+    $servername = "localhost";
+    $username = "root"; // Replace with your DB username
+    $password = ""; // Replace with your DB password
+    $dbname = "my_database"; // Replace with your DB name
 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
+    // Create connection
+    $conn = new mysqli($servername, $username, $password, $dbname);
 
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
+    // Check connection
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    }
 
-// SQL query to fetch all records from the `users` table
-$sql = "SELECT id, name, email, reg_date FROM users";
-$result = $conn->query($sql);
+    // SQL query to fetch all records from the `users` table
+    $sql = "SELECT id, name, email, reg_date FROM users";
+    $result = $conn->query($sql);
 ?>
 
 <!DOCTYPE html>

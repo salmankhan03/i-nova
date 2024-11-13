@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <?php include 'HTMLhead.php'; ?>
         <style>
             .first-nav.active {
                 font-weight: bold;

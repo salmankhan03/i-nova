@@ -111,6 +111,11 @@ a {
     padding-bottom: 50px;
 }
 
+/* .main-1-container {
+    padding: 0;
+    overflow: hidden;
+} */
+
 .main-1 {
     position: absolute;
     width: 550px;
@@ -149,10 +154,11 @@ a {
     font-size: 24px;
 }
 
-.details-image {
+.feature-background {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 500px;
     display: flex;
     align-items: center;
@@ -163,39 +169,56 @@ a {
     transition: width 1s ease, opacity 1s ease;
 }
 
-.details-image.visible {
+.feature-background.visible {
     opacity: 1;
     width: 100%;
 }
 
-.details-image .row {
+.feature-background .row {
     width: calc(100% + var(--bs-gutter-x));
 }
 
-.android {
+.feature-1 {
     background-image: url('../img/phone/bg_1.jpg');
 }
 
-.casing {
-    background-image: url('https://dummyimage.com/3000x2000');
+.feature-2 {
+    background-image: url('../img/phone/bg_2.jpg');
 }
 
-.details-text-wrap {
+.feature-3 {
+    background-image: url('../img/phone/bg_3.jpg');
+}
+
+.feature-text-wrap {
     padding-left: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    opacity: 0; /* Start invisible */
+    transition: opacity 1s ease 0.8s; /* Smooth transition for fading in */
 }
 
-.details-text {
+.feature-background.visible .feature-text-wrap {
+    opacity: 1; /* Fade in text when .visible class is added */
+}
+
+.feature-text {
     font-size: 24px;
 }
 
-.phone {
+.feature-image {
     position: absolute;
-    top: -100px;
-    right: 100px;
+    top: -20%;
+    right: -100%; /* Start off-screen to the right */
     height: 550px;
+    opacity: 0; /* Initially hidden */
+    transition: right 1s ease 0.5s, opacity 1s ease 0.5s; /* Delay for smooth entry */
+}
+
+.feature-background.visible .feature-image {
+    right: 5%; /* Move to the desired position */
+    opacity: 1; /* Fade in */
 }
 
 .spec {

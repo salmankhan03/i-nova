@@ -3,7 +3,7 @@
     <head>
         <?php include 'HTMLhead.php'; ?>
     </head>
-    <body>
+    <body class="overflow-x-hidden">
         <?php include 'header.php'; ?>
 
         <div style="background-color: grey;">
@@ -81,17 +81,17 @@
             </div>
         </div>
 
-        <!-- Details -->
+        <!-- Features -->
         <!-- Android 14 -->
         <div class="container section-padding">
-            <div class="details-image android">
+            <div class="feature-background feature-1">
                 <div class="row">
-                    <div class="col-md-6 details-text-wrap">
+                    <div class="col-md-6 feature-text-wrap">
                         <div class="title">Android 14</div>
-                        <div class="details-text">Customizable, Accessible, Protective. Complete with the latest personalization, security and privacy features.</div>
+                        <div class="feature-text">Customizable, Accessible, Protective. Complete with the latest personalization, security and privacy features.</div>
                     </div>
                     <div class="col-md-6">
-                        <img src="img/phone/feature_1.png" alt="android" class="img-fluid phone">
+                        <img src="img/phone/feature_1.png" alt="feature-1" class="img-fluid feature-image">
                     </div>
                 </div>
             </div>
@@ -99,14 +99,29 @@
 
         <!-- Customizable Casing -->
         <div class="container section-padding">
-            <div class="details-image casing">
+            <div class="feature-background feature-2">
                 <div class="row">
-                    <div class="col-md-5 details-text-wrap">
+                    <div class="col-md-5 feature-text-wrap">
                         <div class="title">Customizable Casing</div>
-                        <div class="details-text">Customizable, Accessible.</div>
+                        <div class="feature-text">Customizable, Accessible.</div>
                     </div>
                     <div class="col-md-7">
-                        <img src="https://dummyimage.com/300x500/000" alt="android" class="img-fluid phone">
+                        <img src="img/phone/feature_2.png" alt="feature-2" class="img-fluid feature-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="container section-padding">
+            <div class="feature-background feature-3">
+                <div class="row">
+                    <div class="col-md-5 feature-text-wrap">
+                        <div class="title">Customizable Casing</div>
+                        <div class="feature-text">Customizable, Accessible.</div>
+                    </div>
+                    <div class="col-md-7">
+                        <img src="img/phone/feature_3.png" alt="feature-3" class="img-fluid feature-image">
                     </div>
                 </div>
             </div>

@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <?php include 'HTMLhead.php'; ?>
         <style>
             .horizontal-line {
                 border-top: 1px solid #fff; /* Line thickness and color */
@@ -75,5 +74,6 @@
             };
 
         </script>
+        <script src="js/script.js" defer></script>
     </body>
 </html>
