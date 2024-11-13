@@ -5,19 +5,7 @@
     </head>
     <body class="overflow-x-hidden">
         <?php include 'header.php'; ?>
-
-        <div style="background-color: grey;">
-            <div class="container">
-                <nav class="phone-nav">
-                    <div class="logo">Northlight 4G</div>
-                    <div class="nav-links">
-                        <a href="index.php">Overview</a>
-                        <a href="spec.php">Specifications</a>
-                        <a href="#" class="button">Buy</a>
-                    </div>
-                </nav>
-            </div>
-        </div>
+        <?php include 'phone-nav.php'; ?>
 
         <div class="banner-container">
             <img src="img/phone/banner.png" alt="banner" class="banner">

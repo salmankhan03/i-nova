@@ -2,6 +2,9 @@
 <html lang="en">
     <head>
         <style>
+            .first-nav {
+                letter-spacing: 1px;
+            }
             .first-nav.active {
                 font-weight: bold;
             }
@@ -10,7 +13,9 @@
     <body>
         <div class="container">
             <nav class="nav">
-                <a class="logo" href="index.php">Your Logo</a>
+                <a class="logo-container" href="index.php">
+                    <img src="img/logo/inova_logo_black.svg" alt="logo" class="logo">
+                </a>
                 <div class="nav-links">
                     <a href="index.php" class="first-nav">PHONE</a>
                     <a href="support.php" class="first-nav">SUPPORT</a>

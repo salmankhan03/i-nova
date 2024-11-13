@@ -5,6 +5,7 @@
 }
 
 .row {
+    --bs-gutter-x: 50px;
     --bs-gutter-y: 24px;
 }
 
@@ -21,8 +22,14 @@ a {
     height: 100px;
 }
 
+.logo-container {
+    height: 100px;
+    width: 100px;
+    padding: 20px 20px 20px 0;
+}
+
 .logo {
-    display: block;
+    height: 100%;
 }
 
 .nav-links {
@@ -76,13 +83,17 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url("../img/phone/banner_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
 }
 
 .banner {
     object-fit: cover;
     max-width: 100%;
-    height: auto;
-    min-height: 600px;
+    height: 100%;
 }
 
 .banner-text {
@@ -207,18 +218,35 @@ a {
     font-size: 24px;
 }
 
-.feature-image {
+/* slide in from right */
+/* .feature-image {
     position: absolute;
     top: -20%;
-    right: -100%; /* Start off-screen to the right */
+    right: -100%;
     height: 550px;
-    opacity: 0; /* Initially hidden */
-    transition: right 1s ease 0.5s, opacity 1s ease 0.5s; /* Delay for smooth entry */
+    opacity: 0;
+    transition: right 1s ease 0.5s, opacity 1s ease 0.5s;
 }
 
 .feature-background.visible .feature-image {
-    right: 2%; /* Move to the desired position */
+    right: 2%;
+    opacity: 1;
+} */
+
+.feature-image {
+    height: 550px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(100px); /* Start below the container */
+    transition: transform 1s ease-out, opacity 1s ease-out; /* Transition for sliding and fading */
+    transition-delay: 0.8s;
+}
+
+.feature-background.visible .feature-image {
     opacity: 1; /* Fade in */
+    transform: translateY(0); /* Slide to the final position */
+    top: -20%;
+    right: 2%;
 }
 
 .spec {
