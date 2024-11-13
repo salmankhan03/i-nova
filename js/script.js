@@ -33,3 +33,18 @@ document.querySelectorAll('.question-wrap').forEach(question => {
         icon.classList.toggle('open');
     });
 });
+
+// JavaScript to add 'visible' class when the element is in the viewport
+document.addEventListener("scroll", function() {
+    // Get all elements with class 'banner-container'
+    const banners = document.querySelectorAll(".details-image");
+    
+    banners.forEach(banner => {
+        const rect = banner.getBoundingClientRect();
+        
+        // Check if the banner is within the viewport
+        if (rect.top < window.innerHeight && rect.bottom >= 0) {
+            banner.classList.add("visible");
+        }
+    });
+});

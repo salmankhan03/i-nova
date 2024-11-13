@@ -20,7 +20,7 @@
         </div>
 
         <div class="banner-container" id="overview">
-            <img src="https://dummyimage.com/3000x2000/00000" alt="banner" class="banner">
+            <img src="img/phone/banner.png" alt="banner" class="banner">
             <div class="container banner-text" style="height: 400px;">
                 <div class="heading">Say hello to <br/> Northlight 4G</div>
                 <div class="title position-absolute bottom-0 end-0">Budget Friendly,<br/> Superb Quality</div>
@@ -29,13 +29,17 @@
 
         <!-- highlights -->
         <div class="container section-padding">
-            <div class="row">
+            <div class="row position-relative">
                 <div class="col-xl-6">
                     <p>Lorem ipsum dolor sit amet consectetur at sed volutpat nullam dis sit commodo porttitor etiam.</p>
                 </div>
 
+                <div class="col-xl-6 main-1-container">
+                    <img src="img/phone/main_1.png" alt="" class="img-fluid main-1">
+                </div>
+
                 <div class="row">
-                    <div class="col-6 col-md-4 col-lg-4 col-xl-2">
+                    <div class="col-6 col-md-4 col-lg-4 col-xl-2 p-0">
                         <div class="highlight-wrap">
                             <img src="img/phone/icons/icon_size.svg" alt="screen" class="highlight-icon">
                             <div class="highlight-text">5.45" TFT LCD</div>
@@ -43,7 +47,7 @@
                         </div>
                     </div>
 
-                    <div class="col-6 col-md-4 col-lg-4 col-xl-2">
+                    <div class="col-6 col-md-4 col-lg-4 col-xl-2 p-0">
                         <div class="highlight-wrap">
                             <img src="img/phone/icons/icon_camera.svg" alt="camera" class="highlight-icon">
                             <div class="highlight-text">5MP Back</div>
@@ -51,7 +55,7 @@
                         </div>
                     </div>
 
-                    <div class="col-6 col-md-4 col-lg-4 col-xl-2">
+                    <div class="col-6 col-md-4 col-lg-4 col-xl-2 p-0">
                         <div class="highlight-wrap">
                             <img src="img/phone/icons/icon_processor.svg" alt="processor" class="highlight-icon">
                             <div class="highlight-text">Quad Core</div>
@@ -59,7 +63,7 @@
                         </div>
                     </div>
 
-                    <div class="col-6 col-md-4 col-lg-4 col-xl-2">
+                    <div class="col-6 col-md-4 col-lg-4 col-xl-2 p-0">
                         <div class="highlight-wrap">
                             <img src="img/phone/icons/icon_memory.svg" alt="memory" class="highlight-icon">
                             <div class="highlight-text">3GB RAM</div>
@@ -67,7 +71,7 @@
                         </div>
                     </div>
                     
-                    <div class="col-6 col-md-4 col-lg-4 col-xl-2">
+                    <div class="col-6 col-md-4 col-lg-4 col-xl-2 p-0">
                         <div class="highlight-wrap">
                             <img src="img/phone/icons/icon_dualsim.svg" alt="dual-sim" class="highlight-icon">
                             <div class="highlight-text">Dual Sim</div>
@@ -87,7 +91,7 @@
                         <div class="details-text">Customizable, Accessible, Protective. Complete with the latest personalization, security and privacy features.</div>
                     </div>
                     <div class="col-md-6">
-                        <img src="https://dummyimage.com/300x500/000" alt="android" class="img-fluid phone">
+                        <img src="img/phone/feature_1.png" alt="android" class="img-fluid phone">
                     </div>
                 </div>
             </div>
@@ -95,13 +99,13 @@
 
         <!-- Customizable Casing -->
         <div class="container section-padding">
-            <div class="details-image android">
+            <div class="details-image casing">
                 <div class="row">
-                    <div class="col-md-6 details-text-wrap">
+                    <div class="col-md-5 details-text-wrap">
                         <div class="title">Customizable Casing</div>
-                        <div class="details-text">Customizable, Accessible</div>
+                        <div class="details-text">Customizable, Accessible.</div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-7">
                         <img src="https://dummyimage.com/300x500/000" alt="android" class="img-fluid phone">
                     </div>
                 </div>
@@ -181,7 +185,12 @@
 
         <div class="container section-padding">
             <div class="title text-center pb-4">In the Box</div>
-            <img src="https://dummyimage.com/3000x1000" alt="in the box" class="img-fluid" style="border-radius: 20px">
+            <img src="img/phone/bg_4.jpg" alt="in the box" class="img-fluid" style="border-radius: 20px">
+            <div class="row text-center pt-4">
+                <div class="col-4"><p>Northlight 4G</p></div>
+                <div class="col-4"><p>USB-C Cable</p></div>
+                <div class="col-4"><p>USB Wall Charger</p></div>
+            </div>
         </div>
         
         <?php include 'footer.php'; ?>

@@ -9,7 +9,7 @@
         <div class="container section-padding">
             <div class="text-center">
                 <div class="heading pb-4">How Can We Help You?</div>
-                <p class="mb-0">Lorem ipsum dolor sit amet consectetur at sed volutpat nullam dis sit commodo porttitor etiam senectus mi.</p>
+                <p class="mb-0">Lorem ipsum dolor sit amet consectetur at sed volutpat <br/> nullam dis sit commodo porttitor etiam senectus mi.</p>
             </div>
         <!-- </div>
 
@@ -43,7 +43,7 @@
                             <i class="fa-solid fa-award support-icon"></i>
                             <div class="card-title">Register Warranty</div>
                             <p class="card-text">During the warranty period, we will either repair or replace, at its discretion, any defective product at no charge to the owner</p><br>
-                            <a href="" class="mt-auto">Register Device <i class="fa-solid fa-angle-right"></i></a>
+                            <a href="register.php" class="mt-auto">Register Device <i class="fa-solid fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>

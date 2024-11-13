@@ -51,6 +51,11 @@ a {
     align-items: center;
     /* padding: 50px 20px; */
     height: 50px;
+    color: white;
+}
+
+.phone-nav a {
+    color: white !important;
 }
 
 .button {
@@ -60,15 +65,24 @@ a {
     border-radius: 17px;
 }
 
+.phone-nav .button{
+    color: black !important;
+}
+
 .banner-container {
     width: 100%;
     position: relative;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner {
-    width: 100%;
     object-fit: cover;
-    min-height: 500px;
+    max-width: 100%;
+    height: auto;
+    min-height: 600px;
 }
 
 .banner-text {
@@ -97,8 +111,25 @@ a {
     padding-bottom: 50px;
 }
 
-.highlights-container {
-    display: flex;
+.main-1 {
+    position: absolute;
+    width: 550px;
+    top: -120px;
+    right: -80px;
+}
+
+@media only screen and (max-width: 1199px) {
+    .main-1-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-1 {
+        position: static;
+        width: 550px;
+        /* top: -120px;
+        right: -80px; */
+    }
 }
 
 .highlight-wrap {
@@ -127,9 +158,25 @@ a {
     align-items: center;
     color: white;
     position: relative;
+    opacity: 0; /* Start invisible */
+    width: 0;
+    transition: width 1s ease, opacity 1s ease;
+}
+
+.details-image.visible {
+    opacity: 1;
+    width: 100%;
+}
+
+.details-image .row {
+    width: calc(100% + var(--bs-gutter-x));
 }
 
 .android {
+    background-image: url('../img/phone/bg_1.jpg');
+}
+
+.casing {
     background-image: url('https://dummyimage.com/3000x2000');
 }
 
@@ -148,6 +195,7 @@ a {
     position: absolute;
     top: -100px;
     right: 100px;
+    height: 550px;
 }
 
 .spec {
