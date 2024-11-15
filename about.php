@@ -17,7 +17,7 @@
         </div>
 
         <div class="container section-padding">
-            <h2 class="text-center bottom-padding">INOVA mobile phone headquartered in British Columbia, Canada. Our Mission is to create mobile devices with great design, high quality at affordable prices.</h3>
+            <h2 class="text-center bottom-padding">INOVA mobile phone headquartered in British Columbia, Canada. Our Mission is to create mobile devices with great design, high quality at affordable prices.</h2>
         <!-- </div>
 
         <div class="container section-padding"> -->

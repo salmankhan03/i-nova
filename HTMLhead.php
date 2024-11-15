@@ -12,7 +12,8 @@
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/responsive.css">
 <!-- <script src="js/script.js" defer></script> -->
-<link rel="apple-touch-icon" sizes="180x180" href="img/logo/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="img/logo/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="img/logo/favicon/favicon-16x16.png">
-<link rel="manifest" href="img/logo/favicon/site.webmanifest">
+<link rel="icon" href="favicon.ico" sizes="16x16" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="180x180" href="img/logo/favicon/Black/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/logo/favicon/Black/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="img/logo/favicon/Black/android-chrome-192x192.png">
+<link rel="icon" type="image/png" sizes="512x512" href="img/logo/favicon/Black/android-chrome-512x512.png">

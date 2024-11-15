@@ -72,7 +72,7 @@
                         </div>
                         <!-- FAQ Questions -->
                         <div class="faq-questions text-start">
-                            <div class="px-3">
+                            <div>
                                 <div class="faq-item" data-category="products">
                                     <div class="question-wrap">
                                         <span class="fa-solid fa-angle-right faq-icon"></span>
@@ -112,6 +112,7 @@
                         </div>
                     </div>
                 </div>
+                <div style="height: 200px;"></div>
             </div>
         </div>
         

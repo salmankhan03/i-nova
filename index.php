@@ -74,11 +74,11 @@
         <div class="container section-padding">
             <div class="feature-background feature-1">
                 <div class="row">
-                    <div class="col-md-6 feature-text-wrap">
+                    <div class="col-md-7 feature-text-wrap">
                         <div class="title">Android 14</div>
                         <div class="feature-text">Customizable, Accessible, Protective. Complete with the latest personalization, security and privacy features.</div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-5">
                         <img src="img/phone/feature_1.png" alt="feature-1" class="img-fluid feature-image">
                     </div>
                 </div>
@@ -89,12 +89,12 @@
         <div class="container section-padding">
             <div class="feature-background feature-2">
                 <div class="row">
+                    <div class="col-md-6">
+                        <img src="img/phone/feature_2.png" alt="feature-2" class="img-fluid feature-image feature-image-left">
+                    </div>
                     <div class="col-md-6 feature-text-wrap">
                         <div class="title">Customizable Casing</div>
                         <div class="feature-text">Customizable, Accessible.</div>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="img/phone/feature_2.png" alt="feature-2" class="img-fluid feature-image">
                     </div>
                 </div>
             </div>
@@ -126,5 +126,29 @@
         </div>
         
         <?php include 'footer.php'; ?>
+        <script>
+            function alignBackgroundToContainer() {
+                const featureBackground = document.querySelector('.feature-background');
+                const bootstrapContainer = document.querySelector('.container');
+
+                // Get the container’s position and the viewport width
+                const containerOffsetLeft = bootstrapContainer.getBoundingClientRect().left;
+                const containerOffsetRight = window.innerWidth - bootstrapContainer.getBoundingClientRect().right;
+
+                // Set background position to align the background image with both edges of the container
+                featureBackground.style.backgroundPosition = `${containerOffsetLeft}px center`;
+                if (window.innerWidth < 768) {
+                    featureBackground.style.backgroundSize = `calc(100% - ${containerOffsetLeft + containerOffsetRight}px) auto`;
+                } else {
+                    featureBackground.style.backgroundSize = `40%`;
+                }
+            }
+
+            // Initial alignment on load
+            alignBackgroundToContainer();
+
+            // Re-align on window resize
+            window.addEventListener('resize', alignBackgroundToContainer);
+        </script>
     </body>
 </html>
