@@ -23,9 +23,11 @@
         <div class="container section-padding"> -->
             <div class="position-relative">
                 <img src="https://dummyimage.com/3000x1000" alt="in the box" class="img-fluid" style="border-radius: 20px;">
-                <div class="row position-absolute top-50 start-0 translate-middle-y">
-                    <div class="col-12 col-md-6" style="padding-left: 50px;">
-                        <h2>We are committed to maximize value. That includes powerful technology, durability, and support at a great price.</h2>
+                <div class="row">
+                    <div class="position-absolute top-50 start-0 translate-middle-y">
+                        <div class="col-12 col-md-6" style="padding-left: 50px;">
+                            <h2>We are committed to maximize value. That includes powerful technology, durability, and support at a great price.</h2>
+                        </div>
                     </div>
                 </div>
             </div>

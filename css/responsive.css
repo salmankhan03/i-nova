@@ -4,7 +4,21 @@
     }
 }
 
+@media only screen and (max-width: 991px) {
+    .feature-text-wrap {
+        padding: 100px 0 100px 80px;
+    }
+    .feature-background.visible .feature-image {
+        top: -20%;
+        right: -20px;
+    }
+}
+
 @media only screen and (max-width: 767px) {
+    .nav-links {
+        gap: 30px; 
+    }
+
     .feature-background {
         background-size: 100% auto;
         height: auto;
@@ -12,5 +26,21 @@
 
     .feature-image {
         position: static;
+    }
+
+    .feature-text-wrap {
+        padding: 100px 20px 0 20px;
+        /* padding: 100px 0 0 0; */
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .zero-padding {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .filter-btn {
+        padding: 10px 10px;
+        margin-right: 10px;
     }
 }

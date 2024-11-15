@@ -5,7 +5,7 @@
 }
 
 .row {
-    --bs-gutter-x: 50px;
+    /* --bs-gutter-x: 50px; */
     --bs-gutter-y: 24px;
 }
 
@@ -116,9 +116,9 @@ a {
 }
 
 .section-padding {
-    /* padding-top: 100px;
-    padding-bottom: 100px; */
-    padding: 100px 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* padding: 100px 0; */
 }
 
 .bottom-padding{
@@ -133,7 +133,7 @@ a {
 .main-1 {
     position: absolute;
     width: 550px;
-    top: -120px;
+    top: -150px;
     right: -220px;
 }
 
@@ -170,8 +170,8 @@ a {
 
 .feature-background {
     /* controlled by JS function alignBackgroundToContainer()
-    background-size: 40%;
     background-position: left center;*/
+    background-size: 40%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 500px;
@@ -199,14 +199,17 @@ a {
 }
 
 .feature-2 {
-    background-image: url('../img/phone/bg_2.jpg');
+    background-color: #797cdc;
+    background-image: url('../img/phone/bg_2.png');
 }
 
 .feature-3 {
-    background-image: url('../img/phone/bg_3.jpg');
+    background-color: #343894;
+    background-image: url('../img/phone/bg_3.png');
 }
 
 .feature-text-wrap {
+    width: 100%;
     padding: 150px 0 150px 100px;
     display: flex;
     flex-direction: column;
@@ -236,11 +239,11 @@ a {
     opacity: 1; /* Fade in */
     transform: translateY(0); /* Slide to the final position */
     top: -20%;
-    right: 2%;
+    right: 0;
 }
 
 .feature-background.visible .feature-image-left {
-    left: 10%;
+    left: 0;
 }
 
 .spec {

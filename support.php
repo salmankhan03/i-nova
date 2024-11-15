@@ -6,44 +6,41 @@
     <body>
         <?php include 'header.php'; ?>
 
-        <div class="container section-padding">
-            <div class="text-center">
-                <div class="heading pb-4">How Can We Help You?</div>
-                <p class="mb-0">Lorem ipsum dolor sit amet consectetur at sed volutpat <br/> nullam dis sit commodo porttitor etiam senectus mi.</p>
-            </div>
-        <!-- </div>
-
-        <div class="container"> -->
-            <div class="row pt-5">
-                <div class="col-12 col-lg-4">
-                    <div class="card h-100">
-                        <div class="card-body d-flex flex-column">
-                            <i class="fa-regular fa-message support-icon"></i>
-                            <div class="card-title">Sales & enquiries</div>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur at sed volutpat nullam dis sit commodo porttitor etiam.</p>
-                            <a href="mailto: sales@techvrx.com" class="mt-auto">sales@techvrx.com <i class="fa-solid fa-angle-right"></i></a>
+        <div class="container">
+            <div class="section-padding">
+                <div class="text-center">
+                    <div class="heading pb-4">How Can We Help You?</div>
+                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur at sed volutpat <br/> nullam dis sit commodo porttitor etiam senectus mi.</p>
+                </div>
+                <div class="row pt-5">
+                    <div class="col-12 col-lg-4">
+                        <div class="card h-100">
+                            <div class="card-body d-flex flex-column">
+                                <i class="fa-regular fa-message support-icon"></i>
+                                <div class="card-title">Sales & enquiries</div>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur at sed volutpat nullam dis sit commodo porttitor etiam.</p>
+                                <a href="mailto: sales@techvrx.com" class="mt-auto">sales@techvrx.com <i class="fa-solid fa-angle-right"></i></a>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="col-12 col-lg-4">
-                    <div class="card h-100">
-                        <div class="card-body d-flex flex-column">
-                            <i class="fa-solid fa-gear support-icon"></i>
-                            <div class="card-title">Help & Support</div>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur at sed volutpat nullam dis sit commodo porttitor etiam.</p>
-                            <a href="mailto: support@techvrx.com" class="mt-auto">support@techvrx.com <i class="fa-solid fa-angle-right"></i></a>
+                    <div class="col-12 col-lg-4">
+                        <div class="card h-100">
+                            <div class="card-body d-flex flex-column">
+                                <i class="fa-solid fa-gear support-icon"></i>
+                                <div class="card-title">Help & Support</div>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur at sed volutpat nullam dis sit commodo porttitor etiam.</p>
+                                <a href="mailto: support@techvrx.com" class="mt-auto">support@techvrx.com <i class="fa-solid fa-angle-right"></i></a>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="col-12 col-lg-4">
-                    <div class="card h-100">
-                        <div class="card-body d-flex flex-column">
-                            <i class="fa-solid fa-award support-icon"></i>
-                            <div class="card-title">Register Warranty</div>
-                            <p class="card-text">During the warranty period, we will either repair or replace, at its discretion, any defective product at no charge to the owner</p><br>
-                            <a href="register.php" class="mt-auto">Register Device <i class="fa-solid fa-angle-right"></i></a>
+                    <div class="col-12 col-lg-4">
+                        <div class="card h-100">
+                            <div class="card-body d-flex flex-column">
+                                <i class="fa-solid fa-award support-icon"></i>
+                                <div class="card-title">Register Warranty</div>
+                                <p class="card-text">During the warranty period, we will either repair or replace, at its discretion, any defective product at no charge to the owner</p><br>
+                                <a href="register.php" class="mt-auto">Register Device <i class="fa-solid fa-angle-right"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>

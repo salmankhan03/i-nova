@@ -72,24 +72,3 @@ document.addEventListener("scroll", checkBannerVisibility);
 // On page load or refresh, check the banners visibility as well
 document.addEventListener("DOMContentLoaded", checkBannerVisibility);
 
-// zoom in image when scrolling
-function updateBackgroundSize() {
-    const scrollPosition = window.scrollY;
-    const bannerContainer = document.querySelector('.banner-container');
-
-    const aspectRatio = bannerContainer.offsetWidth / bannerContainer.offsetHeight;
-
-    const zoomLevel = 100 + (scrollPosition * 0.05); // Adjust this value to control zoom speed
-
-    if (aspectRatio < (16 / 9)) {
-        // If the aspect ratio is smaller than 16:9, use "auto" for width and zoom the height
-        bannerContainer.style.backgroundSize = `auto ${zoomLevel}%`;
-    } else {
-        // Otherwise, zoom the width and keep the height as "auto"
-        bannerContainer.style.backgroundSize = `${zoomLevel}% auto`;
-    }
-}
-
-// Listen for both scroll and resize events
-window.addEventListener('scroll', updateBackgroundSize);
-window.addEventListener('resize', updateBackgroundSize);
