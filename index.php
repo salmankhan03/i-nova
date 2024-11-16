@@ -23,8 +23,8 @@
                         <div class="col-xl-6">
                             <p class="pb-5">Lorem ipsum dolor sit amet consectetur at sed volutpat nullam dis sit commodo porttitor etiam.</p>
                         </div>
-                        <div class="col-xl-6 main-1-container">
-                            <img src="img/phone/main_1.png" alt="" class="img-fluid main-1">
+                        <div class="col-xl-6 img-1-container">
+                            <img src="img/phone/img_1.png" alt="" class="img-fluid img-1">
                         </div>
                         <div class="row">
                             <div class="col-6 col-md-4 col-lg-4 col-xl-2 p-0">
