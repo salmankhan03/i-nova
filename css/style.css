@@ -1,12 +1,11 @@
+body {
+    font-family: "Manrope", sans-serif;
+}
+
 :root {
     --bs-border-radius: 20px;
     --bs-border-width: 0;
     --bs-body-color: black;
-}
-
-.row {
-    /* --bs-gutter-x: 50px; */
-    --bs-gutter-y: 24px;
 }
 
 a {
@@ -50,6 +49,51 @@ a {
 
 .nav-links a:hover {
     text-decoration: none;
+}
+
+.first-nav {
+    letter-spacing: 1px;
+}
+.first-nav.active {
+    font-weight: bold;
+}
+
+.underline-link {
+    /* color: #444; */
+    /* text-decoration: underline; */
+    text-decoration-color: #0c73b2;
+    text-underline-offset: 5px;
+    position: relative;
+    /* letter-spacing: 1px; */
+}
+
+.underline-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 1px;
+    background-color: #0c73b2;
+    transition: width 0.5s ease;
+  }
+  
+  .underline-link:hover::after {
+    width: 100%;
+  }
+
+/* .underline-link:hover {
+    color: black;
+    text-decoration: none;
+} */
+
+.copyright {
+    text-align: center;
+    color: white;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 20px;
 }
 
 .phone-nav {
@@ -115,6 +159,12 @@ a {
     line-height: 1.2;
 }
 
+.home-banner-title {
+    position: absolute;
+    bottom: 0;
+    right: 8%;
+}
+
 .section-padding {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -169,9 +219,9 @@ a {
 }
 
 .feature-background {
-    /* controlled by JS function alignBackgroundToContainer()
-    background-position: left center;*/
-    background-size: 40%;
+    /* controlled by JS function responsiveBackground()
+    background-position: left center;
+    background-size: 40%;*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 500px;
@@ -204,7 +254,7 @@ a {
 }
 
 .feature-3 {
-    background-color: #343894;
+    background-color: #3f3fa1;
     background-image: url('../img/phone/bg_3.png');
 }
 
@@ -215,7 +265,11 @@ a {
     flex-direction: column;
     justify-content: center;
     opacity: 0; /* Start invisible */
-    transition: opacity 1s ease 0.8s; /* Smooth transition for fading in */
+    transition: opacity 1s ease 0.9s; /* Smooth transition for fading in */
+}
+
+.feature-text-wrap-right {
+    padding: 150px 100px 150px 50px;
 }
 
 .feature-background.visible .feature-text-wrap {
@@ -223,7 +277,9 @@ a {
 }
 
 .feature-text {
+    padding-top: 10px;
     font-size: 24px;
+    font-weight: 300;
 }
 
 .feature-image {
@@ -239,24 +295,29 @@ a {
     opacity: 1; /* Fade in */
     transform: translateY(0); /* Slide to the final position */
     top: -20%;
-    right: 0;
+    right: 10%;
 }
 
 .feature-background.visible .feature-image-left {
-    left: 0;
+    left: 10%;
 }
 
 .spec {
     background-image: url('../img/phone/img_spec.png');
     background-size: cover;
-    background-position: center;
+    background-position: center right;
     background-repeat: no-repeat;
+    background-size: 60%;
     display: flex;
     justify-content: center;
 }
 
-.spec-wrap {
-    padding-bottom: 30px;
+/* .spec-wrap {
+    padding: 0 20px 40px 0;
+} */
+
+.spec-wrap h3 {
+    text-wrap: nowrap;
 }
 
 .card {
@@ -268,7 +329,7 @@ a {
 }
 
 .support-icon {
-    font-size: 50px;
+    width: 70px;
 }
 
 .card-title {

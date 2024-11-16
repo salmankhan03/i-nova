@@ -5,12 +5,19 @@
 }
 
 @media only screen and (max-width: 991px) {
+    .row {
+        /* --bs-gutter-x: 50px; */
+        --bs-gutter-y: 24px;
+    }
     .feature-text-wrap {
         padding: 100px 0 100px 80px;
     }
     .feature-background.visible .feature-image {
         top: -20%;
         right: -20px;
+    }
+    .spec {
+        background-size: 70%;
     }
 }
 
@@ -30,7 +37,12 @@
 
     .feature-text-wrap {
         padding: 100px 20px 0 20px;
-        /* padding: 100px 0 0 0; */
+    }
+    .feature-text-wrap-right {
+        padding: 0 20px 100px 20px;
+    }
+    .spec {
+        background-size: 90%;
     }
 }
 
@@ -42,5 +54,8 @@
     .filter-btn {
         padding: 10px 10px;
         margin-right: 10px;
+    }
+    .spec {
+        background-size: 100%;
     }
 }

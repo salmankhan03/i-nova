@@ -1,14 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <style>
-            .first-nav {
-                letter-spacing: 1px;
-            }
-            .first-nav.active {
-                font-weight: bold;
-            }
-        </style>
+
     </head>
     <body>
         <div class="container">
@@ -17,9 +10,9 @@
                     <img src="img/logo/inova_logo_black.svg" alt="logo" class="logo">
                 </a>
                 <div class="nav-links">
-                    <a href="index.php" class="first-nav">PHONE</a>
-                    <a href="support.php" class="first-nav">SUPPORT</a>
-                    <a href="about.php" class="first-nav">ABOUT</a>
+                    <a href="index.php" class="first-nav underline-link">PHONE</a>
+                    <a href="support.php" class="first-nav underline-link">SUPPORT</a>
+                    <a href="about.php" class="first-nav underline-link">ABOUT</a>
                 </div>
             </nav>
         </div>

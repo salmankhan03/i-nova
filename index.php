@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="overflow-x-hidden">
     <head>
         <?php include 'HTMLhead.php'; ?>
     </head>
@@ -10,8 +10,8 @@
         <div class="banner-container">
             <img src="img/phone/banner.png" alt="banner" class="banner">
             <div class="container banner-text" style="height: 400px;">
-                <div class="heading">Say hello to <br/> Northlight 4G</div>
-                <div class="title position-absolute bottom-0 end-0">Budget Friendly,<br/> Superb Quality</div>
+                <div class="heading">Say Hello to <br/> Northlight 4G</div>
+                <div class="title home-banner-title">Budget Friendly,<br/> Superb Quality</div>
             </div>
         </div>
 
@@ -21,7 +21,7 @@
                 <div class="row">
                     <div class="position-relative">
                         <div class="col-xl-6">
-                            <p>Lorem ipsum dolor sit amet consectetur at sed volutpat nullam dis sit commodo porttitor etiam.</p>
+                            <p class="pb-5">Lorem ipsum dolor sit amet consectetur at sed volutpat nullam dis sit commodo porttitor etiam.</p>
                         </div>
                         <div class="col-xl-6 main-1-container">
                             <img src="img/phone/main_1.png" alt="" class="img-fluid main-1">
@@ -76,7 +76,7 @@
                     <div class="row">
                         <div class="col-lg-6 col-md-6">
                             <div class="feature-text-wrap">
-                                <div class="title">Android 14</div>
+                                <div class="title fw-bold">Android 14</div>
                                 <div class="feature-text">Customizable, Accessible, Protective. Complete with the latest personalization, security and privacy features.</div>
                             </div>
                         </div>
@@ -88,7 +88,7 @@
             </div>
         </div>
 
-        <!-- Customizable Casing -->
+        <!-- Feature 2 -->
         <div class="container">
             <div class="section-padding">
                 <div class="feature-background feature-2">
@@ -97,8 +97,8 @@
                             <img src="img/phone/feature_2.png" alt="feature-2" class="img-fluid feature-image feature-image-left">
                         </div>
                         <div class="col-md-6">
-                            <div class="feature-text-wrap">
-                                <div class="title">Customizable Casing</div>
+                            <div class="feature-text-wrap feature-text-wrap-right">
+                                <div class="title fw-bold">Swap Battery <br> Not Your Phone</div>
                                 <div class="feature-text">Customizable, Accessible.</div>
                             </div>
                         </div>
@@ -107,13 +107,14 @@
             </div>
         </div>
 
+        <!-- Feature 3 -->
         <div class="container">
             <div class="section-padding">
                 <div class="feature-background feature-3">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="feature-text-wrap">
-                                <div class="title">Customizable Casing</div>
+                                <div class="title fw-bold">Customizable Casing</div>
                                 <div class="feature-text">Customizable, Accessible.</div>
                             </div>
                         </div>
@@ -139,7 +140,7 @@
         
         <?php include 'footer.php'; ?>
         <script>
-            function alignBackgroundToContainers() {
+            function responsiveBackground() {
                 const featureBackgrounds = document.querySelectorAll('.feature-background');
                 const bootstrapContainer = document.querySelector('.container');
 
@@ -149,9 +150,9 @@
 
                 featureBackgrounds.forEach((featureBackground) => {
                     // Set background position to align the background image with both edges of the container
-                    featureBackground.style.backgroundPosition = `calc(${containerOffsetLeft}px + var(--bs-gutter-x) * 0.5) center`;
-                    if (window.innerWidth < 768) {
-                        featureBackground.style.backgroundSize = `calc(100% - ${containerOffsetLeft + containerOffsetRight}px) auto`;
+                    featureBackground.style.backgroundPosition = `calc(${containerOffsetLeft}px + var(--bs-gutter-x) * 0.5 - 20px) center`;
+                    if (window.innerWidth < 991) {
+                        featureBackground.style.backgroundSize = `calc(100% - ${containerOffsetLeft + containerOffsetRight}px - var(--bs-gutter-x) * 0.5) auto`;
                     } else {
                         featureBackground.style.backgroundSize = `40%`;
                     }
@@ -159,15 +160,15 @@
             }
 
             // Initial alignment on load
-            alignBackgroundToContainers();
+            responsiveBackground();
 
             // Re-align on window resize
-            window.addEventListener('resize', alignBackgroundToContainers);
+            window.addEventListener('resize', responsiveBackground);
 
 
 
             // zoom in image when scrolling
-            function updateBackgroundSize() {
+            function zoomInBanner() {
                 const scrollPosition = window.scrollY;
                 const bannerContainer = document.querySelector('.banner-container');
 
@@ -184,8 +185,8 @@
                 }
             }
 
-            window.addEventListener('scroll', updateBackgroundSize);
-            window.addEventListener('resize', updateBackgroundSize);
+            window.addEventListener('scroll', zoomInBanner);
+            window.addEventListener('resize', zoomInBanner);
         </script>
     </body>
 </html>

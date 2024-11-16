@@ -3,7 +3,7 @@
     <head>
         <style>
             .horizontal-line {
-                border-top: 1px solid #fff; /* Line thickness and color */
+                border-top: 1px solid #565656; /* Line thickness and color */
                 width: 100%; /* Full width of the container */
                 margin-bottom: 20px; /* Optional vertical spacing */
             }
@@ -34,19 +34,19 @@
     <body>
         <div class="bg-black">
             <div class="container">
-                <nav class="nav">
+                <nav class="nav" style="height: 160px;">
                     <a class="logo-container" href="index.php">
                         <img src="img/logo/inova_logo_silver.svg" alt="logo" class="logo">
                     </a>
                     <div class="nav-links nav-links-white">
-                        <a href="index.php">PHONE</a>
-                        <a href="support.php">SUPPORT</a>
-                        <a href="about.php">ABOUT</a>
-                        <a href="contact.php">CONTACT</a>
+                        <a href="index.php" class="first-nav">PHONE</a>
+                        <a href="support.php" class="first-nav">SUPPORT</a>
+                        <a href="about.php" class="first-nav">ABOUT</a>
+                        <a href="contact.php" class="first-nav">CONTACT</a>
                     </div>
                 </nav>
                 <div class="horizontal-line"></div>
-                <p class="text-center text-white bottom-padding m-0">Copyright © <strong>INOVA DIGITAL SOLUTIONS INC.</strong> All Rights Reserved</p>
+                <p class="copyright">Copyright © <strong>INOVA DIGITAL SOLUTIONS INC.</strong> All Rights Reserved</p>
             </div>
         </div>
 
