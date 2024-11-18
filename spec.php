@@ -4,13 +4,13 @@
         <?php include 'HTMLhead.php'; ?>
         <style>
             hr {
-                border-top: 2px solid black;
+                border-top: 1px solid black;
                 margin: 10px 0 !important;
                 /* max-width: 250px; */
             }
 
             p {
-                margin-bottom: 4px !important;
+                margin-bottom: 4px;
             }
         </style>
     </head>

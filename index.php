@@ -69,18 +69,18 @@
         </div>
 
         <!-- Features -->
-        <!-- Android 14 -->
-        <div class="container">
-            <div class="section-padding">
+        <!-- Feature 1 -->
+        <div class="container feature-container">
+            <div class="section-padding pb-0">
                 <div class="feature-background feature-1">
                     <div class="row">
-                        <div class="col-lg-6 col-md-6">
+                        <div class="col-lg-6">
                             <div class="feature-text-wrap">
                                 <div class="title fw-bold">Android 14</div>
                                 <div class="feature-text">Customizable, Accessible, Protective. Complete with the latest personalization, security and privacy features.</div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6">
+                        <div class="col-lg-6">
                             <img src="img/phone/feature_1.png" alt="feature-1" class="img-fluid feature-image feature-image-1">
                         </div>
                     </div>
@@ -89,14 +89,14 @@
         </div>
 
         <!-- Feature 2 -->
-        <div class="container">
-            <div class="section-padding">
+        <div class="container feature-container">
+            <div class="section-padding pb-0">
                 <div class="feature-background feature-2">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-lg-6">
                             <img src="img/phone/feature_2.png" alt="feature-2" class="img-fluid feature-image feature-image-2">
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-lg-6">
                             <div class="feature-text-wrap feature-text-wrap-right">
                                 <div class="title fw-bold">Store Memories <br> Secure Essentials</div>
                                 <div class="feature-text">Enjoy the convenience of Dual SIMs with TF card expansion for enhanced connectivity on the go.</div>
@@ -108,17 +108,17 @@
         </div>
 
         <!-- Feature 3 -->
-        <div class="container">
-            <div class="section-padding">
+        <div class="container feature-container">
+            <div class="section-padding pb-0">
                 <div class="feature-background feature-3">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-lg-6">
                             <div class="feature-text-wrap">
                                 <div class="title fw-bold">Swap Battery Not Your Phone</div>
                                 <div class="feature-text">Customizable, Accessible.</div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-lg-6">
                             <img src="img/phone/feature_3.png" alt="feature-3" class="img-fluid feature-image feature-image-3">
                         </div>
                     </div>
@@ -126,6 +126,7 @@
             </div>
         </div>
 
+        <!-- In the Box -->
         <div class="container">
             <div class="section-padding">
                 <div class="title text-center pb-4">In the Box</div>
