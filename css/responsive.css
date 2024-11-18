@@ -16,9 +16,9 @@
         right: -20px;
     }
 
-    .spec {
+    /* .spec {
         background-size: 70%;
-    }
+    } */
 }
 
 @media only screen and (max-width: 767px) {
@@ -43,7 +43,7 @@
         padding: 0 20px 100px 20px;
     }
     .spec {
-        background-size: 90%;
+        background-size: 40%;
     }
 }
 
@@ -56,7 +56,7 @@
         padding: 10px 10px;
         margin-right: 10px;
     }
-    .spec {
+    /* .spec {
         background-size: 100%;
-    }
+    } */
 }
