@@ -224,7 +224,7 @@ a {
     background-size: 40%;*/
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 500px;
+    height: 600px;
     display: flex;
     align-items: center;
     color: white;
@@ -251,6 +251,7 @@ a {
 .feature-2 {
     background-color: #797cdc;
     background-image: url('../img/phone/bg_2.png');
+    overflow: hidden;
 }
 
 .feature-3 {
@@ -283,7 +284,7 @@ a {
 }
 
 .feature-image {
-    height: 550px;
+    height: 650px;
     position: absolute;
     opacity: 0;
     transform: translateY(100px); /* Start below the container */
@@ -294,12 +295,21 @@ a {
 .feature-background.visible .feature-image {
     opacity: 1; /* Fade in */
     transform: translateY(0); /* Slide to the final position */
+}
+
+.feature-background.visible .feature-image-1 {
     top: -20%;
     right: 10%;
 }
 
-.feature-background.visible .feature-image-left {
-    left: 10%;
+.feature-background.visible .feature-image-2 {
+    left: 0;
+    bottom: -10%;
+}
+
+.feature-background.visible .feature-image-3 {
+    top: -15%;
+    right: 2%;
 }
 
 .spec {
@@ -419,7 +429,8 @@ a {
     height: 40px;
     width: 40px;
     transition: transform 0.3s;
-    margin-top: 0;
+    /* position: absolute;
+    top: 0; */
 }
 
 .faq-icon.open {

@@ -6,16 +6,16 @@
 
 @media only screen and (max-width: 991px) {
     .row {
-        /* --bs-gutter-x: 50px; */
         --bs-gutter-y: 24px;
     }
     .feature-text-wrap {
         padding: 100px 0 100px 80px;
     }
-    .feature-background.visible .feature-image {
+    .feature-background.visible .feature-image-1 {
         top: -20%;
         right: -20px;
     }
+
     .spec {
         background-size: 70%;
     }
@@ -29,6 +29,7 @@
     .feature-background {
         background-size: 100% auto;
         height: auto;
+        max-height: 888px;
     }
 
     .feature-image {

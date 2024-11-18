@@ -59,7 +59,7 @@
                 </div>
             
                 <div class="row pt-3">
-                    <div class="col-md-10 col-lg-7 mx-auto">
+                    <div class="col-xl-7 col-lg-8 col-md-10 col-sm-12 mx-auto">
                         <!-- Filter Bar -->
                         <div class="faq-filter">
                             <div class="filter-btn active" data-category="all">All</div>
