@@ -381,8 +381,9 @@ a {
 }
 
 .faq-item {
-    /* display: flex; */
-    align-items: start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     cursor: pointer;
     gap: 10px;
     margin-bottom: 40px;
@@ -390,7 +391,7 @@ a {
 
 .question-wrap {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     position: relative;
     cursor: pointer;
     /* padding-left: 20px; */
@@ -409,6 +410,7 @@ a {
 
 .faq-icon {
     display: flex;
+    flex-shrink: 0;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
@@ -417,6 +419,7 @@ a {
     height: 40px;
     width: 40px;
     transition: transform 0.3s;
+    margin-top: 0;
 }
 
 .faq-icon.open {
