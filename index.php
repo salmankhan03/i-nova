@@ -11,7 +11,7 @@
             <img src="img/phone/banner.png" alt="banner" class="banner">
             <div class="container banner-text" style="height: 400px;">
                 <div class="heading">Say Hello to <br/> Northlight 4G</div>
-                <div class="title home-banner-title">Budget Friendly,<br/> Superb Quality</div>
+                <div class="home-banner-title">Budget Friendly,<br/> Superb Quality</div>
             </div>
         </div>
 
