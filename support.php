@@ -39,7 +39,7 @@
                                 <img src="img/support/icons/icons_warranty.svg" alt="warranty" class="support-icon">
                                 <div class="card-title">Register Warranty</div>
                                 <p class="card-text">During the warranty period, we will either repair or replace, at its discretion, any defective product at no charge to the owner.</p><br>
-                                <a href="register.php" class="mt-auto">Register Device <i class="fa-solid fa-angle-right"></i></a>
+                                <a href="http://127.0.0.1:8000/submit" class="mt-auto">Register Device <i class="fa-solid fa-angle-right"></i></a>
                             </div>
                         </div>
                     </div>
