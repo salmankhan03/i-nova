@@ -19,7 +19,7 @@
                                 <img src="img/support/icons/icons_sales.svg" alt="sales" class="support-icon">
                                 <div class="card-title">Sales & enquiries</div>
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur at sed volutpat nullam dis sit commodo porttitor etiam.</p>
-                                <a href="mailto: sales@techvrx.com" class="mt-auto">sales@techvrx.com <i class="fa-solid fa-angle-right"></i></a>
+                                <div class="mt-auto"><a href="mailto: sales@techvrx.com">sales@techvrx.com <i class="fa-solid fa-angle-right"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -29,7 +29,7 @@
                                 <img src="img/support/icons/icons_support.svg" alt="support" class="support-icon">
                                 <div class="card-title">Help & Support</div>
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur at sed volutpat nullam dis sit commodo porttitor etiam.</p>
-                                <a href="mailto: support@techvrx.com" class="mt-auto">support@techvrx.com <i class="fa-solid fa-angle-right"></i></a>
+                                <div class="mt-auto"><a href="mailto: support@techvrx.com">support@techvrx.com <i class="fa-solid fa-angle-right"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -39,7 +39,7 @@
                                 <img src="img/support/icons/icons_warranty.svg" alt="warranty" class="support-icon">
                                 <div class="card-title">Register Warranty</div>
                                 <p class="card-text">During the warranty period, we will either repair or replace, at its discretion, any defective product at no charge to the owner.</p><br>
-                                <a href="http://127.0.0.1:8000/submit" class="mt-auto">Register Device <i class="fa-solid fa-angle-right"></i></a>
+                                <div class="mt-auto"><a href="register.php">Register Device <i class="fa-solid fa-angle-right"></i></a></div>
                             </div>
                         </div>
                     </div>

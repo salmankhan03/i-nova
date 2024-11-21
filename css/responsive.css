@@ -48,8 +48,11 @@
     .feature-background {
         background-size: 100% auto;
         height: auto;
-        max-height: 1000px;
     }
+
+    /* .feature-1 {
+        max-height: 810px;
+    } */
 
     .feature-image {
         position: static;
