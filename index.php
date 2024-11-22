@@ -7,11 +7,11 @@
         <?php include 'header.php'; ?>
         <?php include 'phone-nav.php'; ?>
 
-        <div class="banner-container">
-            <img src="img/phone/banner.png" alt="banner" class="banner">
+        <div class="phone-banner-container">
+            <img src="img/phone/banner.png" alt="banner" class="phone-banner">
             <div class="container banner-text" style="height: 400px;">
-                <div class="heading">Say Hello to <br/> Northlight 4G</div>
-                <div class="home-banner-title">Budget Friendly,<br/> Superb Quality</div>
+                <div class="heading">Introducing <br/> Northlight 4G</div>
+                <div class="home-banner-title">Connectivity Made <br> Reasonable</div>
             </div>
         </div>
 
@@ -20,8 +20,8 @@
             <div class="section-padding">
                 <div class="row">
                     <div class="position-relative">
-                        <div class="col-xl-6">
-                            <p class="pb-5">Lorem ipsum dolor sit amet consectetur at sed volutpat nullam dis sit commodo porttitor etiam.</p>
+                        <div class="col-xl-9">
+                            <p class="pb-5">Designed to be practical and accessible, it keeps you connected to what matters most without compromise. </p>
                         </div>
                         <div class="col-xl-6 img-1-container">
                             <img src="img/phone/img_1.png" alt="" class="img-fluid img-1">
@@ -98,8 +98,8 @@
                         </div>
                         <div class="col-lg-7">
                             <div class="feature-text-wrap feature-text-wrap-right">
-                                <div class="title fw-bold">Store Memories <br> Secure Essentials</div>
-                                <div class="feature-text">Enjoy the convenience of Dual SIMs with TF card expansion for enhanced connectivity on the go.</div>
+                                <div class="title fw-bold">Expand Your Options</div>
+                                <div class="feature-text">Enjoy the convenience of Dual SIMs with Micro SD card expansion for enhanced connectivity on the go.</div>
                             </div>
                         </div>
                     </div>
@@ -114,8 +114,8 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="feature-text-wrap">
-                                <div class="title fw-bold">Swap Battery <br> Not Your Phone</div>
-                                <div class="feature-text">Customizable, Accessible.</div>
+                                <div class="title fw-bold">Power That Lasts <br> Stay Connected</div>
+                                <div class="feature-text">Stay powered with removable batteries—swap, recharge, and stay connected anytime.</div>
                             </div>
                         </div>
                         <div class="col-lg-6">

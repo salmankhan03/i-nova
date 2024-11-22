@@ -7,11 +7,11 @@
         <?php include 'header.php'; ?>
 
         <div class="banner-container" id="overview">
-            <img src="https://dummyimage.com/3000x500" alt="banner" class="banner">
+            <img src="https://dummyimage.com/3000x2000" alt="banner" class="img-fluid banner">
             <div class="container banner-text d-flex align-items-center" style="height: 400px;">
                 <div>
                     <p>About Us</p>
-                    <div class="heading">Slogan goes here</div>
+                    <div class="heading">Technology for All, Connect Communities</div>
                 </div>
             </div>
         </div>
