@@ -11,7 +11,7 @@
             <img src="img/phone/banner.png" alt="banner" class="phone-banner">
             <div class="container banner-text" style="height: 400px;">
                 <div class="heading">Introducing <br/> Northlight 4G</div>
-                <div class="home-banner-title">Connectivity Made <br> Reasonable</div>
+                <div class="home-banner-title">Connectivity Made <br> Reasonable Access</div>
             </div>
         </div>
 
@@ -171,7 +171,7 @@
             // zoom in image when scrolling
             function zoomInBanner() {
                 const scrollPosition = window.scrollY;
-                const bannerContainer = document.querySelector('.banner-container');
+                const bannerContainer = document.querySelector('.phone-banner-container');
 
                 const aspectRatio = bannerContainer.offsetWidth / bannerContainer.offsetHeight;
 
