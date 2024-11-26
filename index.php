@@ -11,7 +11,7 @@
             <img src="img/phone/banner.png" alt="banner" class="phone-banner">
             <div class="container banner-text" style="height: 400px;">
                 <div class="heading">Introducing <br/> Northlight 4G</div>
-                <div class="home-banner-title">Connectivity Made <br> Reasonable Access</div>
+                <div class="home-banner-title">Reasonable Access to<br> Unlimited Connectivity</div>
             </div>
         </div>
 
