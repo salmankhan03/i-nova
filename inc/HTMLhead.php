@@ -14,7 +14,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-<link rel="icon" href="favicon.ico" sizes="16x16" type="image/x-icon">
+<link rel="icon" href="img/logo/favicon/Black/favicon.ico" sizes="16x16" type="image/x-icon">
 <link rel="apple-touch-icon" sizes="180x180" href="img/logo/favicon/Black/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="img/logo/favicon/Black/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="192x192" href="img/logo/favicon/Black/android-chrome-192x192.png">
