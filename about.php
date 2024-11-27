@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <?php include 'HTMLhead.php'; ?>
+        <?php include './inc/HTMLhead.php'; ?>
     </head>
     <body>
-        <?php include 'header.php'; ?>
+        <?php include './inc/header.php'; ?>
 
         <div class="banner-container" id="overview">
             <img src="https://dummyimage.com/3000x2000" alt="banner" class="img-fluid banner">
@@ -33,6 +33,6 @@
             </div>
         </div>
         
-        <?php include 'footer.php'; ?>
+        <?php include './inc/footer.php'; ?>
     </body>
 </html>

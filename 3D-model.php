@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="overflow-x-hidden">
     <head>
-        <?php include 'HTMLhead.php'; ?>
+        <?php include './inc/HTMLhead.php'; ?>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/three@0.134.0/examples/js/loaders/GLTFLoader.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/three@0.134.0/examples/js/controls/OrbitControls.js"></script>

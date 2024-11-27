@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <?php include 'HTMLhead.php'; ?>
+        <?php include './inc/HTMLhead.php'; ?>
         <style>
             hr {
                 border-top: 1px solid black;
@@ -15,8 +15,8 @@
         </style>
     </head>
     <body>
-        <?php include 'header.php'; ?>
-        <?php include 'phone-nav.php'; ?>
+        <?php include './inc/header.php'; ?>
+        <?php include './inc/phone-nav.php'; ?>
 
         <!-- Specification -->
         <div class="spec">
@@ -107,6 +107,6 @@
             </div>
         </div>
         
-        <?php include 'footer.php'; ?>
+        <?php include './inc/footer.php'; ?>
     </body>
 </html>

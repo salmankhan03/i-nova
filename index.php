@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" class="overflow-x-hidden">
     <head>
-        <?php include 'HTMLhead.php'; ?>
+        <?php include './inc/HTMLhead.php'; ?>
     </head>
     <body class="overflow-x-hidden">
-        <?php include 'header.php'; ?>
-        <?php include 'phone-nav.php'; ?>
+        <?php include './inc/header.php'; ?>
+        <?php include './inc/phone-nav.php'; ?>
 
         <div class="phone-banner-container">
             <img src="img/phone/banner.png" alt="banner" class="phone-banner">
@@ -139,7 +139,7 @@
             </div>
         </div>
         
-        <?php include 'footer.php'; ?>
+        <?php include './inc/footer.php'; ?>
         <script>
             function responsiveBackground() {
                 const featureBackgrounds = document.querySelectorAll('.feature-background');
