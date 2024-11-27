@@ -34,23 +34,9 @@ document.querySelectorAll('.question-wrap').forEach(question => {
     });
 });
 
-// JavaScript to add 'visible' class when the element is in the viewport
-// document.addEventListener("scroll", function() {
-//     // Get all elements with class 'banner-container'
-//     const banners = document.querySelectorAll(".feature-background");
-    
-//     banners.forEach(banner => {
-//         const rect = banner.getBoundingClientRect();
-        
-//         // Check if the banner is within the viewport
-//         if (rect.top < window.innerHeight - 200 && rect.bottom >= 0) {
-//             banner.classList.add("visible");
-//         }
-//     });
-// });
 
-// Function to check if elements are in the viewport
-function checkBannerVisibility() {
+// feature-background scroll in when it's in the viewport
+function featureBackgroundAnimation() {
     const banners = document.querySelectorAll(".feature-background");
     
     banners.forEach(banner => {
@@ -67,8 +53,7 @@ function checkBannerVisibility() {
 }
 
 // On scroll event, check if the banners are in the viewport
-document.addEventListener("scroll", checkBannerVisibility);
+document.addEventListener("scroll", featureBackgroundAnimation);
 
 // On page load or refresh, check the banners visibility as well
-document.addEventListener("DOMContentLoaded", checkBannerVisibility);
-
+document.addEventListener("DOMContentLoaded", featureBackgroundAnimation);

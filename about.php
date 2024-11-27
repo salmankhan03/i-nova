@@ -8,7 +8,7 @@
 
         <div class="banner-container" id="overview">
             <img src="https://dummyimage.com/3000x2000" alt="banner" class="img-fluid banner">
-            <div class="container banner-text d-flex align-items-center" style="height: 400px;">
+            <div class="container phone-banner-text d-flex align-items-center" style="height: 400px;">
                 <div>
                     <p>About Us</p>
                     <div class="heading">Technology for All, Connect Communities</div>

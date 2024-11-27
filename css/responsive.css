@@ -5,18 +5,10 @@
 }
 
 @media only screen and (max-width: 1199px) {
-    .img-1-container {
-        display: flex;
-        justify-content: center;
+    .phone-banner-text {
+        height: 550px;
     }
 
-    .img-1 {
-        position: static;
-        width: 550px;
-        /* top: -120px;
-        right: -80px; */
-    }
-    
     .feature-background.visible .feature-image-1 {
         top: -20%;
         right: -20px;
@@ -30,6 +22,10 @@
 }
 
 @media only screen and (max-width: 991px) {
+    .img-1 {
+        top: -150px;
+        right: -280px;
+    }
     .row {
         --bs-gutter-y: 24px;
     }
@@ -47,7 +43,7 @@
 
     .feature-background {
         background-size: 100% auto;
-        height: auto;
+        height: 810px;
     }
 
     /* .feature-1 {
@@ -79,6 +75,16 @@
         gap: 30px; 
     }
 
+    .img-1-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-1 {
+        position: static;
+        width: 550px;
+    }
+
     /* .feature-background {
         background-size: 100% auto;
         height: auto;
@@ -89,7 +95,9 @@
         position: static;
     } */
      
-
+    .feature-background{
+        height: 843px;
+    }
     .feature-text-wrap {
         padding: 100px 20px 0 20px;
     }
@@ -116,7 +124,9 @@
     /* .spec {
         background-size: 100%;
     } */
-
+    .feature-background{
+        height: auto;
+    }
     .feature-image {
         width: 100% !important;
         height: auto !important;

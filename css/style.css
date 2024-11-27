@@ -145,9 +145,9 @@ a {
     max-height: 80%;
 }
 
-.banner-text {
+.phone-banner-text {
     position: absolute;
-    /* height: 200px; */
+    height: 400px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -171,7 +171,7 @@ a {
     line-height: 1.2;
     position: absolute;
     bottom: 0;
-    right: 8%;
+    right: 0;
 }
 
 .section-padding {
@@ -247,7 +247,6 @@ a {
 .feature-2 {
     background-color: #797cdc;
     background-image: url('../img/phone/bg_2.png');
-    /* overflow: hidden; */
 }
 
 .feature-3 {
@@ -285,7 +284,7 @@ a {
     opacity: 0;
     transform: translateY(100px); /* Start below the container */
     transition: transform 1s ease-out, opacity 0s ease-out;
-    transition-delay: 0.8s;
+    transition-delay: 0.9s;
 }
 
 .feature-background.visible .feature-image {
@@ -299,7 +298,6 @@ a {
 }
 
 .feature-background.visible .feature-image-2 {
-    /* height: 550px; */
     left: 0;
     bottom: 28px;
 }

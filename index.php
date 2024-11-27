@@ -9,7 +9,7 @@
 
         <div class="phone-banner-container">
             <img src="img/phone/banner.png" alt="banner" class="phone-banner">
-            <div class="container banner-text" style="height: 400px;">
+            <div class="container phone-banner-text">
                 <div class="heading">Introducing <br/> Northlight 4G</div>
                 <div class="home-banner-title">Reasonable Access to<br> Unlimited Connectivity</div>
             </div>
@@ -18,48 +18,60 @@
         <!-- highlights -->
         <div class="container">
             <div class="section-padding">
+                <?php //include './3D-model.php'; ?>
                 <div class="row">
                     <div class="position-relative">
-                        <div class="col-xl-9">
-                            <p class="pb-5">Designed to be practical and accessible, it keeps you connected to what matters most without compromise. </p>
+                        <div class="col-xl-9 col-md-8">
+                            <p class="pb-md-5">Designed to be practical and accessible, it keeps you connected to what matters most without compromise. </p>
                         </div>
-                        <div class="col-xl-6 img-1-container">
-                            <img src="img/phone/img_1.png" alt="" class="img-fluid img-1">
+                        <div class="col-xl-3 col-md-2 img-1-container">
+                            <img src="img/phone/img_1.png" alt="img-1" class="img-fluid img-1">
                         </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-10 col-md-11">
                         <div class="row">
-                            <div class="col-6 col-md-4 col-lg-4 col-xl-2 p-0">
+                            <div class="col-4 col-md-2 col-lg-2 col-xl-2 p-0">
                                 <div class="highlight-wrap">
                                     <img src="img/phone/icons/icon_size.svg" alt="screen" class="highlight-icon">
-                                    <div class="highlight-text">5.45" TFT LCD</div>
-                                    <div class="highlight-text">480x960</div>
+                                    <div class="highlight-text">5.45" LCD</div>
+                                    <!-- <div class="highlight-text">480x960</div> -->
                                 </div>
                             </div>
-                            <div class="col-6 col-md-4 col-lg-4 col-xl-2 p-0">
+                            <div class="col-4 col-md-2 col-lg-2 col-xl-2 p-0">
                                 <div class="highlight-wrap">
                                     <img src="img/phone/icons/icon_camera.svg" alt="camera" class="highlight-icon">
                                     <div class="highlight-text">5MP Back</div>
                                     <div class="highlight-text">2MP Front</div>
                                 </div>
                             </div>
-                            <div class="col-6 col-md-4 col-lg-4 col-xl-2 p-0">
+                            <div class="col-4 col-md-2 col-lg-2 col-xl-2 p-0">
                                 <div class="highlight-wrap">
                                     <img src="img/phone/icons/icon_processor.svg" alt="processor" class="highlight-icon">
                                     <div class="highlight-text">Quad Core</div>
                                     <div class="highlight-text">2.0GHz</div>
                                 </div>
                             </div>
-                            <div class="col-6 col-md-4 col-lg-4 col-xl-2 p-0">
+                            <div class="col-4 col-md-2 col-lg-2 col-xl-2 p-0">
                                 <div class="highlight-wrap">
                                     <img src="img/phone/icons/icon_memory.svg" alt="memory" class="highlight-icon">
                                     <div class="highlight-text">3GB RAM</div>
                                     <div class="highlight-text">32GB ROM</div>
                                 </div>
                             </div>
-                
-                            <div class="col-6 col-md-4 col-lg-4 col-xl-2 p-0">
+                            <div class="col-4 col-md-2 col-lg-2 col-xl-2 p-0">
                                 <div class="highlight-wrap">
                                     <img src="img/phone/icons/icon_dualsim.svg" alt="dual-sim" class="highlight-icon">
                                     <div class="highlight-text">Dual Sim</div>
+                                </div>
+                            </div>
+                            <div class="col-4 col-md-2 col-lg-2 col-xl-2 p-0">
+                                <div class="highlight-wrap">
+                                    <img src="img/phone/icons/icon_dualsim.svg" alt="dual-sim" class="highlight-icon">
+                                    <div class="highlight-text">Detachable</div>
+                                    <div class="highlight-text">Battery</div>
                                 </div>
                             </div>
                         </div>
@@ -114,7 +126,7 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="feature-text-wrap">
-                                <div class="title fw-bold">Power That Lasts <br> Stay Connected</div>
+                                <div class="title fw-bold">Power That Lasts - Stay Connected</div>
                                 <div class="feature-text">Stay powered with removable batteries—swap, recharge, and stay connected anytime.</div>
                             </div>
                         </div>
