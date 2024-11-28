@@ -22,6 +22,9 @@
 }
 
 @media only screen and (max-width: 991px) {
+    .pbmd-0{
+        padding-bottom: 0;
+    }
     .img-1 {
         top: -150px;
         right: -280px;

@@ -166,12 +166,12 @@ a {
 }
 
 .home-banner-title {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 500;
     line-height: 1.2;
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: 12px;
 }
 
 .section-padding {
@@ -293,7 +293,7 @@ a {
 }
 
 .feature-background.visible .feature-image-1 {
-    top: -20%;
+    top: -25%;
     right: 5%;
 }
 

@@ -10,14 +10,14 @@
         <div class="phone-banner-container">
             <img src="img/phone/banner.png" alt="banner" class="phone-banner">
             <div class="container phone-banner-text">
-                <div class="heading">Introducing <br/> Northlight 4G</div>
+                <div class="heading">Introducing <br/> <i>Northlight</i></div>
                 <div class="home-banner-title">Reasonable Access to<br> Unlimited Connectivity</div>
             </div>
         </div>
 
         <!-- highlights -->
         <div class="container">
-            <div class="section-padding">
+            <div class="section-padding pbmd-0">
                 <?php //include './3D-model.php'; ?>
                 <div class="row">
                     <div class="position-relative">
