@@ -56,7 +56,7 @@
                 <div class="row">
                     <div class="col-sm-10 mx-auto">
                         <div class="text-center">
-                            <div class="heading pb-4">Frequently asked questions</div>
+                            <div class="heading pb-4">Frequently Asked Questions</div>
                             <p class="mb-0">Find quick answers to common questions about our products and services. We're committed to providing clear, helpful information to make your experience with INOVA seamless and enjoyable.</p>
                         </div>
                     </div>
@@ -118,5 +118,44 @@
         </div>
         
         <?php include './inc/footer.php'; ?>
+
+        <script>
+            // Category Filter
+            // Get all filter buttons, FAQ items, and toggle answer buttons
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const faqItems = document.querySelectorAll('.faq-item');
+
+            // Add event listener to each filter button
+            filterButtons.forEach(button => {
+                button.addEventListener('click', (e) => {
+                    // Remove the 'active' class from all buttons
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+
+                    // Add the 'active' class to the clicked button
+                    e.target.classList.add('active');
+                    
+                    const category = e.target.getAttribute('data-category');
+                    
+                    // Show/hide FAQ items based on category
+                    faqItems.forEach(item => {
+                        if (category === 'all' || item.getAttribute('data-category') === category) {
+                            item.style.display = 'block'; // Show item
+                        } else {
+                            item.style.display = 'none'; // Hide item
+                        }
+                    });
+                });
+            });
+
+            // Toggle Answers
+            document.querySelectorAll('.question-wrap').forEach(question => {
+                question.addEventListener('click', function () {
+                    const answer = this.nextElementSibling;
+                    const icon = this.querySelector('.faq-icon');
+                    answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+                    icon.classList.toggle('open');
+                });
+            });
+        </script>
     </body>
 </html>

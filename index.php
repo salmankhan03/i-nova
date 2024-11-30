@@ -17,8 +17,7 @@
 
         <!-- highlights -->
         <div class="container">
-            <div class="section-padding pbmd-0">
-                <?php //include './3D-model.php'; ?>
+            <div class="section-padding pb_md_0">
                 <div class="row">
                     <div class="position-relative">
                         <div class="col-xl-9 col-md-8">
@@ -30,6 +29,8 @@
                     </div>
                 </div>
 
+                <?php //include './3D-model.php'; ?>
+
                 <div class="row">
                     <div class="col-lg-10 col-md-11">
                         <div class="row">
@@ -37,7 +38,7 @@
                                 <div class="highlight-wrap">
                                     <img src="img/phone/icons/icon_size.svg" alt="screen" class="highlight-icon">
                                     <div class="highlight-text">5.45" LCD</div>
-                                    <!-- <div class="highlight-text">480x960</div> -->
+                                    <div class="highlight-text">480 x 960</div>
                                 </div>
                             </div>
                             <div class="col-4 col-md-2 col-lg-2 col-xl-2 p-0">
@@ -65,6 +66,7 @@
                                 <div class="highlight-wrap">
                                     <img src="img/phone/icons/icon_dualsim.svg" alt="dual-sim" class="highlight-icon">
                                     <div class="highlight-text">Dual Sim</div>
+                                    <div class="highlight-text">Micro SD</div>
                                 </div>
                             </div>
                             <div class="col-4 col-md-2 col-lg-2 col-xl-2 p-0">
@@ -92,7 +94,7 @@
                                 <div class="feature-text">Customizable, Accessible, Protective. Complete with the latest personalization, security and privacy features.</div>
                             </div>
                         </div>
-                        <div class="col-lg-5">
+                        <div class="col-lg-5 lg-center">
                             <img src="img/phone/feature_1.png" alt="feature-1" class="img-fluid feature-image feature-image-1">
                         </div>
                     </div>
@@ -106,7 +108,7 @@
                 <div class="feature-background feature-2">
                     <div class="row">
                         <div class="col-lg-5">
-                            <img src="img/phone/feature_2.png" alt="feature-2" class="img-fluid feature-image feature-image-2">
+                            <img src="img/phone/feature_2.png" alt="feature-2" class="img-fluid feature-image feature-image-left feature-image-2">
                         </div>
                         <div class="col-lg-7">
                             <div class="feature-text-wrap feature-text-wrap-right">
@@ -130,7 +132,7 @@
                                 <div class="feature-text">Stay powered with removable batteries—swap, recharge, and stay connected anytime.</div>
                             </div>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 lg-center">
                             <img src="img/phone/feature_3.png" alt="feature-3" class="img-fluid feature-image feature-image-3">
                         </div>
                     </div>
