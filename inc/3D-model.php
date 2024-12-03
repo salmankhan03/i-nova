@@ -1,27 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <?php include './inc/HTMLhead.php'; ?>
+        <?php //include './inc/HTMLhead.php'; ?>
+        <base href="http://192.168.0.47/inova/">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/three@0.134.0/examples/js/loaders/GLTFLoader.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/three@0.134.0/examples/js/controls/OrbitControls.js"></script>
 
         <style>
+            #instruction {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background-color: rgba(0, 0, 0, 0.5);
+                color: white;
+                font-size: 50px;
+                padding: 5px 17.5px;
+                border-radius: 5px;
+                z-index: 10;
+                transition: opacity 0.5s ease;
+            }
+
             #model-container {
                 width: 100%;
-                height: 700px;
+                height: 600px;
                 margin: auto;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                /* padding-top: 200px; */
                 cursor: grab;
+                z-index: -1;
             }
         </style>
     </head>
     <body>
-        <div class="container">
+        <div class="container overflow-hidden">
             <div id="model-container"></div>
+            <div id="instruction"><i class="fa-solid fa-rotate"></i></div>
         </div>
 
         <script>
@@ -93,6 +109,23 @@
                 camera.updateProjectionMatrix();
                 renderer.setSize(window.innerWidth, window.innerHeight);
             });
+
+        </script>
+
+        <script>
+            // Select the instruction element
+            const instruction = document.getElementById('instruction');
+            const modelContainer = document.getElementById('model-container');
+
+            // Function to hide the instruction
+            function hideInstruction() {
+                instruction.style.opacity = '0'; // Fade out
+                setTimeout(() => instruction.style.display = 'none', 500); // Remove from DOM after fade-out
+            }
+
+            // Listen for interaction events
+            modelContainer.addEventListener('mousedown', hideInstruction); // For mouse users
+            modelContainer.addEventListener('touchstart', hideInstruction); // For touch users
 
         </script>
 

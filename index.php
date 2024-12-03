@@ -10,7 +10,8 @@
         <div class="phone-banner-container">
             <img src="img/phone/banner.png" alt="banner" class="phone-banner">
             <div class="container phone-banner-text">
-                <div class="heading">Introducing <br/> <i>Northlight</i></div>
+                <div class="heading">Introducing</div>
+                <img src="img/phone/northlight.svg" alt="" style="width: 380px; margin-top: 20px;">
                 <div class="home-banner-title">Reasonable Access to<br> Unlimited Connectivity</div>
             </div>
         </div>
@@ -66,7 +67,7 @@
                                 <div class="highlight-wrap">
                                     <img src="img/phone/icons/icon_dualsim.svg" alt="dual-sim" class="highlight-icon">
                                     <div class="highlight-text">Dual Sim</div>
-                                    <div class="highlight-text">Micro SD</div>
+                                    <!-- <div class="highlight-text">Micro SD</div> -->
                                 </div>
                             </div>
                             <div class="col-4 col-md-2 col-lg-2 col-xl-2 p-0">
@@ -146,9 +147,9 @@
                 <div class="title text-center pb-4" style="font-weight: 700;">In the Box</div>
                 <img src="img/phone/bg_4.jpg" alt="in the box" class="img-fluid" style="border-radius: 20px">
                 <div class="row text-center pt-4">
-                    <div class="col-4"><p>Northlight 4G</p></div>
+                    <div class="col-4"><p>Northlight</p></div>
                     <div class="col-4"><p>USB-C Cable</p></div>
-                    <div class="col-4"><p>USB Wall Charger</p></div>
+                    <div class="col-4"><p>5W USB Charger</p></div>
                 </div>
             </div>
         </div>
