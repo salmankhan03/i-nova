@@ -15,11 +15,12 @@
                 transform: translate(-50%, -50%);
                 background-color: rgba(0, 0, 0, 0.5);
                 color: white;
-                font-size: 50px;
+                font-size: 24px;
                 padding: 5px 17.5px;
                 border-radius: 5px;
                 z-index: 10;
                 transition: opacity 0.5s ease;
+                pointer-events: none;
             }
 
             #model-container {
@@ -34,9 +35,9 @@
         </style>
     </head>
     <body>
-        <div class="container overflow-hidden">
+        <div class="container overflow-hidden position-relative p-0">
             <div id="model-container"></div>
-            <!-- <div id="instruction"><i class="fa-solid fa-rotate"></i></div> -->
+            <div id="instruction">Click and turn to explore</div>
         </div>
 
         <script>
@@ -121,7 +122,7 @@
             window.addEventListener('resize', resizeRenderer);
         </script>
 
-        <!-- <script>
+        <script>
             // Select the instruction element
             const instruction = document.getElementById('instruction');
             const model_Container = document.getElementById('model-container');
@@ -136,7 +137,7 @@
             model_Container.addEventListener('mousedown', hideInstruction); // For mouse users
             model_Container.addEventListener('touchstart', hideInstruction); // For touch users
 
-        </script> -->
+        </script>
 
     </body>
 </html>

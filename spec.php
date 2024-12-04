@@ -33,7 +33,7 @@
                                 <h3>Display</h3>
                                 <hr>
                                 <p><strong>Size: </strong>5.45 inch TFT LCD</p>
-                                <p><strong>Resolution: </strong>480x960FW+IPS</p>
+                                <p><strong>Resolution: </strong>480 x 960FW + IPS</p>
                             </div>
                         </div>
                         <div class="col-6 col-md-4">
@@ -75,7 +75,7 @@
                                 <hr>
                                 <p><strong>Wi-Fi: </strong>5 802.11a/b/g/n/ac</p>
                                 <p><strong>Bluetooth: </strong>5.2</p>
-                                <p><strong>Location: </strong>GPS/BDS/Glonass/Galileo</p>
+                                <p style="overflow-wrap: break-word;"><strong>Location: </strong>GPS/BDS/Glonass/<wbr>Galileo</p>
                             </div>
                         </div>
                         <div class="col-6 col-md-4">
