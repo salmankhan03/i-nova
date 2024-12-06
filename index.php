@@ -67,7 +67,7 @@
                                 <div class="highlight-wrap">
                                     <img src="img/phone/icons/icon_dualsim.svg" alt="dual-sim" class="highlight-icon">
                                     <div class="highlight-text">Dual Sim</div>
-                                    <!-- <div class="highlight-text">Micro SD</div> -->
+                                    <div class="highlight-text">Micro & Nano</div>
                                 </div>
                             </div>
                             <div class="col-4 col-md-2 col-lg-2 col-xl-2 p-0">
