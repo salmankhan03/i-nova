@@ -17,11 +17,11 @@
     <body>
         <?php include './inc/header.php'; ?>
         <?php include './inc/phone-nav.php'; ?>
-        <?php include './inc/3D-model.php'; ?>
+        <?php //include './inc/3D-model.php'; ?>
         <!-- Specification -->
         <div class="spec">
             <div class="container">
-                <div class="section-padding pt-0">
+                <div class="section-padding pt-5">
                     <div class="row pb-5">
                         <div class="col-6 col-md-4">
                             <div class="title">Specifications</div>

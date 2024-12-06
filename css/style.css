@@ -65,16 +65,18 @@ a {
 .sub-menu {
     display: none;
     position: absolute;
-    top: calc(100% + 0px); /* Position the menu below the parent link */
+    top: calc(100% + 20px);
     left: 50%;
     transform: translateX(-50%);
     background-color: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border: 1px solid #ddd;
-    border-radius: 10px;
+    border-radius: 0px;
     padding: 10px 0;
     z-index: 1000;
     padding: 0px 15px 10px;
+    /* padding-top: 10px;
+    margin-top: -10px; */
 }
 
 .sub-menu a {
@@ -91,6 +93,10 @@ a {
 
 .sub:hover .sub-menu {
     display: block; /* Show menu on hover */
+}
+
+.sub:hover {
+    position: relative;
 }
 
 .underline-link {
@@ -342,6 +348,13 @@ a {
 .feature-background.visible .feature-image-3 {
     top: -15%;
     right: 2%;
+}
+
+.feature-background.visible .feature-image-5 {
+    width: 60%;
+    height: auto;
+    top: 18%;
+    right: -5%;
 }
 
 .spec {

@@ -10,8 +10,9 @@
         <div class="phone-banner-container">
             <img src="img/phone/banner.png" alt="banner" class="phone-banner">
             <div class="container phone-banner-text">
-                <div class="heading">Introducing</div>
-                <img src="img/phone/northlight.svg" alt="" style="width: 380px; margin-top: 20px;">
+                <div class="heading" style="font-weight: 400;">Introducing</div>
+                <div class="heading" style="font-size: 70px; font-style:italic; margin-left: -10px;">Northlight</div>
+                <!-- <img src="img/phone/northlight.svg" alt="" style="width: 380px; margin-top: 20px;"> -->
                 <div class="home-banner-title">Reasonable Access to<br> Unlimited Connectivity</div>
             </div>
         </div>
@@ -72,7 +73,7 @@
                             </div>
                             <div class="col-4 col-md-2 col-lg-2 col-xl-2 p-0">
                                 <div class="highlight-wrap">
-                                    <img src="img/phone/icons/icon_dualsim.svg" alt="dual-sim" class="highlight-icon">
+                                    <img src="img/phone/icons/icon_battery.svg" alt="dual-sim" class="highlight-icon">
                                     <div class="highlight-text">Detachable</div>
                                     <div class="highlight-text">Battery</div>
                                 </div>
@@ -135,6 +136,63 @@
                         </div>
                         <div class="col-lg-6 lg-center">
                             <img src="img/phone/feature_3.png" alt="feature-3" class="img-fluid feature-image feature-image-3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="container feature-container">
+            <div class="section-padding pb-0">
+                <div class="feature-background feature-2">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <!-- <img src="img/phone/feature_2.png" alt="feature-2" class="img-fluid feature-image feature-image-left feature-image-2"> -->
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="feature-text-wrap feature-text-wrap-right">
+                                <div class="title fw-bold">Universal Connectivity</div>
+                                <div class="feature-text">With USB-C, enjoy rapid charging and universal compatibility, making it easier than ever to keep your Northlight powered up and ready to go.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feature 5 -->
+        <div class="container feature-container">
+            <div class="section-padding pb-0">
+                <div class="feature-background feature-3">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="feature-text-wrap">
+                                <div class="title fw-bold">Efficiency Meets Everyday Power</div>
+                                <div class="feature-text">Powered by the Mediatek MT6761 Quad-Core processor, built in Taiwan by TSMC, the Northlight delivers smooth, responsive performance for everyday tasks.</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 lg-center">
+                            <!-- <img src="img/phone/Helio.png" alt="feature-5" class="img-fluid feature-image feature-image-5"> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feature 6 -->
+        <div class="container feature-container">
+            <div class="section-padding pb-0">
+                <div class="feature-background feature-2">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <!-- <img src="img/phone/feature_2.png" alt="feature-2" class="img-fluid feature-image feature-image-left feature-image-2"> -->
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="feature-text-wrap feature-text-wrap-right">
+                                <div class="title fw-bold">Connecting You to Possibilities</div>
+                                <div class="feature-text">Experience seamless connectivity with 4G and Wi-Fi 5, ensuring fast and reliable access wherever you are.</div>
+                            </div>
                         </div>
                     </div>
                 </div>
