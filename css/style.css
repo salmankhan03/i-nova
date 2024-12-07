@@ -350,6 +350,11 @@ a {
     right: 2%;
 }
 
+.feature-background.visible .feature-image-4 {
+    left: 0;
+    bottom: 0px;
+}
+
 .feature-background.visible .feature-image-5 {
     width: 60%;
     height: auto;
@@ -482,4 +487,9 @@ a {
 
 .heading-container {
     padding: 50px 0;
+}
+
+.accessory-filter {
+    margin-bottom: 20px;
+    display: flex;
 }

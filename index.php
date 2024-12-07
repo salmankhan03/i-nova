@@ -145,10 +145,10 @@
         <!-- Feature 4 -->
         <div class="container feature-container">
             <div class="section-padding pb-0">
-                <div class="feature-background feature-2">
+                <div class="feature-background feature-2" style="overflow: hidden;">
                     <div class="row">
                         <div class="col-lg-5">
-                            <!-- <img src="img/phone/feature_2.png" alt="feature-2" class="img-fluid feature-image feature-image-left feature-image-2"> -->
+                            <img src="img/phone/feature_4.png" alt="feature-2" class="img-fluid feature-image feature-image-left feature-image-4">
                         </div>
                         <div class="col-lg-7">
                             <div class="feature-text-wrap feature-text-wrap-right">
@@ -169,11 +169,11 @@
                         <div class="col-lg-6">
                             <div class="feature-text-wrap">
                                 <div class="title fw-bold">Efficiency Meets Everyday Power</div>
-                                <div class="feature-text">Powered by the Mediatek MT6761 Quad-Core processor, built in Taiwan by TSMC, the Northlight delivers smooth, responsive performance for everyday tasks.</div>
+                                <div class="feature-text">Powered by the Mediatek Quad-Core processor, built in Taiwan by TSMC, the Northlight delivers smooth, responsive performance for everyday tasks.</div>
                             </div>
                         </div>
                         <div class="col-lg-6 lg-center">
-                            <!-- <img src="img/phone/Helio.png" alt="feature-5" class="img-fluid feature-image feature-image-5"> -->
+                            <img src="img/phone/Helio.png" alt="feature-5" class="img-fluid feature-image feature-image-5">
                         </div>
                     </div>
                 </div>
@@ -186,7 +186,7 @@
                 <div class="feature-background feature-2">
                     <div class="row">
                         <div class="col-lg-5">
-                            <!-- <img src="img/phone/feature_2.png" alt="feature-2" class="img-fluid feature-image feature-image-left feature-image-2"> -->
+                            <img src="img/phone/feature_6.png" alt="feature-2" class="img-fluid feature-image feature-image-left feature-image-2">
                         </div>
                         <div class="col-lg-7">
                             <div class="feature-text-wrap feature-text-wrap-right">
