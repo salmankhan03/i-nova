@@ -2,6 +2,29 @@
 <html lang="en">
     <head>
         <?php include './inc/HTMLhead.php'; ?>
+        <style>
+            .card {
+                margin-bottom: 20px;
+            }
+            .card-body {
+                padding-left: 0;
+            }
+            .card-title {
+                font-size: 24px;
+                font-weight: 600;
+            }
+            .accessory-image-container {
+                background-color: #eee;
+                width: 100%;
+                aspect-ratio: 2/3;
+                display: flex;
+                justify-content: left;
+                align-items: center;
+            }
+            .accessory-image{
+                width: 70%;
+            }
+        </style>
     </head>
     <body>
         <?php include './inc/header.php'; ?>
@@ -21,23 +44,84 @@
             </div>
 
             <div class="row">
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="accessory-card">
-                        <img src="img/accessories/battery.jpeg" alt="battery" class="img-fluid">
+                <div class="col-sm-6 col-lg-4 col-xl-3">
+                    <div class="card">
+                        <div class="accessory-image-container">
+                            <!-- <img src="img/accessories/battery.jpeg" alt="battery" class="img-fluid accessory-image"> -->
+                        </div>
                         <div class="card-body">
                             <div class="card-title">Battery</div>
-                            <div class="card-text">The battery is the heart of the phone. Without it, the phone cannot function.</div>
+                            <div class="card-text">Replaceable battery for uninterrupted power, keeping you connected all day.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4 col-xl-3">
+                    <div class="card">
+                        <div class="accessory-image-container">
+                            <!-- <img src="img/accessories/battery.jpeg" alt="battery" class="img-fluid accessory-image"> -->
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">Battery Charger</div>
+                            <div class="card-text">Compact and efficient charger designed specially for Northlight batteries.</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-6 col-lg-4 col-xl-3">
+                    <div class="card">
+                        <div class="accessory-image-container">
+                            <!-- <img src="img/accessories/battery.jpeg" alt="battery" class="img-fluid accessory-image"> -->
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">USB-C Cable</div>
+                            <div class="card-text">Fast and reliable charging with a durable USB-C cable built for convenience.</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-6 col-lg-4 col-xl-3">
+                    <div class="card">
+                        <div class="accessory-image-container">
+                            <!-- <img src="img/accessories/battery.jpeg" alt="battery" class="img-fluid accessory-image"> -->
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">Power Adapter</div>
+                            <div class="card-text">Compact and efficient adapter to power your devices safely and quickly.</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-6 col-lg-4 col-xl-3">
+                    <div class="card">
+                        <div class="accessory-image-container">
+                            <!-- <img src="img/accessories/case.jpeg" alt="battery" class="img-fluid accessory-image"> -->
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">Phone Case</div>
+                            <div class="card-text">Durable and stylish protection designed to keep your phone safe from daily wear and tear.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4 col-xl-3">
+                    <div class="card">
+                        <div class="accessory-image-container">
+                            <!-- <img src="img/accessories/case.jpeg" alt="battery" class="img-fluid accessory-image"> -->
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">microSD cards</div>
+                            <div class="card-text">Upgrade your phone with reliable microSD cards for extra storage.</div>
                         </div>
                     </div>
                 </div>
 
             </div>
-
         </div>
 
 
         
-        <?php //include './inc/footer.php'; ?>
+        <?php include './inc/footer.php'; ?>
 
     </body>
 </html>

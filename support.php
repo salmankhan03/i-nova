@@ -2,6 +2,24 @@
 <html lang="en">
     <head>
         <?php include './inc/HTMLhead.php'; ?>
+        <style>
+            .card {
+                background-color: #f7f7f7;
+            }
+
+            .card-body {
+                padding: 30px;
+            }
+
+            .support-icon {
+                width: 70px;
+            }
+
+            .card-title {
+                padding: 15px 0 0 0;
+                font-size: calc(1.3rem + .6vw);
+            }
+        </style>
     </head>
     <body>
         <?php include './inc/header.php'; ?>
