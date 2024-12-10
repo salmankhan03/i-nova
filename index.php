@@ -53,7 +53,7 @@
                             <div class="col-4 col-md-2 col-lg-2 col-xl-2 p-0">
                                 <div class="highlight-wrap">
                                     <img src="img/phone/icons/icon_processor.svg" alt="processor" class="highlight-icon">
-                                    <div class="highlight-text">Quad Core</div>
+                                    <div class="highlight-text">Quad-Core</div>
                                     <div class="highlight-text">2.0GHz</div>
                                 </div>
                             </div>
@@ -67,14 +67,14 @@
                             <div class="col-4 col-md-2 col-lg-2 col-xl-2 p-0">
                                 <div class="highlight-wrap">
                                     <img src="img/phone/icons/icon_dualsim.svg" alt="dual-sim" class="highlight-icon">
-                                    <div class="highlight-text">Dual Sim</div>
+                                    <div class="highlight-text">Dual SIM</div>
                                     <div class="highlight-text">Micro & Nano</div>
                                 </div>
                             </div>
                             <div class="col-4 col-md-2 col-lg-2 col-xl-2 p-0">
                                 <div class="highlight-wrap">
                                     <img src="img/phone/icons/icon_battery.svg" alt="dual-sim" class="highlight-icon">
-                                    <div class="highlight-text">Detachable</div>
+                                    <div class="highlight-text">Replaceable</div>
                                     <div class="highlight-text">Battery</div>
                                 </div>
                             </div>
@@ -85,29 +85,11 @@
         </div>
 
         <!-- Features -->
-        <!-- Feature 1 -->
-        <div class="container feature-container">
-            <div class="section-padding pb-0">
-                <div class="feature-background feature-1">
-                    <div class="row">
-                        <div class="col-lg-7">
-                            <div class="feature-text-wrap">
-                                <div class="title fw-bold">Android 14</div>
-                                <div class="feature-text">Customizable, Accessible, Protective. Complete with the latest personalization, security and privacy features.</div>
-                            </div>
-                        </div>
-                        <div class="col-lg-5 lg-center">
-                            <img src="img/phone/feature_1.png" alt="feature-1" class="img-fluid feature-image feature-image-1">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <!-- Feature 2 -->
         <div class="container feature-container">
             <div class="section-padding pb-0">
-                <div class="feature-background feature-2">
+                <div class="feature-background feature-1">
                     <div class="row">
                         <div class="col-lg-5">
                             <img src="img/phone/feature_2.png" alt="feature-2" class="img-fluid feature-image feature-image-left feature-image-2">
@@ -126,7 +108,7 @@
         <!-- Feature 3 -->
         <div class="container feature-container">
             <div class="section-padding pb-0">
-                <div class="feature-background feature-3">
+                <div class="feature-background feature-2">
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="feature-text-wrap">
@@ -145,7 +127,7 @@
         <!-- Feature 4 -->
         <div class="container feature-container">
             <div class="section-padding pb-0">
-                <div class="feature-background feature-2" style="overflow: hidden;">
+                <div class="feature-background feature-3" style="overflow: hidden;">
                     <div class="row">
                         <div class="col-lg-5">
                             <img src="img/phone/feature_4.png" alt="feature-2" class="img-fluid feature-image feature-image-left feature-image-4">
@@ -164,7 +146,7 @@
         <!-- Feature 5 -->
         <div class="container feature-container">
             <div class="section-padding pb-0">
-                <div class="feature-background feature-3">
+                <div class="feature-background feature-2">
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="feature-text-wrap">
@@ -183,7 +165,7 @@
         <!-- Feature 6 -->
         <div class="container feature-container">
             <div class="section-padding pb-0">
-                <div class="feature-background feature-2">
+                <div class="feature-background feature-1">
                     <div class="row">
                         <div class="col-lg-5">
                             <img src="img/phone/feature_6.png" alt="feature-2" class="img-fluid feature-image feature-image-left feature-image-2">
@@ -193,6 +175,25 @@
                                 <div class="title fw-bold">Connecting You to Possibilities</div>
                                 <div class="feature-text">Experience seamless connectivity with 4G and Wi-Fi 5, ensuring fast and reliable access wherever you are.</div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feature 1 -->
+        <div class="container feature-container">
+            <div class="section-padding pb-0">
+                <div class="feature-background feature-2">
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <div class="feature-text-wrap">
+                                <div class="title fw-bold">Android 14</div>
+                                <div class="feature-text">Customizable, Accessible, Protective. Complete with the latest personalization, security and privacy features.</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 lg-center">
+                            <img src="img/phone/feature_1.png" alt="feature-1" class="img-fluid feature-image feature-image-1">
                         </div>
                     </div>
                 </div>
