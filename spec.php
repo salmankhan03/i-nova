@@ -54,6 +54,10 @@
                                     <div class="spec-title">Storage</div>
                                     <p>32GB</p>
                                 </div>
+                                <div class="col-md-6">
+                                    <div class="spec-title">External Storage</div>
+                                    <p>microSD Card(Up to **GB)</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -63,18 +67,6 @@
                         <div class="col-md-3">
                             <div class="spec-type">Size and Weight</div>
                         </div>
-                        <!-- <div class="col-md-9">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="spec-title">Memory</div>
-                                    <p>3GB</p>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="spec-title">Storage</div>
-                                    <p>32GB</p>
-                                </div>
-                            </div>
-                        </div> -->
                     </div>
 
                     <hr>
@@ -90,7 +82,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="spec-title">Resolution</div>
-                                    <p>480 x 960 pixel</p>
+                                    <p>480 x 960</p>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="spec-title">Refresh Rate</div>
