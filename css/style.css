@@ -102,7 +102,7 @@ a {
 .underline-link {
     /* color: #444; */
     /* text-decoration: underline; */
-    text-decoration-color: #0c73b2;
+    /* text-decoration-color: #000; */
     text-underline-offset: 5px;
     position: relative;
     /* letter-spacing: 1px; */
@@ -115,12 +115,16 @@ a {
     bottom: -2px;
     width: 0;
     height: 1px;
-    background-color: #0c73b2;
+    background-color: #000;
     transition: width 0.5s ease;
   }
   
   .underline-link:hover::after {
     width: 100%;
+  }
+
+  .underline-link-white::after {
+    background-color: #fff;
   }
 
 /* .underline-link:hover {
@@ -256,7 +260,7 @@ a {
 
 .highlight-text {
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .feature-background {

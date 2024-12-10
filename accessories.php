@@ -110,7 +110,7 @@
                             <!-- <img src="img/accessories/case.jpeg" alt="battery" class="img-fluid accessory-image"> -->
                         </div>
                         <div class="card-body">
-                            <div class="card-title">microSD cards</div>
+                            <div class="card-title">microSD Cards</div>
                             <div class="card-text">Upgrade your phone with reliable microSD cards for extra storage.</div>
                         </div>
                     </div>
