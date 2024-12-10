@@ -31,8 +31,6 @@
                     </div>
                 </div>
 
-                <?php //include './3D-model.php'; ?>
-
                 <div class="row">
                     <div class="col-lg-10 col-md-11">
                         <div class="row">
@@ -83,6 +81,8 @@
                 </div>
             </div>
         </div>
+
+        <?php include './inc/3D-model.php'; ?>
 
         <!-- Features -->
 
@@ -183,7 +183,7 @@
 
         <!-- Feature 1 -->
         <div class="container feature-container">
-            <div class="section-padding pb-0">
+            <div class="section-padding">
                 <div class="feature-background feature-2">
                     <div class="row">
                         <div class="col-lg-7">
@@ -201,7 +201,7 @@
         </div>
 
         <!-- In the Box -->
-        <div class="container">
+        <!-- <div class="container">
             <div class="section-padding">
                 <div class="title text-center pb-4" style="font-weight: 700;">In the Box</div>
                 <img src="img/phone/bg_4.jpg" alt="in the box" class="img-fluid" style="border-radius: 20px">
@@ -211,7 +211,7 @@
                     <div class="col-4"><p>5W USB Charger</p></div>
                 </div>
             </div>
-        </div>
+        </div> -->
         
         <?php include './inc/footer.php'; ?>
         <script>

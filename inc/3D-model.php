@@ -32,13 +32,21 @@
                 align-items: center;
                 cursor: grab;
             }
+            .model-container {
+                overflow: hidden;
+                padding: 0;
+                position: relative;
+                /* border: 5px solid #9684be;
+                border-radius: 20px; */
+            }
         </style>
     </head>
     <body>
-        <div class="container overflow-hidden position-relative p-0">
-            <div id="model-container"></div>
-            <div id="instruction">Click and turn to explore</div>
-        </div>
+            <div class="container model-container">
+                <!-- <div class="title">Take a closer look.</div> -->
+                <div id="model-container"></div>
+                <div id="instruction">Click and turn to explore</div>
+            </div>
 
         <script>
             const scene = new THREE.Scene();
@@ -61,7 +69,7 @@
             // Lights
             const ambientLight = new THREE.AmbientLight(0xffffff, 0.8);
             scene.add(ambientLight);
-            const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
+            const directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
             directionalLight.position.set(5, 10, 7.5);
             scene.add(directionalLight);
 
@@ -99,7 +107,7 @@
             const controls = new THREE.OrbitControls(camera, renderer.domElement);
             // controls.autoRotate = true;
             controls.enableRotate = true;
-            controls.rotateSpeed = 0.4;
+            controls.rotateSpeed = 0.25;
             controls.enableZoom = false;
             controls.enablePan = false;
             controls.screenSpacePanning = false;
