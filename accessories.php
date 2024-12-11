@@ -24,9 +24,17 @@
             .accessory-image{
                 width: 70%;
             }
+            .filter-btn {
+                text-wrap: nowrap;
+            }
             .filter-btn.active {
                 text-decoration: underline;
                 text-underline-offset: 5px;
+            }
+            @media only screen and (max-width: 575px) {
+                .filter-btn {
+                    padding: 10px 5px;
+                }
             }
         </style>
     </head>
