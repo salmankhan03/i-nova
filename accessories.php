@@ -24,6 +24,10 @@
             .accessory-image{
                 width: 70%;
             }
+            .filter-btn.active {
+                text-decoration: underline;
+                text-underline-offset: 5px;
+            }
         </style>
     </head>
     <body>
@@ -44,7 +48,7 @@
             </div>
 
             <div class="row">
-                <div class="col-sm-6 col-lg-4 col-xl-3">
+                <div class="col-sm-6 col-lg-4 col-xl-3 accessory" data-category="power">
                     <div class="card">
                         <div class="accessory-image-container">
                             <!-- <img src="img/accessories/battery.jpeg" alt="battery" class="img-fluid accessory-image"> -->
@@ -56,7 +60,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-6 col-lg-4 col-xl-3">
+                <div class="col-sm-6 col-lg-4 col-xl-3 accessory" data-category="power">
                     <div class="card">
                         <div class="accessory-image-container">
                             <!-- <img src="img/accessories/battery.jpeg" alt="battery" class="img-fluid accessory-image"> -->
@@ -68,7 +72,7 @@
                     </div>
                 </div>
                 
-                <div class="col-sm-6 col-lg-4 col-xl-3">
+                <div class="col-sm-6 col-lg-4 col-xl-3 accessory" data-category="power">
                     <div class="card">
                         <div class="accessory-image-container">
                             <!-- <img src="img/accessories/battery.jpeg" alt="battery" class="img-fluid accessory-image"> -->
@@ -80,7 +84,7 @@
                     </div>
                 </div>
                 
-                <div class="col-sm-6 col-lg-4 col-xl-3">
+                <div class="col-sm-6 col-lg-4 col-xl-3 accessory" data-category="power">
                     <div class="card">
                         <div class="accessory-image-container">
                             <!-- <img src="img/accessories/battery.jpeg" alt="battery" class="img-fluid accessory-image"> -->
@@ -92,7 +96,7 @@
                     </div>
                 </div>
                 
-                <div class="col-sm-6 col-lg-4 col-xl-3">
+                <div class="col-sm-6 col-lg-4 col-xl-3 accessory" data-category="protection">
                     <div class="card">
                         <div class="accessory-image-container">
                             <!-- <img src="img/accessories/case.jpeg" alt="battery" class="img-fluid accessory-image"> -->
@@ -104,7 +108,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-6 col-lg-4 col-xl-3">
+                <div class="col-sm-6 col-lg-4 col-xl-3 accessory"  data-category="storage">
                     <div class="card">
                         <div class="accessory-image-container">
                             <!-- <img src="img/accessories/case.jpeg" alt="battery" class="img-fluid accessory-image"> -->
@@ -123,5 +127,33 @@
         
         <?php include './inc/footer.php'; ?>
 
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const filterButtons = document.querySelectorAll(".filter-btn");
+                const cards = document.querySelectorAll(".accessory");
+
+                filterButtons.forEach(button => {
+                    button.addEventListener("click", () => {
+                        const category = button.getAttribute("data-category");
+
+                        // Remove active class from all buttons
+                        filterButtons.forEach(btn => btn.classList.remove("active"));
+
+                        // Add active class to clicked button
+                        button.classList.add("active");
+
+                        // Show/hide cards based on category
+                        cards.forEach(card => {
+                            if (category === "all" || card.getAttribute("data-category") === category) {
+                                card.style.display = "block";
+                            } else {
+                                card.style.display = "none";
+                            }
+                        });
+                    });
+                });
+            });
+
+        </script>
     </body>
 </html>

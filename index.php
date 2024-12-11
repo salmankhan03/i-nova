@@ -21,18 +21,19 @@
         <div class="container">
             <div class="section-padding pb_md_0">
                 <div class="row">
-                    <div class="position-relative">
-                        <div class="col-xl-9 col-md-8">
-                            <p class="pb-md-5" style="font-size: 18px;">Designed to be practical and accessible, it keeps you connected to what matters most without compromise. </p>
+                    <!-- <div class="position-relative"> -->
+                        <div class="col-lg-8 col-md-10 mx-auto">
+                            <p class="pb-md-5" style="font-size: 18px; text-align:center;">The Northlight smartphone represents INOVA’s commitment to delivering reliable and user-focused
+                            technology. It is designed to be practical and accessible, it keeps you connected to what matters most without compromise. </p>
                         </div>
-                        <div class="col-xl-3 col-md-2 img-1-container">
+                        <!-- <div class="col-xl-3 col-md-2 img-1-container">
                             <img src="img/phone/img_1.png" alt="img-1" class="img-fluid img-1">
-                        </div>
-                    </div>
+                        </div> -->
+                    <!-- </div> -->
                 </div>
 
                 <div class="row">
-                    <div class="col-lg-10 col-md-11">
+                    <div class="col-lg-8 col-md-10 mx-auto">
                         <div class="row">
                             <div class="col-4 col-md-2 col-lg-2 col-xl-2 p-0">
                                 <div class="highlight-wrap">
@@ -155,7 +156,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6 lg-center">
-                            <img src="img/phone/Helio.png" alt="feature-5" class="img-fluid feature-image feature-image-5">
+                            <img src="img/phone/feature_5.png" alt="feature-5" class="img-fluid feature-image feature-image-5">
                         </div>
                     </div>
                 </div>

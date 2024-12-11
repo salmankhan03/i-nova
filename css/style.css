@@ -278,6 +278,7 @@ a {
     width: 0;
     transition: width 1s ease, opacity 1s ease;
     overflow: hidden;
+    border-radius: 25px;
 }
 
 .feature-background.visible {
@@ -350,7 +351,7 @@ a {
 
 .feature-background.visible .feature-image-2 {
     left: 0;
-    bottom: 41px;
+    bottom: 52px;
 }
 
 .feature-background.visible .feature-image-3 {
@@ -364,10 +365,10 @@ a {
 }
 
 .feature-background.visible .feature-image-5 {
-    width: 60%;
-    height: auto;
-    top: 18%;
-    right: -5%;
+    /* width: 60%;
+    height: auto; */
+    top: -5%;
+    right: 0;
 }
 
 .spec {
