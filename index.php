@@ -10,21 +10,20 @@
         <div class="phone-banner-container">
             <img src="img/phone/banner.png" alt="banner" class="phone-banner">
             <div class="container phone-banner-text">
-                <div class="heading" style="font-weight: 400; color: #3f3fa1;">Introducing</div>
-                <div class="heading" style="font-size: 70px; font-style:italic; margin-left: -10px; color: #3f3fa1;">Northlight</div>
+                <div class="introducing">Introducing</div>
+                <div class="northlight">Northlight</div>
                 <!-- <img src="img/phone/northlight.svg" alt="" style="width: 380px; margin-top: 20px;"> -->
-                <div class="home-banner-title" style=" color: #3f3fa1;">Reasonable Access to<br> Unlimited Connectivity</div>
+                <div class="home-banner-title">Reasonable Access to<br> Unlimited Connectivity</div>
             </div>
         </div>
 
         <!-- highlights -->
         <div class="container">
-            <div class="section-padding pb_md_0">
+            <div class="section-padding">
                 <div class="row">
                     <!-- <div class="position-relative"> -->
                         <div class="col-lg-8 col-md-10 mx-auto">
-                            <p class="pb-md-5" style="font-size: 18px; text-align:center;">The Northlight smartphone represents INOVA’s commitment to delivering reliable and user-focused
-                            technology. It is designed to be practical and accessible, it keeps you connected to what matters most without compromise. </p>
+                            <p class="bottom-padding phone-intro">The Northlight smartphone represents INOVA’s commitment to delivering reliable and user-focused technology. It is designed to be practical and accessible, it keeps you connected to what matters most without compromise. </p>
                         </div>
                         <!-- <div class="col-xl-3 col-md-2 img-1-container">
                             <img src="img/phone/img_1.png" alt="img-1" class="img-fluid img-1">
@@ -128,7 +127,7 @@
         <!-- Feature 4 -->
         <div class="container feature-container">
             <div class="section-padding pb-0">
-                <div class="feature-background feature-3" style="overflow: hidden;">
+                <div class="feature-background feature-3 overflow-hidden">
                     <div class="row">
                         <div class="col-xl-5 col-lg-6">
                             <!-- <img src="img/phone/feature_4.png" alt="feature-2" class="img-fluid feature-image feature-image-left feature-image-4"> -->

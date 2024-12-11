@@ -220,6 +220,22 @@ a {
     line-height: 1.2;
 }
 
+.introducing {
+    font-size: 60px;
+    font-weight: 400; 
+    color: #3f3fa1;
+    margin-top: -15px;
+}
+
+.northlight {
+    font-size: 70px;
+    font-weight: 700;
+    font-style:italic;
+    color: #3f3fa1;
+    margin-left: -10px;
+    margin-top: -20px;
+}
+
 .home-banner-title {
     font-size: 32px;
     font-weight: 500;
@@ -227,6 +243,7 @@ a {
     position: absolute;
     bottom: 0;
     right: 12px;
+    color: #3f3fa1;
 }
 
 .section-padding {
@@ -241,6 +258,12 @@ a {
 
 .bottom-padding{
     padding-bottom: 100px;
+}
+
+.phone-intro {
+    font-size: 18px;
+    text-align:center;
+    margin: 0;
 }
 
 /* .img-1-container {
