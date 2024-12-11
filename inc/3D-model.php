@@ -43,7 +43,7 @@
     </head>
     <body>
             <div class="container model-container">
-                <!-- <div class="title">Take a closer look.</div> -->
+                <div class="title">Step into the details.</div>
                 <div id="model-container"></div>
                 <div id="instruction">Click and turn to explore</div>
             </div>

@@ -19,6 +19,12 @@
         top: -15%;
         right: 5%;
     }
+    .feature-text-wrap {
+        padding: 100px 0 100px 50px;
+    }
+    .feature-text-wrap-right {
+        padding: 100px 50px 100px 50px;
+    }
 }
 
 @media only screen and (max-width: 991px) {
@@ -145,6 +151,7 @@
     } */
     .feature-background{
         height: auto;
+        border-radius: 0;
     }
     
     .feature-image {

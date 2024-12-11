@@ -92,10 +92,10 @@
             <div class="section-padding pb-0">
                 <div class="feature-background feature-1">
                     <div class="row">
-                        <div class="col-lg-5">
+                        <div class="col-xl-5 col-lg-6">
                             <img src="img/phone/feature_2.png" alt="feature-2" class="img-fluid feature-image feature-image-left feature-image-2">
                         </div>
-                        <div class="col-lg-7">
+                        <div class="col-xl-7 col-lg-6">
                             <div class="feature-text-wrap feature-text-wrap-right">
                                 <div class="title fw-bold">Expand Your Options</div>
                                 <div class="feature-text">Enjoy the convenience of Dual SIMs with Micro SD card expansion for enhanced connectivity on the go.</div>
@@ -111,14 +111,14 @@
             <div class="section-padding pb-0">
                 <div class="feature-background feature-2">
                     <div class="row">
-                        <div class="col-lg-6">
+                        <div class="col-xl-7 col-lg-6">
                             <div class="feature-text-wrap">
                                 <div class="title fw-bold">Power That Lasts - Stay Connected</div>
                                 <div class="feature-text">Stay powered with removable batteries—swap, recharge, and stay connected anytime.</div>
                             </div>
                         </div>
-                        <div class="col-lg-6 lg-center">
-                            <img src="img/phone/feature_3.png" alt="feature-3" class="img-fluid feature-image feature-image-3">
+                        <div class="col-xl-5 col-lg-6 lg-center">
+                            <!-- <img src="img/phone/feature_3.png" alt="feature-3" class="img-fluid feature-image feature-image-3"> -->
                         </div>
                     </div>
                 </div>
@@ -130,10 +130,10 @@
             <div class="section-padding pb-0">
                 <div class="feature-background feature-3" style="overflow: hidden;">
                     <div class="row">
-                        <div class="col-lg-5">
-                            <img src="img/phone/feature_4.png" alt="feature-2" class="img-fluid feature-image feature-image-left feature-image-4">
+                        <div class="col-xl-5 col-lg-6">
+                            <!-- <img src="img/phone/feature_4.png" alt="feature-2" class="img-fluid feature-image feature-image-left feature-image-4"> -->
                         </div>
-                        <div class="col-lg-7">
+                        <div class="col-xl-7 col-lg-6">
                             <div class="feature-text-wrap feature-text-wrap-right">
                                 <div class="title fw-bold">Universal Connectivity</div>
                                 <div class="feature-text">With USB-C, enjoy rapid charging and universal compatibility, making it easier than ever to keep your Northlight powered up and ready to go.</div>
@@ -149,13 +149,13 @@
             <div class="section-padding pb-0">
                 <div class="feature-background feature-2">
                     <div class="row">
-                        <div class="col-lg-6">
+                        <div class="col-xl-7 col-lg-6">
                             <div class="feature-text-wrap">
                                 <div class="title fw-bold">Efficiency Meets Everyday Power</div>
                                 <div class="feature-text">Powered by the Mediatek Quad-Core processor, built in Taiwan by TSMC, the Northlight delivers smooth, responsive performance for everyday tasks.</div>
                             </div>
                         </div>
-                        <div class="col-lg-6 lg-center">
+                        <div class="col-xl-5 col-lg-6 lg-center">
                             <img src="img/phone/feature_5.png" alt="feature-5" class="img-fluid feature-image feature-image-5">
                         </div>
                     </div>
@@ -168,10 +168,10 @@
             <div class="section-padding pb-0">
                 <div class="feature-background feature-1">
                     <div class="row">
-                        <div class="col-lg-5">
-                            <img src="img/phone/feature_6.png" alt="feature-2" class="img-fluid feature-image feature-image-left feature-image-2">
+                        <div class="col-xl-5 col-lg-6">
+                            <!-- <img src="img/phone/feature_6.png" alt="feature-2" class="img-fluid feature-image feature-image-left feature-image-2"> -->
                         </div>
-                        <div class="col-lg-7">
+                        <div class="col-xl-7 col-lg-6">
                             <div class="feature-text-wrap feature-text-wrap-right">
                                 <div class="title fw-bold">Connecting You to Possibilities</div>
                                 <div class="feature-text">Experience seamless connectivity with 4G and Wi-Fi 5, ensuring fast and reliable access wherever you are.</div>
@@ -187,13 +187,13 @@
             <div class="section-padding">
                 <div class="feature-background feature-2">
                     <div class="row">
-                        <div class="col-lg-7">
+                        <div class="col-xl-7 col-lg-6">
                             <div class="feature-text-wrap">
                                 <div class="title fw-bold">Android 14</div>
                                 <div class="feature-text">Customizable, Accessible, Protective. Complete with the latest personalization, security and privacy features.</div>
                             </div>
                         </div>
-                        <div class="col-lg-5 lg-center">
+                        <div class="col-xl-5 col-lg-6 lg-center">
                             <img src="img/phone/feature_1.png" alt="feature-1" class="img-fluid feature-image feature-image-1">
                         </div>
                     </div>
