@@ -6,7 +6,6 @@
             hr {
                 border-top: 1px solid black;
                 margin: 50px 0 !important;
-                /* max-width: 250px; */
             }
 
             p {
@@ -56,7 +55,7 @@
                                 </div>
                                 <div class="col-6">
                                     <div class="spec-title">External Storage</div>
-                                    <p>microSD Card(Up to **GB)</p>
+                                    <p>microSD Card(Up to 512GB)</p>
                                 </div>
                             </div>
                         </div>

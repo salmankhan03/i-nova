@@ -11,7 +11,7 @@
                 </a>
                 <div class="nav-links">
                     <!-- <div class="sub"> -->
-                        <a href="index.php" class="first-nav underline-link">PHONES</a>
+                        <a href="northlight.php" class="first-nav underline-link">PHONE</a>
                         <!-- <div class="sub-menu">
                             <a href="index.php" class="sub-item">Northlight</a>
                             <div class="sub-item" style="cursor: not-allowed;">Northlight 5G <br>(Coming Soon)</div>

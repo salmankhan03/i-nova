@@ -4,6 +4,12 @@
     }
 } */
 
+@media only screen and (max-width: 1400px) {
+    .feature-background.visible .feature-image-5 {
+        right: 0;
+    }
+}
+
 @media only screen and (max-width: 1199px) {
     .phone-banner-text {
         height: 550px;
@@ -15,9 +21,7 @@
     }
 
     .feature-background.visible .feature-image-3 {
-        /* height: 500px; */
-        top: -15%;
-        right: 5%;
+        right: 0;
     }
     .feature-text-wrap {
         padding: 100px 0 100px 50px;
