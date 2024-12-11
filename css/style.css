@@ -8,6 +8,16 @@ body {
     --bs-body-color: black;
 }
 
+.gx-6 > * {
+    margin-left: -50px; /* Adjust as needed */
+    margin-right: -50px; /* Adjust as needed */
+  }
+  
+  .gx-6 > * > * {
+    padding-left: 50px; /* Adjust as needed */
+    padding-right: 50px; /* Adjust as needed */
+  }
+
 a {
     color: black !important;
     text-decoration: none !important;
@@ -172,7 +182,7 @@ a {
 
 .phone-banner-container {
     position: relative;
-    background-color: black;
+    /* background-color: black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -211,7 +221,7 @@ a {
 }
 
 .home-banner-title {
-    font-size: 35px;
+    font-size: 32px;
     font-weight: 500;
     line-height: 1.2;
     position: absolute;
@@ -226,11 +236,11 @@ a {
 }
 
 .top-padding {
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 .bottom-padding{
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 /* .img-1-container {
@@ -485,4 +495,33 @@ a {
 .accessory-filter {
     margin-bottom: 20px;
     display: flex;
+}
+
+.about-banner-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/phone/banner_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.about-banner2-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/phone/banner_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    border-radius: 25px;
+}
+
+.about-title {
+    font-size: 2rem;
 }
