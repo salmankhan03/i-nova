@@ -112,8 +112,8 @@
                     <div class="row">
                         <div class="col-xl-7 col-lg-6">
                             <div class="feature-text-wrap">
-                                <div class="title fw-bold">Power That Lasts - Stay Connected</div>
-                                <div class="feature-text">Stay powered with removable batteries—swap, recharge, and stay connected anytime.</div>
+                                <div class="title fw-bold">Power That Lasts, <br> Stay Connected</div>
+                                <div class="feature-text">Stay powered with removable batteries — swap, recharge, and stay connected anytime.</div>
                             </div>
                         </div>
                         <div class="col-xl-5 col-lg-6 lg-center">
@@ -130,7 +130,7 @@
                 <div class="feature-background feature-3 overflow-hidden">
                     <div class="row">
                         <div class="col-xl-5 col-lg-6">
-                            <!-- <img src="img/phone/feature_4.png" alt="feature-2" class="img-fluid feature-image feature-image-left feature-image-4"> -->
+                            <img src="img/phone/feature_4.png" alt="feature-2" class="img-fluid feature-image feature-image-left feature-image-4">
                         </div>
                         <div class="col-xl-7 col-lg-6">
                             <div class="feature-text-wrap feature-text-wrap-right">
@@ -150,7 +150,7 @@
                     <div class="row">
                         <div class="col-xl-7 col-lg-6">
                             <div class="feature-text-wrap">
-                                <div class="title fw-bold">Efficiency Meets Everyday Power</div>
+                                <div class="title fw-bold">Built for Efficiency,<br> Powered for Daily Use</div>
                                 <div class="feature-text">Powered by the Mediatek Quad-Core processor, built in Taiwan by TSMC, the Northlight delivers smooth, responsive performance for everyday tasks.</div>
                             </div>
                         </div>
@@ -168,7 +168,7 @@
                 <div class="feature-background feature-1">
                     <div class="row">
                         <div class="col-xl-5 col-lg-6">
-                            <!-- <img src="img/phone/feature_6.png" alt="feature-2" class="img-fluid feature-image feature-image-left feature-image-2"> -->
+                            <img src="img/phone/feature_6.png" alt="feature-6" class="img-fluid feature-image feature-image-left feature-image-6">
                         </div>
                         <div class="col-xl-7 col-lg-6">
                             <div class="feature-text-wrap feature-text-wrap-right">
@@ -188,7 +188,7 @@
                     <div class="row">
                         <div class="col-xl-7 col-lg-6">
                             <div class="feature-text-wrap">
-                                <div class="title fw-bold">Android 14</div>
+                                <div class="title fw-bold">Android 14,<br>Elevate Your Experience</div>
                                 <div class="feature-text">Customizable, Accessible, Protective. Complete with the latest personalization, security and privacy features.</div>
                             </div>
                         </div>

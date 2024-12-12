@@ -402,6 +402,11 @@ a {
     right: 5%;
 }
 
+.feature-background.visible .feature-image-6 {
+    bottom: 0;
+    left: 0;
+}
+
 .spec {
     background-image: url('../img/phone/img_spec.png');
     background-size: cover;
@@ -545,4 +550,26 @@ a {
 
 .about-title {
     font-size: 2rem;
+}
+
+.new-product-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/home/banner_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.learn-more-button {
+    position: absolute;
+    color: white;
+    background-color: #3f3fa1;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 22px;
+    bottom: 50px;
 }
