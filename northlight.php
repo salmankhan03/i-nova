@@ -130,12 +130,12 @@
                 <div class="feature-background feature-3 overflow-hidden">
                     <div class="row">
                         <div class="col-xl-5 col-lg-6">
-                            <img src="img/phone/feature_4.png" alt="feature-2" class="img-fluid feature-image feature-image-left feature-image-4">
+                            <img src="img/phone/feature_5.png" alt="feature-2" class="img-fluid feature-image feature-image-left feature-image-4">
                         </div>
                         <div class="col-xl-7 col-lg-6">
                             <div class="feature-text-wrap feature-text-wrap-right">
-                                <div class="title fw-bold">Universal Connectivity</div>
-                                <div class="feature-text">With USB-C, enjoy rapid charging and universal compatibility, making it easier than ever to keep your Northlight powered up and ready to go.</div>
+                                <div class="title fw-bold">Built for Efficiency,<br> Powered for Daily Use</div>
+                                <div class="feature-text">Powered by the Mediatek Quad-Core processor, built in Taiwan by TSMC, the Northlight delivers smooth, responsive performance for everyday tasks.</div>
                             </div>
                         </div>
                     </div>
@@ -144,18 +144,18 @@
         </div>
 
         <!-- Feature 5 -->
-        <div class="container feature-container">
+        <div class="container feature-container overflow-hidden">
             <div class="section-padding pb-0">
                 <div class="feature-background feature-2">
                     <div class="row">
                         <div class="col-xl-7 col-lg-6">
                             <div class="feature-text-wrap">
-                                <div class="title fw-bold">Built for Efficiency,<br> Powered for Daily Use</div>
-                                <div class="feature-text">Powered by the Mediatek Quad-Core processor, built in Taiwan by TSMC, the Northlight delivers smooth, responsive performance for everyday tasks.</div>
+                                <div class="title fw-bold">Universal Connectivity</div>
+                                <div class="feature-text">With USB-C, enjoy rapid charging and universal compatibility, making it easier than ever to keep your Northlight powered up and ready to go.</div>
                             </div>
                         </div>
                         <div class="col-xl-5 col-lg-6 lg-center">
-                            <img src="img/phone/feature_5.png" alt="feature-5" class="img-fluid feature-image feature-image-5">
+                            <img src="img/phone/feature_4.png" alt="feature-5" class="img-fluid feature-image feature-image-5">
                         </div>
                     </div>
                 </div>

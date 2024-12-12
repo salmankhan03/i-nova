@@ -393,13 +393,17 @@ a {
 }
 
 .feature-background.visible .feature-image-4 {
-    left: 0;
-    bottom: 0px;
+    /* left: 0;
+    bottom: 0px; */
+    top: -5%;
+    left: 5%;
 }
 
 .feature-background.visible .feature-image-5 {
-    top: -5%;
-    right: 5%;
+    /* top: -5%;
+    right: 5%; */
+    bottom: 0;
+    right: 1%;
 }
 
 .feature-background.visible .feature-image-6 {

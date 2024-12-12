@@ -5,8 +5,8 @@
 } */
 
 @media only screen and (max-width: 1400px) {
-    .feature-background.visible .feature-image-5 {
-        right: 0;
+    .feature-background.visible .feature-image-4 {
+        left: 0;
     }
 }
 
@@ -67,7 +67,7 @@
 
     .feature-image {
         position: static;
-        margin-bottom: 100px;
+        /* margin-bottom: 100px; */
     }
 
     .feature-image-left {
