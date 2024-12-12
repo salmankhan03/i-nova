@@ -5,7 +5,7 @@
             <div class="nav-links phone-nav-links">
                 <a href="index.php" class="underline-link underline-link-white">Overview</a>
                 <a href="spec.php" class="underline-link underline-link-white">Specs</a>
-                <!-- <a href="#" class="button">Buy</a> -->
+                <!-- <a href="#" class="buy-button">Buy</a> -->
             </div>
         </nav>
     </div>
