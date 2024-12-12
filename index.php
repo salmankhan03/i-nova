@@ -2,8 +2,14 @@
 <html lang="en">
     <head>
         <?php include './inc/HTMLhead.php'; ?>
+        <style>
+            .row {
+                --bs-gutter-x: 10px;
+                --bs-gutter-y: 10px;
+            }
+        </style>
     </head>
-    <body>
+    <body class="overflow-x-hidden">
         <?php include './inc/header.php'; ?>
         
         <a class="phone-banner-container" href="northlight.php">
@@ -16,12 +22,35 @@
             <button class="learn-more-button">Learn More</button>
         </a>
 
-        <div style="height: 10px;"></div>
+        <div class="white-space"></div>
 
         <div class="new-product-container">
             <!-- <img src="img/phone/banner.png" alt="banner" class="phone-banner"> -->
             <div class="container phone-banner-text">
                 <div class="introducing text-white text-center">Northlight 5G<br>(Coming Soon)</div>
+            </div>
+        </div>
+
+        
+
+        <div class="home-cards">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="home-small-container">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="home-small-container">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="home-small-container">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="home-small-container">
+                    </div>
+                </div>
             </div>
         </div>
         

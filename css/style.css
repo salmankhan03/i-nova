@@ -573,3 +573,14 @@ a {
     border-radius: 22px;
     bottom: 50px;
 }
+
+.white-space {
+    height: 10px;
+}
+.home-cards {
+    padding: 10px;
+}
+.home-small-container {
+    background-color: #ddd;
+    height: 500px;
+}

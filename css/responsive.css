@@ -29,6 +29,9 @@
     .feature-text-wrap-right {
         padding: 100px 50px 100px 50px;
     }
+    .home-banner-title {
+        bottom: 20px;
+    }
 }
 
 @media only screen and (max-width: 991px) {
@@ -91,6 +94,13 @@
         display: flex;
         justify-content: center;
     }
+    .home-banner-title {
+        bottom: 70px;
+    }
+
+    .learn-more-button {
+        bottom: 30px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -135,6 +145,15 @@
     }
     .faq-questions {
         padding: 20px 0;
+    }
+    .home-cards {
+        padding: 10px 0;
+    }
+    .home-banner-title {
+        bottom: 70px;
+    }
+    .learn-more-button {
+        bottom: 30px;
     }
 }
 
@@ -191,5 +210,11 @@
     }
     h3 {
         font-size: 20px;
+    }
+    .home-banner-title {
+        bottom: 50px;
+    }
+    .learn-more-button {
+        bottom: 50px;
     }
 }
