@@ -236,7 +236,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-md-3">
-                            <div class="spec-type">SIM Card</div>
+                            <div class="spec-type">SIM Cards</div>
                         </div>
                         <div class="col-md-9">
                             <div class="row">

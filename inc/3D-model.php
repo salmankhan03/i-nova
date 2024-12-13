@@ -25,7 +25,7 @@
 
             #model-container {
                 width: 100%;
-                height: 600px;
+                height: 900px;
                 margin: auto;
                 display: flex;
                 justify-content: center;
@@ -36,8 +36,7 @@
                 overflow: hidden;
                 padding: 0;
                 position: relative;
-                /* border: 5px solid #9684be;
-                border-radius: 20px; */
+                /* height: 95vh; */
             }
         </style>
     </head>

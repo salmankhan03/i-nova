@@ -48,8 +48,8 @@
 
             <div class="accessory-nav">
                 <div class="accessory-filter">
-                    <div class="filter-btn active ps-0" data-category="all">All Accessories</div>
-                    <div class="filter-btn" data-category="power">Power and Charging</div>
+                    <div class="filter-btn active ps-0" data-category="all">All</div>
+                    <div class="filter-btn" data-category="power">Power</div>
                     <div class="filter-btn text-nowrap" data-category="protection">Protection</div>
                     <div class="filter-btn me-0" data-category="storage">Storage</div>
                 </div>
