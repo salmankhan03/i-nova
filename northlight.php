@@ -96,8 +96,8 @@
                         </div>
                         <div class="col-xl-7 col-lg-6">
                             <div class="feature-text-wrap feature-text-wrap-right">
-                                <div class="title fw-bold">Expand Your Options</div>
-                                <div class="feature-text">Enjoy the convenience of Dual SIMs with Micro SD card expansion for enhanced connectivity on the go.</div>
+                                <div class="title fw-bold">Double SIMs,<br> Extra Space</div>
+                                <div class="feature-text">Enjoy the convenience of Dual SIMs and microSD card expansion, giving you the flexibility to manage two networks and ample storage for your files, photos, and apps.</div>
                             </div>
                         </div>
                     </div>
@@ -113,7 +113,7 @@
                         <div class="col-xl-7 col-lg-6">
                             <div class="feature-text-wrap">
                                 <div class="title fw-bold">Power That Lasts, <br> Stay Connected</div>
-                                <div class="feature-text">Stay powered with removable batteries — swap, recharge, and stay connected anytime.</div>
+                                <div class="feature-text">Stay powered with removable batteries — swap, switch, and stay connected anytime, ensuring you’re always ready for the day ahead without interruptions.</div>
                             </div>
                         </div>
                         <div class="col-xl-5 col-lg-6 lg-center">
@@ -150,7 +150,7 @@
                     <div class="row">
                         <div class="col-xl-7 col-lg-6">
                             <div class="feature-text-wrap">
-                                <div class="title fw-bold">Universal Connectivity</div>
+                                <div class="title fw-bold">Universal Standard,<br> Seamless Connectivity</div>
                                 <div class="feature-text">With USB-C, enjoy rapid charging and universal compatibility, making it easier than ever to keep your Northlight powered up and ready to go.</div>
                             </div>
                         </div>
@@ -173,7 +173,7 @@
                         <div class="col-xl-7 col-lg-6">
                             <div class="feature-text-wrap feature-text-wrap-right">
                                 <div class="title fw-bold">Connecting You to Possibilities</div>
-                                <div class="feature-text">Experience seamless connectivity with 4G and Wi-Fi 5, ensuring fast and reliable access wherever you are.</div>
+                                <div class="feature-text">Experience seamless connectivity with 4G and Wi-Fi 5, ensuring fast and reliable access wherever you are, keeping you connected to what matters most.</div>
                             </div>
                         </div>
                     </div>
@@ -189,7 +189,7 @@
                         <div class="col-xl-7 col-lg-6">
                             <div class="feature-text-wrap">
                                 <div class="title fw-bold">Android 14,<br>Elevate Your Experience</div>
-                                <div class="feature-text">Customizable, Accessible, Protective. Complete with the latest personalization, security and privacy features.</div>
+                                <div class="feature-text">Customizable, Accessible, Protective. Complete with the latest personalization, security, and privacy features, powered by the advanced capabilities of Android 14.</div>
                             </div>
                         </div>
                         <div class="col-xl-5 col-lg-6 lg-center">
