@@ -8,6 +8,9 @@
     .feature-background.visible .feature-image-4 {
         left: 0;
     }
+    /* .title {
+        font-size: 45px;
+    } */
 }
 
 @media only screen and (max-width: 1199px) {
@@ -29,8 +32,11 @@
     .feature-text-wrap-right {
         padding: 100px 50px 100px 50px;
     }
-    .home-banner-title {
+    /* .home-banner-title {
         bottom: 20px;
+    } */
+    .title {
+        font-size: 35px;
     }
 }
 
@@ -51,10 +57,14 @@
     /* .feature-text-wrap {
         padding: 100px 0 100px 80px;
     } */
-    .feature-background.visible .feature-image-1 {
+    /* .feature-background.visible .feature-image-1 {
         top: -20%;
         right: -20px;
     }
+
+    .feature-background.visible .feature-image-3 {
+        top: -50px;
+    } */
 
     /* .spec {
         background-size: 70%;
@@ -70,9 +80,38 @@
         /* margin-bottom: 100px; */
     }
 
-    .feature-image-left {
+    /* .feature-image-left {
         margin-bottom: 0;
         margin-top: 100px;
+    } */
+
+    .feature-image-2 {
+        margin-top: 80px;
+        margin-bottom: 20px;
+    }
+
+    .feature-image-3 {
+        margin-top: -30px;
+        margin-bottom: 20px;
+    }
+
+    .feature-image-4 {
+        margin-top: 20px;
+        margin-bottom: -30px;
+    }
+
+    .feature-image-5 {
+        margin-top: -80px;
+    }
+
+    .feature-image-6 {
+        margin-top: -20px;
+        margin-bottom: -20px;
+    }
+
+    .feature-image-1 {
+        margin-top: 20px;
+        margin-bottom: 60px;
     }
 
     .feature-text-wrap {
@@ -94,13 +133,16 @@
         display: flex;
         justify-content: center;
     }
-    .home-banner-title {
+    /* .home-banner-title {
         bottom: 70px;
-    }
+    } */
 
     .learn-more-button {
         bottom: 30px;
     }
+    /* .title {
+        font-size: 50px;
+    } */
 }
 
 @media only screen and (max-width: 767px) {
@@ -149,9 +191,9 @@
     .home-cards {
         padding: 10px 0;
     }
-    .home-banner-title {
+    /* .home-banner-title {
         bottom: 70px;
-    }
+    } */
     .learn-more-button {
         bottom: 30px;
     }
@@ -211,9 +253,9 @@
     h3 {
         font-size: 20px;
     }
-    .home-banner-title {
+    /* .home-banner-title {
         bottom: 50px;
-    }
+    } */
     .learn-more-button {
         bottom: 50px;
     }

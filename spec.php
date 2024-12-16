@@ -66,6 +66,14 @@
                         <div class="col-md-3">
                             <div class="spec-type">Size and Weight</div>
                         </div>
+                        <div class="col-md-9">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="spec-title">152mm x 74mm x 11.4mm</div>
+                                    <!-- <p></p> -->
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <hr>
@@ -167,7 +175,7 @@
                                 </div>
                                 <div class="col-6">
                                     <div class="spec-title">Audio Jack</div>
-                                    <p>3.5 mm</p>
+                                    <p>3.5mm</p>
                                 </div>
                                 <div class="col-6">
                                     <div class="spec-title">Location</div>
@@ -276,13 +284,13 @@
                                     <div class="spec-title">Northlight</div>
                                 </div>
                                 <div class="col-6">
-                                    <div class="spec-title">Power Adaptor</div>
+                                    <div class="spec-title">Power Adaptor (5W)</div>
                                 </div>
                                 <div class="col-6">
                                     <div class="spec-title">USB-C Charge Cable (1m)</div>
                                 </div>
                                 <div class="col-6">
-                                    <div class="spec-title">3.5 mm Earphone with Mic and Control</div>
+                                    <div class="spec-title">3.5mm Earphones with Mic and Control</div>
                                 </div>
                                 <div class="col-6">
                                     <div class="spec-title">User Manual</div>

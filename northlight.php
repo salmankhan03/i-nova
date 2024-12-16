@@ -96,7 +96,8 @@
                         </div>
                         <div class="col-xl-7 col-lg-6">
                             <div class="feature-text-wrap feature-text-wrap-right">
-                                <div class="title fw-bold">Double SIMs,<br> Extra Space</div>
+                                <!-- <div class="title fw-bold">Double SIMs,<br> Extra Space</div> -->
+                                <div class="title fw-bold">Expand Your Options</div>
                                 <div class="feature-text">Enjoy the convenience of Dual SIMs and microSD card expansion, giving you the flexibility to manage two networks and ample storage for your files, photos, and apps.</div>
                             </div>
                         </div>
@@ -129,7 +130,7 @@
             <div class="section-padding pb-0">
                 <div class="feature-background feature-3 overflow-hidden">
                     <div class="row">
-                        <div class="col-xl-5 col-lg-6">
+                        <div class="col-xl-5 col-lg-6 lg-center">
                             <img src="img/phone/feature_5.png" alt="feature-2" class="img-fluid feature-image feature-image-left feature-image-4">
                         </div>
                         <div class="col-xl-7 col-lg-6">
@@ -221,13 +222,14 @@
 
                 // Get the container’s position and the viewport width
                 const containerOffsetLeft = bootstrapContainer.getBoundingClientRect().left;
-                const containerOffsetRight = window.innerWidth - bootstrapContainer.getBoundingClientRect().right;
+                //const containerOffsetRight = window.innerWidth - bootstrapContainer.getBoundingClientRect().right;
 
                 featureBackgrounds.forEach((featureBackground) => {
                     // Set background position to align the background image with both edges of the container
                     featureBackground.style.backgroundPosition = `calc(${containerOffsetLeft}px + var(--bs-gutter-x) * 0.5 - 20px) center`;
                     if (window.innerWidth < 991) {
-                        featureBackground.style.backgroundSize = `calc(100% - ${containerOffsetLeft + containerOffsetRight}px - var(--bs-gutter-x) * 0.5) auto`;
+                        //featureBackground.style.backgroundSize = `calc(100% - ${containerOffsetLeft + containerOffsetRight}px - var(--bs-gutter-x) * 0.5) auto`;
+                        featureBackground.style.backgroundSize = `80%`;
                     } else {
                         featureBackground.style.backgroundSize = `40%`;
                     }

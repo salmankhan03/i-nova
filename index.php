@@ -7,6 +7,24 @@
                 --bs-gutter-x: 10px;
                 --bs-gutter-y: 10px;
             }
+
+            @media only screen and (max-width: 1199px) {
+                .home-banner-title {
+                    bottom: 20px;
+                }
+            }
+
+            @media only screen and (max-width: 991px) {
+                .home-banner-title {
+                    bottom: 70px;
+                }
+            }
+
+            @media only screen and (max-width: 575px) {
+                .home-banner-title {
+                    bottom: 50px;
+                }
+            }
         </style>
     </head>
     <body class="overflow-x-hidden">
@@ -43,14 +61,14 @@
                     <div class="home-small-container">
                     </div>
                 </div>
-                <div class="col-md-6">
+                <!-- <div class="col-md-6">
                     <div class="home-small-container">
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="home-small-container">
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
         

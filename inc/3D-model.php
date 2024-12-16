@@ -25,7 +25,7 @@
 
             #model-container {
                 width: 100%;
-                height: 900px;
+                height: 600px;
                 margin: auto;
                 display: flex;
                 justify-content: center;
@@ -36,7 +36,6 @@
                 overflow: hidden;
                 padding: 0;
                 position: relative;
-                /* height: 95vh; */
             }
         </style>
     </head>
@@ -106,7 +105,7 @@
             const controls = new THREE.OrbitControls(camera, renderer.domElement);
             // controls.autoRotate = true;
             controls.enableRotate = true;
-            controls.rotateSpeed = 0.25;
+            controls.rotateSpeed = 0.3;
             controls.enableZoom = false;
             controls.enablePan = false;
             controls.screenSpacePanning = false;

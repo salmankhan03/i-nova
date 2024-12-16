@@ -8,16 +8,6 @@ body {
     --bs-body-color: black;
 }
 
-.gx-6 > * {
-    margin-left: -50px; /* Adjust as needed */
-    margin-right: -50px; /* Adjust as needed */
-  }
-  
-  .gx-6 > * > * {
-    padding-left: 50px; /* Adjust as needed */
-    padding-right: 50px; /* Adjust as needed */
-  }
-
 a {
     color: black !important;
     text-decoration: none !important;
