@@ -86,13 +86,13 @@
 
         <!-- Features -->
 
-        <!-- Feature 2 -->
+        <!-- Feature 1 -->
         <div class="container feature-container">
             <div class="section-padding pb-0">
-                <div class="feature-background feature-1">
+                <div class="feature-background feature-background-1">
                     <div class="row">
                         <div class="col-xl-5 col-lg-6">
-                            <img src="img/phone/feature_2.png" alt="feature-2" class="img-fluid feature-image feature-image-left feature-image-2">
+                            <img src="img/phone/feature_1.png" alt="feature-1" class="img-fluid feature-image feature-image-left feature-image-1">
                         </div>
                         <div class="col-xl-7 col-lg-6">
                             <div class="feature-text-wrap feature-text-wrap-right">
@@ -106,10 +106,10 @@
             </div>
         </div>
 
-        <!-- Feature 3 -->
+        <!-- Feature 2 -->
         <div class="container feature-container">
             <div class="section-padding pb-0">
-                <div class="feature-background feature-2">
+                <div class="feature-background feature-background-2">
                     <div class="row">
                         <div class="col-xl-7 col-lg-6">
                             <div class="feature-text-wrap">
@@ -118,20 +118,20 @@
                             </div>
                         </div>
                         <div class="col-xl-5 col-lg-6 lg-center">
-                            <img src="img/phone/feature_3.png" alt="feature-3" class="img-fluid feature-image feature-image-3">
+                            <img src="img/phone/feature_2.png" alt="feature-2" class="img-fluid feature-image feature-image-2">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Feature 4 -->
+        <!-- Feature 3 -->
         <div class="container feature-container">
             <div class="section-padding pb-0">
-                <div class="feature-background feature-3 overflow-hidden">
+                <div class="feature-background feature-background-3">
                     <div class="row">
                         <div class="col-xl-5 col-lg-6 lg-center">
-                            <img src="img/phone/feature_5.png" alt="feature-2" class="img-fluid feature-image feature-image-left feature-image-4">
+                            <img src="img/phone/feature_3.png" alt="feature-3" class="img-fluid feature-image feature-image-left feature-image-3">
                         </div>
                         <div class="col-xl-7 col-lg-6">
                             <div class="feature-text-wrap feature-text-wrap-right">
@@ -144,10 +144,10 @@
             </div>
         </div>
 
-        <!-- Feature 5 -->
+        <!-- Feature 4 -->
         <div class="container feature-container overflow-hidden">
             <div class="section-padding pb-0">
-                <div class="feature-background feature-2">
+                <div class="feature-background feature-background-2">
                     <div class="row">
                         <div class="col-xl-7 col-lg-6">
                             <div class="feature-text-wrap">
@@ -156,20 +156,20 @@
                             </div>
                         </div>
                         <div class="col-xl-5 col-lg-6 lg-center">
-                            <img src="img/phone/feature_4.png" alt="feature-5" class="img-fluid feature-image feature-image-5">
+                            <img src="img/phone/feature_4.png" alt="feature-4" class="img-fluid feature-image feature-image-4">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Feature 6 -->
+        <!-- Feature 5 -->
         <div class="container feature-container">
             <div class="section-padding pb-0">
-                <div class="feature-background feature-1">
+                <div class="feature-background feature-background-1">
                     <div class="row">
                         <div class="col-xl-5 col-lg-6">
-                            <img src="img/phone/feature_6.png" alt="feature-6" class="img-fluid feature-image feature-image-left feature-image-6">
+                            <img src="img/phone/feature_5.png" alt="feature-5" class="img-fluid feature-image feature-image-left feature-image-5">
                         </div>
                         <div class="col-xl-7 col-lg-6">
                             <div class="feature-text-wrap feature-text-wrap-right">
@@ -182,10 +182,10 @@
             </div>
         </div>
 
-        <!-- Feature 1 -->
+        <!-- Feature 6 -->
         <div class="container feature-container">
             <div class="section-padding">
-                <div class="feature-background feature-2">
+                <div class="feature-background feature-background-2">
                     <div class="row">
                         <div class="col-xl-7 col-lg-6">
                             <div class="feature-text-wrap">
@@ -194,7 +194,7 @@
                             </div>
                         </div>
                         <div class="col-xl-5 col-lg-6 lg-center">
-                            <img src="img/phone/feature_1.png" alt="feature-1" class="img-fluid feature-image feature-image-1">
+                            <img src="img/phone/feature_6.png" alt="feature-6" class="img-fluid feature-image feature-image-6">
                         </div>
                     </div>
                 </div>

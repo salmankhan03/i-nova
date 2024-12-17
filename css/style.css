@@ -314,17 +314,17 @@ a {
     width: calc(100% + var(--bs-gutter-x));
 }
 
-.feature-1 {
+.feature-background-1 {
     background-color: #2a2e7c;
     background-image: url('../img/phone/bg_1.png');
 }
 
-.feature-2 {
+.feature-background-2 {
     background-color: #797cdc;
     background-image: url('../img/phone/bg_2.png');
 }
 
-.feature-3 {
+.feature-background-3 {
     background-color: #3f3fa1;
     background-image: url('../img/phone/bg_3.png');
 }
@@ -367,36 +367,36 @@ a {
     transform: translateY(0); /* Slide to the final position */
 }
 
-.feature-background.visible .feature-image-1 {
+.feature-background.visible .feature-image-6 {
     top: -25%;
     right: 5%;
 }
 
-.feature-background.visible .feature-image-2 {
+.feature-background.visible .feature-image-1 {
     left: 0;
     bottom: 52px;
 }
 
-.feature-background.visible .feature-image-3 {
+.feature-background.visible .feature-image-2 {
     top: -5%;
     right: 5%;
 }
 
-.feature-background.visible .feature-image-4 {
+.feature-background.visible .feature-image-3 {
     /* left: 0;
     bottom: 0px; */
     top: -5%;
     left: 5%;
 }
 
-.feature-background.visible .feature-image-5 {
+.feature-background.visible .feature-image-4 {
     /* top: -5%;
     right: 5%; */
     bottom: 0;
     right: 1%;
 }
 
-.feature-background.visible .feature-image-6 {
+.feature-background.visible .feature-image-5 {
     bottom: 0;
     left: 0;
 }
