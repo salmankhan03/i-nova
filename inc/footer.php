@@ -39,10 +39,10 @@
                         <img src="img/logo/inova_logo_silver.svg" alt="logo" class="logo">
                     </a>
                     <div class="nav-links nav-links-white">
-                        <a href="northlight.php" class="first-nav">PHONE</a>
-                        <a href="support.php" class="first-nav">SUPPORT</a>
-                        <a href="about.php" class="first-nav">ABOUT</a>
-                        <a href="contact.php" class="first-nav">CONTACT</a>
+                        <a href="northlight.php" class="first-nav underline-link">PHONE</a>
+                        <a href="accessories.php" class="first-nav underline-link">ACCESSORIES</a>
+                        <a href="support.php" class="first-nav underline-link">SUPPORT</a>
+                        <a href="about.php" class="first-nav underline-link">ABOUT</a>
                     </div>
                 </nav>
                 <div class="horizontal-line"></div>

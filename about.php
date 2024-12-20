@@ -24,14 +24,14 @@
                 </div>
             </div>
 
-            <div class="row gx-5" style="margin-top: 100px;">
+            <div class="row gx-5 text-center" style="margin-top: 100px;">
                 <div class="col-md-6">
-                    <div class="about-title">OUR MISSION</div>
+                    <div class="about-title mission-vision">OUR <strong>MISSION</strong></div>
                     <p>Our mission is to deliver affordable, high-quality tech solutions that empower communities to come together through our innovative products.</p>
                 </div>
 
                 <div class="col-md-6">
-                    <div class="about-title">OUR VISION</div>
+                    <div class="about-title mission-vision">OUR <strong>VISION</strong></div>
                     <p>Our vision is to create a world where innovative, accessible technology enables everyone to seamlessly stay connected no matter where they are.</p>
                 </div>
             </div>

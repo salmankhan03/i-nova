@@ -40,11 +40,11 @@
         </style>
     </head>
     <body>
-            <div class="container model-container">
-                <div class="title" style="padding-left: 10px;">Step into the details.</div>
-                <div id="model-container"></div>
-                <div id="instruction">Click and turn to explore</div>
-            </div>
+        <div class="container model-container">
+            <div class="title" style="padding-left: 10px;">Step into the details.</div>
+            <div id="model-container"></div>
+            <div id="instruction">Click and turn to explore</div>
+        </div>
 
         <script>
             const scene = new THREE.Scene();
@@ -70,6 +70,9 @@
             const directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
             directionalLight.position.set(5, 10, 7.5);
             scene.add(directionalLight);
+            const backDirectionalLight = new THREE.DirectionalLight(0xffffff, 0.3);
+            backDirectionalLight.position.set(5, 10, -7.5);
+            scene.add(backDirectionalLight);
 
             // Load the model
             const loader = new THREE.GLTFLoader();
@@ -114,6 +117,7 @@
 
             window.addEventListener('mouseup', () => {
                 controls.dispatchEvent({ type: 'end' });
+                controls.mouseUpHandler();
             });
 
             // Render loop
