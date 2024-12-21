@@ -378,8 +378,9 @@ a {
 }
 
 .feature-background.visible .feature-image-2 {
-    top: -5%;
-    right: 5%;
+    top: -170px;
+    right: 0;
+    height: 650px;
 }
 
 .feature-background.visible .feature-image-3 {
