@@ -18,8 +18,8 @@
 
             <div class="about-banner2-container">
                 <div class="row">
-                        <div class="col-12 col-md-6" style="padding-left: 50px;">
-                            <div class="about-title">We are committed to maximize value. That includes powerful technology, durability, and support at a great price.</div>
+                        <div class="col-12 col-md-7" style="padding-left: 50px;">
+                            <div class="about-title">We are committed to maximizing value, which includes powerful technology, durability, sustainability, and support at a great price.</div>
                         </div>
                 </div>
             </div>

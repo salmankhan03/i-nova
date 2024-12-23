@@ -331,7 +331,7 @@ a {
 
 .feature-text-wrap {
     width: 100%;
-    padding: 100px 0 100px 100px;
+    padding: 100px 50px 100px 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -368,7 +368,7 @@ a {
 }
 
 .feature-background.visible .feature-image-6 {
-    top: -25%;
+    top: -20%;
     right: 5%;
 }
 
@@ -378,23 +378,20 @@ a {
 }
 
 .feature-background.visible .feature-image-2 {
-    top: -170px;
+    top: -160px;
     right: 0;
     height: 650px;
 }
 
 .feature-background.visible .feature-image-3 {
-    /* left: 0;
-    bottom: 0px; */
-    top: -5%;
-    left: 5%;
+    height: 650px;
+    top: -135px;
+    left: 0;
 }
 
 .feature-background.visible .feature-image-4 {
-    /* top: -5%;
-    right: 5%; */
     bottom: 0;
-    right: 1%;
+    right: 5%;
 }
 
 .feature-background.visible .feature-image-5 {
@@ -403,7 +400,7 @@ a {
 }
 
 .spec {
-    background-image: url('../img/phone/img_spec.png');
+    background-image: url('../img/spec/img_spec.png');
     background-size: cover;
     background-position: center right;
     background-repeat: no-repeat;
