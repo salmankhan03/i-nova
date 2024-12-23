@@ -64,14 +64,14 @@
                     <hr>
                     <div class="row">
                         <div class="col-md-3">
-                            <div class="spec-type">Size and Weight</div>
+                            <div class="spec-type">Technical Details</div>
                         </div>
                         <div class="col-md-9">
                             <div class="row">
                                 <div class="col-12">
                                     <!-- <div class="spec-title">152mm x 74mm x 11.4mm</div> -->
                                     <!-- <p></p> -->
-                                    <img src="img/spec/spec_size_drawing.png" alt="" class="img-fluid">
+                                    <img src="img/spec/spec_size_drawing.png" alt="" class="img-fluid" style="max-height: 670px;">
                                 </div>
                             </div>
                         </div>

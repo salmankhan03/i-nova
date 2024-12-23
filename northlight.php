@@ -152,7 +152,7 @@
                         <div class="col-xl-7 col-lg-6">
                             <div class="feature-text-wrap">
                                 <div class="title fw-bold">Universal Connectivity</div>
-                                <div class="feature-text">With USB-C, enjoy rapid charging and universal compatibility, making it easier than ever to keep your Northlight powered up and ready to go.</div>
+                                <div class="feature-text">With USB-C, enjoy universal compatibility, making it easier than ever to keep your Northlight powered up, reliably connected, and always ready to go.</div>
                             </div>
                         </div>
                         <div class="col-xl-5 col-lg-6 lg-center">
