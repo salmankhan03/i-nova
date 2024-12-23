@@ -19,7 +19,7 @@
 
         <!-- highlights -->
         <div class="container">
-            <div class="section-padding">
+            <div class="section-padding pb-0">
                 <div class="row">
                     <!-- <div class="position-relative"> -->
                         <div class="col-lg-8 col-md-10 mx-auto">

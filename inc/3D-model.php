@@ -10,7 +10,7 @@
         <style>
             #instruction {
                 position: absolute;
-                top: 50%;
+                top: 60%;
                 left: 50%;
                 transform: translate(-50%, -50%);
                 background-color: rgba(0, 0, 0, 0.5);
@@ -24,7 +24,7 @@
             }
 
             #model-container {
-                width: 100%;
+                width: 70%;
                 height: 600px;
                 margin: auto;
                 display: flex;
@@ -37,13 +37,23 @@
                 padding: 0;
                 position: relative;
             }
+            @media only screen and (max-width: 767px) {
+                .model {
+                    display: none;
+                }
+            }
         </style>
     </head>
     <body>
         <div class="container model-container">
-            <div class="title" style="padding-left: 10px;">Step into the details.</div>
-            <div id="model-container"></div>
-            <div id="instruction">Click and turn to explore</div>
+            <div class="model">
+                <div class="title" style="padding: 100px 0 0 10px;">Step into the details.</div>
+                <div id="model-container"></div>
+                <div id="instruction">Click and turn to explore</div>
+            </div>
+            <div class="image d-md-none">
+                <img src="img/phone/img_1.png" alt="" class="img-fluid" style="padding-top: 100px;">
+            </div>
         </div>
 
         <script>
@@ -108,17 +118,29 @@
             const controls = new THREE.OrbitControls(camera, renderer.domElement);
             // controls.autoRotate = true;
             controls.enableRotate = true;
-            controls.rotateSpeed = 0.3;
+            controls.rotateSpeed = 0.25;
             controls.enableZoom = false;
             controls.enablePan = false;
             controls.screenSpacePanning = false;
             controls.enableDamping = true;
             controls.dampingFactor = 0.05;
 
-            window.addEventListener('mouseup', () => {
+            // window.addEventListener('mouseup', () => {
+            //     controls.dispatchEvent({ type: 'end' });
+            //     controls.mouseUpHandler();
+            // });
+            const resetDraggingState = () => {
                 controls.dispatchEvent({ type: 'end' });
-                controls.mouseUpHandler();
-            });
+
+                if (controls.state !== -1) {
+                    controls.state = -1;
+                }
+            };
+
+            // Add both mouseup and pointerup listeners to cover all cases
+            window.addEventListener('mouseup', resetDraggingState);
+            window.addEventListener('pointerup', resetDraggingState);
+            
 
             // Render loop
             function animate() {
