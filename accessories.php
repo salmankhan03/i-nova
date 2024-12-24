@@ -22,7 +22,7 @@
                 align-items: center;
             }
             .accessory-image{
-                width: 70%;
+                width: 100%;
             }
             .filter-btn {
                 text-wrap: nowrap;
@@ -59,7 +59,7 @@
                 <div class="col-sm-6 col-lg-4 col-xl-3 accessory" data-category="power">
                     <div class="card">
                         <div class="accessory-image-container">
-                            <!-- <img src="img/accessories/battery.jpeg" alt="battery" class="img-fluid accessory-image"> -->
+                            <img src="img/accessories/battery.jpg" alt="battery" class="img-fluid accessory-image">
                         </div>
                         <div class="card-body">
                             <div class="card-title">Battery</div>
@@ -71,7 +71,7 @@
                 <div class="col-sm-6 col-lg-4 col-xl-3 accessory" data-category="power">
                     <div class="card">
                         <div class="accessory-image-container">
-                            <!-- <img src="img/accessories/battery.jpeg" alt="battery" class="img-fluid accessory-image"> -->
+                            <img src="img/accessories/battery_charger.jpg" alt="battery" class="img-fluid accessory-image">
                         </div>
                         <div class="card-body">
                             <div class="card-title">Battery Charger</div>
@@ -83,7 +83,7 @@
                 <div class="col-sm-6 col-lg-4 col-xl-3 accessory" data-category="power">
                     <div class="card">
                         <div class="accessory-image-container">
-                            <!-- <img src="img/accessories/battery.jpeg" alt="battery" class="img-fluid accessory-image"> -->
+                            <img src="img/accessories/USB-C_cable.jpg" alt="battery" class="img-fluid accessory-image">
                         </div>
                         <div class="card-body">
                             <div class="card-title">USB-C Cable</div>
@@ -95,7 +95,7 @@
                 <div class="col-sm-6 col-lg-4 col-xl-3 accessory" data-category="power">
                     <div class="card">
                         <div class="accessory-image-container">
-                            <!-- <img src="img/accessories/battery.jpeg" alt="battery" class="img-fluid accessory-image"> -->
+                            <img src="img/accessories/power_adapter.jpg" alt="battery" class="img-fluid accessory-image">
                         </div>
                         <div class="card-body">
                             <div class="card-title">Power Adapter</div>
@@ -107,7 +107,7 @@
                 <div class="col-sm-6 col-lg-4 col-xl-3 accessory" data-category="protection">
                     <div class="card">
                         <div class="accessory-image-container">
-                            <!-- <img src="img/accessories/case.jpeg" alt="battery" class="img-fluid accessory-image"> -->
+                            <img src="img/accessories/phone_case.jpg" alt="battery" class="img-fluid accessory-image">
                         </div>
                         <div class="card-body">
                             <div class="card-title">Phone Case</div>
@@ -119,7 +119,7 @@
                 <div class="col-sm-6 col-lg-4 col-xl-3 accessory"  data-category="storage">
                     <div class="card">
                         <div class="accessory-image-container">
-                            <!-- <img src="img/accessories/case.jpeg" alt="battery" class="img-fluid accessory-image"> -->
+                            <img src="img/accessories/microSD_card.jpg" alt="battery" class="img-fluid accessory-image">
                         </div>
                         <div class="card-body">
                             <div class="card-title">microSD Card</div>
