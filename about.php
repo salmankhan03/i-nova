@@ -14,12 +14,12 @@
         </div>
 
         <div class="container section-padding">
-            <div class="about-title text-center bottom-padding">INOVA was born from the idea that technology should be accessible and bring people closer. Our journey is guided by a commitment to affordability and community support, as we strive to create products that empower our users and foster connections between users and their communities.</div>
+            <div class="text-center bottom-padding" style="font-size: 30px;">INOVA was born from the idea that technology should be accessible and bring people closer. Our journey is guided by a commitment to affordability and community support, as we strive to create products that empower our users and foster connections between users and their communities.</div>
 
             <div class="about-banner2-container">
                 <div class="row">
                         <div class="col-12 col-md-7" style="padding-left: 50px;">
-                            <div class="about-title">We are committed to maximizing value, which includes powerful technology, durability, sustainability, and support at a great price.</div>
+                            <div style="font-size: 28px;">We are committed to maximizing value, which includes powerful technology, durability, sustainability, and support at a great price.</div>
                         </div>
                 </div>
             </div>

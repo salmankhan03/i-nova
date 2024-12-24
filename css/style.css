@@ -395,7 +395,7 @@ a {
 }
 
 .feature-background.visible .feature-image-5 {
-    bottom: 0;
+    bottom: -25px;
     left: 0;
 }
 
@@ -559,8 +559,8 @@ a {
     transform: translateX(-50%);
     bottom: -15px;
     width: 50px;
-    height: 4px; /* Adjust thickness */
-    background-color: #3c2172; /* Adjust color */
+    height: 4px;
+    background-color: #647cb6;
     border-radius: 4px;
     margin: 5px 0;
 }

@@ -24,6 +24,10 @@
     .feature-background.visible .feature-image-4 {
         right: 20px;
     }
+    .feature-background.visible .feature-image-5 {
+        height: 480px;
+        bottom: 10px;
+    }
     .feature-text-wrap {
         padding: 100px 50px 100px 50px;
     }
