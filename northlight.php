@@ -8,12 +8,12 @@
         <?php include './inc/phone-nav.php'; ?>
 
         <div class="phone-banner-container">
-            <img src="img/phone/banner.png" alt="banner" class="phone-banner">
+            <!-- <img src="img/phone/banner.png" alt="banner" class="phone-banner"> -->
             <div class="container phone-banner-text">
-                <div class="introducing">Introducing</div>
-                <div class="northlight">Northlight</div>
+                <!-- <div class="introducing">Introducing</div>
+                <div class="northlight">Northlight</div> -->
                 <!-- <img src="img/phone/northlight.svg" alt="" style="width: 380px; margin-top: 20px;"> -->
-                <div class="home-banner-title">Reasonable Access to<br> Unlimited Connectivity</div>
+                <!-- <div class="home-banner-title">Reasonable Access to<br> Unlimited Connectivity</div> -->
             </div>
         </div>
 
@@ -251,7 +251,7 @@
 
                 const aspectRatio = bannerContainer.offsetWidth / bannerContainer.offsetHeight;
 
-                const zoomLevel = 100 + (scrollPosition * 0.04); // Adjust this value to control zoom speed
+                const zoomLevel = 100 + (scrollPosition * 0.01); // Adjust this value to control zoom speed
 
                 if (aspectRatio < (16 / 9)) {
                     // If the aspect ratio is smaller than 16:9, use "auto" for width and zoom the height
