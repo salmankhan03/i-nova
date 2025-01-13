@@ -27,10 +27,10 @@
             }
         </style>
     </head>
-    <body class="overflow-x-hidden">
+    <body>
         <?php include './inc/header.php'; ?>
         
-        <a class="phone-banner-container" href="northlight.php">
+        <a class="phone-banner-container" href="northlight.php" style="background-image: url(img/home/banner_bg_2.jpg);">
             <img src="img/phone/banner.png" alt="banner" class="phone-banner">
             <div class="container phone-banner-text">
                 <div class="introducing">Introducing</div>

@@ -15,7 +15,7 @@
                 background-color: white;
                 color: black;
                 padding: 10px 18px;
-                border: 1px solid black;
+                border: 1px solid #232323;
                 border-radius: 5px;
                 font-size: 18px;
                 cursor: pointer;
@@ -24,14 +24,14 @@
 
             #scrollToTopBtn:hover {
                 color: white;
-                background-color: black;
+                background-color: #232323;
                 border: 1px solid white;
             }
 
         </style>
     </head>
     <body>
-        <div class="bg-black">
+        <div style="background-color: #232323;">
             <div class="container">
                 <nav class="nav" style="height: 100px;">
                     <a class="logo-container" href="index.php">

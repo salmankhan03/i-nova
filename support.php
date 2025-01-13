@@ -25,7 +25,7 @@
         <?php include './inc/header.php'; ?>
 
         <div class="container">
-            <div class="section-padding">
+            <div class="section-padding-sm bottom-padding">
                 <div class="row">
                     <div class="col-xl-8 col-lg-10 mx-auto">
                         <div class="text-center">
