@@ -1,9 +1,30 @@
 <!DOCTYPE html>
-<html lang="en" class="overflow-x-hidden">
+<html lang="en">
     <head>
         <?php include './inc/HTMLhead.php'; ?>
+        <style>
+            #phone-nav-container {
+                background-color: #232323;
+                position: fixed;
+                top: 0;
+                width: 100%;
+                z-index: 999;
+                visibility: hidden;
+                transition: transform 0.4s ease-in-out, visibility 0.4s ease-in-out;
+            }
+
+            #phone-nav-container.hidden {
+                transform: translateY(-100%);
+                visibility: hidden;
+            }
+
+            #phone-nav-container.visible {
+                transform: translateY(0);
+                visibility: visible;
+            }
+        </style>
     </head>
-    <body class="overflow-x-hidden">
+    <body>
         <?php include './inc/header.php'; ?>
         <?php include './inc/phone-nav.php'; ?>
 
@@ -264,6 +285,21 @@
 
             window.addEventListener('scroll', zoomInBanner);
             window.addEventListener('resize', zoomInBanner);
+        </script>
+
+        <script>
+            document.addEventListener("scroll", () => {
+                const navbar = document.getElementById("phone-nav-container");
+                const scrollPosition = window.scrollY || document.documentElement.scrollTop;
+
+                if (scrollPosition > 700) {
+                    navbar.classList.remove("hidden");
+                    navbar.classList.add("visible");
+                } else {
+                    navbar.classList.remove("visible");
+                    navbar.classList.add("hidden");
+                }
+            });
         </script>
     </body>
 </html>

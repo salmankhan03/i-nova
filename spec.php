@@ -21,17 +21,28 @@
             .row {
                 --bs-gutter-y: 24px;
             }
+            #phone-nav-container {
+                background-color: #232323;
+                position: relative;
+                width: 100%;
+                z-index: 999;
+                transition: top 0.3s ease-in-out;
+            }
+            #phone-nav-container.fixed {
+                position: fixed;
+                top: 0;
+                left: 0;
+            }
         </style>
     </head>
     <body>
         <?php include './inc/header.php'; ?>
         <?php include './inc/phone-nav.php'; ?>
-        <?php //include './inc/3D-model.php'; ?>
 
         <!-- Specification -->
         <div class="spec">
             <div class="container">
-                <div class="section-padding top-padding">
+                <div class="section-padding-sm">
                     <div class="row">
                         <div class="col-6 col-md-4">
                             <div class="title">Specifications</div>
@@ -308,5 +319,21 @@
         </div>
         
         <?php include './inc/footer.php'; ?>
+
+        <script>
+            document.addEventListener("scroll", () => {
+                const navbar = document.getElementById("phone-nav-container");
+                const spec = document.querySelector(".spec");
+                const scrollPosition = window.scrollY || document.documentElement.scrollTop;
+
+                if (scrollPosition > 50) {
+                    navbar.classList.add("fixed");
+                    spec.style.paddingTop = "50px";
+                } else {
+                    navbar.classList.remove("fixed");
+                    spec.style.paddingTop = "0px";
+                }
+            });
+        </script>
     </body>
 </html>

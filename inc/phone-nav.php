@@ -1,4 +1,4 @@
-<div style="background-color: #232323;">
+<div id="phone-nav-container">
     <div class="container">
         <nav class="phone-nav">
             <a href="northlight.php" class="phone-nav-heading">Northlight</a href="index.php">

@@ -6,7 +6,7 @@
                 display: none;
             }
 
-            @media screen and (min-width: 600px) {
+            @media screen and (min-width: 576px) {
                 .desktop-nav {
                     display: block;
                 }

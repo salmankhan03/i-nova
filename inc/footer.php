@@ -3,9 +3,8 @@
     <head>
         <style>
             .horizontal-line {
-                border-top: 1px solid #565656; /* Line thickness and color */
-                width: 100%; /* Full width of the container */
-                margin-bottom: 20px; /* Optional vertical spacing */
+                border-top: 1px solid #565656;
+                width: 100%;
             }
 
             #scrollToTopBtn {
