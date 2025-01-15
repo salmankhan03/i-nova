@@ -22,20 +22,38 @@
                 transform: translateY(0);
                 visibility: visible;
             }
+            
+            .video-container {
+                position: relative;
+                width: 100%;
+                padding-bottom: 56.25%;
+                height: 0;
+                overflow: hidden;
+            }
         </style>
     </head>
     <body>
         <?php include './inc/header.php'; ?>
         <?php include './inc/phone-nav.php'; ?>
 
-        <div class="phone-banner-container">
-            <!-- <img src="img/phone/banner.png" alt="banner" class="phone-banner"> -->
+        <!-- <div class="phone-banner-container">
+            <img src="img/phone/banner.png" alt="banner" class="phone-banner">
             <div class="container phone-banner-text">
-                <!-- <div class="introducing">Introducing</div>
-                <div class="northlight">Northlight</div> -->
-                <!-- <img src="img/phone/northlight.svg" alt="" style="width: 380px; margin-top: 20px;"> -->
-                <!-- <div class="home-banner-title">Reasonable Access to<br> Unlimited Connectivity</div> -->
+                <div class="introducing">Introducing</div>
+                <div class="northlight">Northlight</div>
+                <img src="img/phone/northlight.svg" alt="" style="width: 380px; margin-top: 20px;">
+                <div class="home-banner-title">Reasonable Access to<br> Unlimited Connectivity</div>
             </div>
+        </div> -->
+
+        <!-- <div class="phone-banner-container">
+        </div> -->
+
+        <div class="video-container">
+            <video class="video" width="100%" autoplay muted>
+                <source src="img/phone/Aurora_Magic_remix.mp4" type="video/mp4">
+            </video>
+            <img class="poster-image" src="img/phone/banner_bg.jpg" alt="Replacement" style="display: none; width: 100%;">
         </div>
 
         <!-- highlights -->
@@ -299,6 +317,15 @@
                     navbar.classList.remove("visible");
                     navbar.classList.add("hidden");
                 }
+            });
+        </script>
+        <script>
+            const video = document.querySelector('.video');
+            const image = document.querySelector('.poster-image');
+
+            video.addEventListener('ended', () => {
+                video.style.display = 'none';
+                image.style.display = 'block';
             });
         </script>
     </body>

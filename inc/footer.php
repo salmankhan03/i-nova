@@ -33,7 +33,7 @@
     <body>
         <div style="background-color: #232323;">
             <div class="container">
-                <nav class="nav" style="height: 100px;">
+                <nav class="nav" style="height: 80px;">
                     <a class="logo-container" href="index.php">
                         <img src="img/logo/inova_logo_silver.svg" alt="logo" class="logo">
                     </a>
