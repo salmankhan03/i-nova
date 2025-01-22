@@ -36,38 +36,20 @@
         <?php include './inc/header.php'; ?>
         <?php include './inc/phone-nav.php'; ?>
 
-        <!-- <div class="phone-banner-container">
-            <img src="img/phone/banner.png" alt="banner" class="phone-banner">
-            <div class="container phone-banner-text">
-                <div class="introducing">Introducing</div>
-                <div class="northlight">Northlight</div>
-                <img src="img/phone/northlight.svg" alt="" style="width: 380px; margin-top: 20px;">
-                <div class="home-banner-title">Reasonable Access to<br> Unlimited Connectivity</div>
-            </div>
-        </div> -->
-
-        <!-- <div class="phone-banner-container">
-        </div> -->
-
         <div class="video-container">
-            <video class="video" width="100%" autoplay muted>
+            <!-- <video class="video" width="100%" autoplay muted>
                 <source src="img/phone/Aurora_Magic_remix.mp4" type="video/mp4">
-            </video>
-            <img class="poster-image" src="img/phone/banner_bg.jpg" alt="Replacement" style="display: none; width: 100%;">
+            </video> -->
+            <img class="poster-image" src="img/phone/banner_bg.jpg" alt="Replacement" style="width: 100%;">
         </div>
 
         <!-- highlights -->
         <div class="container">
             <div class="section-padding pb-0">
                 <div class="row">
-                    <!-- <div class="position-relative"> -->
-                        <div class="col-lg-8 col-md-10 mx-auto">
-                            <p class="bottom-padding phone-intro">The Northlight smartphone represents INOVA’s commitment to delivering reliable and user-focused technology. It is designed to be practical and accessible, it keeps you connected to what matters most without compromise. </p>
-                        </div>
-                        <!-- <div class="col-xl-3 col-md-2 img-1-container">
-                            <img src="img/phone/img_1.png" alt="img-1" class="img-fluid img-1">
-                        </div> -->
-                    <!-- </div> -->
+                    <div class="col-lg-8 col-md-10 mx-auto">
+                        <p class="bottom-padding phone-intro">The Northlight smartphone represents INOVA’s commitment to delivering reliable and user-focused technology. It is designed to be practical and accessible, it keeps you connected to what matters most without compromise. </p>
+                    </div>
                 </div>
 
                 <div class="row">
@@ -121,137 +103,6 @@
             </div>
         </div>
 
-        <?php include './inc/3D-model.php'; ?>
-
-        <!-- Features -->
-
-        <!-- Feature 1 -->
-        <div class="container feature-container">
-            <div class="section-padding pb-0">
-                <div class="feature-background feature-background-1">
-                    <div class="row">
-                        <div class="col-xl-5 col-lg-6">
-                            <img src="img/phone/feature_1.png" alt="feature-1" class="img-fluid feature-image feature-image-left feature-image-1">
-                        </div>
-                        <div class="col-xl-7 col-lg-6">
-                            <div class="feature-text-wrap feature-text-wrap-right">
-                                <!-- <div class="title fw-bold">Double SIMs,<br> Extra Space</div> -->
-                                <div class="title fw-bold">Expand Your Options</div>
-                                <div class="feature-text">Enjoy the convenience of Dual SIMs and microSD card expansion, giving you the flexibility to manage two networks and ample storage for your files, photos, and apps.</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Feature 2 -->
-        <div class="container feature-container">
-            <div class="section-padding pb-0">
-                <div class="feature-background feature-background-2">
-                    <div class="row">
-                        <div class="col-xl-7 col-lg-6">
-                            <div class="feature-text-wrap">
-                                <div class="title fw-bold">Power That Lasts</div>
-                                <div class="feature-text">Stay powered with removable batteries — swap, switch, and stay connected anytime, ensuring you’re always ready for the day ahead without interruptions.</div>
-                            </div>
-                        </div>
-                        <div class="col-xl-5 col-lg-6 lg-center">
-                            <img src="img/phone/feature_2.png" alt="feature-2" class="img-fluid feature-image feature-image-2">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Feature 3 -->
-        <div class="container feature-container">
-            <div class="section-padding pb-0">
-                <div class="feature-background feature-background-3">
-                    <div class="row">
-                        <div class="col-xl-5 col-lg-6 lg-center">
-                            <img src="img/phone/feature_3.png" alt="feature-3" class="img-fluid feature-image feature-image-left feature-image-3">
-                        </div>
-                        <div class="col-xl-7 col-lg-6">
-                            <div class="feature-text-wrap feature-text-wrap-right">
-                                <div class="title fw-bold">Built for Efficiency</div>
-                                <div class="feature-text">Powered by the Mediatek Quad-Core processor, built in Taiwan by TSMC, the Northlight delivers smooth, responsive performance for everyday tasks.</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Feature 4 -->
-        <div class="container feature-container overflow-hidden">
-            <div class="section-padding pb-0">
-                <div class="feature-background feature-background-2">
-                    <div class="row">
-                        <div class="col-xl-7 col-lg-6">
-                            <div class="feature-text-wrap">
-                                <div class="title fw-bold">Universal Connectivity</div>
-                                <div class="feature-text">With USB-C, enjoy universal compatibility, making it easier than ever to keep your Northlight powered up, reliably connected, and always ready to go.</div>
-                            </div>
-                        </div>
-                        <div class="col-xl-5 col-lg-6 lg-center">
-                            <img src="img/phone/feature_4.png" alt="feature-4" class="img-fluid feature-image feature-image-4">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Feature 5 -->
-        <div class="container feature-container">
-            <div class="section-padding pb-0">
-                <div class="feature-background feature-background-1">
-                    <div class="row">
-                        <div class="col-xl-5 col-lg-6">
-                            <img src="img/phone/feature_5.png" alt="feature-5" class="img-fluid feature-image feature-image-left feature-image-5">
-                        </div>
-                        <div class="col-xl-7 col-lg-6">
-                            <div class="feature-text-wrap feature-text-wrap-right">
-                                <div class="title fw-bold">Connect to Possibility</div>
-                                <div class="feature-text">Experience seamless connectivity with 4G and Wi-Fi 5, ensuring fast and reliable access wherever you are, keeping you connected to what matters most.</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Feature 6 -->
-        <div class="container feature-container">
-            <div class="section-padding">
-                <div class="feature-background feature-background-2">
-                    <div class="row">
-                        <div class="col-xl-7 col-lg-6">
-                            <div class="feature-text-wrap">
-                                <div class="title fw-bold">Elevate Your Experience</div>
-                                <div class="feature-text">Customizable, Accessible, Protective. Complete with the latest personalization, security, and privacy features, powered by the advanced capabilities of Android 14.</div>
-                            </div>
-                        </div>
-                        <div class="col-xl-5 col-lg-6 lg-center">
-                            <img src="img/phone/feature_6.png" alt="feature-6" class="img-fluid feature-image feature-image-6">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- In the Box -->
-        <!-- <div class="container">
-            <div class="section-padding">
-                <div class="title text-center pb-4" style="font-weight: 700;">In the Box</div>
-                <img src="img/phone/bg_4.jpg" alt="in the box" class="img-fluid" style="border-radius: 20px">
-                <div class="row text-center pt-4">
-                    <div class="col-4"><p>Northlight</p></div>
-                    <div class="col-4"><p>USB-C Cable</p></div>
-                    <div class="col-4"><p>5W USB Charger</p></div>
-                </div>
-            </div>
-        </div> -->
         
         <?php include './inc/footer.php'; ?>
         <script>
@@ -284,28 +135,26 @@
 
 
             // zoom in image when scrolling
-            function zoomInBanner() {
-                const scrollPosition = window.scrollY;
-                const bannerContainer = document.querySelector('.phone-banner-container');
+            // function zoomInBanner() {
+            //     const scrollPosition = window.scrollY;
+            //     const bannerContainer = document.querySelector('.phone-banner-container');
 
-                const aspectRatio = bannerContainer.offsetWidth / bannerContainer.offsetHeight;
+            //     const aspectRatio = bannerContainer.offsetWidth / bannerContainer.offsetHeight;
 
-                const zoomLevel = 100 + (scrollPosition * 0.01); // Adjust this value to control zoom speed
+            //     const zoomLevel = 100 + (scrollPosition * 0.01); // Adjust this value to control zoom speed
 
-                if (aspectRatio < (16 / 9)) {
-                    // If the aspect ratio is smaller than 16:9, use "auto" for width and zoom the height
-                    bannerContainer.style.backgroundSize = `auto ${zoomLevel}%`;
-                } else {
-                    // Otherwise, zoom the width and keep the height as "auto"
-                    bannerContainer.style.backgroundSize = `${zoomLevel}% auto`;
-                }
-            }
+            //     if (aspectRatio < (16 / 9)) {
+            //         bannerContainer.style.backgroundSize = `auto ${zoomLevel}%`;
+            //     } else {
+            //         bannerContainer.style.backgroundSize = `${zoomLevel}% auto`;
+            //     }
+            // }
 
-            window.addEventListener('scroll', zoomInBanner);
-            window.addEventListener('resize', zoomInBanner);
+            // window.addEventListener('scroll', zoomInBanner);
+            // window.addEventListener('resize', zoomInBanner);
         </script>
 
-        <script>
+        <!-- <script>
             document.addEventListener("scroll", () => {
                 const navbar = document.getElementById("phone-nav-container");
                 const scrollPosition = window.scrollY || document.documentElement.scrollTop;
@@ -327,6 +176,6 @@
                 video.style.display = 'none';
                 image.style.display = 'block';
             });
-        </script>
+        </script> -->
     </body>
 </html>
