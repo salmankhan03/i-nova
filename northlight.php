@@ -111,12 +111,12 @@
         </div>
     </div>
 
-    <div style="padding-top: 100px;"></div>
+    <div style="padding-top: 30px;"></div>
 
     <div class="custom-container">
         <div class="drawing-container">
             <div class="image-wrapper">
-                <img src="img/phone/engineering-drawing.png" alt="engineering drawing" class="engineering-drawing">
+                <img src="img/phone/xray.png" alt="engineering drawing" class="engineering-drawing">
                 <!-- <div class="circle"></div> -->
                 <svg class="circle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
                     <circle class="hover-circle" data-target="sim-card" cx="38" cy="35.5" r="3" fill="rgba(0, 0, 255, 0.2)" />
@@ -134,7 +134,7 @@
 
             <!-- SIM Card -->
             <div class="image-wrapper hover-content" id="sim-card">
-                <img src="img/phone/SIM-card.png" alt="SIM card" class="engineering-drawing">
+                <img src="img/phone/DualSIMCard.png" alt="SIM card" class="engineering-drawing">
             </div>
             <div class="image-wrapper hover-content" id="sd-card">
                 <img src="img/phone/SD-card.png" alt="SD card" class="engineering-drawing">
@@ -145,7 +145,7 @@
         </div>
     </div>
 
-    <div style="padding-top: 100px;"></div>
+    <div style="padding-top: 30px;"></div>
 
 
     <?php include './inc/footer.php'; ?>

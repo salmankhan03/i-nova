@@ -607,13 +607,13 @@ a {
     height: 850px;
     margin-bottom: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .image-wrapper {
     position: relative; 
     display: inline-block;
-    height: 850px;
+    height: 950px;
 }
 
 .engineering-drawing{
