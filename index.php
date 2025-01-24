@@ -1,3 +1,9 @@
+<?php
+// Redirect to another page
+header("Location: northlight.php");
+exit;
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>

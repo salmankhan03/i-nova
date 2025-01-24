@@ -39,7 +39,7 @@
                     </a>
                     <div class="nav-links nav-links-white">
                         <a href="northlight.php" class="first-nav underline-link">PHONE</a>
-                        <a href="accessories.php" class="first-nav underline-link">ACCESSORIES</a>
+                        <!-- <a href="accessories.php" class="first-nav underline-link">ACCESSORIES</a> -->
                         <a href="support.php" class="first-nav underline-link">SUPPORT</a>
                         <a href="about.php" class="first-nav underline-link">ABOUT</a>
                     </div>

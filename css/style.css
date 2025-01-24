@@ -281,12 +281,12 @@ a {
 }
 
 .highlight-icon {
-    width: 50px;
+    width: 75px;
     padding-bottom: 20px;
 }
 
 .highlight-text {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
 }
 
@@ -600,4 +600,47 @@ a {
 .home-small-container {
     background-color: #ddd;
     height: 500px;
+}
+
+.drawing-container{
+    position: relative;
+    height: 850px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-wrapper {
+    position: relative; 
+    display: inline-block;
+    height: 850px;
+}
+
+.engineering-drawing{
+    height: 100%;
+    /* width: 100%; */
+    display: block;
+}
+
+.circle {
+    position: absolute; /* Place the circle on the image */
+    width: 100px; /* Diameter of the circle */
+    height: 100px;
+    background-color: rgba(0, 0, 255, 0.5); /* Semi-transparent red */
+    border-radius: 50%; /* Makes it a perfect circle */
+    top: 5%; /* Adjust the vertical position relative to the image */
+    left: 48%; /* Adjust the horizontal position relative to the image */
+    border: none; /* Optional border */
+}
+
+.circle-svg {
+    position: absolute; /* Place the SVG on the image */
+    top: 0; /* Adjust the vertical position of the SVG container */
+    left: 0; /* Adjust the horizontal position of the SVG container */
+    width: 100%; /* Make SVG the same size as the image */
+    height: 100%;
+}
+
+.hover-content {
+    display: none;
 }
