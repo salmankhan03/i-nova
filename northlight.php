@@ -65,7 +65,7 @@
                     <div class="row">
                         <div class="col-4 col-md-2 col-lg-2 col-xl-2 p-0">
                             <div class="highlight-wrap">
-                                <img src="img/phone/icons/icons_size.svg" alt="screen" class="highlight-icon">
+                                <img src="img/phone/icons/icons_size.svg" alt="android" class="highlight-icon">
                                 <div class="highlight-text">5.45" LCD</div>
                                 <div class="highlight-text">480 x 960</div>
                             </div>
@@ -111,41 +111,151 @@
         </div>
     </div>
 
-    <div style="padding-top: 30px;"></div>
+    <div style="padding-top: 50px;"></div>
 
     <div class="custom-container">
         <div class="drawing-container">
             <div class="image-wrapper">
                 <img src="img/phone/xray.png" alt="engineering drawing" class="engineering-drawing">
-                <!-- <div class="circle"></div> -->
-                <svg class="circle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-                    <circle class="hover-circle" data-target="sim-card" cx="38" cy="35.5" r="3" fill="rgba(0, 0, 255, 0.2)" />
-                    <circle class="hover-circle" data-target="sd-card" cx="70" cy="20" r="10" fill="rgba(0, 0, 255, 0.2)" />
-                    <circle class="hover-circle" data-target="wifi" cx="50" cy="50" r="7" fill="rgba(0, 0, 255, 0.2)" />
-                </svg>
-            </div>
 
-            <!-- Slogan -->
-            <div class="image-wrapper" id="default-text">
-                <div class="d-flex align-items-center">
-                    <div class="heading">Affordable, Reliable, Simplicity at its Finest</div>
-                </div>
+                <svg class="circle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                    <circle class="hover-circle" data-target="sim-card" cx="35.5" cy="36.5" r="2" fill="rgba(3, 57, 248, 0.3)"/>
+                    <circle class="hover-circle" data-target="sim-card" cx="35.5" cy="36.5" r="0.7" fill="rgba(3, 57, 248, 0.7)"/>
+
+                    <circle class="hover-circle" data-target="usbc" cx="26" cy="66" r="2" fill="rgba(3, 57, 248, 0.3)"/>
+                    <circle class="hover-circle" data-target="usbc" cx="26" cy="66" r="0.7" fill="rgba(3, 57, 248, 0.7)"/>
+
+                    <circle class="hover-circle" data-target="battery" cx="57.2" cy="24.3" r="2" fill="rgba(3, 57, 248, 0.3)"/>
+                    <circle class="hover-circle" data-target="battery" cx="57.2" cy="24.3" r="0.7" fill="rgba(3, 57, 248, 0.7)"/>
+
+                    <circle class="hover-circle" data-target="microSD" cx="39.5" cy="32.3" r="2" fill="rgba(3, 57, 248, 0.3)"/>
+                    <circle class="hover-circle" data-target="microSD" cx="39.5" cy="32.3" r="0.7" fill="rgba(3, 57, 248, 0.7)"/>
+
+                    <circle class="hover-circle" data-target="case" cx="53" cy="9.5" r="2" fill="rgba(3, 57, 248, 0.3)"/>
+                    <circle class="hover-circle" data-target="case" cx="53" cy="9.5" r="0.7" fill="rgba(3, 57, 248, 0.7)"/>
+
+                    <circle class="hover-circle" data-target="android" cx="52.8" cy="89.5" r="2" fill="rgba(3, 57, 248, 0.3)"/>
+                    <circle class="hover-circle" data-target="android" cx="52.8" cy="89.5" r="0.7" fill="rgba(3, 57, 248, 0.7)"/>
+
+                    <circle class="hover-circle" data-target="3.5mm" cx="28" cy="61.5" r="2" fill="rgba(3, 57, 248, 0.3)"/>
+                    <circle class="hover-circle" data-target="3.5mm" cx="28" cy="61.5" r="0.7" fill="rgba(3, 57, 248, 0.7)"/>
+
+                    <circle class="hover-circle" data-target="chip" cx="37" cy="64.5" r="2" fill="rgba(3, 57, 248, 0.3)"/>
+                    <circle class="hover-circle" data-target="chip" cx="37" cy="64.5" r="0.7" fill="rgba(3, 57, 248, 0.7)"/>
+                </svg>
             </div>
 
             <!-- SIM Card -->
             <div class="image-wrapper hover-content" id="sim-card">
-                <img src="img/phone/DualSIMCard.png" alt="SIM card" class="engineering-drawing">
+                <img src="img/phone/dualSIM_card.png" alt="SIM card" class="engineering-drawing">
+                <div class="text-overlay">
+                    <div class="feature-title">Dual SIM Cards</div>
+                    <br>
+                    <p class="fw-bold">Simplified Travel</p>
+                    <p>Easily switch to a local SIM while traveling abroad.</p>
+                    <p class="fw-bold">Effortless Switching</p>
+                    <p>Manage two numbers seamlessly, perfect for work and personal use.</p>
+                    <p class="fw-bold">Cost Efficiency</p>
+                    <p>Saving on international calls, roaming, or data.</p>
+                </div>
             </div>
-            <div class="image-wrapper hover-content" id="sd-card">
-                <img src="img/phone/SD-card.png" alt="SD card" class="engineering-drawing">
+
+            <div class="image-wrapper hover-content" id="usbc">
+                <img src="img/phone/usb_c.png" alt="USB-C" class="engineering-drawing">
+                <div class="text-overlay">
+                    <div class="feature-title">USB Type-C</div>
+                    <br>
+                    <p class="fw-bold">Universal Compatibility</p>
+                    <p>Use one cable for multiple devices.</p>
+                    <p class="fw-bold">Reliable Charging</p>
+                    <p>Fast and efficient power delivery whenever you need it.</p>
+                    <p class="fw-bold">Simple Connectivity</p>
+                    <p>Reversible design makes plugging in hassle-free.</p>
+                </div>
             </div>
-            <div class="image-wrapper hover-content" id="wifi">
-                <img src="img/phone/wifi.png" alt="WiFi module" class="engineering-drawing">
+
+            <div class="image-wrapper hover-content" id="battery">
+                <img src="img/phone/battery.png" alt="Removable Battery" class="engineering-drawing">
+                <div class="text-overlay">
+                    <div class="feature-title">Removable Battery</div>
+                    <br>
+                    <p class="fw-bold">Easy Replacement</p>
+                    <p>Swap out the battery effortlessly for extended usage.</p>
+                    <p class="fw-bold">Practical Power Solution</p>
+                    <p>Extend your phone’s life by replacing the battery, not the phone.</p>
+                    <p class="fw-bold">User-Friendly Design</p>
+                    <p>Swap batteries quickly without special tools.</p>
+                </div>
+            </div>
+
+            <div class="image-wrapper hover-content" id="microSD">
+                <img src="img/phone/microSD_card.png" alt="microSD Card" class="engineering-drawing">
+                <div class="text-overlay">
+                    <div class="feature-title">microSD Card</div>
+                    <br>
+                    <p class="fw-bold">Affordable Expansion</p>
+                    <p>Increase storage without needing a pricier phone model.</p>
+                    <p class="fw-bold">Easy Upgrades</p>
+                    <p>Simply insert a card to get more space—no extra setup required.</p>
+                    <p class="fw-bold">Flexible Usage</p>
+                    <p>Store more photos, videos, and apps with ease.</p>
+                </div>
+            </div>
+
+            <div class="image-wrapper hover-content" id="case">
+                <img src="img/phone/phone_case.png" alt="case" class="engineering-drawing">
+                <div class="text-overlay">
+                    <div class="feature-title">Phone Case</div>
+                    <br>
+                    <p class="fw-bold">More Options Coming Soon…</p>
+                </div>
+            </div>
+
+            <div class="image-wrapper hover-content" id="android">
+                <img src="img/phone/android14.png" alt="Android 14" class="engineering-drawing">
+                <div class="text-overlay">
+                    <div class="feature-title">Android 14</div>
+                    <br>
+                    <p class="fw-bold">User-Friendly Experience</p>
+                    <p>Intuitive design makes it easy for anyone to pick up and use.</p>
+                    <p class="fw-bold">Dependable Security</p>
+                    <p>Advanced protections for worry-free use.</p>
+                    <p class="fw-bold">Tailored Simplicity</p>
+                    <p>Customize your phone to match your lifestyle.</p>
+                </div>
+            </div>
+
+            <div class="image-wrapper hover-content" id="3.5mm">
+                <img src="img/phone/headphone_jack.png" alt="3.5mm Headphone Jack" class="engineering-drawing">
+                <div class="text-overlay">
+                    <div class="feature-title">3.5mm Headphone Jack</div>
+                    <br>
+                    <p class="fw-bold">Simple Sound Solution</p>
+                    <p>Just plug and play — no adapters or pairing needed.</p>
+                    <p class="fw-bold">Consistent Quality</p>
+                    <p>Dependable audio performance every time.</p>
+                    <p class="fw-bold">Classic Convenience</p>
+                    <p>Trusted and familiar for seamless everyday use.</p>
+                </div>
+            </div>
+
+            <div class="image-wrapper hover-content" id="chip">
+                <img src="img/phone/chip.png" alt="Chip" class="engineering-drawing">
+                <div class="text-overlay">
+                    <div class="feature-title">Chip</div>
+                    <br>
+                    <p class="fw-bold">Reliable Performance</p>
+                    <p>MediaTek Quad-Core processor ensures smooth multitasking.</p>
+                    <p class="fw-bold">Responsive Experience</p>
+                    <p>Handles everyday tasks with speed and ease.</p>
+                    <p class="fw-bold">Trusted Quality</p>
+                    <p>Built in Taiwan by TSMC, a global leader in semiconductor technology.</p>
+                </div>
             </div>
         </div>
     </div>
 
-    <div style="padding-top: 30px;"></div>
+    <div style="padding-top: 50px;"></div>
 
 
     <?php include './inc/footer.php'; ?>
@@ -154,7 +264,7 @@
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const circles = document.querySelectorAll('.hover-circle'); // Select all circles
-            const defaultText = document.getElementById('default-text'); // Default text container
+            const defaultImage = document.getElementById('battery'); // Default image container
             const hoverContent = document.querySelectorAll('.hover-content'); // All hoverable image wrappers
 
             let currentTarget = null; // Track the currently displayed image's target ID
@@ -169,14 +279,14 @@
                     const targetElement = document.getElementById(targetId);
                     if (targetElement) targetElement.style.display = 'block';
 
-                    // Hide the default text
-                    defaultText.style.display = 'none';
+                    // Hide the default image
+                    // defaultImage.style.display = 'none';
 
                     // Update the current visible target
                     currentTarget = targetId;
                 } else {
-                    // No target clicked: show default text and hide everything else
-                    defaultText.style.display = 'flex';
+                    // No target clicked: show default image and hide everything else
+                    defaultImage.style.display = 'block';
                     currentTarget = null;
                 }
             }
@@ -187,12 +297,12 @@
 
                 // On click, show the corresponding content
                 circle.addEventListener('click', () => {
-                        showContent(targetId);
+                    showContent(targetId);
                 });
             });
 
             // Set default state on page load
-            showContent(null); // Show the default text
+            showContent(null); // Show the default image
         });
     </script>
 

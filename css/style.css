@@ -604,7 +604,7 @@ a {
 
 .drawing-container{
     position: relative;
-    height: 850px;
+    height: 1000px;
     margin-bottom: 100px;
     display: flex;
     justify-content: center;
@@ -613,24 +613,15 @@ a {
 .image-wrapper {
     position: relative; 
     display: inline-block;
-    height: 950px;
+    height: 1000px;
 }
 
 .engineering-drawing{
     height: 100%;
-    /* width: 100%; */
     display: block;
-}
-
-.circle {
-    position: absolute; /* Place the circle on the image */
-    width: 100px; /* Diameter of the circle */
-    height: 100px;
-    background-color: rgba(0, 0, 255, 0.5); /* Semi-transparent red */
-    border-radius: 50%; /* Makes it a perfect circle */
-    top: 5%; /* Adjust the vertical position relative to the image */
-    left: 48%; /* Adjust the horizontal position relative to the image */
-    border: none; /* Optional border */
+    /* margin: 0;
+    padding: 0;
+    border: none; */
 }
 
 .circle-svg {
@@ -643,4 +634,20 @@ a {
 
 .hover-content {
     display: none;
+}
+
+.hover-circle {
+    cursor: pointer;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 100px;
+    padding: 5px;
+}
+
+.feature-title{
+    font-size: 32px;
+    font-weight: 600;
 }
