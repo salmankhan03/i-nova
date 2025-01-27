@@ -42,7 +42,7 @@
     <div class="video-container">
         <!-- <video class="video" width="100%" autoplay muted>
                 <source src="img/phone/Aurora_Magic_remix.mp4" type="video/mp4">
-            </video> -->
+        </video> -->
         <img class="poster-image" src="img/phone/banner_bg.jpg" alt="Replacement" style="width: 100%;">
     </div>
 
@@ -116,32 +116,32 @@
     <div class="custom-container">
         <div class="drawing-container">
             <div class="image-wrapper">
-                <img src="img/phone/xray.png" alt="engineering drawing" class="engineering-drawing">
+                <img src="img/phone/Northlight-explosive-sketch.png" alt="engineering drawing" class="engineering-drawing">
 
                 <svg class="circle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-                    <circle class="hover-circle" data-target="sim-card" cx="35.5" cy="36.5" r="2" fill="rgba(3, 57, 248, 0.3)"/>
-                    <circle class="hover-circle" data-target="sim-card" cx="35.5" cy="36.5" r="0.7" fill="rgba(3, 57, 248, 0.7)"/>
+                    <circle class="hover-circle" data-target="sim-card" cx="36" cy="38" r="2" fill="rgba(3, 57, 248, 0.3)"/>
+                    <circle class="hover-circle" data-target="sim-card" cx="36" cy="38" r="0.7" fill="rgba(3, 57, 248, 0.7)"/>
 
-                    <circle class="hover-circle" data-target="usbc" cx="26" cy="66" r="2" fill="rgba(3, 57, 248, 0.3)"/>
-                    <circle class="hover-circle" data-target="usbc" cx="26" cy="66" r="0.7" fill="rgba(3, 57, 248, 0.7)"/>
+                    <circle class="hover-circle" data-target="usb-c" cx="27.5" cy="65" r="2" fill="rgba(3, 57, 248, 0.3)"/>
+                    <circle class="hover-circle" data-target="usb-c" cx="27.5" cy="65" r="0.7" fill="rgba(3, 57, 248, 0.7)"/>
 
-                    <circle class="hover-circle" data-target="battery" cx="57.2" cy="24.3" r="2" fill="rgba(3, 57, 248, 0.3)"/>
-                    <circle class="hover-circle" data-target="battery" cx="57.2" cy="24.3" r="0.7" fill="rgba(3, 57, 248, 0.7)"/>
+                    <circle class="hover-circle" data-target="battery" cx="56" cy="27" r="2" fill="rgba(3, 57, 248, 0.3)"/>
+                    <circle class="hover-circle" data-target="battery" cx="56" cy="27" r="0.7" fill="rgba(3, 57, 248, 0.7)"/>
 
-                    <circle class="hover-circle" data-target="microSD" cx="39.5" cy="32.3" r="2" fill="rgba(3, 57, 248, 0.3)"/>
-                    <circle class="hover-circle" data-target="microSD" cx="39.5" cy="32.3" r="0.7" fill="rgba(3, 57, 248, 0.7)"/>
+                    <circle class="hover-circle" data-target="microSD" cx="39.5" cy="34.5" r="2" fill="rgba(3, 57, 248, 0.3)"/>
+                    <circle class="hover-circle" data-target="microSD" cx="39.5" cy="34.5" r="0.7" fill="rgba(3, 57, 248, 0.7)"/>
 
-                    <circle class="hover-circle" data-target="case" cx="53" cy="9.5" r="2" fill="rgba(3, 57, 248, 0.3)"/>
-                    <circle class="hover-circle" data-target="case" cx="53" cy="9.5" r="0.7" fill="rgba(3, 57, 248, 0.7)"/>
+                    <circle class="hover-circle" data-target="case" cx="52" cy="13.5" r="2" fill="rgba(3, 57, 248, 0.3)"/>
+                    <circle class="hover-circle" data-target="case" cx="52" cy="13.5" r="0.7" fill="rgba(3, 57, 248, 0.7)"/>
 
-                    <circle class="hover-circle" data-target="android" cx="52.8" cy="89.5" r="2" fill="rgba(3, 57, 248, 0.3)"/>
-                    <circle class="hover-circle" data-target="android" cx="52.8" cy="89.5" r="0.7" fill="rgba(3, 57, 248, 0.7)"/>
+                    <circle class="hover-circle" data-target="android" cx="51.5" cy="86.5" r="2" fill="rgba(3, 57, 248, 0.3)"/>
+                    <circle class="hover-circle" data-target="android" cx="51.5" cy="86.5" r="0.7" fill="rgba(3, 57, 248, 0.7)"/>
 
-                    <circle class="hover-circle" data-target="3.5mm" cx="28" cy="61.5" r="2" fill="rgba(3, 57, 248, 0.3)"/>
-                    <circle class="hover-circle" data-target="3.5mm" cx="28" cy="61.5" r="0.7" fill="rgba(3, 57, 248, 0.7)"/>
+                    <circle class="hover-circle" data-target="3.5mm" cx="29.5" cy="61.5" r="2" fill="rgba(3, 57, 248, 0.3)"/>
+                    <circle class="hover-circle" data-target="3.5mm" cx="29.5" cy="61.5" r="0.7" fill="rgba(3, 57, 248, 0.7)"/>
 
-                    <circle class="hover-circle" data-target="chip" cx="37" cy="64.5" r="2" fill="rgba(3, 57, 248, 0.3)"/>
-                    <circle class="hover-circle" data-target="chip" cx="37" cy="64.5" r="0.7" fill="rgba(3, 57, 248, 0.7)"/>
+                    <circle class="hover-circle" data-target="chip" cx="37" cy="64" r="2" fill="rgba(3, 57, 248, 0.3)"/>
+                    <circle class="hover-circle" data-target="chip" cx="37" cy="64" r="0.7" fill="rgba(3, 57, 248, 0.7)"/>
                 </svg>
             </div>
 
@@ -160,7 +160,7 @@
                 </div>
             </div>
 
-            <div class="image-wrapper hover-content" id="usbc">
+            <div class="image-wrapper hover-content" id="usb-c">
                 <img src="img/phone/usb_c.png" alt="USB-C" class="engineering-drawing">
                 <div class="text-overlay">
                     <div class="feature-title">USB Type-C</div>
