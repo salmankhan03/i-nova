@@ -38,13 +38,13 @@
   
   @media (min-width: 1600px) {
     .custom-container {
-      max-width: 1500px; /* Larger custom size for extra-large screens */
+      max-width: 1576px; /* Larger custom size for extra-large screens */
     }
   }
 
-  @media (min-width: 1800px) {
+  /* @media (min-width: 1800px) {
     .custom-container {
-      max-width: 1680px; /* Larger custom size for extra-large screens */
+      max-width: 1680px;
     }
-  }
+  } */
   

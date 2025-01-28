@@ -125,14 +125,14 @@
                     <circle class="hover-circle" data-target="usb-c" cx="27.5" cy="65" r="2" fill="rgba(3, 57, 248, 0.3)"/>
                     <circle class="hover-circle" data-target="usb-c" cx="27.5" cy="65" r="0.7" fill="rgba(3, 57, 248, 0.7)"/>
 
-                    <circle class="hover-circle" data-target="battery" cx="56" cy="27" r="2" fill="rgba(3, 57, 248, 0.3)"/>
-                    <circle class="hover-circle" data-target="battery" cx="56" cy="27" r="0.7" fill="rgba(3, 57, 248, 0.7)"/>
+                    <circle class="hover-circle" data-target="battery" data-arrow="battery-arrow" cx="56" cy="27" r="2" fill="rgba(3, 57, 248, 0.3)"/>
+                    <circle class="hover-circle" data-target="battery" data-arrow="battery-arrow" cx="56" cy="27" r="0.7" fill="rgba(3, 57, 248, 0.7)"/>
 
                     <circle class="hover-circle" data-target="microSD" cx="39.5" cy="34.5" r="2" fill="rgba(3, 57, 248, 0.3)"/>
                     <circle class="hover-circle" data-target="microSD" cx="39.5" cy="34.5" r="0.7" fill="rgba(3, 57, 248, 0.7)"/>
 
-                    <circle class="hover-circle" data-target="case" cx="52" cy="13.5" r="2" fill="rgba(3, 57, 248, 0.3)"/>
-                    <circle class="hover-circle" data-target="case" cx="52" cy="13.5" r="0.7" fill="rgba(3, 57, 248, 0.7)"/>
+                    <circle class="hover-circle" data-target="case" data-arrow="case-arrow" cx="52" cy="13.5" r="2" fill="rgba(3, 57, 248, 0.3)"/>
+                    <circle class="hover-circle" data-target="case" data-arrow="case-arrow" cx="52" cy="13.5" r="0.7" fill="rgba(3, 57, 248, 0.7)"/>
 
                     <circle class="hover-circle" data-target="android" cx="51.5" cy="86.5" r="2" fill="rgba(3, 57, 248, 0.3)"/>
                     <circle class="hover-circle" data-target="android" cx="51.5" cy="86.5" r="0.7" fill="rgba(3, 57, 248, 0.7)"/>
@@ -252,6 +252,17 @@
                     <p>Built in Taiwan by TSMC, a global leader in semiconductor technology.</p>
                 </div>
             </div>
+
+            <svg class="arrow-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <defs>
+                    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+                        <polygon points="0 0, 7 3.5, 0 7" fill="rgb(3, 57, 248)" />
+                    </marker>
+                </defs>
+                <line class="arrow" id="battery-arrow" x1="31.7" y1="27" x2="72.5" y2="25" stroke="rgb(3, 57, 248)" stroke-width="0.2" marker-end="url(#arrowhead)" />
+                <line class="arrow" id="case-arrow" x1="29.2" y1="13.5" x2="73" y2="25" stroke="rgb(3, 57, 248)" stroke-width="0.2" marker-end="url(#arrowhead)" />
+            </svg>
+
         </div>
     </div>
 
@@ -263,30 +274,33 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            const circles = document.querySelectorAll('.hover-circle'); // Select all circles
-            const defaultImage = document.getElementById('battery'); // Default image container
-            const hoverContent = document.querySelectorAll('.hover-content'); // All hoverable image wrappers
+            const circles = document.querySelectorAll('.hover-circle');
+            const defaultImage = document.getElementById('battery');
+            const defaultArrow = document.getElementById('battery-arrow');
+            const hoverContent = document.querySelectorAll('.hover-content');
+            const arrows = document.querySelectorAll('.arrow');
 
             let currentTarget = null; // Track the currently displayed image's target ID
 
             // Function to show the targeted content and hide others
-            function showContent(targetId) {
+            function showContent(targetId, arrowId) {
                 // Hide all hover content
                 hoverContent.forEach(content => (content.style.display = 'none'));
+                arrows.forEach(arrow => (arrow.style.display = 'none'));
 
                 if (targetId) {
-                    // Show the specific target content
                     const targetElement = document.getElementById(targetId);
                     if (targetElement) targetElement.style.display = 'block';
 
-                    // Hide the default image
-                    // defaultImage.style.display = 'none';
+                    const targetArrow = document.getElementById(arrowId);
+                    if (targetArrow) targetArrow.style.display = 'block';
 
                     // Update the current visible target
                     currentTarget = targetId;
                 } else {
                     // No target clicked: show default image and hide everything else
                     defaultImage.style.display = 'block';
+                    defaultArrow.style.display = 'block';
                     currentTarget = null;
                 }
             }
@@ -294,10 +308,11 @@
             // Add event listeners to circles
             circles.forEach(circle => {
                 const targetId = circle.getAttribute('data-target');
+                const arrowId = circle.getAttribute('data-arrow');
 
                 // On click, show the corresponding content
                 circle.addEventListener('click', () => {
-                    showContent(targetId);
+                    showContent(targetId, arrowId);
                 });
             });
 
@@ -305,7 +320,6 @@
             showContent(null); // Show the default image
         });
     </script>
-
 
 
 
