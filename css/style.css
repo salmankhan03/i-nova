@@ -605,10 +605,9 @@ a {
 .drawing-container{
     position: relative;
     height: 950px;
-    margin-bottom: 100px;
     display: flex;
     justify-content: center;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 .image-wrapper {
@@ -620,9 +619,6 @@ a {
 .engineering-drawing{
     height: 100%;
     display: block;
-    /* margin: 0;
-    padding: 0;
-    border: none; */
 }
 
 .circle-svg {
