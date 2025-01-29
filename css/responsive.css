@@ -4,7 +4,19 @@
     }
 } */
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (min-width: 1600px) {
+    .drawing-container-mobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1599px) {
+    .drawing-container-desktop {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1399px) {
     .feature-background.visible .feature-image-3 {
         left: 0;
     }

@@ -119,7 +119,7 @@
     <div style="padding-top: 50px;"></div>
 
     <div class="custom-container">
-        <div class="drawing-container">
+        <div class="drawing-container-desktop">
             <div class="image-wrapper">
                 <img src="img/phone/Northlight-explosive-sketch.png" alt="engineering drawing" class="engineering-drawing">
 
@@ -284,6 +284,41 @@
 
             </svg> -->
 
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="drawing-container-mobile">
+            <div class="image-wrapper-mobile">
+                <img src="img/phone/Northlight-explosive-sketch-mobile.png" alt="engineering drawing" class="engineering-drawing-mobile">
+
+                <svg class="circle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                    <!-- <circle class="hover-circle" data-target="sim-card" data-inner="sim-inner" cx="36" cy="38" r="4.5" fill="rgba(3, 57, 248, 0.3)" />
+                    <circle class="hover-circle-inner" data-target="sim-card" id="sim-inner" cx="36" cy="38" r="1.5" fill="rgba(3, 57, 248, 0.7)" />
+
+                    <circle class="hover-circle" data-target="usb-c" data-inner="usb-c-inner" cx="27.5" cy="65" r="4.5" fill="rgba(3, 57, 248, 0.3)" />
+                    <circle class="hover-circle-inner" data-target="usb-c" id="usb-c-inner" cx="27.5" cy="65" r="1.5" fill="rgba(3, 57, 248, 0.7)" /> -->
+
+                    <circle class="hover-circle" data-target="battery" data-inner="battery-inner" cx="58.5" cy="37.5" r="4.5" fill="rgba(3, 57, 248, 0.3)" />
+                    <circle class="hover-circle-inner" data-target="battery" id="battery-inner" cx="58.5" cy="37.5" r="1.5" fill="rgba(3, 57, 248, 0.7)" />
+
+                    <!-- <circle class="hover-circle" data-target="microSD" data-inner="microSD-inner" cx="39.5" cy="34.5" r="4.5" fill="rgba(3, 57, 248, 0.3)" />
+                    <circle class="hover-circle-inner" data-target="microSD" id="microSD-inner" cx="39.5" cy="34.5" r="1.5" fill="rgba(3, 57, 248, 0.7)" /> -->
+
+                    <circle class="hover-circle" data-target="case" data-inner="case-inner" cx="52" cy="12.5" r="4.5" fill="rgba(3, 57, 248, 0.3)" />
+                    <circle class="hover-circle-inner" data-target="case" id="case-inner" cx="52" cy="12.5" r="1.5" fill="rgba(3, 57, 248, 0.7)" />
+
+                    <!-- <circle class="hover-circle" data-target="android" data-inner="android-inner" cx="51.5" cy="86.5" r="4.5" fill="rgba(3, 57, 248, 0.3)" />
+                    <circle class="hover-circle-inner" data-target="android" id="android-inner" cx="51.5" cy="86.5" r="1.5" fill="rgba(3, 57, 248, 0.7)" />
+
+                    <circle class="hover-circle" data-target="3.5mm" data-inner="3.5mm-inner" cx="29.5" cy="61.5" r="4.5" fill="rgba(3, 57, 248, 0.3)" />
+                    <circle class="hover-circle-inner" data-target="3.5mm" id="3.5mm-inner" cx="29.5" cy="61.5" r="1.5" fill="rgba(3, 57, 248, 0.7)" />
+
+                    <circle class="hover-circle" data-target="chip" data-inner="chip-inner" cx="37" cy="64" r="4.5" fill="rgba(3, 57, 248, 0.3)" />
+                    <circle class="hover-circle-inner" data-target="chip" id="chip-inner" cx="37" cy="64" r="1.5" fill="rgba(3, 57, 248, 0.7)" /> -->
+                </svg>
+            </div>
         </div>
     </div>
 
