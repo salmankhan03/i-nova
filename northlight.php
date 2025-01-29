@@ -124,28 +124,28 @@
                 <img src="img/phone/Northlight-explosive-sketch.png" alt="engineering drawing" class="engineering-drawing">
 
                 <svg class="circle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-                    <circle class="hover-circle" data-target="sim-card" data-arrow="sim-arrow" data-inner="sim-inner" cx="36" cy="38" r="2" fill="rgba(3, 57, 248, 0.3)" />
+                    <circle class="hover-circle" data-target="sim-card" data-arrow="sim-arrow" data-inner="sim-inner" cx="36" cy="38" r="1.8" fill="rgba(3, 57, 248, 0.3)" />
                     <circle class="hover-circle-inner" data-target="sim-card" data-arrow="sim-arrow" id="sim-inner" cx="36" cy="38" r="0.7" fill="rgba(3, 57, 248, 0.7)" />
 
-                    <circle class="hover-circle" data-target="usb-c" data-inner="usb-c-inner" cx="27.5" cy="65" r="2" fill="rgba(3, 57, 248, 0.3)" />
+                    <circle class="hover-circle" data-target="usb-c" data-inner="usb-c-inner" cx="27.5" cy="65" r="1.8" fill="rgba(3, 57, 248, 0.3)" />
                     <circle class="hover-circle-inner" data-target="usb-c" id="usb-c-inner" cx="27.5" cy="65" r="0.7" fill="rgba(3, 57, 248, 0.7)" />
 
-                    <circle class="hover-circle" data-target="battery" data-arrow="battery-arrow" data-inner="battery-inner" cx="56" cy="27" r="2" fill="rgba(3, 57, 248, 0.3)" />
+                    <circle class="hover-circle" data-target="battery" data-arrow="battery-arrow" data-inner="battery-inner" cx="56" cy="27" r="1.8" fill="rgba(3, 57, 248, 0.3)" />
                     <circle class="hover-circle-inner" data-target="battery" data-arrow="battery-arrow" id="battery-inner" cx="56" cy="27" r="0.7" fill="rgba(3, 57, 248, 0.7)" />
 
-                    <circle class="hover-circle" data-target="microSD" data-arrow="microSD-arrow" data-inner="microSD-inner" cx="39.5" cy="34.5" r="2" fill="rgba(3, 57, 248, 0.3)" />
+                    <circle class="hover-circle" data-target="microSD" data-arrow="microSD-arrow" data-inner="microSD-inner" cx="39.5" cy="34.5" r="1.8" fill="rgba(3, 57, 248, 0.3)" />
                     <circle class="hover-circle-inner" data-target="microSD" data-arrow="microSD-arrow" id="microSD-inner" cx="39.5" cy="34.5" r="0.7" fill="rgba(3, 57, 248, 0.7)" />
 
-                    <circle class="hover-circle" data-target="case" data-arrow="case-arrow" data-inner="case-inner" cx="52" cy="13.5" r="2" fill="rgba(3, 57, 248, 0.3)" />
+                    <circle class="hover-circle" data-target="case" data-arrow="case-arrow" data-inner="case-inner" cx="52" cy="13.5" r="1.8" fill="rgba(3, 57, 248, 0.3)" />
                     <circle class="hover-circle-inner" data-target="case" data-arrow="case-arrow" id="case-inner" cx="52" cy="13.5" r="0.7" fill="rgba(3, 57, 248, 0.7)" />
 
-                    <circle class="hover-circle" data-target="android" data-inner="android-inner" cx="51.5" cy="86.5" r="2" fill="rgba(3, 57, 248, 0.3)" />
+                    <circle class="hover-circle" data-target="android" data-inner="android-inner" cx="51.5" cy="86.5" r="1.8" fill="rgba(3, 57, 248, 0.3)" />
                     <circle class="hover-circle-inner" data-target="android" id="android-inner" cx="51.5" cy="86.5" r="0.7" fill="rgba(3, 57, 248, 0.7)" />
 
-                    <circle class="hover-circle" data-target="3.5mm" data-arrow="3.5mm-arrow" data-inner="3.5mm-inner" cx="29.5" cy="61.5" r="2" fill="rgba(3, 57, 248, 0.3)" />
+                    <circle class="hover-circle" data-target="3.5mm" data-arrow="3.5mm-arrow" data-inner="3.5mm-inner" cx="29.5" cy="61.5" r="1.8" fill="rgba(3, 57, 248, 0.3)" />
                     <circle class="hover-circle-inner" data-target="3.5mm" data-arrow="3.5mm-arrow" id="3.5mm-inner" cx="29.5" cy="61.5" r="0.7" fill="rgba(3, 57, 248, 0.7)" />
 
-                    <circle class="hover-circle" data-target="chip" data-inner="chip-inner" cx="37" cy="64" r="2" fill="rgba(3, 57, 248, 0.3)" />
+                    <circle class="hover-circle" data-target="chip" data-inner="chip-inner" cx="37" cy="64" r="1.8" fill="rgba(3, 57, 248, 0.3)" />
                     <circle class="hover-circle-inner" data-target="chip" id="chip-inner" cx="37" cy="64" r="0.7" fill="rgba(3, 57, 248, 0.7)" />
                 </svg>
             </div>
@@ -156,11 +156,11 @@
                 <div class="text-overlay">
                     <div class="feature-title">Dual SIM Cards</div>
                     <br>
-                    <p class="fw-bold">Simplified Travel</p>
+                    <div class="feature-description">Simplified Travel</div>
                     <p> Easily switch to a local SIM card while traveling abroad.</p>
-                    <p class="fw-bold">Effortless Switching</p>
+                    <div class="feature-description">Effortless Switching</div>
                     <p>Manage two numbers seamlessly, perfect for work and personal use.</p>
-                    <p class="fw-bold">Instant Switching</p>
+                    <div class="feature-description">Instant Switching</div>
                     <p>Change SIMs on the go with no downtime.</p>
                 </div>
             </div>
@@ -171,11 +171,11 @@
                 <div class="text-overlay">
                     <div class="feature-title">USB-C</div>
                     <br>
-                    <p class="fw-bold">One Cable, Multiple Uses</p>
+                    <div class="feature-description">One Cable, Multiple Uses</div>
                     <p>Universal compatibility for all devices.</p>
-                    <p class="fw-bold">Future-Ready Tech</p>
+                    <div class="feature-description">Future-Ready Tech</div>
                     <p>Built to work with the latest devices and accessories.</p>
-                    <p class="fw-bold">Simple Connectivity</p>
+                    <div class="feature-description">Simple Connectivity</div>
                     <p>Reversible design makes plugging in hassle-free.</p>
                 </div>
             </div>
@@ -186,11 +186,11 @@
                 <div class="text-overlay">
                     <div class="feature-title">Detachable Battery</div>
                     <br>
-                    <p class="fw-bold">Easy Replacement</p>
+                    <div class="feature-description">Easy Replacement</div>
                     <p>Swap out the battery effortlessly for extended usage.</p>
-                    <p class="fw-bold">Swap in Seconds</p>
+                    <div class="feature-description">Swap in Seconds</div>
                     <p>Extend your phone’s life by replacing the battery, not the phone.</p>
-                    <p class="fw-bold">Eco-Friendly & Affordable</p>
+                    <div class="feature-description">Eco-Friendly & Affordable</div>
                     <p>Replace the battery, not the phone.</p>
                 </div>
             </div>
@@ -201,11 +201,11 @@
                 <div class="text-overlay">
                     <div class="feature-title">microSD Card</div>
                     <br>
-                    <p class="fw-bold">Affordable Expansion</p>
+                    <div class="feature-description">Affordable Expansion</div>
                     <p>Increase storage without needing to upgrade to a pricier model.</p>
-                    <p class="fw-bold">Quick & Simple</p>
+                    <div class="feature-description">Quick & Simple</div>
                     <p>Just insert a card—no setup needed.</p>
-                    <p class="fw-bold">Backup Ready</p>
+                    <div class="feature-description">Backup Ready</div>
                     <p>Reliable extra storage for important files.</p>
                 </div>
             </div>
@@ -216,11 +216,11 @@
                 <div class="text-overlay">
                     <div class="feature-title">Phone Case</div>
                     <br>
-                    <p class="fw-bold">Durable Material</p>
+                    <div class="feature-description">Durable Material</div>
                     <p>Made with ABS injection PC for long-lasting protection.</p>
-                    <p class="fw-bold">Smooth Curves & Surface</p>
+                    <div class="feature-description">Smooth Curves & Surface</div>
                     <p>Ergonomically designed for the best grip and comfort.</p>
-                    <p class="fw-bold">Perfect Fit</p>
+                    <div class="feature-description">Perfect Fit</div>
                     <p>Easy to pick up and designed for an exceptional in-hand experience.</p>
                 </div>
             </div>
@@ -231,11 +231,11 @@
                 <div class="text-overlay">
                     <div class="feature-title">Android 14</div>
                     <br>
-                    <p class="fw-bold">User-Friendly Experience</p>
+                    <div class="feature-description">User-Friendly Experience</div>
                     <p>Intuitive design makes it easy for anyone to pick up and use.</p>
-                    <p class="fw-bold">Dependable Security</p>
+                    <div class="feature-description">Dependable Security</div>
                     <p>Advanced protections for worry-free use.</p>
-                    <p class="fw-bold">Tailored Simplicity</p>
+                    <div class="feature-description">Tailored Simplicity</div>
                     <p>Customize your phone to match your lifestyle.</p>
                 </div>
             </div>
@@ -246,11 +246,11 @@
                 <div class="text-overlay">
                     <div class="feature-title">3.5mm Headphone Jack</div>
                     <br>
-                    <p class="fw-bold">Plug & Play</p>
+                    <div class="feature-description">Plug & Play</div>
                     <p>No adapters, no hassle—just simplicity.</p>
-                    <p class="fw-bold">Universal Compatibility</p>
+                    <div class="feature-description">Universal Compatibility</div>
                     <p>Works with all standard headphones.</p>
-                    <p class="fw-bold">Classic Convenience</p>
+                    <div class="feature-description">Classic Convenience</div>
                     <p>Trusted and familiar for seamless everyday use.</p>
                 </div>
             </div>
@@ -261,11 +261,11 @@
                 <div class="text-overlay">
                     <div class="feature-title">Chip</div>
                     <br>
-                    <p class="fw-bold">Reliable Performance</p>
+                    <div class="feature-description">Reliable Performance</div>
                     <p>MediaTek Quad-Core processor ensures smooth multitasking.</p>
-                    <p class="fw-bold">Efficient Power Use</p>
+                    <div class="feature-description">Efficient Power Use</div>
                     <p>Optimized for long-lasting battery life.</p>
-                    <p class="fw-bold">Trusted Quality</p>
+                    <div class="feature-description">Trusted Quality</div>
                     <p>Built in Taiwan by TSMC, a global leader in semiconductor technology.</p>
                 </div>
             </div>
@@ -291,13 +291,13 @@
     <?php include './inc/footer.php'; ?>
 
 
-    <script>
+    <!-- <script>
         document.addEventListener('DOMContentLoaded', () => {
             const circles = document.querySelectorAll('.hover-circle');
             const defaultImage = document.getElementById('battery');
-            //const defaultArrow = document.getElementById('battery-arrow');
+            const defaultArrow = document.getElementById('battery-arrow');
             const hoverContent = document.querySelectorAll('.hover-content');
-            //const arrows = document.querySelectorAll('.arrow');
+            const arrows = document.querySelectorAll('.arrow');
 
             let currentTarget = null;
 
@@ -305,19 +305,19 @@
             function showContent(targetId, arrowId) {
                 // Hide all hover content
                 hoverContent.forEach(content => (content.style.display = 'none'));
-                //arrows.forEach(arrow => (arrow.style.display = 'none'));
+                arrows.forEach(arrow => (arrow.style.display = 'none'));
 
                 if (targetId) {
                     const targetElement = document.getElementById(targetId);
                     if (targetElement) targetElement.style.display = 'block';
 
                     // const targetArrow = document.getElementById(arrowId);
-                    // if (targetArrow) targetArrow.style.display = 'block';
+                    if (targetArrow) targetArrow.style.display = 'block';
 
                     currentTarget = targetId;
                 } else {
                     defaultImage.style.display = 'block';
-                    // defaultArrow.style.display = 'block';
+                    defaultArrow.style.display = 'block';
                     currentTarget = null;
                 }
             }
@@ -325,7 +325,7 @@
             // Add event listeners to circles
             circles.forEach(circle => {
                 const targetId = circle.getAttribute('data-target');
-                //const arrowId = circle.getAttribute('data-arrow');
+                const arrowId = circle.getAttribute('data-arrow');
 
                 // On click, show the corresponding content
                 circle.addEventListener('click', () => {
@@ -336,9 +336,64 @@
             // Set default state on page load
             showContent(null); // Show the default image
         });
+    </script> -->
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const circles = document.querySelectorAll('.hover-circle');
+            const defaultImage = document.getElementById('battery');
+            const hoverContent = document.querySelectorAll('.hover-content');
+            const arrows = document.querySelectorAll('.arrow');
+
+            let currentTarget = null;
+
+            // Function to show the targeted content and hide others
+            function showContent(targetId, arrowId) {
+                // Hide all hover content
+                hoverContent.forEach(content => {
+                    content.style.display = 'none';
+                    content.classList.remove('show');
+                });
+                // Hide all arrows
+                arrows.forEach(arrow => (arrow.style.display = 'none'));
+
+                if (targetId) {
+                    // Show the specific target content
+                    const targetElement = document.getElementById(targetId);
+                    if (targetElement) {
+                        targetElement.style.display = 'block';
+                        setTimeout(() => targetElement.classList.add('show'), 10); // Add a slight delay to trigger the transition
+                    }
+
+                    // Show the specific arrow
+                    const targetArrow = document.getElementById(arrowId);
+                    if (targetArrow) targetArrow.style.display = 'block';
+
+                    // Update the current visible target
+                    currentTarget = targetId;
+                } else {
+                    // No target clicked: show default image and hide everything else
+                    defaultImage.style.display = 'block';
+                    defaultImage.classList.add('show');
+                    currentTarget = null;
+                }
+            }
+
+            // Add event listeners to circles
+            circles.forEach(circle => {
+                const targetId = circle.getAttribute('data-target');
+                const arrowId = circle.getAttribute('data-arrow');
+
+                // On click, show the corresponding content and arrow
+                circle.addEventListener('click', () => {
+                    showContent(targetId, arrowId);
+                });
+            });
+
+            // Set default state on page load
+            showContent(null);
+        });
     </script>
-
-
 
     <!-- <script>
         // zoom in image when scrolling
