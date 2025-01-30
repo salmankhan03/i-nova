@@ -24,7 +24,7 @@
                 </div>
             </div>
 
-            <div class="row gx-5 text-center" style="margin-top: 100px;">
+            <div class="row gx-5 text-center top-margin">
                 <div class="col-md-6">
                     <div class="about-title mission-vision">OUR <strong>MISSION</strong></div>
                     <p>Our mission is to deliver affordable, high-quality tech solutions that empower communities to come together through our innovative products.</p>

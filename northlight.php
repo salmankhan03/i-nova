@@ -24,19 +24,6 @@
             transform: translateY(0);
             visibility: visible;
         }
-
-        .video-container {
-            position: relative;
-            width: 100%;
-            padding-bottom: 56.25%;
-            height: 0;
-            overflow: hidden;
-        }
-
-        .hover-circle-inner {
-            transition: r 0.3s ease;
-            pointer-events: none;
-        }
     </style>
 </head>
 
@@ -48,7 +35,7 @@
         <!-- <video class="video" width="100%" autoplay muted>
                 <source src="img/phone/Aurora_Magic_remix.mp4" type="video/mp4">
         </video> -->
-        <img class="poster-image" src="img/phone/banner_bg.jpg" alt="Replacement" style="width: 100%;">
+        <img class="poster-image" id="posterImage" src="img/phone/banner_bg.jpg" alt="Replacement">
     </div>
 
     <!-- highlights -->
@@ -111,6 +98,14 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="row top-padding">
+                        <div class="col-12">
+                            <div class="heading">
+                                Let's Break it Down.
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -119,34 +114,34 @@
     <div style="padding-top: 50px;"></div>
 
     <div class="custom-container">
-        <div class="drawing-container-desktop">
+        <div class="features-container-desktop">
             <div class="image-wrapper">
                 <img src="img/phone/Northlight-explosive-sketch.png" alt="engineering drawing" class="engineering-drawing">
 
                 <svg class="circle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
                     <circle class="hover-circle" data-target="sim-card" data-arrow="sim-arrow" data-inner="sim-inner" cx="36" cy="38" r="1.8" fill="rgba(3, 57, 248, 0.3)" />
-                    <circle class="hover-circle-inner" data-target="sim-card" data-arrow="sim-arrow" id="sim-inner" cx="36" cy="38" r="0.7" fill="rgba(3, 57, 248, 0.7)" />
+                    <circle class="hover-circle-inner" data-arrow="sim-arrow" id="sim-inner" cx="36" cy="38" r="0.7" fill="rgba(3, 57, 248, 0.7)" />
 
                     <circle class="hover-circle" data-target="usb-c" data-inner="usb-c-inner" cx="27.5" cy="65" r="1.8" fill="rgba(3, 57, 248, 0.3)" />
-                    <circle class="hover-circle-inner" data-target="usb-c" id="usb-c-inner" cx="27.5" cy="65" r="0.7" fill="rgba(3, 57, 248, 0.7)" />
+                    <circle class="hover-circle-inner" id="usb-c-inner" cx="27.5" cy="65" r="0.7" fill="rgba(3, 57, 248, 0.7)" />
 
                     <circle class="hover-circle" data-target="battery" data-arrow="battery-arrow" data-inner="battery-inner" cx="56" cy="27" r="1.8" fill="rgba(3, 57, 248, 0.3)" />
-                    <circle class="hover-circle-inner" data-target="battery" data-arrow="battery-arrow" id="battery-inner" cx="56" cy="27" r="0.7" fill="rgba(3, 57, 248, 0.7)" />
+                    <circle class="hover-circle-inner" data-arrow="battery-arrow" id="battery-inner" cx="56" cy="27" r="0.7" fill="rgba(3, 57, 248, 0.7)" />
 
                     <circle class="hover-circle" data-target="microSD" data-arrow="microSD-arrow" data-inner="microSD-inner" cx="39.5" cy="34.5" r="1.8" fill="rgba(3, 57, 248, 0.3)" />
-                    <circle class="hover-circle-inner" data-target="microSD" data-arrow="microSD-arrow" id="microSD-inner" cx="39.5" cy="34.5" r="0.7" fill="rgba(3, 57, 248, 0.7)" />
+                    <circle class="hover-circle-inner" data-arrow="microSD-arrow" id="microSD-inner" cx="39.5" cy="34.5" r="0.7" fill="rgba(3, 57, 248, 0.7)" />
 
                     <circle class="hover-circle" data-target="case" data-arrow="case-arrow" data-inner="case-inner" cx="52" cy="13.5" r="1.8" fill="rgba(3, 57, 248, 0.3)" />
-                    <circle class="hover-circle-inner" data-target="case" data-arrow="case-arrow" id="case-inner" cx="52" cy="13.5" r="0.7" fill="rgba(3, 57, 248, 0.7)" />
+                    <circle class="hover-circle-inner" data-arrow="case-arrow" id="case-inner" cx="52" cy="13.5" r="0.7" fill="rgba(3, 57, 248, 0.7)" />
 
                     <circle class="hover-circle" data-target="android" data-inner="android-inner" cx="51.5" cy="86.5" r="1.8" fill="rgba(3, 57, 248, 0.3)" />
-                    <circle class="hover-circle-inner" data-target="android" id="android-inner" cx="51.5" cy="86.5" r="0.7" fill="rgba(3, 57, 248, 0.7)" />
+                    <circle class="hover-circle-inner" id="android-inner" cx="51.5" cy="86.5" r="0.7" fill="rgba(3, 57, 248, 0.7)" />
 
                     <circle class="hover-circle" data-target="3.5mm" data-arrow="3.5mm-arrow" data-inner="3.5mm-inner" cx="29.5" cy="61.5" r="1.8" fill="rgba(3, 57, 248, 0.3)" />
-                    <circle class="hover-circle-inner" data-target="3.5mm" data-arrow="3.5mm-arrow" id="3.5mm-inner" cx="29.5" cy="61.5" r="0.7" fill="rgba(3, 57, 248, 0.7)" />
+                    <circle class="hover-circle-inner" data-arrow="3.5mm-arrow" id="3.5mm-inner" cx="29.5" cy="61.5" r="0.7" fill="rgba(3, 57, 248, 0.7)" />
 
                     <circle class="hover-circle" data-target="chip" data-inner="chip-inner" cx="37" cy="64" r="1.8" fill="rgba(3, 57, 248, 0.3)" />
-                    <circle class="hover-circle-inner" data-target="chip" id="chip-inner" cx="37" cy="64" r="0.7" fill="rgba(3, 57, 248, 0.7)" />
+                    <circle class="hover-circle-inner" id="chip-inner" cx="37" cy="64" r="0.7" fill="rgba(3, 57, 248, 0.7)" />
                 </svg>
             </div>
 
@@ -182,7 +177,7 @@
 
             <!-- Battery -->
             <div class="image-wrapper hover-content" id="battery">
-                <img src="img/phone/battery.png" alt="Removable Battery" class="engineering-drawing">
+                <img src="img/phone/battery.png" alt="Detachable Battery" class="engineering-drawing">
                 <div class="text-overlay">
                     <div class="feature-title">Detachable Battery</div>
                     <br>
@@ -285,41 +280,59 @@
             </svg> -->
 
         </div>
+
+        <div class="disclaimer-desktop">*Measurements are approximate; results may vary. SIM cards and microSD card are sold separately.</div>
     </div>
 
 
     <div class="container">
-        <div class="drawing-container-mobile">
+        <div class="features-container-mobile">
             <div class="image-wrapper-mobile">
                 <img src="img/phone/Northlight-explosive-sketch-mobile.png" alt="engineering drawing" class="engineering-drawing-mobile">
 
-                <svg class="circle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-                    <!-- <circle class="hover-circle" data-target="sim-card" data-inner="sim-inner" cx="36" cy="38" r="4.5" fill="rgba(3, 57, 248, 0.3)" />
-                    <circle class="hover-circle-inner" data-target="sim-card" id="sim-inner" cx="36" cy="38" r="1.5" fill="rgba(3, 57, 248, 0.7)" />
+                <svg class="circle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 62.64 100">
+                    <!-- <circle class="hover-circle" data-target="sim-card" data-inner="sim-inner" cx="36" cy="38" r="2.7" fill="rgba(3, 57, 248, 0.3)" />
+                    <circle class="hover-circle-inner" data-target="sim-card" id="sim-inner" cx="36" cy="38" r="0.9" fill="rgba(3, 57, 248, 0.7)" />
 
-                    <circle class="hover-circle" data-target="usb-c" data-inner="usb-c-inner" cx="27.5" cy="65" r="4.5" fill="rgba(3, 57, 248, 0.3)" />
-                    <circle class="hover-circle-inner" data-target="usb-c" id="usb-c-inner" cx="27.5" cy="65" r="1.5" fill="rgba(3, 57, 248, 0.7)" /> -->
+                    <circle class="hover-circle" data-target="usb-c" data-inner="usb-c-inner" cx="27.5" cy="65" r="2.7" fill="rgba(3, 57, 248, 0.3)" />
+                    <circle class="hover-circle-inner" data-target="usb-c" id="usb-c-inner" cx="27.5" cy="65" r="0.9" fill="rgba(3, 57, 248, 0.7)" /> -->
 
-                    <circle class="hover-circle" data-target="battery" data-inner="battery-inner" cx="58.5" cy="37.5" r="4.5" fill="rgba(3, 57, 248, 0.3)" />
-                    <circle class="hover-circle-inner" data-target="battery" id="battery-inner" cx="58.5" cy="37.5" r="1.5" fill="rgba(3, 57, 248, 0.7)" />
+                    <circle class="hover-circle" data-target="battery" data-inner="battery-inner-mobile" cx="37" cy="23" r="2.7" fill="rgba(3, 57, 248, 0.3)" />
+                    <circle class="hover-circle-inner" id="battery-inner-mobile" cx="37" cy="23" r="0.9" fill="rgba(3, 57, 248, 0.7)" />
 
-                    <!-- <circle class="hover-circle" data-target="microSD" data-inner="microSD-inner" cx="39.5" cy="34.5" r="4.5" fill="rgba(3, 57, 248, 0.3)" />
-                    <circle class="hover-circle-inner" data-target="microSD" id="microSD-inner" cx="39.5" cy="34.5" r="1.5" fill="rgba(3, 57, 248, 0.7)" /> -->
+                    <!-- <circle class="hover-circle" data-target="microSD" data-inner="microSD-inner" cx="39.5" cy="34.5" r="2.7" fill="rgba(3, 57, 248, 0.3)" />
+                    <circle class="hover-circle-inner" data-target="microSD" id="microSD-inner" cx="39.5" cy="34.5" r="0.9" fill="rgba(3, 57, 248, 0.7)" /> -->
 
-                    <circle class="hover-circle" data-target="case" data-inner="case-inner" cx="52" cy="12.5" r="4.5" fill="rgba(3, 57, 248, 0.3)" />
-                    <circle class="hover-circle-inner" data-target="case" id="case-inner" cx="52" cy="12.5" r="1.5" fill="rgba(3, 57, 248, 0.7)" />
+                    <circle class="hover-circle" data-target="case" data-inner="case-inner-mobile" cx="34.5" cy="8" r="2.7" fill="rgba(3, 57, 240, 0.3)" />
+                    <circle class="hover-circle-inner" id="case-inner-mobile" cx="34.5" cy="8" r="0.9" fill="rgba(3, 57, 248, 0.7)" />
 
-                    <!-- <circle class="hover-circle" data-target="android" data-inner="android-inner" cx="51.5" cy="86.5" r="4.5" fill="rgba(3, 57, 248, 0.3)" />
-                    <circle class="hover-circle-inner" data-target="android" id="android-inner" cx="51.5" cy="86.5" r="1.5" fill="rgba(3, 57, 248, 0.7)" />
+                    <!-- <circle class="hover-circle" data-target="android" data-inner="android-inner" cx="51.5" cy="86.5" r="2.7" fill="rgba(3, 57, 248, 0.3)" />
+                    <circle class="hover-circle-inner" data-target="android" id="android-inner" cx="51.5" cy="86.5" r="0.9" fill="rgba(3, 57, 248, 0.7)" />
 
-                    <circle class="hover-circle" data-target="3.5mm" data-inner="3.5mm-inner" cx="29.5" cy="61.5" r="4.5" fill="rgba(3, 57, 248, 0.3)" />
-                    <circle class="hover-circle-inner" data-target="3.5mm" id="3.5mm-inner" cx="29.5" cy="61.5" r="1.5" fill="rgba(3, 57, 248, 0.7)" />
+                    <circle class="hover-circle" data-target="3.5mm" data-inner="3.5mm-inner" cx="29.5" cy="61.5" r="2.7" fill="rgba(3, 57, 248, 0.3)" />
+                    <circle class="hover-circle-inner" data-target="3.5mm" id="3.5mm-inner" cx="29.5" cy="61.5" r="0.9" fill="rgba(3, 57, 248, 0.7)" />
 
-                    <circle class="hover-circle" data-target="chip" data-inner="chip-inner" cx="37" cy="64" r="4.5" fill="rgba(3, 57, 248, 0.3)" />
-                    <circle class="hover-circle-inner" data-target="chip" id="chip-inner" cx="37" cy="64" r="1.5" fill="rgba(3, 57, 248, 0.7)" /> -->
+                    <circle class="hover-circle" data-target="chip" data-inner="chip-inner" cx="37" cy="64" r="2.7" fill="rgba(3, 57, 248, 0.3)" />
+                    <circle class="hover-circle-inner" data-target="chip" id="chip-inner" cx="37" cy="64" r="0.9" fill="rgba(3, 57, 248, 0.7)" /> -->
                 </svg>
             </div>
+
+            <!-- Battery -->
+            <!-- <div class="feature-wrapper-mobile" id="battery">
+                <img src="img/phone/battery.png" alt="Detachable Battery" class="feature-background-mobile">
+                <div class="text-overlay">
+                    <div class="feature-title">Detachable Battery</div>
+                    <br>
+                    <div class="feature-description">Easy Replacement</div>
+                    <p>Swap out the battery effortlessly for extended usage.</p>
+                    <div class="feature-description">Swap in Seconds</div>
+                    <p>Extend your phone’s life by replacing the battery, not the phone.</p>
+                    <div class="feature-description">Eco-Friendly & Affordable</div>
+                    <p>Replace the battery, not the phone.</p>
+                </div>
+            </div> -->
         </div>
+        <div class="disclaimer-mobile">*Measurements are approximate; results may vary. SIM cards and microSD card are sold separately.</div>
     </div>
 
 
@@ -373,6 +386,7 @@
         });
     </script> -->
 
+    <!-- Show features on click -->
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const circles = document.querySelectorAll('.hover-circle');
@@ -451,12 +465,12 @@
         window.addEventListener('resize', zoomInBanner);
     </script> -->
 
-    <script>
+    <!-- <script>
         document.addEventListener("scroll", () => {
             const navbar = document.getElementById("phone-nav-container");
             const scrollPosition = window.scrollY || document.documentElement.scrollTop;
 
-            if (scrollPosition > 700) {
+            if ((scrollPosition > 700 && window.innerWidth >= 991) || (scrollPosition > 300 && window.innerWidth < 991)) {
                 navbar.classList.remove("hidden");
                 navbar.classList.add("visible");
             } else {
@@ -464,17 +478,64 @@
                 navbar.classList.add("hidden");
             }
         });
-    </script>
-    <!-- <script>
-            const video = document.querySelector('.video');
-            const image = document.querySelector('.poster-image');
+    </script> -->
 
-            video.addEventListener('ended', () => {
-                video.style.display = 'none';
-                image.style.display = 'block';
+    <!-- show navbar on scroll -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const navbar = document.getElementById("phone-nav-container");
+            const posterImage = document.getElementById('posterImage');
+            let imageHeight = 0;
+
+            // Function to update the image height
+            function updateImageHeight() {
+                imageHeight = posterImage.offsetHeight;
+            }
+
+            // Ensure the image is fully loaded before getting its height
+            posterImage.onload = updateImageHeight;
+
+            // Fallback in case the image is cached and already loaded
+            if (posterImage.complete) {
+                updateImageHeight();
+            }
+
+            // Function to handle scroll logic
+            function handleScroll() {
+                const scrollPosition = window.scrollY || window.pageYOffset;
+
+                if (scrollPosition > imageHeight) {
+                    navbar.classList.remove("hidden");
+                    navbar.classList.add("visible");
+                } else {
+                    navbar.classList.remove("visible");
+                    navbar.classList.add("hidden");
+                }
+            }
+
+            // Add scroll event listener
+            window.addEventListener('scroll', handleScroll);
+
+            // Add resize event listener to recalculate image height and re-run scroll logic
+            window.addEventListener('resize', () => {
+                updateImageHeight(); // Recalculate image height
+                handleScroll(); // Re-run scroll logic
             });
-        </script> -->
+        });
+    </script>
 
+    <!-- <script>
+        const video = document.querySelector('.video');
+        const image = document.querySelector('.poster-image');
+
+        video.addEventListener('ended', () => {
+            video.style.display = 'none';
+            image.style.display = 'block';
+        });
+    </script> -->
+
+
+    <!-- Zoom in circles on hover -->
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const circles = document.querySelectorAll('.hover-circle');
@@ -485,13 +546,13 @@
 
                 circle.addEventListener('mouseover', () => {
                     if (innerCircle) {
-                        innerCircle.setAttribute('r', parseFloat(innerCircle.getAttribute('r')) / 0.75); // Reduce radius by 25%
+                        innerCircle.setAttribute('r', parseFloat(innerCircle.getAttribute('r')) / 0.75);
                     }
                 });
 
                 circle.addEventListener('mouseout', () => {
                     if (innerCircle) {
-                        innerCircle.setAttribute('r', parseFloat(innerCircle.getAttribute('r')) * 0.75); // Reset radius to original size
+                        innerCircle.setAttribute('r', parseFloat(innerCircle.getAttribute('r')) * 0.75);
                     }
                 });
             });
