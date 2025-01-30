@@ -285,7 +285,7 @@
     </div>
 
 
-    <div class="container">
+    <div class="container p-0">
         <div class="features-container-mobile">
             <div class="image-wrapper-mobile">
                 <img src="img/phone/Northlight-explosive-sketch-mobile.png" alt="engineering drawing" class="engineering-drawing-mobile">
@@ -297,13 +297,13 @@
                     <circle class="hover-circle" data-target="usb-c" data-inner="usb-c-inner" cx="27.5" cy="65" r="2.7" fill="rgba(3, 57, 248, 0.3)" />
                     <circle class="hover-circle-inner" data-target="usb-c" id="usb-c-inner" cx="27.5" cy="65" r="0.9" fill="rgba(3, 57, 248, 0.7)" /> -->
 
-                    <circle class="hover-circle" data-target="battery" data-inner="battery-inner-mobile" cx="37" cy="23" r="2.7" fill="rgba(3, 57, 248, 0.3)" />
+                    <circle class="hover-circle" data-target="battery-mobile" data-inner="battery-inner-mobile" cx="37" cy="23" r="2.7" fill="rgba(3, 57, 248, 0.3)" />
                     <circle class="hover-circle-inner" id="battery-inner-mobile" cx="37" cy="23" r="0.9" fill="rgba(3, 57, 248, 0.7)" />
 
                     <!-- <circle class="hover-circle" data-target="microSD" data-inner="microSD-inner" cx="39.5" cy="34.5" r="2.7" fill="rgba(3, 57, 248, 0.3)" />
                     <circle class="hover-circle-inner" data-target="microSD" id="microSD-inner" cx="39.5" cy="34.5" r="0.9" fill="rgba(3, 57, 248, 0.7)" /> -->
 
-                    <circle class="hover-circle" data-target="case" data-inner="case-inner-mobile" cx="34.5" cy="8" r="2.7" fill="rgba(3, 57, 240, 0.3)" />
+                    <circle class="hover-circle" data-target="case-mobile" data-inner="case-inner-mobile" cx="34.5" cy="8" r="2.7" fill="rgba(3, 57, 240, 0.3)" />
                     <circle class="hover-circle-inner" id="case-inner-mobile" cx="34.5" cy="8" r="0.9" fill="rgba(3, 57, 248, 0.7)" />
 
                     <!-- <circle class="hover-circle" data-target="android" data-inner="android-inner" cx="51.5" cy="86.5" r="2.7" fill="rgba(3, 57, 248, 0.3)" />
@@ -318,9 +318,10 @@
             </div>
 
             <!-- Battery -->
-            <!-- <div class="feature-wrapper-mobile" id="battery">
+            <div class="feature-wrapper-mobile" id="battery-mobile">
+                <i class="fa-solid fa-xmark xmark"></i>
                 <img src="img/phone/battery.png" alt="Detachable Battery" class="feature-background-mobile">
-                <div class="text-overlay">
+                <div class="text-overlay-mobile">
                     <div class="feature-title">Detachable Battery</div>
                     <br>
                     <div class="feature-description">Easy Replacement</div>
@@ -330,7 +331,23 @@
                     <div class="feature-description">Eco-Friendly & Affordable</div>
                     <p>Replace the battery, not the phone.</p>
                 </div>
-            </div> -->
+            </div>
+
+            <!-- Case -->
+            <div class="feature-wrapper-mobile" id="case-mobile">
+                <i class="fa-solid fa-xmark xmark"></i>
+                <img src="img/phone/phone_case.png" alt="Case" class="feature-background-mobile">
+                <div class="text-overlay-mobile">
+                    <div class="feature-title">Phone Case</div>
+                    <br>
+                    <div class="feature-description">Durable Material</div>
+                    <p>Made with ABS injection PC for long-lasting protection.</p>
+                    <div class="feature-description">Smooth Curves & Surface</div>
+                    <p>Ergonomically designed for the best grip and comfort.</p>
+                    <div class="feature-description">Perfect Fit</div>
+                    <p>Easy to pick up and designed for an exceptional in-hand experience.</p>
+                </div>
+            </div>
         </div>
         <div class="disclaimer-mobile">*Measurements are approximate; results may vary. SIM cards and microSD card are sold separately.</div>
     </div>
@@ -553,6 +570,78 @@
                 circle.addEventListener('mouseout', () => {
                     if (innerCircle) {
                         innerCircle.setAttribute('r', parseFloat(innerCircle.getAttribute('r')) * 0.75);
+                    }
+                });
+            });
+        });
+    </script>
+
+    <!-- Hide feature-wrapper-mobile on xmark click -->
+    <!-- <script>
+        const xmarks = document.querySelectorAll('.xmark');
+
+        // Loop through each xmark element
+        xmarks.forEach(xmark => {
+            // Add a click event listener to each xmark
+            xmark.addEventListener('click', function() {
+                // Find the closest parent element with the class 'feature-wrapper-mobile'
+                const featureWrapper = xmark.closest('.feature-wrapper-mobile');
+
+                // Hide the feature-wrapper-mobile
+                if (featureWrapper) {
+                    featureWrapper.style.display = 'none';
+                }
+            });
+        });
+    </script> -->
+
+    <script>
+        // Function to resize all feature-wrapper-mobile elements to match image-wrapper-mobile
+        function resizeFeatureWrappers() {
+            const imageWrapper = document.querySelector('.image-wrapper-mobile');
+            const featureWrappers = document.querySelectorAll('.feature-wrapper-mobile');
+
+            if (imageWrapper && featureWrappers.length > 0) {
+                // Get the width and height of the image-wrapper-mobile
+                const width = imageWrapper.offsetWidth;
+                const height = imageWrapper.offsetHeight;
+
+                // Loop through all feature-wrapper-mobile elements
+                featureWrappers.forEach(featureWrapper => {
+                    // Set the width and height of each feature-wrapper-mobile
+                    featureWrapper.style.width = `${width}px`;
+                    featureWrapper.style.height = `${height}px`;
+                    featureWrapper.style.display = 'none';
+                });
+            }
+        }
+
+        // Initial resize on page load
+        window.addEventListener('load', resizeFeatureWrappers);
+
+        // Resize on window resize
+        //window.addEventListener('resize', resizeFeatureWrappers);
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const hoverCircles = document.querySelectorAll('.hover-circle');
+            hoverCircles.forEach(circle => {
+                circle.addEventListener('click', function() {
+                    const targetId = circle.getAttribute('data-target');
+                    const featureWrapper = document.getElementById(targetId);
+                    if (featureWrapper) {
+                        featureWrapper.style.display = 'block';
+                    }
+                });
+            });
+
+            const closeButtons = document.querySelectorAll('.xmark');
+            closeButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const featureWrapper = button.closest('.feature-wrapper-mobile');
+                    if (featureWrapper) {
+                        featureWrapper.style.display = 'none';
                     }
                 });
             });
