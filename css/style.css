@@ -624,9 +624,17 @@ a {
     min-height: 300px;
 }
 
+.hover-circle {
+    cursor: pointer;
+    fill: rgba(101, 200, 191, 0.3);
+    /* stroke: #000;
+    stroke-width: 0.1; */
+}
+
 .hover-circle-inner {
     transition: r 0.3s ease;
     pointer-events: none;
+    fill: rgba(101, 200, 191, 0.9);
 }
 
 .poster-image {
@@ -716,11 +724,8 @@ a {
     opacity: 1;
 }
 
-.hover-circle {
-    cursor: pointer;
-}
-
 .text-overlay {
+    color: white;
     position: absolute;
     top: 50%;
     left: 100px;
@@ -728,6 +733,7 @@ a {
 }
 
 .text-overlay-mobile {
+    color: white;
     position: absolute;
     top: 45%;
     left: 12px;
@@ -770,10 +776,15 @@ a {
 }
 
 .xmark {
+    color: white;
     position: absolute;
     top: 10px;
     right: 10px;
     font-size: 32px;
     cursor: pointer;
     z-index: 10;
+}
+
+.bg-color {
+    background-color: #0B212C;
 }
