@@ -18,16 +18,45 @@
     }
 }
 
-@media only screen and (min-width: 1400px) {
+@media only screen and (max-width: 1399px) {
+    .engineering-drawing-lg {
+        display: none;
+    }
+
+    .engineering-drawing-md {
+        display: block;
+    }
+
+    .image-wrapper {
+        height: 900px;
+    }
+
+    .engineering-drawing-position{
+        left: 80px;
+    }
+
+    .hover-content {
+        right: -50px;
+    }
+
+    .text-overlay {
+        max-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
     .features-container-mobile {
         display: none;
     }
     .disclaimer-mobile {
         display: none;
     }
+    .mobile-container-padding{
+        padding: 0;
+    }
 }
 
-@media only screen and (max-width: 1399px) {
+@media only screen and (max-width: 1199px) {
     .features-container-desktop {
         display: none;
     }
