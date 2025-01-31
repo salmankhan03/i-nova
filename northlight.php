@@ -113,31 +113,32 @@
 
     <div style="padding-top: 50px;"></div>
 
-    <div class="bg-color">
+    <div class="bg-color overflow-hidden">
         <div class="custom-container">
-            <div class="heading text-white py-5">Let's Break it Down.</div>
+            <div class="heading text-white" style="padding-top: 50px;">Let's Break it Down.</div>
             <div class="features-container-desktop">
-                <div class="image-wrapper">
+                <div class="image-wrapper" style="margin-right: -35px;">
                     <img src="img/phone/Northlight-explosive-sketch.png" alt="engineering drawing" class="engineering-drawing">
                     <svg class="circle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-                        <circle class="hover-circle" data-target="sim-card" data-arrow="sim-arrow" data-inner="sim-inner" cx="36" cy="38" r="1.8" />
+                        <circle class="hover-circle" data-target="sim-card" data-arrow="sim-arrow" data-inner="sim-inner" cx="36" cy="38" r="1.7" />
                         <circle class="hover-circle-inner" data-arrow="sim-arrow" id="sim-inner" cx="36" cy="38" r="0.7" />
-                        <circle class="hover-circle" data-target="usb-c" data-inner="usb-c-inner" cx="27.5" cy="65" r="1.8" />
+                        <circle class="hover-circle" data-target="usb-c" data-inner="usb-c-inner" cx="27.5" cy="65" r="1.7" />
                         <circle class="hover-circle-inner" id="usb-c-inner" cx="27.5" cy="65" r="0.7" />
-                        <circle class="hover-circle" data-target="battery" data-arrow="battery-arrow" data-inner="battery-inner" cx="56" cy="27" r="1.8" />
+                        <circle class="hover-circle" data-target="battery" data-arrow="battery-arrow" data-inner="battery-inner" cx="56" cy="27" r="1.7" />
                         <circle class="hover-circle-inner" data-arrow="battery-arrow" id="battery-inner" cx="56" cy="27" r="0.7" />
-                        <circle class="hover-circle" data-target="microSD" data-arrow="microSD-arrow" data-inner="microSD-inner" cx="39.5" cy="34.5" r="1.8" />
+                        <circle class="hover-circle" data-target="microSD" data-arrow="microSD-arrow" data-inner="microSD-inner" cx="39.5" cy="34.5" r="1.7" />
                         <circle class="hover-circle-inner" data-arrow="microSD-arrow" id="microSD-inner" cx="39.5" cy="34.5" r="0.7" />
-                        <circle class="hover-circle" data-target="case" data-arrow="case-arrow" data-inner="case-inner" cx="52" cy="13.5" r="1.8" />
+                        <circle class="hover-circle" data-target="case" data-arrow="case-arrow" data-inner="case-inner" cx="52" cy="13.5" r="1.7" />
                         <circle class="hover-circle-inner" data-arrow="case-arrow" id="case-inner" cx="52" cy="13.5" r="0.7" />
-                        <circle class="hover-circle" data-target="android" data-inner="android-inner" cx="51.5" cy="86.5" r="1.8" />
+                        <circle class="hover-circle" data-target="android" data-inner="android-inner" cx="51.5" cy="86.5" r="1.7" />
                         <circle class="hover-circle-inner" id="android-inner" cx="51.5" cy="86.5" r="0.7" />
-                        <circle class="hover-circle" data-target="3.5mm" data-arrow="3.5mm-arrow" data-inner="3.5mm-inner" cx="29.5" cy="61.5" r="1.8" />
+                        <circle class="hover-circle" data-target="3.5mm" data-arrow="3.5mm-arrow" data-inner="3.5mm-inner" cx="29.5" cy="61.5" r="1.7" />
                         <circle class="hover-circle-inner" data-arrow="3.5mm-arrow" id="3.5mm-inner" cx="29.5" cy="61.5" r="0.7" />
-                        <circle class="hover-circle" data-target="chip" data-inner="chip-inner" cx="37" cy="64" r="1.8" />
+                        <circle class="hover-circle" data-target="chip" data-inner="chip-inner" cx="37" cy="64" r="1.7" />
                         <circle class="hover-circle-inner" id="chip-inner" cx="37" cy="64" r="0.7" />
                     </svg>
                 </div>
+
                 <!-- SIM Card -->
                 <div class="image-wrapper hover-content" id="sim-card">
                     <img src="img/phone/dualSIM_card.png" alt="SIM card" class="engineering-drawing">
@@ -152,6 +153,7 @@
                         <p>Change SIMs on the go with no downtime.</p>
                     </div>
                 </div>
+
                 <!-- USB-C -->
                 <div class="image-wrapper hover-content" id="usb-c">
                     <img src="img/phone/usb_c.png" alt="USB-C" class="engineering-drawing">
@@ -166,6 +168,7 @@
                         <p>Reversible design makes plugging in hassle-free.</p>
                     </div>
                 </div>
+
                 <!-- Battery -->
                 <div class="image-wrapper hover-content" id="battery">
                     <img src="img/phone/battery.png" alt="Detachable Battery" class="engineering-drawing">
@@ -180,6 +183,7 @@
                         <p>Replace the battery, not the phone.</p>
                     </div>
                 </div>
+
                 <!-- microSD Card -->
                 <div class="image-wrapper hover-content" id="microSD">
                     <img src="img/phone/microSD_card.png" alt="microSD Card" class="engineering-drawing">
@@ -194,6 +198,7 @@
                         <p>Reliable extra storage for important files.</p>
                     </div>
                 </div>
+
                 <!-- Case -->
                 <div class="image-wrapper hover-content" id="case">
                     <img src="img/phone/phone_case.png" alt="case" class="engineering-drawing">
@@ -208,6 +213,7 @@
                         <p>Easy to pick up and designed for an exceptional in-hand experience.</p>
                     </div>
                 </div>
+
                 <!-- Android -->
                 <div class="image-wrapper hover-content" id="android">
                     <img src="img/phone/android14.png" alt="Android 14" class="engineering-drawing">
@@ -222,6 +228,7 @@
                         <p>Customize your phone to match your lifestyle.</p>
                     </div>
                 </div>
+
                 <!-- 3.5mm -->
                 <div class="image-wrapper hover-content" id="3.5mm">
                     <img src="img/phone/headphone_jack.png" alt="3.5mm Headphone Jack" class="engineering-drawing">
@@ -236,6 +243,7 @@
                         <p>Trusted and familiar for seamless everyday use.</p>
                     </div>
                 </div>
+
                 <!-- Chip -->
                 <div class="image-wrapper hover-content" id="chip">
                     <img src="img/phone/chip.png" alt="Chip" class="engineering-drawing">
@@ -250,6 +258,7 @@
                         <p>Built in Taiwan by TSMC, a global leader in semiconductor technology.</p>
                     </div>
                 </div>
+
                 <!-- <svg class="arrow-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
                     <defs>
                         <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
@@ -263,50 +272,43 @@
                     <line class="arrow" id="3.5mm-arrow" x1="15.4" y1="61.5" x2="59" y2="26" stroke="rgb(3, 57, 248)" stroke-width="0.2" marker-end="url(#arrowhead)" />
                 </svg> -->
             </div>
-            <div class="disclaimer-desktop" style="color: #666;">*Measurements are approximate; results may vary. SIM cards and microSD card are sold separately.</div>
+            <div class="disclaimer-desktop">*Measurements are approximate; results may vary. SIM cards and microSD card are sold separately.</div>
         </div>
     </div>
 
 
     <div class="bg-color">
-        <div class="container p-0">
+        <div class="container" style="padding: 50px 0 0 0;">
             <div class="features-container-mobile">
                 <div class="image-wrapper-mobile">
                     <img src="img/phone/Northlight-explosive-sketch-mobile.png" alt="engineering drawing" class="engineering-drawing-mobile">
                     <svg class="circle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 62.64 100">
-                        <!-- <circle class="hover-circle" data-target="sim-card" data-inner="sim-inner" cx="36" cy="38" r="2.7" />
-                        <circle class="hover-circle-inner" data-target="sim-card" id="sim-inner" cx="36" cy="38" r="0.9" />
-                        <circle class="hover-circle" data-target="usb-c" data-inner="usb-c-inner" cx="27.5" cy="65" r="2.7" />
-                        <circle class="hover-circle-inner" data-target="usb-c" id="usb-c-inner" cx="27.5" cy="65" r="0.9" /> -->
-                        <circle class="hover-circle" data-target="battery-mobile" data-inner="battery-inner-mobile" cx="37" cy="23" r="2.7" />
-                        <circle class="hover-circle-inner" id="battery-inner-mobile" cx="37" cy="23" r="0.9" />
-                        <!-- <circle class="hover-circle" data-target="microSD" data-inner="microSD-inner" cx="39.5" cy="34.5" r="2.7" />
-                        <circle class="hover-circle-inner" data-target="microSD" id="microSD-inner" cx="39.5" cy="34.5" r="0.9" /> -->
-                        <circle class="hover-circle" data-target="case-mobile" data-inner="case-inner-mobile" cx="34.5" cy="8" r="2.7" fill="rgba(3, 57, 240, 0.3)" />
-                        <circle class="hover-circle-inner" id="case-inner-mobile" cx="34.5" cy="8" r="0.9" />
-                        <!-- <circle class="hover-circle" data-target="android" data-inner="android-inner" cx="51.5" cy="86.5" r="2.7" />
-                        <circle class="hover-circle-inner" data-target="android" id="android-inner" cx="51.5" cy="86.5" r="0.9" />
-                        <circle class="hover-circle" data-target="3.5mm" data-inner="3.5mm-inner" cx="29.5" cy="61.5" r="2.7" />
-                        <circle class="hover-circle-inner" data-target="3.5mm" id="3.5mm-inner" cx="29.5" cy="61.5" r="0.9" />
-                        <circle class="hover-circle" data-target="chip" data-inner="chip-inner" cx="37" cy="64" r="2.7" />
-                        <circle class="hover-circle-inner" data-target="chip" id="chip-inner" cx="37" cy="64" r="0.9" /> -->
+                        <circle class="hover-circle" data-target="sim-card-mobile" data-inner="sim-inner-mobile" cx="14.2" cy="36" r="2.4" />
+                        <circle class="hover-circle-inner" id="sim-inner-mobile" cx="14.2" cy="36" r="0.9" />
+
+                        <circle class="hover-circle" data-target="usb-c-mobile" data-inner="usb-c-inner-mobile" cx="4.5" cy="67" r="2.4" />
+                        <circle class="hover-circle-inner" id="usb-c-inner-mobile" cx="4.5" cy="67" r="0.9" />
+
+                        <circle class="hover-circle" data-target="battery-mobile" data-inner="battery-inner-mobile" cx="36.5" cy="23.5" r="2.4" />
+                        <circle class="hover-circle-inner" id="battery-inner-mobile" cx="36.5" cy="23.5" r="0.9" />
+
+                        <circle class="hover-circle" data-target="microSD-mobile" data-inner="microSD-inner-mobile" cx="18.2" cy="31.5" r="2.4" />
+                        <circle class="hover-circle-inner" id="microSD-inner-mobile" cx="18.2" cy="31.5" r="0.9" />
+
+                        <circle class="hover-circle" data-target="case-mobile" data-inner="case-inner-mobile" cx="32.5" cy="7.5" r="2.4" fill="rgba(3, 57, 240, 0.3)" />
+                        <circle class="hover-circle-inner" id="case-inner-mobile" cx="32.5" cy="7.5" r="0.9" />
+
+                        <circle class="hover-circle" data-target="android-mobile" data-inner="android-inner-mobile" cx="32" cy="91" r="2.4" />
+                        <circle class="hover-circle-inner" id="android-inner-mobile" cx="32" cy="91" r="0.9" />
+
+                        <circle class="hover-circle" data-target="3.5mm-mobile" data-inner="3.5mm-inner-mobile" cx="7.5" cy="61.5" r="2.4" />
+                        <circle class="hover-circle-inner" id="3.5mm-inner-mobile" cx="7.5" cy="61.5" r="0.9" />
+
+                        <circle class="hover-circle" data-target="chip-mobile" data-inner="chip-inner-mobile" cx="16" cy="65" r="2.4" />
+                        <circle class="hover-circle-inner" id="chip-inner-mobile" cx="16" cy="65" r="0.9" />
                     </svg>
                 </div>
-                <!-- Battery -->
-                <div class="feature-wrapper-mobile" id="battery-mobile">
-                    <i class="fa-solid fa-xmark xmark"></i>
-                    <img src="img/phone/battery.png" alt="Detachable Battery" class="feature-background-mobile">
-                    <div class="text-overlay-mobile">
-                        <div class="feature-title">Detachable Battery</div>
-                        <br>
-                        <div class="feature-description">Easy Replacement</div>
-                        <p>Swap out the battery effortlessly for extended usage.</p>
-                        <div class="feature-description">Swap in Seconds</div>
-                        <p>Extend your phone’s life by replacing the battery, not the phone.</p>
-                        <div class="feature-description">Eco-Friendly & Affordable</div>
-                        <p>Replace the battery, not the phone.</p>
-                    </div>
-                </div>
+
                 <!-- Case -->
                 <div class="feature-wrapper-mobile" id="case-mobile">
                     <i class="fa-solid fa-xmark xmark"></i>
@@ -322,12 +324,124 @@
                         <p>Easy to pick up and designed for an exceptional in-hand experience.</p>
                     </div>
                 </div>
+
+                <!-- Battery -->
+                <div class="feature-wrapper-mobile" id="battery-mobile">
+                    <i class="fa-solid fa-xmark xmark"></i>
+                    <img src="img/phone/battery.png" alt="Detachable Battery" class="feature-background-mobile">
+                    <div class="text-overlay-mobile">
+                        <div class="feature-title">Detachable Battery</div>
+                        <br>
+                        <div class="feature-description">Easy Replacement</div>
+                        <p>Swap out the battery effortlessly for extended usage.</p>
+                        <div class="feature-description">Swap in Seconds</div>
+                        <p>Extend your phone’s life by replacing the battery, not the phone.</p>
+                        <div class="feature-description">Eco-Friendly & Affordable</div>
+                        <p>Replace the battery, not the phone.</p>
+                    </div>
+                </div>
+
+                <!-- microSD Card -->
+                <div class="feature-wrapper-mobile" id="microSD-mobile">
+                    <i class="fa-solid fa-xmark xmark"></i>
+                    <img src="img/phone/microSD_card.png" alt="microSD Card" class="engineering-drawing-mobile">
+                    <div class="text-overlay-mobile">
+                        <div class="feature-title">microSD Card</div>
+                        <br>
+                        <div class="feature-description">Affordable Expansion</div>
+                        <p>Increase storage without needing to upgrade to a pricier model.</p>
+                        <div class="feature-description">Quick & Simple</div>
+                        <p>Just insert a card—no setup needed.</p>
+                        <div class="feature-description">Backup Ready</div>
+                        <p>Reliable extra storage for important files.</p>
+                    </div>
+                </div>
+
+                <!-- SIM Card -->
+                <div class="feature-wrapper-mobile" id="sim-card-mobile">
+                    <i class="fa-solid fa-xmark xmark"></i>
+                    <img src="img/phone/dualSIM_card.png" alt="SIM card" class="engineering-drawing-mobile">
+                    <div class="text-overlay-mobile">
+                        <div class="feature-title">Dual SIM Cards</div>
+                        <br>
+                        <div class="feature-description">Simplified Travel</div>
+                        <p> Easily switch to a local SIM card while traveling abroad.</p>
+                        <div class="feature-description">Effortless Switching</div>
+                        <p>Manage two numbers seamlessly, perfect for work and personal use.</p>
+                        <div class="feature-description">Instant Switching</div>
+                        <p>Change SIMs on the go with no downtime.</p>
+                    </div>
+                </div>
+
+                <!-- 3.5mm -->
+                <div class="feature-wrapper-mobile" id="3.5mm-mobile">
+                    <i class="fa-solid fa-xmark xmark"></i>
+                    <img src="img/phone/headphone_jack.png" alt="3.5mm Headphone Jack" class="engineering-drawing-mobile">
+                    <div class="text-overlay-mobile">
+                        <div class="feature-title">3.5mm Headphone Jack</div>
+                        <br>
+                        <div class="feature-description">Plug & Play</div>
+                        <p>No adapters, no hassle—just simplicity.</p>
+                        <div class="feature-description">Universal Compatibility</div>
+                        <p>Works with all standard headphones.</p>
+                        <div class="feature-description">Classic Convenience</div>
+                        <p>Trusted and familiar for seamless everyday use.</p>
+                    </div>
+                </div>
+
+                <!-- Chip -->
+                <div class="feature-wrapper-mobile" id="chip-mobile">
+                    <i class="fa-solid fa-xmark xmark"></i>
+                    <img src="img/phone/chip.png" alt="Chip" class="engineering-drawing-mobile">
+                    <div class="text-overlay-mobile">
+                        <div class="feature-title">Chip</div>
+                        <br>
+                        <div class="feature-description">Reliable Performance</div>
+                        <p>MediaTek Quad-Core processor ensures smooth multitasking.</p>
+                        <div class="feature-description">Efficient Power Use</div>
+                        <p>Optimized for long-lasting battery life.</p>
+                        <div class="feature-description">Trusted Quality</div>
+                        <p>Built in Taiwan by TSMC, a global leader in semiconductor technology.</p>
+                    </div>
+                </div>
+
+                <!-- USB-C -->
+                <div class="feature-wrapper-mobile" id="usb-c-mobile">
+                    <i class="fa-solid fa-xmark xmark"></i>
+                    <img src="img/phone/usb_c.png" alt="USB-C" class="engineering-drawing-mobile">
+                    <div class="text-overlay-mobile">
+                        <div class="feature-title">USB-C</div>
+                        <br>
+                        <div class="feature-description">One Cable, Multiple Uses</div>
+                        <p>Universal compatibility for all devices.</p>
+                        <div class="feature-description">Future-Ready Tech</div>
+                        <p>Built to work with the latest devices and accessories.</p>
+                        <div class="feature-description">Simple Connectivity</div>
+                        <p>Reversible design makes plugging in hassle-free.</p>
+                    </div>
+                </div>
+
+                <!-- Android -->
+                <div class="feature-wrapper-mobile" id="android-mobile">
+                <i class="fa-solid fa-xmark xmark"></i>
+                    <img src="img/phone/android14.png" alt="Android 14" class="engineering-drawing-mobile">
+                    <div class="text-overlay-mobile">
+                        <div class="feature-title">Android 14</div>
+                        <br>
+                        <div class="feature-description">User-Friendly Experience</div>
+                        <p>Intuitive design makes it easy for anyone to pick up and use.</p>
+                        <div class="feature-description">Dependable Security</div>
+                        <p>Advanced protections for worry-free use.</p>
+                        <div class="feature-description">Tailored Simplicity</div>
+                        <p>Customize your phone to match your lifestyle.</p>
+                    </div>
+                </div>
             </div>
             <div class="disclaimer-mobile">*Measurements are approximate; results may vary. SIM cards and microSD card are sold separately.</div>
         </div>
     </div>
 
-    <div style="padding-top: 50px; background: linear-gradient(to bottom, #0B212C, #232323);"></div>
+    <!-- <div style="padding-top: 50px; background: linear-gradient(to bottom, #0B212C, #232323);"></div> -->
 
 
     <?php include './inc/footer.php'; ?>
@@ -585,19 +699,14 @@
 
                 // Loop through all feature-wrapper-mobile elements
                 featureWrappers.forEach(featureWrapper => {
-                    // Set the width and height of each feature-wrapper-mobile
                     featureWrapper.style.width = `${width}px`;
                     featureWrapper.style.height = `${height}px`;
-                    featureWrapper.style.display = 'none';
                 });
             }
         }
 
-        // Initial resize on page load
         window.addEventListener('load', resizeFeatureWrappers);
-
-        // Resize on window resize
-        //window.addEventListener('resize', resizeFeatureWrappers);
+        window.addEventListener('resize', resizeFeatureWrappers);
     </script>
 
     <script>
