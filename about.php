@@ -14,23 +14,23 @@
         </div>
 
         <div class="container section-padding">
-            <div class="text-center bottom-padding" style="font-size: 30px;">INOVA was born from the idea that technology should be accessible and bring people closer. Our journey is guided by a commitment to affordability and community support, as we strive to create products that empower our users and foster connections between users and their communities.</div>
+            <div class="text-center bottom-padding about-text">INOVA was born from the idea that technology should be accessible and bring people closer. Our journey is guided by a commitment to affordability and community support, as we strive to create products that empower our users and foster connections between users and their communities.</div>
 
             <div class="about-banner2-container">
                 <div class="row">
                         <div class="col-12 col-md-7" style="padding-left: 50px;">
-                            <div style="font-size: 28px;">We are committed to maximizing value, which includes powerful technology, durability, sustainability, and support at a great price.</div>
+                            <div class="about-text">We are committed to maximizing value, which includes powerful technology, durability, sustainability, and support at a great price.</div>
                         </div>
                 </div>
             </div>
 
-            <div class="row gx-5 text-center top-margin">
-                <div class="col-md-6">
+            <div class="row text-center top-margin">
+                <div class="col-12 col-md-6 pe-md-5">
                     <div class="about-title mission-vision">OUR <strong>MISSION</strong></div>
                     <p>Our mission is to deliver affordable, high-quality tech solutions that empower communities to come together through our innovative products.</p>
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-12 col-md-6 ps-md-5">
                     <div class="about-title mission-vision">OUR <strong>VISION</strong></div>
                     <p>Our vision is to create a world where innovative, accessible technology enables everyone to seamlessly stay connected no matter where they are.</p>
                 </div>

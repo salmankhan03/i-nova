@@ -57,23 +57,27 @@
             // Get the button
             const scrollToTopBtn = document.getElementById("scrollToTopBtn");
 
-            // Show button when user scrolls down 100px from top
-            window.onscroll = function() {
-                if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-                    scrollToTopBtn.style.display = "block";
-                } else {
-                    scrollToTopBtn.style.display = "none";
-                }
-            };
+            // Check if the current page is northlight.php
+            if (window.location.pathname.includes('northlight.php')) {
+                scrollToTopBtn.style.display = "none";
+            } else {
+                // Show button when user scrolls down 100px from top
+                window.onscroll = function() {
+                    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                        scrollToTopBtn.style.display = "block";
+                    } else {
+                        scrollToTopBtn.style.display = "none";
+                    }
+                };
 
-            // Scroll to the top of the document when the button is clicked
-            scrollToTopBtn.onclick = function() {
-                window.scrollTo({
-                    top: 0,
-                    behavior: "smooth"
-                });
-            };
-
+                // Scroll to the top of the document when the button is clicked
+                scrollToTopBtn.onclick = function() {
+                    window.scrollTo({
+                        top: 0,
+                        behavior: "smooth"
+                    });
+                };
+            }
         </script>
         <script src="js/script.js" defer></script>
     </body>

@@ -446,54 +446,6 @@
 
     <?php include './inc/footer.php'; ?>
 
-
-    <!-- <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const circles = document.querySelectorAll('.hover-circle');
-            const defaultImage = document.getElementById('battery');
-            const defaultArrow = document.getElementById('battery-arrow');
-            const hoverContent = document.querySelectorAll('.hover-content');
-            const arrows = document.querySelectorAll('.arrow');
-
-            let currentTarget = null;
-
-            // Function to show the targeted content and hide others
-            function showContent(targetId, arrowId) {
-                // Hide all hover content
-                hoverContent.forEach(content => (content.style.display = 'none'));
-                arrows.forEach(arrow => (arrow.style.display = 'none'));
-
-                if (targetId) {
-                    const targetElement = document.getElementById(targetId);
-                    if (targetElement) targetElement.style.display = 'block';
-
-                    // const targetArrow = document.getElementById(arrowId);
-                    if (targetArrow) targetArrow.style.display = 'block';
-
-                    currentTarget = targetId;
-                } else {
-                    defaultImage.style.display = 'block';
-                    defaultArrow.style.display = 'block';
-                    currentTarget = null;
-                }
-            }
-
-            // Add event listeners to circles
-            circles.forEach(circle => {
-                const targetId = circle.getAttribute('data-target');
-                const arrowId = circle.getAttribute('data-arrow');
-
-                // On click, show the corresponding content
-                circle.addEventListener('click', () => {
-                    showContent(targetId, arrowId);
-                });
-            });
-
-            // Set default state on page load
-            showContent(null); // Show the default image
-        });
-    </script> -->
-
     <!-- Show features on click -->
     <script>
         document.addEventListener('DOMContentLoaded', () => {
@@ -519,7 +471,7 @@
                     const targetElement = document.getElementById(targetId);
                     if (targetElement) {
                         targetElement.style.display = 'block';
-                        setTimeout(() => targetElement.classList.add('show'), 10); // Add a slight delay to trigger the transition
+                        setTimeout(() => targetElement.classList.add('show'), 10);
                     }
 
                     // Show the specific arrow
@@ -709,6 +661,7 @@
         window.addEventListener('resize', resizeFeatureWrappers);
     </script>
 
+    <!-- Show feature-wrapper-mobile on click -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const hoverCircles = document.querySelectorAll('.hover-circle');
