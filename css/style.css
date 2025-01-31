@@ -298,10 +298,7 @@ a {
     font-weight: 500;
 }
 
-.feature-background {
-    /* controlled by JS function responsiveBackground()
-    background-position: left center;
-    background-size: 40%;*/
+/* .feature-background {
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 500px;
@@ -370,16 +367,13 @@ a {
     position: absolute;
     opacity: 0;
     transform: translateY(100px);
-    /* Start below the container */
     transition: transform 1s ease-out, opacity 0s ease-out;
     transition-delay: 0.9s;
 }
 
 .feature-background.visible .feature-image {
     opacity: 1;
-    /* Fade in */
     transform: translateY(0);
-    /* Slide to the final position */
 }
 
 .feature-background.visible .feature-image-6 {
@@ -412,7 +406,7 @@ a {
 .feature-background.visible .feature-image-5 {
     bottom: -25px;
     left: 0;
-}
+} */
 
 .spec {
     background-image: url('../img/spec/img_spec.png');
@@ -793,4 +787,8 @@ a {
 
 .bg-color {
     background-color: #0B212C;
+}
+
+.engineering-drawing-position{
+    left: 22px;
 }

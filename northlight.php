@@ -98,14 +98,6 @@
                             </div>
                         </div>
                     </div>
-
-                    <!-- <div class="row top-padding bg-black">
-                        <div class="col-12">
-                            <div class="heading text-white">
-                                Let's Break it Down.
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
             </div>
         </div>
@@ -117,7 +109,7 @@
         <div class="custom-container">
             <div class="heading text-white" style="padding-top: 50px;">Let's Break it Down.</div>
             <div class="features-container-desktop">
-                <div class="image-wrapper" style="margin-right: -35px;">
+                <div class="image-wrapper engineering-drawing-position">
                     <img src="img/phone/Northlight-explosive-sketch.png" alt="engineering drawing" class="engineering-drawing">
                     <svg class="circle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
                         <circle class="hover-circle" data-target="sim-card" data-arrow="sim-arrow" data-inner="sim-inner" cx="36" cy="38" r="1.7" />
@@ -440,9 +432,6 @@
             <div class="disclaimer-mobile">*Measurements are approximate; results may vary. SIM cards and microSD card are sold separately.</div>
         </div>
     </div>
-
-    <!-- <div style="padding-top: 50px; background: linear-gradient(to bottom, #0B212C, #232323);"></div> -->
-
 
     <?php include './inc/footer.php'; ?>
 
