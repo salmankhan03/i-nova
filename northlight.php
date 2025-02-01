@@ -24,6 +24,18 @@
             transform: translateY(0);
             visibility: visible;
         }
+
+        @media only screen and (max-width: 575px) {
+            .video-container {
+                display: none;
+            }
+        }
+
+        @media only screen and (min-width: 576px) {
+            .mobile-banner-container {
+                display: none;
+            }
+        }
     </style>
 </head>
 
@@ -36,6 +48,10 @@
                 <source src="img/phone/Aurora_Magic_remix.mp4" type="video/mp4">
         </video> -->
         <img class="poster-image" id="posterImage" src="img/phone/banner_bg.jpg" alt="Banner">
+    </div>
+
+    <div class="mobile-banner-container">
+        <img class="img-fluid" id="posterImage" src="img/phone/banner_bg_mobile.jpg" alt="Banner">
     </div>
 
     <!-- highlights -->
