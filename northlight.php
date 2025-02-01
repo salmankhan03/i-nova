@@ -112,26 +112,26 @@
                 <div class="image-wrapper engineering-drawing-position engineering-drawing-lg">
                     <img src="img/phone/Northlight-explosive-sketch.png" alt="engineering drawing" class="engineering-drawing">
                     <svg class="circle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-                        <circle class="hover-circle" data-target="sim-card" data-arrow="sim-arrow" data-inner="sim-inner" cx="36" cy="38" r="1.7" />
-                        <circle class="hover-circle-inner" data-arrow="sim-arrow" id="sim-inner" cx="36" cy="38" r="0.7" />
+                        <circle class="hover-circle" data-target="sim-card" data-inner="sim-inner" cx="36" cy="38" r="1.7" />
+                        <circle class="hover-circle-inner" id="sim-inner" cx="36" cy="38" r="0.7" />
                         
                         <circle class="hover-circle" data-target="usb-c" data-inner="usb-c-inner" cx="27.5" cy="65" r="1.7" />
                         <circle class="hover-circle-inner" id="usb-c-inner" cx="27.5" cy="65" r="0.7" />
 
-                        <circle class="hover-circle" data-target="battery" data-arrow="battery-arrow" data-inner="battery-inner" cx="56" cy="27" r="1.7" />
-                        <circle class="hover-circle-inner" data-arrow="battery-arrow" id="battery-inner" cx="56" cy="27" r="0.7" />
+                        <circle class="hover-circle" data-target="battery" data-inner="battery-inner" cx="56" cy="27" r="1.7" />
+                        <circle class="hover-circle-inner" id="battery-inner" cx="56" cy="27" r="0.7" />
 
-                        <circle class="hover-circle" data-target="microSD" data-arrow="microSD-arrow" data-inner="microSD-inner" cx="39.5" cy="34.5" r="1.7" />
-                        <circle class="hover-circle-inner" data-arrow="microSD-arrow" id="microSD-inner" cx="39.5" cy="34.5" r="0.7" />
+                        <circle class="hover-circle" data-target="microSD" data-inner="microSD-inner" cx="39.5" cy="34.5" r="1.7" />
+                        <circle class="hover-circle-inner" id="microSD-inner" cx="39.5" cy="34.5" r="0.7" />
 
-                        <circle class="hover-circle" data-target="case" data-arrow="case-arrow" data-inner="case-inner" cx="52" cy="13.5" r="1.7" />
-                        <circle class="hover-circle-inner" data-arrow="case-arrow" id="case-inner" cx="52" cy="13.5" r="0.7" />
+                        <circle class="hover-circle" data-target="case" data-inner="case-inner" cx="52" cy="13.5" r="1.7" />
+                        <circle class="hover-circle-inner" id="case-inner" cx="52" cy="13.5" r="0.7" />
 
                         <circle class="hover-circle" data-target="android" data-inner="android-inner" cx="51.5" cy="86.5" r="1.7" />
                         <circle class="hover-circle-inner" id="android-inner" cx="51.5" cy="86.5" r="0.7" />
 
-                        <circle class="hover-circle" data-target="3.5mm" data-arrow="3.5mm-arrow" data-inner="3.5mm-inner" cx="29.5" cy="61.5" r="1.7" />
-                        <circle class="hover-circle-inner" data-arrow="3.5mm-arrow" id="3.5mm-inner" cx="29.5" cy="61.5" r="0.7" />
+                        <circle class="hover-circle" data-target="3.5mm" data-inner="3.5mm-inner" cx="29.5" cy="61.5" r="1.7" />
+                        <circle class="hover-circle-inner" id="3.5mm-inner" cx="29.5" cy="61.5" r="0.7" />
                         
                         <circle class="hover-circle" data-target="chip" data-inner="chip-inner" cx="37" cy="64" r="1.7" />
                         <circle class="hover-circle-inner" id="chip-inner" cx="37" cy="64" r="0.7" />
@@ -286,19 +286,6 @@
                         <p>Built in Taiwan by TSMC, a global leader in semiconductor technology.</p>
                     </div>
                 </div>
-
-                <!-- <svg class="arrow-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-                    <defs>
-                        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
-                            <polygon points="0 0, 7 3.5, 0 7" fill="rgb(3, 57, 248)" />
-                        </marker>
-                    </defs>
-                    <line class="arrow" id="battery-arrow" x1="31.7" y1="27" x2="72.3" y2="24.5" stroke="rgb(3, 57, 248)" stroke-width="0.2" marker-end="url(#arrowhead)" />
-                    <line class="arrow" id="case-arrow" x1="29.25" y1="13.5" x2="73" y2="25" stroke="rgb(3, 57, 248)" stroke-width="0.2" marker-end="url(#arrowhead)" />
-                    <line class="arrow" id="microSD-arrow" x1="21.5" y1="34.5" x2="69" y2="25" stroke="rgb(3, 57, 248)" stroke-width="0.2" marker-end="url(#arrowhead)" />
-                    <line class="arrow" id="sim-arrow" x1="19.4" y1="38" x2="73" y2="25" stroke="rgb(3, 57, 248)" stroke-width="0.2" marker-end="url(#arrowhead)" />
-                    <line class="arrow" id="3.5mm-arrow" x1="15.4" y1="61.5" x2="59" y2="26" stroke="rgb(3, 57, 248)" stroke-width="0.2" marker-end="url(#arrowhead)" />
-                </svg> -->
             </div>
             <div class="disclaimer-desktop">*Measurements are approximate; results may vary. SIM cards and microSD card are sold separately.</div>
         </div>
@@ -471,63 +458,7 @@
 
     <?php include './inc/footer.php'; ?>
 
-    <!-- Show features on click -->
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const circles = document.querySelectorAll('.hover-circle');
-            const defaultImage = document.getElementById('battery');
-            const hoverContent = document.querySelectorAll('.hover-content');
-            const arrows = document.querySelectorAll('.arrow');
-
-            let currentTarget = null;
-
-            // Function to show the targeted content and hide others
-            function showContent(targetId, arrowId) {
-                // Hide all hover content
-                hoverContent.forEach(content => {
-                    content.style.display = 'none';
-                    content.classList.remove('show');
-                });
-                // Hide all arrows
-                arrows.forEach(arrow => (arrow.style.display = 'none'));
-
-                if (targetId) {
-                    // Show the specific target content
-                    const targetElement = document.getElementById(targetId);
-                    if (targetElement) {
-                        targetElement.style.display = 'block';
-                        setTimeout(() => targetElement.classList.add('show'), 10);
-                    }
-
-                    // Show the specific arrow
-                    const targetArrow = document.getElementById(arrowId);
-                    if (targetArrow) targetArrow.style.display = 'block';
-
-                    // Update the current visible target
-                    currentTarget = targetId;
-                } else {
-                    // No target clicked: show default image and hide everything else
-                    defaultImage.style.display = 'block';
-                    defaultImage.classList.add('show');
-                    currentTarget = null;
-                }
-            }
-
-            // Add event listeners to circles
-            circles.forEach(circle => {
-                const targetId = circle.getAttribute('data-target');
-                const arrowId = circle.getAttribute('data-arrow');
-
-                // On click, show the corresponding content and arrow
-                circle.addEventListener('click', () => {
-                    showContent(targetId, arrowId);
-                });
-            });
-
-            // Set default state on page load
-            showContent(null);
-        });
-    </script>
+    <script src="js/northlight.js"></script>
 
     <!-- <script>
         // zoom in image when scrolling
@@ -565,50 +496,6 @@
         });
     </script> -->
 
-    <!-- show navbar on scroll -->
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const navbar = document.getElementById("phone-nav-container");
-            const posterImage = document.getElementById('posterImage');
-            let imageHeight = 0;
-
-            // Function to update the image height
-            function updateImageHeight() {
-                imageHeight = posterImage.offsetHeight;
-            }
-
-            // Ensure the image is fully loaded before getting its height
-            posterImage.onload = updateImageHeight;
-
-            // Fallback in case the image is cached and already loaded
-            if (posterImage.complete) {
-                updateImageHeight();
-            }
-
-            // Function to handle scroll logic
-            function handleScroll() {
-                const scrollPosition = window.scrollY || window.pageYOffset;
-
-                if (scrollPosition > imageHeight) {
-                    navbar.classList.remove("hidden");
-                    navbar.classList.add("visible");
-                } else {
-                    navbar.classList.remove("visible");
-                    navbar.classList.add("hidden");
-                }
-            }
-
-            // Add scroll event listener
-            window.addEventListener('scroll', handleScroll);
-
-            // Add resize event listener to recalculate image height and re-run scroll logic
-            window.addEventListener('resize', () => {
-                updateImageHeight(); // Recalculate image height
-                handleScroll(); // Re-run scroll logic
-            });
-        });
-    </script>
-
     <!-- <script>
         const video = document.querySelector('.video');
         const image = document.querySelector('.poster-image');
@@ -618,99 +505,6 @@
             image.style.display = 'block';
         });
     </script> -->
-
-
-    <!-- Zoom in circles on hover -->
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const circles = document.querySelectorAll('.hover-circle');
-
-            circles.forEach(circle => {
-                const innerCircleId = circle.getAttribute('data-inner');
-                const innerCircle = document.getElementById(innerCircleId);
-
-                circle.addEventListener('mouseover', () => {
-                    if (innerCircle) {
-                        innerCircle.setAttribute('r', parseFloat(innerCircle.getAttribute('r')) / 0.75);
-                    }
-                });
-
-                circle.addEventListener('mouseout', () => {
-                    if (innerCircle) {
-                        innerCircle.setAttribute('r', parseFloat(innerCircle.getAttribute('r')) * 0.75);
-                    }
-                });
-            });
-        });
-    </script>
-
-    <!-- Hide feature-wrapper-mobile on xmark click -->
-    <!-- <script>
-        const xmarks = document.querySelectorAll('.xmark');
-
-        // Loop through each xmark element
-        xmarks.forEach(xmark => {
-            // Add a click event listener to each xmark
-            xmark.addEventListener('click', function() {
-                // Find the closest parent element with the class 'feature-wrapper-mobile'
-                const featureWrapper = xmark.closest('.feature-wrapper-mobile');
-
-                // Hide the feature-wrapper-mobile
-                if (featureWrapper) {
-                    featureWrapper.style.display = 'none';
-                }
-            });
-        });
-    </script> -->
-
-    <script>
-        // Function to resize all feature-wrapper-mobile elements to match image-wrapper-mobile
-        function resizeFeatureWrappers() {
-            const imageWrapper = document.querySelector('.image-wrapper-mobile');
-            const featureWrappers = document.querySelectorAll('.feature-wrapper-mobile');
-
-            if (imageWrapper && featureWrappers.length > 0) {
-                // Get the width and height of the image-wrapper-mobile
-                const width = imageWrapper.offsetWidth;
-                const height = imageWrapper.offsetHeight;
-
-                // Loop through all feature-wrapper-mobile elements
-                featureWrappers.forEach(featureWrapper => {
-                    featureWrapper.style.width = `${width}px`;
-                    featureWrapper.style.height = `${height}px`;
-                });
-            }
-        }
-
-        window.addEventListener('load', resizeFeatureWrappers);
-        window.addEventListener('resize', resizeFeatureWrappers);
-    </script>
-
-    <!-- Show feature-wrapper-mobile on click -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const hoverCircles = document.querySelectorAll('.hover-circle');
-            hoverCircles.forEach(circle => {
-                circle.addEventListener('click', function() {
-                    const targetId = circle.getAttribute('data-target');
-                    const featureWrapper = document.getElementById(targetId);
-                    if (featureWrapper) {
-                        featureWrapper.style.display = 'block';
-                    }
-                });
-            });
-
-            const closeButtons = document.querySelectorAll('.xmark');
-            closeButtons.forEach(button => {
-                button.addEventListener('click', function() {
-                    const featureWrapper = button.closest('.feature-wrapper-mobile');
-                    if (featureWrapper) {
-                        featureWrapper.style.display = 'none';
-                    }
-                });
-            });
-        });
-    </script>
 </body>
 
 </html>
