@@ -1,8 +1,8 @@
 //Show features on click
 document.addEventListener('DOMContentLoaded', () => {
-    const circles = document.querySelectorAll('.hover-circle');
+    const circles = document.querySelectorAll('.circle-inner');
     const defaultImage = document.getElementById('battery');
-    const hoverContent = document.querySelectorAll('.hover-content');
+    const hoverContent = document.querySelectorAll('.content');
 
     let currentTarget = null;
 
@@ -93,26 +93,26 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 //Zoom in circles on hover
-document.addEventListener('DOMContentLoaded', () => {
-    const circles = document.querySelectorAll('.hover-circle');
+// document.addEventListener('DOMContentLoaded', () => {
+//     const circles = document.querySelectorAll('.circle');
 
-    circles.forEach(circle => {
-        const innerCircleId = circle.getAttribute('data-inner');
-        const innerCircle = document.getElementById(innerCircleId);
+//     circles.forEach(circle => {
+//         const innerCircleId = circle.getAttribute('data-inner');
+//         const innerCircle = document.getElementById(innerCircleId);
 
-        circle.addEventListener('mouseover', () => {
-            if (innerCircle) {
-                innerCircle.setAttribute('r', parseFloat(innerCircle.getAttribute('r')) / 0.75);
-            }
-        });
+//         circle.addEventListener('mouseover', () => {
+//             if (innerCircle) {
+//                 innerCircle.setAttribute('r', parseFloat(innerCircle.getAttribute('r')) / 0.75);
+//             }
+//         });
 
-        circle.addEventListener('mouseout', () => {
-            if (innerCircle) {
-                innerCircle.setAttribute('r', parseFloat(innerCircle.getAttribute('r')) * 0.75);
-            }
-        });
-    });
-});
+//         circle.addEventListener('mouseout', () => {
+//             if (innerCircle) {
+//                 innerCircle.setAttribute('r', parseFloat(innerCircle.getAttribute('r')) * 0.75);
+//             }
+//         });
+//     });
+// });
 
 
 
@@ -141,7 +141,7 @@ window.addEventListener('resize', resizeFeatureWrappers);
 
 //Show and close feature-wrapper-mobile on click
 document.addEventListener('DOMContentLoaded', function() {
-    const hoverCircles = document.querySelectorAll('.hover-circle');
+    const hoverCircles = document.querySelectorAll('.circle-inner');
     hoverCircles.forEach(circle => {
         circle.addEventListener('click', function() {
             const targetId = circle.getAttribute('data-target');

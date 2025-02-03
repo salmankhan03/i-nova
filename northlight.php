@@ -56,7 +56,7 @@
 
     <!-- highlights -->
     <div class="container">
-        <div class="section-padding pb-0">
+        <div class="section-padding">
             <div class="row">
                 <div class="col-12">
                     <div class="bottom-padding heading text-center">Affordable, Reliable, Simplicity at its Finest</div>
@@ -119,8 +119,6 @@
         </div>
     </div>
 
-    <div style="padding-top: 50px;"></div>
-
     <div class="bg-color overflow-hidden">
         <div class="custom-container">
             <div class="heading text-white" style="padding-top: 50px;">Let's Break it Down.</div>
@@ -128,63 +126,111 @@
                 <div class="image-wrapper engineering-drawing-position engineering-drawing-lg">
                     <img src="img/phone/Northlight-explosive-sketch.png" alt="engineering drawing" class="engineering-drawing">
                     <svg class="circle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-                        <circle class="hover-circle" data-target="sim-card" data-inner="sim-inner" cx="36" cy="38" r="1.7" />
-                        <circle class="hover-circle-inner" id="sim-inner" cx="36" cy="38" r="0.7" />
-                        
-                        <circle class="hover-circle" data-target="usb-c" data-inner="usb-c-inner" cx="27.5" cy="65" r="1.7" />
-                        <circle class="hover-circle-inner" id="usb-c-inner" cx="27.5" cy="65" r="0.7" />
+                        <circle class="circle" cx="36" cy="38.2">
+                            <animate attributeName="r" from="1" to="2" dur="2s" repeatCount="indefinite" />
+                            <animate attributeName="fill" from="rgba(0, 123, 255, 0.7)" to="rgba(0, 123, 255, 0)" dur="2s" repeatCount="indefinite" />
+                        </circle>
+                        <circle class="circle-inner" data-target="sim-card" cx="36" cy="38.2" r="1" />
 
-                        <circle class="hover-circle" data-target="battery" data-inner="battery-inner" cx="56" cy="27" r="1.7" />
-                        <circle class="hover-circle-inner" id="battery-inner" cx="56" cy="27" r="0.7" />
+                        <circle class="circle" cx="27.5" cy="65">
+                            <animate attributeName="r" from="1" to="2" dur="2s" repeatCount="indefinite" />
+                            <animate attributeName="fill" from="rgba(0, 123, 255, 0.7)" to="rgba(0, 123, 255, 0)" dur="2s" repeatCount="indefinite" />
+                        </circle>
+                        <circle class="circle-inner" data-target="usb-c" cx="27.5" cy="65" r="1" />
 
-                        <circle class="hover-circle" data-target="microSD" data-inner="microSD-inner" cx="39.5" cy="34.5" r="1.7" />
-                        <circle class="hover-circle-inner" id="microSD-inner" cx="39.5" cy="34.5" r="0.7" />
+                        <circle class="circle" cx="56" cy="27">
+                            <animate attributeName="r" from="1" to="2" dur="2s" repeatCount="indefinite" />
+                            <animate attributeName="fill" from="rgba(0, 123, 255, 0.7)" to="rgba(0, 123, 255, 0)" dur="2s" repeatCount="indefinite" />
+                        </circle>
+                        <circle class="circle-inner" data-target="battery" cx="56" cy="27" r="1" />
 
-                        <circle class="hover-circle" data-target="case" data-inner="case-inner" cx="52" cy="13.5" r="1.7" />
-                        <circle class="hover-circle-inner" id="case-inner" cx="52" cy="13.5" r="0.7" />
+                        <circle class="circle" cx="39.5" cy="34.5">
+                            <animate attributeName="r" from="1" to="2" dur="2s" repeatCount="indefinite" />
+                            <animate attributeName="fill" from="rgba(0, 123, 255, 0.7)" to="rgba(0, 123, 255, 0)" dur="2s" repeatCount="indefinite" />
+                        </circle>
+                        <circle class="circle-inner" data-target="microSD" cx="39.5" cy="34.5" r="1" />
 
-                        <circle class="hover-circle" data-target="android" data-inner="android-inner" cx="51.5" cy="86.5" r="1.7" />
-                        <circle class="hover-circle-inner" id="android-inner" cx="51.5" cy="86.5" r="0.7" />
+                        <circle class="circle" cx="52" cy="13.5">
+                            <animate attributeName="r" from="1" to="2" dur="2s" repeatCount="indefinite" />
+                            <animate attributeName="fill" from="rgba(0, 123, 255, 0.7)" to="rgba(0, 123, 255, 0)" dur="2s" repeatCount="indefinite" />
+                        </circle>
+                        <circle class="circle-inner" data-target="case" cx="52" cy="13.5" r="1" />
 
-                        <circle class="hover-circle" data-target="3.5mm" data-inner="3.5mm-inner" cx="29.5" cy="61.5" r="1.7" />
-                        <circle class="hover-circle-inner" id="3.5mm-inner" cx="29.5" cy="61.5" r="0.7" />
-                        
-                        <circle class="hover-circle" data-target="chip" data-inner="chip-inner" cx="37" cy="64" r="1.7" />
-                        <circle class="hover-circle-inner" id="chip-inner" cx="37" cy="64" r="0.7" />
+                        <circle class="circle" cx="51.5" cy="86.5">
+                            <animate attributeName="r" from="1" to="2" dur="2s" repeatCount="indefinite" />
+                            <animate attributeName="fill" from="rgba(0, 123, 255, 0.7)" to="rgba(0, 123, 255, 0)" dur="2s" repeatCount="indefinite" />
+                        </circle>
+                        <circle class="circle-inner" data-target="android" cx="51.5" cy="86.5" r="1" />
+
+                        <circle class="circle" cx="29.5" cy="61.5">
+                            <animate attributeName="r" from="1" to="2" dur="2s" repeatCount="indefinite" />
+                            <animate attributeName="fill" from="rgba(0, 123, 255, 0.7)" to="rgba(0, 123, 255, 0)" dur="2s" repeatCount="indefinite" />
+                        </circle>
+                        <circle class="circle-inner" data-target="3.5mm" cx="29.5" cy="61.5" r="1" />
+
+                        <circle class="circle" cx="37.8" cy="64">
+                            <animate attributeName="r" from="1" to="2" dur="2s" repeatCount="indefinite" />
+                            <animate attributeName="fill" from="rgba(0, 123, 255, 0.7)" to="rgba(0, 123, 255, 0)" dur="2s" repeatCount="indefinite" />
+                        </circle>
+                        <circle class="circle-inner" data-target="chip" cx="37.8" cy="64" r="1" />
                     </svg>
                 </div>
 
                 <div class="image-wrapper engineering-drawing-position engineering-drawing-md">
                     <img src="img/phone/Northlight-explosive-sketch-mobile.png" alt="engineering drawing" class="engineering-drawing">
                     <svg class="circle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 62.64 100">
-                        <circle class="hover-circle" data-target="sim-card" data-inner="sim-inner-md" cx="14.2" cy="36" r="2" />
-                        <circle class="hover-circle-inner" id="sim-inner-md" cx="14.2" cy="36" r="0.7" />
+                        <circle class="circle" cx="14.2" cy="35.8">
+                            <animate attributeName="r" from="1.1" to="2.2" dur="2s" repeatCount="indefinite" />
+                            <animate attributeName="fill" from="rgba(0, 123, 255, 0.7)" to="rgba(0, 123, 255, 0)" dur="2s" repeatCount="indefinite" />
+                        </circle>
+                        <circle class="circle-inner" data-target="sim-card" cx="14.2" cy="35.8" r="1.1" />
 
-                        <circle class="hover-circle" data-target="usb-c" data-inner="usb-c-inner-md" cx="4.5" cy="67" r="2" />
-                        <circle class="hover-circle-inner" id="usb-c-inner-md" cx="4.5" cy="67" r="0.7" />
+                        <circle class="circle" cx="4.5" cy="67">
+                            <animate attributeName="r" from="1.1" to="2.2" dur="2s" repeatCount="indefinite" />
+                            <animate attributeName="fill" from="rgba(0, 123, 255, 0.7)" to="rgba(0, 123, 255, 0)" dur="2s" repeatCount="indefinite" />
+                        </circle>
+                        <circle class="circle-inner" data-target="usb-c" cx="4.5" cy="67" r="1.1" />
 
-                        <circle class="hover-circle" data-target="battery" data-inner="battery-inner-md" cx="36.5" cy="23.5" r="2" />
-                        <circle class="hover-circle-inner" id="battery-inner-md" cx="36.5" cy="23.5" r="0.7" />
+                        <circle class="circle" cx="36.5" cy="23.5">
+                            <animate attributeName="r" from="1.1" to="2.2" dur="2s" repeatCount="indefinite" />
+                            <animate attributeName="fill" from="rgba(0, 123, 255, 0.7)" to="rgba(0, 123, 255, 0)" dur="2s" repeatCount="indefinite" />
+                        </circle>
+                        <circle class="circle-inner" data-target="battery" cx="36.5" cy="23.5" r="1.1" />
 
-                        <circle class="hover-circle" data-target="microSD" data-inner="microSD-inner-md" cx="18.2" cy="31.5" r="2" />
-                        <circle class="hover-circle-inner" id="microSD-inner-md" cx="18.2" cy="31.5" r="0.7" />
+                        <circle class="circle" cx="18.2" cy="31.5">
+                            <animate attributeName="r" from="1.1" to="2.2" dur="2s" repeatCount="indefinite" />
+                            <animate attributeName="fill" from="rgba(0, 123, 255, 0.7)" to="rgba(0, 123, 255, 0)" dur="2s" repeatCount="indefinite" />
+                        </circle>
+                        <circle class="circle-inner" data-target="microSD" cx="18.2" cy="31.5" r="1.1" />
 
-                        <circle class="hover-circle" data-target="case" data-inner="case-inner-md" cx="32.5" cy="7.5" r="2" fill="rgba(3, 57, 240, 0.3)" />
-                        <circle class="hover-circle-inner" id="case-inner-md" cx="32.5" cy="7.5" r="0.7" />
+                        <circle class="circle" cx="32.5" cy="7.5">
+                            <animate attributeName="r" from="1.1" to="2.2" dur="2s" repeatCount="indefinite" />
+                            <animate attributeName="fill" from="rgba(0, 123, 255, 0.7)" to="rgba(0, 123, 255, 0)" dur="2s" repeatCount="indefinite" />
+                        </circle>
+                        <circle class="circle-inner" data-target="case" cx="32.5" cy="7.5" r="1.1" />
 
-                        <circle class="hover-circle" data-target="android" data-inner="android-inner-md" cx="32" cy="91" r="2" />
-                        <circle class="hover-circle-inner" id="android-inner-md" cx="32" cy="91" r="0.7" />
+                        <circle class="circle" cx="32" cy="91">
+                            <animate attributeName="r" from="1.1" to="2.2" dur="2s" repeatCount="indefinite" />
+                            <animate attributeName="fill" from="rgba(0, 123, 255, 0.7)" to="rgba(0, 123, 255, 0)" dur="2s" repeatCount="indefinite" />
+                        </circle>
+                        <circle class="circle-inner" data-target="android" cx="32" cy="91" r="1.1" />
 
-                        <circle class="hover-circle" data-target="3.5mm" data-inner="3.5mm-inner-md" cx="7.5" cy="61.5" r="2" />
-                        <circle class="hover-circle-inner" id="3.5mm-inner-md" cx="7.5" cy="61.5" r="0.7" />
+                        <circle class="circle" cx="7.5" cy="61.5">
+                            <animate attributeName="r" from="1.1" to="2.2" dur="2s" repeatCount="indefinite" />
+                            <animate attributeName="fill" from="rgba(0, 123, 255, 0.7)" to="rgba(0, 123, 255, 0)" dur="2s" repeatCount="indefinite" />
+                        </circle>
+                        <circle class="circle-inner" data-target="3.5mm" cx="7.5" cy="61.5" r="1.1" />
 
-                        <circle class="hover-circle" data-target="chip" data-inner="chip-inner-md" cx="16" cy="65" r="2" />
-                        <circle class="hover-circle-inner" id="chip-inner-md" cx="16" cy="65" r="0.7" />
+                        <circle class="circle" cx="16" cy="65">
+                            <animate attributeName="r" from="1.1" to="2.2" dur="2s" repeatCount="indefinite" />
+                            <animate attributeName="fill" from="rgba(0, 123, 255, 0.7)" to="rgba(0, 123, 255, 0)" dur="2s" repeatCount="indefinite" />
+                        </circle>
+                        <circle class="circle-inner" data-target="chip" cx="16" cy="65" r="1.1" />
                     </svg>
                 </div>
 
                 <!-- SIM Card -->
-                <div class="image-wrapper hover-content" id="sim-card">
+                <div class="image-wrapper content" id="sim-card">
                     <img src="img/phone/dualSIM_card.png" alt="SIM card" class="engineering-drawing">
                     <div class="text-overlay">
                         <div class="feature-title">Dual SIM Cards</div>
@@ -199,7 +245,7 @@
                 </div>
 
                 <!-- USB-C -->
-                <div class="image-wrapper hover-content" id="usb-c">
+                <div class="image-wrapper content" id="usb-c">
                     <img src="img/phone/usb_c.png" alt="USB-C" class="engineering-drawing">
                     <div class="text-overlay">
                         <div class="feature-title">USB-C</div>
@@ -214,7 +260,7 @@
                 </div>
 
                 <!-- Battery -->
-                <div class="image-wrapper hover-content" id="battery">
+                <div class="image-wrapper content" id="battery">
                     <img src="img/phone/battery.png" alt="Detachable Battery" class="engineering-drawing">
                     <div class="text-overlay">
                         <div class="feature-title">Detachable Battery</div>
@@ -229,7 +275,7 @@
                 </div>
 
                 <!-- microSD Card -->
-                <div class="image-wrapper hover-content" id="microSD">
+                <div class="image-wrapper content" id="microSD">
                     <img src="img/phone/microSD_card.png" alt="microSD Card" class="engineering-drawing">
                     <div class="text-overlay">
                         <div class="feature-title">microSD Card</div>
@@ -244,7 +290,7 @@
                 </div>
 
                 <!-- Case -->
-                <div class="image-wrapper hover-content" id="case">
+                <div class="image-wrapper content" id="case">
                     <img src="img/phone/phone_case.png" alt="case" class="engineering-drawing">
                     <div class="text-overlay">
                         <div class="feature-title">Phone Case</div>
@@ -259,7 +305,7 @@
                 </div>
 
                 <!-- Android -->
-                <div class="image-wrapper hover-content" id="android">
+                <div class="image-wrapper content" id="android">
                     <img src="img/phone/android14.png" alt="Android 14" class="engineering-drawing">
                     <div class="text-overlay">
                         <div class="feature-title">Android 14</div>
@@ -274,7 +320,7 @@
                 </div>
 
                 <!-- 3.5mm -->
-                <div class="image-wrapper hover-content" id="3.5mm">
+                <div class="image-wrapper content" id="3.5mm">
                     <img src="img/phone/headphone_jack.png" alt="3.5mm Headphone Jack" class="engineering-drawing">
                     <div class="text-overlay">
                         <div class="feature-title">3.5mm Headphone Jack</div>
@@ -289,7 +335,7 @@
                 </div>
 
                 <!-- Chip -->
-                <div class="image-wrapper hover-content" id="chip">
+                <div class="image-wrapper content" id="chip">
                     <img src="img/phone/chip.png" alt="Chip" class="engineering-drawing">
                     <div class="text-overlay">
                         <div class="feature-title">Chip</div>
@@ -314,29 +360,53 @@
                 <div class="image-wrapper-mobile">
                     <img src="img/phone/Northlight-explosive-sketch-mobile.png" alt="engineering drawing" class="engineering-drawing-mobile">
                     <svg class="circle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 62.64 100">
-                        <circle class="hover-circle" data-target="sim-card-mobile" data-inner="sim-inner-mobile" cx="14.2" cy="36" r="2.4" />
-                        <circle class="hover-circle-inner" id="sim-inner-mobile" cx="14.2" cy="36" r="0.9" />
+                        <circle class="circle" cx="14.2" cy="36">
+                            <animate attributeName="r" from="1.5" to="3" dur="2s" repeatCount="indefinite" />
+                            <animate attributeName="fill" from="rgba(0, 123, 255, 0.7)" to="rgba(0, 123, 255, 0)" dur="2s" repeatCount="indefinite" />
+                        </circle>
+                        <circle class="circle-inner" data-target="sim-card-mobile" cx="14.2" cy="36" r="1.5" />
 
-                        <circle class="hover-circle" data-target="usb-c-mobile" data-inner="usb-c-inner-mobile" cx="4.5" cy="67" r="2.4" />
-                        <circle class="hover-circle-inner" id="usb-c-inner-mobile" cx="4.5" cy="67" r="0.9" />
+                        <circle class="circle" cx="4.5" cy="67">
+                            <animate attributeName="r" from="1.5" to="3" dur="2s" repeatCount="indefinite" />
+                            <animate attributeName="fill" from="rgba(0, 123, 255, 0.7)" to="rgba(0, 123, 255, 0)" dur="2s" repeatCount="indefinite" />
+                        </circle>
+                        <circle class="circle-inner" data-target="usb-c-mobile" cx="4.5" cy="67" r="1.5" />
 
-                        <circle class="hover-circle" data-target="battery-mobile" data-inner="battery-inner-mobile" cx="36.5" cy="23.5" r="2.4" />
-                        <circle class="hover-circle-inner" id="battery-inner-mobile" cx="36.5" cy="23.5" r="0.9" />
+                        <circle class="circle" cx="36.5" cy="23.5">
+                            <animate attributeName="r" from="1.5" to="3" dur="2s" repeatCount="indefinite" />
+                            <animate attributeName="fill" from="rgba(0, 123, 255, 0.7)" to="rgba(0, 123, 255, 0)" dur="2s" repeatCount="indefinite" />
+                        </circle>
+                        <circle class="circle-inner" data-target="battery-mobile" cx="36.5" cy="23.5" r="1.5" />
 
-                        <circle class="hover-circle" data-target="microSD-mobile" data-inner="microSD-inner-mobile" cx="18.2" cy="31.5" r="2.4" />
-                        <circle class="hover-circle-inner" id="microSD-inner-mobile" cx="18.2" cy="31.5" r="0.9" />
+                        <circle class="circle" cx="18.2" cy="31.5">
+                            <animate attributeName="r" from="1.5" to="3" dur="2s" repeatCount="indefinite" />
+                            <animate attributeName="fill" from="rgba(0, 123, 255, 0.7)" to="rgba(0, 123, 255, 0)" dur="2s" repeatCount="indefinite" />
+                        </circle>
+                        <circle class="circle-inner" data-target="microSD-mobile" cx="18.2" cy="31.5" r="1.5" />
 
-                        <circle class="hover-circle" data-target="case-mobile" data-inner="case-inner-mobile" cx="32.5" cy="7.5" r="2.4" fill="rgba(3, 57, 240, 0.3)" />
-                        <circle class="hover-circle-inner" id="case-inner-mobile" cx="32.5" cy="7.5" r="0.9" />
+                        <circle class="circle" cx="32.5" cy="7.5">
+                            <animate attributeName="r" from="1.5" to="3" dur="2s" repeatCount="indefinite" />
+                            <animate attributeName="fill" from="rgba(0, 123, 255, 0.7)" to="rgba(0, 123, 255, 0)" dur="2s" repeatCount="indefinite" />
+                        </circle>
+                        <circle class="circle-inner" data-target="case-mobile" cx="32.5" cy="7.5" r="1.5" />
 
-                        <circle class="hover-circle" data-target="android-mobile" data-inner="android-inner-mobile" cx="32" cy="91" r="2.4" />
-                        <circle class="hover-circle-inner" id="android-inner-mobile" cx="32" cy="91" r="0.9" />
+                        <circle class="circle" cx="32" cy="91">
+                            <animate attributeName="r" from="1.5" to="3" dur="2s" repeatCount="indefinite" />
+                            <animate attributeName="fill" from="rgba(0, 123, 255, 0.7)" to="rgba(0, 123, 255, 0)" dur="2s" repeatCount="indefinite" />
+                        </circle>
+                        <circle class="circle-inner" data-target="android-mobile" cx="32" cy="91" r="1.5" />
 
-                        <circle class="hover-circle" data-target="3.5mm-mobile" data-inner="3.5mm-inner-mobile" cx="7.5" cy="61.5" r="2.4" />
-                        <circle class="hover-circle-inner" id="3.5mm-inner-mobile" cx="7.5" cy="61.5" r="0.9" />
+                        <circle class="circle" cx="7.5" cy="61.5">
+                            <animate attributeName="r" from="1.5" to="3" dur="2s" repeatCount="indefinite" />
+                            <animate attributeName="fill" from="rgba(0, 123, 255, 0.7)" to="rgba(0, 123, 255, 0)" dur="2s" repeatCount="indefinite" />
+                        </circle>
+                        <circle class="circle-inner" data-target="3.5mm-mobile" cx="7.5" cy="61.5" r="1.5" />
 
-                        <circle class="hover-circle" data-target="chip-mobile" data-inner="chip-inner-mobile" cx="16" cy="65" r="2.4" />
-                        <circle class="hover-circle-inner" id="chip-inner-mobile" cx="16" cy="65" r="0.9" />
+                        <circle class="circle" cx="16" cy="65">
+                            <animate attributeName="r" from="1.5" to="3" dur="2s" repeatCount="indefinite" />
+                            <animate attributeName="fill" from="rgba(0, 123, 255, 0.7)" to="rgba(0, 123, 255, 0)" dur="2s" repeatCount="indefinite" />
+                        </circle>
+                        <circle class="circle-inner" data-target="chip-mobile" cx="16" cy="65" r="1.5" />
                     </svg>
                 </div>
 
