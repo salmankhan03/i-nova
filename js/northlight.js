@@ -159,7 +159,8 @@ document.addEventListener('DOMContentLoaded', function() {
             const targetId = circle.getAttribute('data-target');
             const featureWrapper = document.getElementById(targetId);
             if (featureWrapper) {
-                featureWrapper.style.display = 'block';
+                featureWrapper.classList.add('visible');
+                featureWrapper.classList.remove('hidden');
             }
         });
     });
@@ -169,7 +170,8 @@ document.addEventListener('DOMContentLoaded', function() {
         button.addEventListener('click', function() {
             const featureWrapper = button.closest('.feature-wrapper-mobile');
             if (featureWrapper) {
-                featureWrapper.style.display = 'none';
+                featureWrapper.classList.add('hidden');
+                featureWrapper.classList.remove('visible');
             }
         });
     });

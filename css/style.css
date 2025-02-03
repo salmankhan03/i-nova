@@ -677,11 +677,26 @@ a {
 
 .feature-wrapper-mobile {
     background-color: #0B212C;
-    display: none;
+    /* display: none; */
     position: absolute;
-    /* display: inline-block; */
     width: 100%;
     height: 100%;
+}
+
+.feature-wrapper-mobile {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.feature-wrapper-mobile.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.feature-wrapper-mobile.hidden {
+    opacity: 0;
+    visibility: hidden;
 }
 
 .engineering-drawing {
