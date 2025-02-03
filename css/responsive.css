@@ -66,14 +66,14 @@
 }
 
 @media only screen and (max-width: 1399px) {
-    .feature-background.visible .feature-image-3 {
+    /* .feature-background.visible .feature-image-3 {
         left: 0;
-    }
+    } */
 
     /* .title {
         font-size: 45px;
     } */
-    .feature-background.visible .feature-image-2 {
+    /* .feature-background.visible .feature-image-2 {
         top: -50px;
         right: 20px;
         height: 550px;
@@ -100,7 +100,7 @@
 
     .feature-text-wrap-right {
         padding: 100px 50px 100px 50px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 1199px) {
@@ -113,18 +113,18 @@
         right: 0;
         height: 550px;
     } */
-    .feature-background.visible .feature-image-6 {
+    /* .feature-background.visible .feature-image-6 {
         top: -20%;
         right: 30px;
-    }
-
+    } */
+/* 
     .feature-text-wrap {
         padding: 100px 50px 100px 50px;
     }
 
     .feature-text-wrap-right {
         padding: 100px 50px 100px 50px;
-    }
+    } */
 
     /* .home-banner-title {
         bottom: 20px;
@@ -172,22 +172,21 @@
         background-size: 70%;
     } */
 
-    .feature-background {
+    /* .feature-background {
         background-size: 100% auto;
         height: auto;
     }
 
     .feature-image {
         position: static;
-        /* margin-bottom: 100px; */
-    }
+    } */
 
     /* .feature-image-left {
         margin-bottom: 0;
         margin-top: 100px;
     } */
 
-    .feature-image-1 {
+    /* .feature-image-1 {
         margin-top: 80px;
         margin-bottom: 20px;
     }
@@ -222,7 +221,7 @@
 
     .feature-text-wrap-right {
         padding: 0 40px 100px 40px;
-    }
+    } */
 
     .black-background {
         margin-top: -570px;
@@ -302,7 +301,7 @@
         position: static;
     } */
 
-    .feature-background {
+    /* .feature-background {
         height: auto;
     }
 
@@ -312,7 +311,7 @@
 
     .feature-text-wrap-right {
         padding: 0 20px 100px 20px;
-    }
+    } */
 
     .spec {
         background-size: 40%;
@@ -356,7 +355,7 @@
     /* .spec {
         background-size: 100%;
     } */
-    .feature-background {
+    /* .feature-background {
         height: auto;
         border-radius: 0;
     }
@@ -368,7 +367,7 @@
 
     .feature-container {
         padding: 0;
-    }
+    } */
 
     .phone-nav-heading {
         font-size: 20px;

@@ -1,7 +1,15 @@
+<?php
+$config = [
+    'base_url' => ($_SERVER['SERVER_NAME'] == 'localhost' || $_SERVER['SERVER_ADDR'] == '192.168.0.47')
+        ? 'https://192.168.0.47/inova/' 
+        : 'https://inova.intelligrp.com/'
+];
+?>
+
 <meta charset="utf-8">
 <title>INOVA</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<base href="http://192.168.0.47/inova/">
+<base href="<?php echo $config['base_url']; ?>">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
