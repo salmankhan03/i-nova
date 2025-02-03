@@ -44,6 +44,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Set default state on page load
     showContent(null);
+
+    // Set default state when resizing to desktop
+    let lastWidth = window.innerWidth;
+    function checkScreenWidth() {
+        let currentWidth = window.innerWidth;
+        if (lastWidth < 1200 && currentWidth >= 1200) {
+            showContent(null);
+        }
+
+        lastWidth = currentWidth;
+    }
+    window.addEventListener("resize", checkScreenWidth);
 });
 
 
