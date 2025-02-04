@@ -412,4 +412,8 @@
     .about-text {
         font-size: 22px;
     }
+
+    .intro-hide {
+        display: none;
+    }
 }

@@ -780,10 +780,18 @@ a {
     display: none;
 }
 
+.disclaimer {
+    padding-top: 10px;
+    color: #666;
+    font-size: 12px;
+    font-weight: 300;
+}
+
 .disclaimer-desktop {
     color: #666;
     font-size: 12px;
     font-weight: 300;
+    text-align: center;
     /* margin-top: -18px; */
 }
 

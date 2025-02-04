@@ -63,27 +63,35 @@ document.addEventListener('DOMContentLoaded', () => {
 //show navbar on scroll
 document.addEventListener('DOMContentLoaded', () => {
     const navbar = document.getElementById("phone-nav-container");
-    const posterImage = document.getElementById('posterImage');
-    let imageHeight = 0;
+    const posterImages = Array.from(document.getElementsByClassName('banner'));
+    let imageHeights = [];
 
-    // Function to update the image height
-    function updateImageHeight() {
-        imageHeight = posterImage.offsetHeight;
+    // Function to update image heights
+    function updateImageHeights() {
+        imageHeights = posterImages.map(img => img?.offsetHeight || 0);
     }
 
-    // Ensure the image is fully loaded before getting its height
-    posterImage.onload = updateImageHeight;
-
-    // Fallback in case the image is cached and already loaded
-    if (posterImage.complete) {
-        updateImageHeight();
-    }
+    // Ensure each image is fully loaded before getting its height
+    posterImages.forEach((img) => {
+        if (img) {
+            img.onload = () => {
+                updateImageHeights();
+                handleScroll();
+            };
+            
+            // Fallback in case the image is cached and already loaded
+            if (img.complete) {
+                updateImageHeights();
+            }
+        }
+    });
 
     // Function to handle scroll logic
     function handleScroll() {
         const scrollPosition = window.scrollY || window.pageYOffset;
+        const maxHeight = Math.max(...imageHeights);
 
-        if (scrollPosition > imageHeight) {
+        if (scrollPosition > maxHeight) {
             navbar.classList.remove("hidden");
             navbar.classList.add("visible");
         } else {
@@ -92,39 +100,13 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Add scroll event listener
+    // Add event listeners
     window.addEventListener('scroll', handleScroll);
-
-    // Add resize event listener to recalculate image height and re-run scroll logic
     window.addEventListener('resize', () => {
-        updateImageHeight(); // Recalculate image height
-        handleScroll(); // Re-run scroll logic
+        updateImageHeights();
+        handleScroll();
     });
 });
-
-
-
-//Zoom in circles on hover
-// document.addEventListener('DOMContentLoaded', () => {
-//     const circles = document.querySelectorAll('.circle');
-
-//     circles.forEach(circle => {
-//         const innerCircleId = circle.getAttribute('data-inner');
-//         const innerCircle = document.getElementById(innerCircleId);
-
-//         circle.addEventListener('mouseover', () => {
-//             if (innerCircle) {
-//                 innerCircle.setAttribute('r', parseFloat(innerCircle.getAttribute('r')) / 0.75);
-//             }
-//         });
-
-//         circle.addEventListener('mouseout', () => {
-//             if (innerCircle) {
-//                 innerCircle.setAttribute('r', parseFloat(innerCircle.getAttribute('r')) * 0.75);
-//             }
-//         });
-//     });
-// });
 
 
 

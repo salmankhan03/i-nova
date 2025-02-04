@@ -47,11 +47,11 @@
         <!-- <video class="video" width="100%" autoplay muted>
                 <source src="img/phone/Aurora_Magic_remix.mp4" type="video/mp4">
         </video> -->
-        <img class="poster-image" id="posterImage" src="img/phone/banner_bg.jpg" alt="Banner">
+        <img class="poster-image banner" src="img/phone/banner_bg.jpg" alt="Banner">
     </div>
 
     <div class="mobile-banner-container">
-        <img class="img-fluid" id="posterImage" src="img/phone/banner_bg_mobile.jpg" alt="Banner">
+        <img class="img-fluid banner" src="img/phone/banner_bg_mobile.jpg" alt="Banner">
     </div>
 
     <!-- highlights -->
@@ -64,7 +64,7 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <p class="bottom-padding phone-intro">The Northlight smartphone represents INOVA’s commitment to delivering reliable and user-focused technology. Built to be practical and easy to use, ensures you stay connected to what matters most. With features you can trust at a price you’ll appreciate, Northlight is made for everyone.</p>
+                    <p class="bottom-padding phone-intro">The Northlight smartphone represents INOVA’s commitment to delivering reliable and user-focused technology. Built to be practical and easy to use, ensures you stay connected to what matters most. <span class="intro-hide">With features you can trust at a price you’ll appreciate, Northlight is made for everyone.</span></p>
                 </div>
             </div>
 
@@ -349,7 +349,7 @@
                     </div>
                 </div>
             </div>
-            <div class="disclaimer-desktop">*Measurements are approximate; results may vary. SIM cards and microSD card are sold separately.</div>
+            <div class="disclaimer-desktop">*For demonstration purposes only. Actual parts, specifications, and measurements may vary. SIM and microSD cards not included.</div>
         </div>
     </div>
 
@@ -538,59 +538,13 @@
                     </div>
                 </div>
             </div>
-            <div class="disclaimer-mobile">*Measurements are approximate; results may vary. SIM cards and microSD card are sold separately.</div>
+            <div class="disclaimer-mobile">*For demonstration purposes only. Actual parts, specifications, and measurements may vary. SIM and microSD cards not included.</div>
         </div>
     </div>
 
     <?php include './inc/footer.php'; ?>
 
     <script src="js/northlight.js"></script>
-
-    <!-- <script>
-        // zoom in image when scrolling
-        function zoomInBanner() {
-            const scrollPosition = window.scrollY;
-            const bannerContainer = document.querySelector('.phone-banner-container');
-
-            const aspectRatio = bannerContainer.offsetWidth / bannerContainer.offsetHeight;
-
-            const zoomLevel = 100 + (scrollPosition * 0.01); // Adjust this value to control zoom speed
-
-            if (aspectRatio < (16 / 9)) {
-                bannerContainer.style.backgroundSize = `auto ${zoomLevel}%`;
-            } else {
-                bannerContainer.style.backgroundSize = `${zoomLevel}% auto`;
-            }
-        }
-
-        window.addEventListener('scroll', zoomInBanner);
-        window.addEventListener('resize', zoomInBanner);
-    </script> -->
-
-    <!-- <script>
-        document.addEventListener("scroll", () => {
-            const navbar = document.getElementById("phone-nav-container");
-            const scrollPosition = window.scrollY || document.documentElement.scrollTop;
-
-            if ((scrollPosition > 700 && window.innerWidth >= 991) || (scrollPosition > 300 && window.innerWidth < 991)) {
-                navbar.classList.remove("hidden");
-                navbar.classList.add("visible");
-            } else {
-                navbar.classList.remove("visible");
-                navbar.classList.add("hidden");
-            }
-        });
-    </script> -->
-
-    <!-- <script>
-        const video = document.querySelector('.video');
-        const image = document.querySelector('.poster-image');
-
-        video.addEventListener('ended', () => {
-            video.style.display = 'none';
-            image.style.display = 'block';
-        });
-    </script> -->
 </body>
 
 </html>

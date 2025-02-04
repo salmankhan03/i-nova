@@ -53,9 +53,9 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="northlight.php">PHONE</a>
                             </li>
-                            <li class="nav-item">
+                            <!-- <li class="nav-item">
                                 <a class="nav-link" href="accessories.php">ACCESSORIES</a>
-                            </li>
+                            </li> -->
                             <li class="nav-item">
                                 <a class="nav-link" href="support.php">SUPPORT</a>
                             </li>
