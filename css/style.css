@@ -136,12 +136,25 @@ a {
 } */
 
 .copyright {
-    text-align: center;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: row;
+    gap: 0;
     color: white;
     margin: 0;
     font-size: 14px;
     font-weight: 300;
     padding: 20px 0;
+    justify-content: space-between;
+}
+
+.terms {
+    display: flex;
+    gap: 20px;
+}
+
+.terms a {
+    color: white !important;
 }
 
 .phone-nav {

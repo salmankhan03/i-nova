@@ -192,7 +192,7 @@
                                 </div>
                                 <div class="col-6">
                                     <div class="spec-title">Location</div>
-                                    <p>GPS/BDS/Glonass/Galileo</p>
+                                    <p style="overflow-wrap: break-word;">GPS/<wbr>BDS/<wbr>Glonass/<wbr>Galileo</p>
                                 </div>
                             </div>
                         </div>
@@ -215,7 +215,8 @@
                                 </div>
                                 <div class="col-6">
                                     <div class="spec-title">4G</div>
-                                    <p style="overflow-wrap: break-word;">B1/<wbr>B2/<wbr>B3/<wbr>B4/<wbr>B5/<wbr>B7/<wbr>B8/<wbr>B12/<wbr>B17/<wbr>B20/<wbr>B25/<wbr>B26/<wbr>B34/<wbr>B38/<wbr>B39/<wbr>B40/<wbr>B41/<wbr>B66/<wbr>B71</p>
+                                    <p style="overflow-wrap: break-word;">B1/<wbr>B2/<wbr>B3/<wbr>B4/<wbr>B5/<wbr>B7/<wbr>B8/<wbr>B12/
+                                    <wbr>B17/<wbr>B20/<wbr>B25/<wbr>B26/<wbr>B34/<wbr>B38/<wbr>B39/<wbr>B40/<wbr>B41/<wbr>B66/<wbr>B71</p>
                                 </div>
                             </div>
                         </div>

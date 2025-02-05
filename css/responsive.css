@@ -5,7 +5,7 @@
 } */
 
 @media only screen and (max-width: 1599px) {
-    .engineering-drawing-position{
+    .engineering-drawing-position {
         left: 120px;
     }
 
@@ -31,7 +31,7 @@
         height: 900px;
     }
 
-    .engineering-drawing-position{
+    .engineering-drawing-position {
         left: 80px;
     }
 
@@ -48,10 +48,12 @@
     .features-container-mobile {
         display: none;
     }
+
     .disclaimer-mobile {
         display: none;
     }
-    .mobile-container-padding{
+
+    .mobile-container-padding {
         padding: 0;
     }
 }
@@ -60,6 +62,7 @@
     .features-container-desktop {
         display: none;
     }
+
     .disclaimer-desktop {
         display: none;
     }
@@ -117,7 +120,7 @@
         top: -20%;
         right: 30px;
     } */
-/* 
+    /* 
     .feature-text-wrap {
         padding: 100px 50px 100px 50px;
     }
@@ -262,7 +265,7 @@
         padding-top: 50px;
         padding-bottom: 50px;
     }
-    
+
     .bottom-padding {
         padding-bottom: 50px;
     }
@@ -334,6 +337,19 @@
 
     .heading {
         font-size: 45px;
+    }
+
+    .copyright {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .about-banner-container {
+        height: 500px;
+    }
+
+    .about-banner2-container {
+        height: 400px;
     }
 }
 
@@ -415,5 +431,9 @@
 
     .intro-hide {
         display: none;
+    }
+
+    .copyright {
+        font-size: 12px;
     }
 }

@@ -45,15 +45,21 @@
                     </div>
                 </nav>
                 <div class="horizontal-line"></div>
-                <p class="copyright">Copyright © <strong>INOVA DIGITAL SOLUTIONS INC.</strong> All Rights Reserved</p>
+                <div class="copyright">
+                    <p class="m-0">Copyright © <strong>INOVA DIGITAL SOLUTIONS INC.</strong> All Rights Reserved</p>
+                    <div class="terms">
+                        <a href="terms.php">Terms of Use</a>
+                        <a href="privacy.php">Privacy Policy</a>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <button id="scrollToTopBtn" title="Go to top">
+        <button id="scrollToTopBtn" title="Go to top" class="d-none">
             <i class="fas fa-arrow-up"></i>
         </button>
 
-        <script>
+        <!-- <script>
             // Get the button
             const scrollToTopBtn = document.getElementById("scrollToTopBtn");
 
@@ -78,7 +84,7 @@
                     });
                 };
             }
-        </script>
-        <script src="js/script.js" defer></script>
+        </script> -->
+        <!-- <script src="js/script.js" defer></script> -->
     </body>
 </html>
