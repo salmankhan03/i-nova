@@ -22,11 +22,11 @@ $config = [
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-<link rel="icon" href="img/logo/favicon/Black/favicon.ico" sizes="16x16" type="image/x-icon">
-<link rel="apple-touch-icon" sizes="180x180" href="img/logo/favicon/Black/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="img/logo/favicon/Black/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="img/logo/favicon/Black/android-chrome-192x192.png">
-<link rel="icon" type="image/png" sizes="512x512" href="img/logo/favicon/Black/android-chrome-512x512.png">
+<link rel="icon" href="img/logo/favicon/favicon.ico" sizes="16x16" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="180x180" href="img/logo/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/logo/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="img/logo/favicon/android-chrome-192x192.png">
+<link rel="icon" type="image/png" sizes="512x512" href="img/logo/favicon/android-chrome-512x512.png">
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-CPT3SS8RVH"></script>
 <script>
