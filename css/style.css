@@ -842,22 +842,10 @@ a {
     display: none;
 }
 
-/* .pulse {
-    animation: pulse-animation 2s infinite;
+.section a {
+    color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1)) !important;
 }
 
-@keyframes pulse-animation {
-    0% {
-        r: 1.2;
-        fill: rgba(0, 123, 255, 0);
-    }
-
-    30% {
-        fill: rgba(0, 123, 255, 0.7);
-    }
-    
-    100% {
-        r: 3;
-        fill: rgba(0, 123, 255, 0);
-    }
-} */
+.section a:hover{
+    text-decoration: underline !important;
+}
