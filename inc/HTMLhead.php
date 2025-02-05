@@ -1,7 +1,7 @@
 <?php
 $config = [
     'base_url' => ($_SERVER['SERVER_NAME'] == 'localhost' || $_SERVER['SERVER_ADDR'] == '192.168.0.47')
-        ? 'https://192.168.0.47/inova/' 
+        ? 'https://192.168.0.47/inova/'
         : 'https://inova.intelligrp.com/'
 ];
 ?>
@@ -27,3 +27,14 @@ $config = [
 <link rel="icon" type="image/png" sizes="32x32" href="img/logo/favicon/Black/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="192x192" href="img/logo/favicon/Black/android-chrome-192x192.png">
 <link rel="icon" type="image/png" sizes="512x512" href="img/logo/favicon/Black/android-chrome-512x512.png">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CPT3SS8RVH"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-CPT3SS8RVH');
+</script>
