@@ -3,7 +3,8 @@
 
 <head>
     <?php include './inc/HTMLhead.php'; ?>
-    <title>Phone - INOVA</title>
+    <title>Northlight: Canada’s Most Affordable Dual SIM Phone | INOVA</title>
+    <meta name="description" content="Northlight by INOVA: A cheap phone with Dual SIM, MicroSD slot, & swappable battery. Canadian-made quality at an unbeatable price.">
     <link rel="stylesheet" href="css/custom-container.css">
     <style>
         #phone-nav-container {

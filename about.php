@@ -3,7 +3,8 @@
 
 <head>
     <?php include './inc/HTMLhead.php'; ?>
-    <title>About - INOVA</title>
+    <title>INOVA Canada: Affordable Tech for a Connected World</title>
+    <meta name="description" content="INOVA: A Canadian tech company delivering affordable, high-quality solutions to empower communities. Innovating for a connected world.">
 </head>
 
 <body style="overflow-x: hidden;">

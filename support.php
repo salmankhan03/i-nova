@@ -3,7 +3,8 @@
 
 <head>
     <?php include './inc/HTMLhead.php'; ?>
-    <title>Support - INOVA</title>
+    <title>INOVA Support: Warranty, FAQs & Contact | Northlight Phone</title>
+    <meta name="description" content="Need help? INOVA Support offers FAQs, warranty info, shipping details, and quick contact options. Reliable assistance for your Northlight device.">
     <style>
         .card {
             background-color: #f7f7f7;

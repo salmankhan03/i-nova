@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://inova.intelligrp.com/sitemap.xml

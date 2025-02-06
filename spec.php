@@ -2,7 +2,8 @@
 <html lang="en">
     <head>
         <?php include './inc/HTMLhead.php'; ?>
-        <title>Specs - INOVA</title>
+        <title>Northlight Specs: Dual SIM, Android 14, Removable Battery | INOVA</title>
+        <meta name="description" content="Explore Northlight's full specs: Dual SIM, microSD expansion, detachable battery, Android 14, and more. Your affordable tech powerhouse, detailed.">
         <style>
             hr {
                 border-top: 1px solid black;
