@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <?php include './inc/HTMLhead.php'; ?>
+        <title>Accessories - INOVA</title>
         <style>
             .card {
                 margin-bottom: 20px;

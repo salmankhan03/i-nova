@@ -3,6 +3,7 @@
 
 <head>
     <?php include './inc/HTMLhead.php'; ?>
+    <title>About - INOVA</title>
 </head>
 
 <body style="overflow-x: hidden;">

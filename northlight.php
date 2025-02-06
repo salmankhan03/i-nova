@@ -3,6 +3,7 @@
 
 <head>
     <?php include './inc/HTMLhead.php'; ?>
+    <title>Phone - INOVA</title>
     <link rel="stylesheet" href="css/custom-container.css">
     <style>
         #phone-nav-container {

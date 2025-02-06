@@ -3,6 +3,7 @@
 
 <head>
     <?php include './inc/HTMLhead.php'; ?>
+    <title>Terms of Use - INOVA</title>
 </head>
 
 <body>

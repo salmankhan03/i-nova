@@ -3,6 +3,7 @@
 
 <head>
     <?php include './inc/HTMLhead.php'; ?>
+    <title>Support - INOVA</title>
     <style>
         .card {
             background-color: #f7f7f7;

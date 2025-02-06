@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <?php include './inc/HTMLhead.php'; ?>
+        <title>Specs - INOVA</title>
         <style>
             hr {
                 border-top: 1px solid black;

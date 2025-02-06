@@ -3,6 +3,7 @@
 
 <head>
     <?php include './inc/HTMLhead.php'; ?>
+    <title>Privacy Policy - INOVA</title>
 </head>
 
 <body>

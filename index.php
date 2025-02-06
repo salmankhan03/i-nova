@@ -8,6 +8,7 @@ exit;
 <html lang="en">
     <head>
         <?php include './inc/HTMLhead.php'; ?>
+        <title>Home - INOVA</title>
         <style>
             .row {
                 --bs-gutter-x: 10px;
