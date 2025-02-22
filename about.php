@@ -23,7 +23,7 @@
         <div class="about-banner2-container">
             <div class="row">
                 <div class="col-12 col-md-7" style="padding-left: 50px;">
-                    <div class="about-text">We are committed to maximizing value, which includes powerful technology, durability, sustainability, and support at a great price.</div>
+                    <div class="about-text">Our products are designed to fade into the background of your life—so you can focus on what truly matters: the people, moments, and relationships that define you.</div>
                 </div>
             </div>
         </div>
@@ -31,15 +31,56 @@
         <div class="row text-center top-margin">
             <div class="col-12 col-md-6 pe-md-5">
                 <div class="about-title mission-vision">OUR <strong>MISSION</strong></div>
-                <p>Our mission is to deliver affordable, high-quality tech solutions that empower communities to come together through our innovative products.</p>
+                <p>Our mission is to make technology a universal bridge—simple, affordable, and designed for human connection.</p>
             </div>
 
             <div class="col-12 col-md-6 ps-md-5">
                 <div class="about-title mission-vision">OUR <strong>VISION</strong></div>
-                <p>Our vision is to create a world where innovative, accessible technology enables everyone to seamlessly stay connected no matter where they are.</p>
+                <p>Our vision is to continue creating innovative, accessible technology that enables everyone to seamlessly stay connected.</p>
             </div>
         </div>
+    </div>
 
+    <div class="bg-black text-white">
+        <div class="container">
+            <div class="row section-padding">
+                <div class="col-12 col-md-8">
+                    <div class="about-title fw-bold">Designed with A Purpose</div>
+                </div>
+                <div class="col-12 col-md-4 d-flex align-items-center justify-content-end">
+                    <a href="northlight.php" class="underline-link underline-link-white" style="color: white !important;">Witness the impact ></a>
+                </div>
+            </div>
+
+            <div class="row text-center bottom-padding gx-5">
+                <div class="col-12 col-md-4">
+                    <img src="img/about/icon_accessible.svg" alt="accessibility" class="values-icon">
+                    <div class="about-title pt-2 pb-3">Accessibility</div>
+                    <p>We ensure technology is accessible to everyone, with inclusive pricing and features designed for all ages, abilities, and budgets—because innovation should never leave people behind.</p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="img/about/icon_simplicity.svg" alt="simplicity" class="values-icon">
+                    <div class="about-title pt-2 pb-3">Simplicity</div>
+                    <p>We design technology that works for you, not against you. Our intuitive interfaces and purposeful features strip away complexity, helping you navigate daily life with ease—no manuals required.</p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="img/about/icon_community.svg" alt="community" class="values-icon">
+                    <div class="about-title pt-2 pb-3">Community</div>
+                    <p>We’re more than a tech company—we’re community partners. Our designs empower neighborhoods, families, and friends to connect, collaborate, and thrive together.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row section-padding">
+            <div class="col-12 col-md-6">
+                <div class="about-title fw-bold">Building Bridges, Not Just Devices</div>
+            </div>
+            <div class="col-12 col-md-6">
+                <p>At INOVA, every product we create—from the Northlight Smartphone to future innovations—is a bridge. A bridge between generations sharing stories, between small businesses and their customers, and between isolated communities and the wider world. We don’t engineer gadgets; we craft tools that dissolve barriers, simplify connection, and empower people to focus on what truly matters: each other.</p>
+            </div>
+        </div>
     </div>
 
     <?php include './inc/footer.php'; ?>

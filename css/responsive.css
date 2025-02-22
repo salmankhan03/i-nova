@@ -151,10 +151,6 @@
         right: -280px;
     }
 
-    .row {
-        --bs-gutter-y: 24px;
-    }
-
     .title {
         font-size: 45px;
     }
@@ -276,10 +272,14 @@
 }
 
 @media only screen and (max-width: 767px) {
+    .row {
+        --bs-gutter-y: 24px;
+    }
 
     /* .phone-banner-text {
         height: 620px;
     } */
+     
     .nav-links {
         gap: 30px;
     }
