@@ -28,6 +28,7 @@
         <nav class="nav">
             <a class="logo-container" href="index.php">
                 <img src="img/logo/inova_logo_black.svg" alt="logo" class="logo">
+                <img src="img/logo/iNova_workmark.svg" alt="logo" class="inova">
             </a>
 
             <div class="nav-links">
@@ -44,6 +45,7 @@
             <div class="container-fluid">
                 <a class="logo-container" href="index.php">
                     <img src="img/logo/inova_logo_black.svg" alt="logo" class="logo">
+                    <img src="img/logo/iNova_workmark.svg" alt="logo" class="inova">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
