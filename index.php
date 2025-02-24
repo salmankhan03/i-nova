@@ -8,7 +8,8 @@
 
 <head>
     <?php include './inc/HTMLhead.php'; ?>
-    <title>Home - INOVA</title>
+    <title>INOVA: Tech Built for Accessibility & Community | Canada</title>
+    <meta name="description" content="At INova, we build tech that unites. Accessibility, simplicity, and community drive everything we create—from phones to future innovations.">
     <style>
         .row {
             --bs-gutter-x: 10px;
