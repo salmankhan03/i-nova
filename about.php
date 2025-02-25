@@ -30,12 +30,12 @@
 
         <div class="row text-center top-margin">
             <div class="col-12 col-md-6 pe-md-5">
-                <div class="about-title mission-vision">OUR <strong>MISSION</strong></div>
+                <div class="about-title mission-vision"><span class="fw-normal">OUR</span> MISSION</div>
                 <p>Our mission is to make technology a universal bridge—simple, affordable, and designed for human connection.</p>
             </div>
 
             <div class="col-12 col-md-6 ps-md-5">
-                <div class="about-title mission-vision">OUR <strong>VISION</strong></div>
+                <div class="about-title mission-vision"><span class="fw-normal">OUR</span> VISION</div>
                 <p>Our vision is to continue creating innovative, accessible technology that enables everyone to seamlessly stay connected.</p>
             </div>
         </div>
@@ -45,7 +45,7 @@
         <div class="container">
             <div class="row section-padding">
                 <div class="col-12 col-md-8">
-                    <div class="about-title fw-bold">Designed with A Purpose</div>
+                    <div class="title fw-bold">Designed with A Purpose</div>
                 </div>
                 <div class="col-12 col-md-4 d-flex align-items-end justify-content-end">
                     <a href="northlight.php" class="underline-link underline-link-white" style="color: white !important;">Witness the impact ></a>
@@ -75,7 +75,7 @@
     <div class="container">
         <div class="row section-padding">
             <div class="col-12 col-md-6">
-                <div class="about-title fw-bold">Building Bridges, Not Just Devices</div>
+                <div class="title fw-bold">Building Bridges, <br>Not Just Devices</div>
             </div>
             <div class="col-12 col-md-6">
                 <p>At INOVA, every product we create—from the Northlight Smartphone to future innovations—is a bridge. A bridge between generations sharing stories, between small businesses and their customers, and between isolated communities and the wider world. We don’t engineer gadgets; we craft tools that dissolve barriers, simplify connection, and empower people to focus on what truly matters: each other.</p>

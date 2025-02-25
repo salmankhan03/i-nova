@@ -20,7 +20,6 @@
 
         .card-title {
             padding: 15px 0 0 0;
-            font-size: calc(1.3rem + .6vw);
         }
         @media only screen and (max-width: 991px) {
             .row {
@@ -48,7 +47,7 @@
                     <div class="card h-100">
                         <div class="card-body d-flex flex-column">
                             <img src="img/support/icons/icons_sales.svg" alt="sales" class="support-icon">
-                            <div class="card-title">Sales & Enquiries</div>
+                            <div class="card-title about-title">Sales & Enquiries</div>
                             <p class="card-text">Have questions about our products or services? Our team is ready to assist you with information, pricing, and availability to help you make the right choice.</p>
                             <div class="mt-auto"><a href="mailto: sales@i-nova.com">sales@i-nova.ca <i class="fa-solid fa-angle-right"></i></a></div>
                         </div>
@@ -58,7 +57,7 @@
                     <div class="card h-100">
                         <div class="card-body d-flex flex-column">
                             <img src="img/support/icons/icons_support.svg" alt="support" class="support-icon">
-                            <div class="card-title">Help & Support</div>
+                            <div class="card-title about-title">Help & Support</div>
                             <p class="card-text">Need assistance with your INOVA device? From troubleshooting to user guides, we’re here to keep your experience smooth and hassle-free.</p>
                             <div class="mt-auto"><a href="mailto: support@i-nova.com">support@i-nova.ca <i class="fa-solid fa-angle-right"></i></a></div>
                         </div>
@@ -68,7 +67,7 @@
                     <div class="card h-100">
                         <div class="card-body d-flex flex-column">
                             <img src="img/support/icons/icons_warranty.svg" alt="warranty" class="support-icon">
-                            <div class="card-title">Warranty</div>
+                            <div class="card-title about-title">Warranty</div>
                             <p class="card-text">During the warranty period, we will either repair or replace, at its discretion, any defective product at no charge to the owner.</p><br>
                             <!-- <div class="mt-auto"><a href="register.php">Register Device <i class="fa-solid fa-angle-right"></i></a></div> -->
                             <div class="mt-auto"><a href="mailto: warranty@i-nova.com">warranty@i-nova.ca <i class="fa-solid fa-angle-right"></i></a></div>

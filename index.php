@@ -72,7 +72,7 @@
             <!-- <div class="heading bottom-padding-sm">Experience it now</div> -->
             <div class="row bottom-padding-sm">
                 <div class="col-12 col-md-8">
-                    <div class="about-title">All in Our Products</div>
+                    <div class="title fw-bold">All in Our Products</div>
                 </div>
                 <div class="col-12 col-md-4 d-flex align-items-end justify-content-end">
                     <a href="northlight.php" class="underline-link">Experience it now ></a>
