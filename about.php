@@ -47,7 +47,7 @@
                 <div class="col-12 col-md-8">
                     <div class="about-title fw-bold">Designed with A Purpose</div>
                 </div>
-                <div class="col-12 col-md-4 d-flex align-items-center justify-content-end">
+                <div class="col-12 col-md-4 d-flex align-items-end justify-content-end">
                     <a href="northlight.php" class="underline-link underline-link-white" style="color: white !important;">Witness the impact ></a>
                 </div>
             </div>
