@@ -22,7 +22,7 @@
 
         <div class="about-banner2-container">
             <div class="row">
-                <div class="col-12 col-md-7" style="padding-left: 50px;">
+                <div class="col-12 col-lg-6" style="padding-left: 50px;">
                     <div class="about-text">Our products are designed to fade into the background of your life—so you can focus on what truly matters: the people, moments, and relationships that define you.</div>
                 </div>
             </div>

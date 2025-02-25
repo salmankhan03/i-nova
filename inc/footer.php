@@ -38,6 +38,7 @@
                         <img src="img/logo/inova_logo_silver.svg" alt="logo" class="logo">
                     </a>
                     <div class="nav-links nav-links-white">
+                        <a href="index.php" class="first-nav underline-link">HOME</a>
                         <a href="northlight.php" class="first-nav underline-link">PHONE</a>
                         <!-- <a href="accessories.php" class="first-nav underline-link">ACCESSORIES</a> -->
                         <a href="support.php" class="first-nav underline-link">SUPPORT</a>

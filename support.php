@@ -48,7 +48,7 @@
                     <div class="card h-100">
                         <div class="card-body d-flex flex-column">
                             <img src="img/support/icons/icons_sales.svg" alt="sales" class="support-icon">
-                            <div class="card-title">Sales & enquiries</div>
+                            <div class="card-title">Sales & Enquiries</div>
                             <p class="card-text">Have questions about our products or services? Our team is ready to assist you with information, pricing, and availability to help you make the right choice.</p>
                             <div class="mt-auto"><a href="mailto: sales@i-nova.com">sales@i-nova.ca <i class="fa-solid fa-angle-right"></i></a></div>
                         </div>

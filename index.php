@@ -5,6 +5,7 @@
     <?php include './inc/HTMLhead.php'; ?>
     <title>INOVA: Tech Built for Accessibility & Community | Canada</title>
     <meta name="description" content="At INova, we build tech that unites. Accessibility, simplicity, and community drive everything we create—from phones to future innovations.">
+    <meta name="google-site-verification" content="o_L1bB7zVCoiwoFWgmf9baevM2gc-zt6iPyb9uvSrHU" />
     <style>
         .row {
             --bs-gutter-x: 10px;
