@@ -49,7 +49,7 @@
     <div class="philosophy">
         <div class="container">
             <a href="about.php#purpose" class="text-white">
-                <div class="row pb-5 text-center gx-5">
+                <div class="row pb-5 text-center gx-md-5">
                     <div class="col-12 col-md-4">
                         <img src="img/about/icon_accessible.svg" alt="accessibility" class="values-icon">
                         <div class="about-title pt-2 pb-3">Accessibility</div>

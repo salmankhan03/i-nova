@@ -1,7 +1,7 @@
 //Show features on click
 document.addEventListener('DOMContentLoaded', () => {
-    const circles = document.querySelectorAll('.circle-inner');
-    const defaultImage = document.getElementById('case');
+    const circles = document.querySelectorAll('.circle-inner, .highlight-wrap');
+    const defaultImage = document.getElementById('battery');
     const hoverContent = document.querySelectorAll('.content');
 
     let currentTarget = null;
@@ -160,7 +160,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 //Toggle Features
-document.querySelectorAll(".text-overlay").forEach(section => {
+document.querySelectorAll(".text-overlay, .text-overlay-mobile").forEach(section => {
     const toggleContainers = section.querySelectorAll(".toggle-container");
 
     toggleContainers.forEach((container, index) => {
