@@ -220,13 +220,18 @@ a {
     color: white;
 }
 
-.home-banner2-container {
+/* .home-banner2-container {
     position: relative;
     width: 100%;
     padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
     min-height: 300px;
+} */
+
+.home-product-img {
+    width: 100%;
+    border-radius: 25px;
 }
 
 .phone-banner-container {

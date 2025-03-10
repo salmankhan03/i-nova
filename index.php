@@ -8,11 +8,11 @@
     <meta name="google-site-verification" content="o_L1bB7zVCoiwoFWgmf9baevM2gc-zt6iPyb9uvSrHU" />
     <style>
         .row {
-            --bs-gutter-x: 10px;
-            --bs-gutter-y: 10px;
+            /* --bs-gutter-x: 10px; */
+            --bs-gutter-y: 1.5rem;
         }
 
-        @media only screen and (max-width: 1199px) {
+        /* @media only screen and (max-width: 1199px) {
             .home-banner-title {
                 bottom: 20px;
             }
@@ -28,7 +28,13 @@
             .home-banner-title {
                 bottom: 50px;
             }
-        }
+        } */
+
+        .card-title {
+                font-size: 24px;
+                font-weight: 600;
+                text-align: center;
+            }
     </style>
 </head>
 
@@ -42,23 +48,25 @@
     <!-- <div class="white-space"></div> -->
     <div class="philosophy">
         <div class="container">
-            <div class="row pb-5 text-center gx-5">
-                <div class="col-12 col-md-4">
-                    <img src="img/about/icon_accessible.svg" alt="accessibility" class="values-icon">
-                    <div class="about-title pt-2 pb-3">Accessibility</div>
-                    <p>Features and pricing that make sense for everyone.</p>
+            <a href="about.php#purpose" class="text-white">
+                <div class="row pb-5 text-center gx-5">
+                    <div class="col-12 col-md-4">
+                        <img src="img/about/icon_accessible.svg" alt="accessibility" class="values-icon">
+                        <div class="about-title pt-2 pb-3">Accessibility</div>
+                        <p>Features and pricing that make sense for everyone.</p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="img/about/icon_simplicity.svg" alt="simplicity" class="values-icon">
+                        <div class="about-title pt-2 pb-3">Simplicity</div>
+                        <p>Designs are straightforward, without<span class="d-xxl-none d-xl-inline d-none"><br></span> complexity.</p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="img/about/icon_community.svg" alt="community" class="values-icon">
+                        <div class="about-title pt-2 pb-3">Community</div>
+                        <p>Brings people together with our innovative product.</p>
+                    </div>
                 </div>
-                <div class="col-12 col-md-4">
-                    <img src="img/about/icon_simplicity.svg" alt="simplicity" class="values-icon">
-                    <div class="about-title pt-2 pb-3">Simplicity</div>
-                    <p>Designs are straightforward, without complexity.</p>
-                </div>
-                <div class="col-12 col-md-4">
-                    <img src="img/about/icon_community.svg" alt="community" class="values-icon">
-                    <div class="about-title pt-2 pb-3">Community</div>
-                    <p>Brings people together with our innovative product.</p>
-                </div>
-            </div>
+            </a>
             <div class="row bottom-padding">
                 <div class="col-12 text-center">
                     <a class="learn-more-button" href="about.php">Learn More</a>
@@ -69,7 +77,6 @@
 
     <div class="container">
         <div class="section-padding-sm">
-            <!-- <div class="heading bottom-padding-sm">Experience it now</div> -->
             <div class="row bottom-padding-sm">
                 <div class="col-12 col-md-8">
                     <div class="title fw-bold">All in Our Products</div>
@@ -78,11 +85,42 @@
                     <a href="northlight.php" class="underline-link">Experience it now ></a>
                 </div>
             </div>
-            <a href="northlight.php">
-                <div class="home-banner2-container" style="border-radius: 25px;">
-                    <img class="poster-image banner" src="img/phone/banner_bg.jpg" alt="Banner">
+
+            <div class="row">
+                <div class="col-12">
+                    <a href="northlight.php">
+                        <img src="img/phone/banner_bg.jpg" alt="Banner" class="home-product-img">
+                    </a>
                 </div>
-            </a>
+            
+                <div class="col-6 col-lg-3">
+                    <a href="accessories.php#battery">
+                        <img src="img/accessories/battery.jpg" alt="battery" class="home-product-img">
+                        <div class="card-title">Battery</div>
+                    </a>
+                </div>
+
+                <div class="col-6 col-lg-3">
+                    <a href="accessories.php#battery_charger">
+                        <img src="img/accessories/battery_charger.jpg" alt="battery_charger" class="home-product-img">
+                        <div class="card-title">Battery Charger</div>
+                    </a>
+                </div>
+
+                <div class="col-6 col-lg-3">
+                    <a href="accessories.php#phone_case">
+                        <img src="img/accessories/phone_case.jpg" alt="phone_case" class="home-product-img">
+                        <div class="card-title">Phone Case</div>
+                    </a>
+                </div>
+
+                <div class="col-6 col-lg-3">
+                    <a href="accessories.php#microSD_card">
+                        <img src="img/accessories/microSD_card.jpg" alt="microSD_card" class="home-product-img">
+                        <div class="card-title">microSD Card</div>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 

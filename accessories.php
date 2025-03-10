@@ -57,7 +57,7 @@
             </div>
 
             <div class="row">
-                <div class="col-sm-6 col-lg-4 col-xl-3 accessory" data-category="power">
+                <div class="col-6 col-md-4 col-lg-3 accessory" data-category="power" id="battery">
                     <div class="card">
                         <div class="accessory-image-container">
                             <img src="img/accessories/battery.jpg" alt="battery" class="img-fluid accessory-image">
@@ -69,7 +69,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-6 col-lg-4 col-xl-3 accessory" data-category="power">
+                <div class="col-6 col-md-4 col-lg-3 accessory" data-category="power" id="battery_charger">
                     <div class="card">
                         <div class="accessory-image-container">
                             <img src="img/accessories/battery_charger.jpg" alt="battery" class="img-fluid accessory-image">
@@ -81,7 +81,7 @@
                     </div>
                 </div>
                 
-                <div class="col-sm-6 col-lg-4 col-xl-3 accessory" data-category="power">
+                <div class="col-6 col-md-4 col-lg-3 accessory" data-category="power" id="usb_cable">
                     <div class="card">
                         <div class="accessory-image-container">
                             <img src="img/accessories/USB-C_cable.jpg" alt="battery" class="img-fluid accessory-image">
@@ -93,7 +93,7 @@
                     </div>
                 </div>
                 
-                <div class="col-sm-6 col-lg-4 col-xl-3 accessory" data-category="power">
+                <div class="col-6 col-md-4 col-lg-3 accessory" data-category="power" id="power_adapter">
                     <div class="card">
                         <div class="accessory-image-container">
                             <img src="img/accessories/power_adapter.jpg" alt="battery" class="img-fluid accessory-image">
@@ -105,7 +105,7 @@
                     </div>
                 </div>
                 
-                <div class="col-sm-6 col-lg-4 col-xl-3 accessory" data-category="protection">
+                <div class="col-6 col-md-4 col-lg-3 accessory" data-category="protection" id="phone_case">
                     <div class="card">
                         <div class="accessory-image-container">
                             <img src="img/accessories/phone_case.jpg" alt="battery" class="img-fluid accessory-image">
@@ -117,7 +117,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-6 col-lg-4 col-xl-3 accessory"  data-category="storage">
+                <div class="col-6 col-md-4 col-lg-3 accessory" data-category="storage" id="microSD_card">
                     <div class="card">
                         <div class="accessory-image-container">
                             <img src="img/accessories/microSD_card.jpg" alt="battery" class="img-fluid accessory-image">

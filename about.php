@@ -41,7 +41,7 @@
         </div>
     </div>
 
-    <div class="bg-black text-white">
+    <div class="bg-black text-white" id="purpose">
         <div class="container">
             <div class="row section-padding">
                 <div class="col-12 col-md-8">

@@ -3,20 +3,6 @@
 
 <head>
     <style>
-        .desktop-nav {
-            display: none;
-        }
-
-        @media screen and (min-width: 576px) {
-            .desktop-nav {
-                display: block;
-            }
-
-            .mobile-nav {
-                display: none;
-            }
-        }
-
         .navbar {
             --bs-navbar-padding-y: 0;
         }
@@ -24,7 +10,7 @@
 </head>
 
 <body>
-    <div class="container desktop-nav">
+    <div class="container desktop-nav d-md-block d-none">
         <nav class="nav">
             <a class="logo-container" href="index.php">
                 <img src="img/logo/inova_logo_black.svg" alt="logo" class="logo">
@@ -34,14 +20,14 @@
             <div class="nav-links">
                 <a href="index.php" class="first-nav underline-link">HOME</a>
                 <a href="northlight.php" class="first-nav underline-link">PHONE</a>
-                <!-- <a href="accessories.php" class="first-nav underline-link">ACCESSORIES</a> -->
+                <a href="accessories.php" class="first-nav underline-link">ACCESSORIES</a>
                 <a href="support.php" class="first-nav underline-link">SUPPORT</a>
                 <a href="about.php" class="first-nav underline-link">ABOUT</a>
             </div>
         </nav>
     </div>
 
-    <div class="mobile-nav">
+    <div class="mobile-nav d-md-none d-block">
         <nav class="navbar navbar-expand-lg bg-white">
             <div class="container-fluid">
                 <a class="logo-container" href="index.php">
@@ -59,9 +45,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="northlight.php">PHONE</a>
                         </li>
-                        <!-- <li class="nav-item">
+                        <li class="nav-item">
                                 <a class="nav-link" href="accessories.php">ACCESSORIES</a>
-                            </li> -->
+                            </li>
                         <li class="nav-item">
                             <a class="nav-link" href="support.php">SUPPORT</a>
                         </li>
