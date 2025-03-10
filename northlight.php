@@ -266,13 +266,23 @@
                     <img src="img/phone/battery.png" alt="Detachable Battery" class="engineering-drawing">
                     <div class="text-overlay">
                         <div class="feature-title">Detachable Battery</div>
-                        <br>
-                        <div class="feature-description">Easy Replacement</div>
-                        <p>Swap out the battery effortlessly for extended usage.</p>
-                        <div class="feature-description">Swap in Seconds</div>
-                        <p>Extend your phone’s life by replacing the battery, not the phone.</p>
-                        <div class="feature-description">Eco-Friendly & Affordable</div>
-                        <p>Replace the battery, not the phone.</p>
+                        <div class="toggle-container">
+                            <div class="feature-description">Easily Replaceable: No Tools, No Hassle</div>
+                            <i class="fa-solid fa-angle-right arrow"></i>
+                        </div>
+                        <p class="toggle-content">Northlight’s battery swaps in seconds with a <strong>tool-free latch system</strong>—no screws, no technician required. Simply pop off the case, replace the battery, and power up. Designed for everyone, from tech novices to busy parents, it’s as simple as changing a TV remote’s batteries.</p>
+
+                        <div class="toggle-container">
+                            <div class="feature-description">Built for Daily Demands & Emergencies</div>
+                            <i class="fa-solid fa-angle-right arrow"></i>
+                        </div>
+                        <p class="toggle-content"><strong>Keep a spare battery</strong> for all-day adventures, travel, or unexpected outages. Unlike sealed phones that leave you scrambling for a charger, Northlight ensures you’re never stranded. Swap in a fresh battery during a hike, flight, or blackout—because life doesn’t wait for a power outlet.</p>
+
+                        <div class="toggle-container">
+                            <div class="feature-description">Replace the Battery, Not the Phone</div>
+                            <i class="fa-solid fa-angle-right arrow"></i>
+                        </div>
+                        <p class="toggle-content">When batteries degrade (as all do), Northlight lets you <strong>replace just the battery</strong>—not the entire phone. This eco-friendly approach cuts long-term costs and e-waste, aligning with our mission to make tech sustainable. Why discard a perfectly good phone over a $20 battery?</p>
                     </div>
                 </div>
 
@@ -296,13 +306,23 @@
                     <img src="img/phone/phone_case.png" alt="case" class="engineering-drawing">
                     <div class="text-overlay">
                         <div class="feature-title">Phone Case</div>
-                        <br>
-                        <div class="feature-description">Durable Material</div>
-                        <p>Made with ABS injection PC for long-lasting protection.</p>
-                        <div class="feature-description">Smooth Curves & Surface</div>
-                        <p>Ergonomically designed for the best grip and comfort.</p>
-                        <div class="feature-description">Perfect Fit</div>
-                        <p>Easy to pick up and designed for an exceptional in-hand experience.</p>
+                        <div class="toggle-container">
+                            <div class="feature-description">Durable & Lightweight Design</div>
+                            <i class="fa-solid fa-angle-right arrow"></i>
+                        </div>
+                        <p class="toggle-content">Northlight’s body and case use <strong>ABS injection PC</strong>—a tough, lightweight plastic that resists drops and scratches. Unlike premium phones that rely on metals like aluminum or titanium (which add modest weight and cost for their durability), ABS keeps the phone practical: lighter for pockets or long calls, and affordable without compromising everyday resilience.</p>
+
+                        <div class="toggle-container">
+                            <div class="feature-description">Compact & Practical Size</div>
+                            <i class="fa-solid fa-angle-right arrow"></i>
+                        </div>
+                        <p class="toggle-content">At <strong>74mm wide (2.91 inches)</strong>, Northlight fits comfortably in all hands—no stretching to reach buttons or balancing acts to avoid drops. While others chase oversized screens, we prioritize portability: it slips into small bags, jeans pockets, or your palm effortlessly, proving bigger isn’t always better.</p>
+
+                        <div class="toggle-container">
+                            <div class="feature-description">Ergonomic Curves for All-Day Comfort</div>
+                            <i class="fa-solid fa-angle-right arrow"></i>
+                        </div>
+                        <p class="toggle-content">Designed with <strong>smooth, rounded edges</strong> and a matte finish, Northlight feels natural in your grip. The subtle curves fit snugly in palms of all sizes, whether you’re texting one-handed on a commute or snapping photos at a family BBQ. No sharp edges, no slippery surfaces—just practicality that works for everyone.</p>
                     </div>
                 </div>
 

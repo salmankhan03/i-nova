@@ -1,7 +1,7 @@
 //Show features on click
 document.addEventListener('DOMContentLoaded', () => {
     const circles = document.querySelectorAll('.circle-inner');
-    const defaultImage = document.getElementById('battery');
+    const defaultImage = document.getElementById('case');
     const hoverContent = document.querySelectorAll('.content');
 
     let currentTarget = null;
@@ -154,6 +154,39 @@ document.addEventListener('DOMContentLoaded', function() {
             if (featureWrapper) {
                 featureWrapper.classList.add('hidden');
                 featureWrapper.classList.remove('visible');
+            }
+        });
+    });
+});
+
+//Toggle Features
+document.querySelectorAll(".text-overlay").forEach(section => {
+    const toggleContainers = section.querySelectorAll(".toggle-container");
+
+    toggleContainers.forEach((container, index) => {
+        const content = container.nextElementSibling;
+
+        if (index === 0) {
+            container.classList.add("active");
+            content.classList.add("open");
+        }
+
+        container.addEventListener("click", function() {
+            toggleContainers.forEach(item => {
+                if (item !== this) {
+                    item.classList.remove("active");
+                    item.nextElementSibling.classList.remove("open");
+                }
+            });
+
+            const isActive = this.classList.contains("active");
+
+            if (isActive) {
+                content.classList.remove("open");
+                this.classList.remove("active");
+            } else {
+                content.classList.add("open");
+                this.classList.add("active");
             }
         });
     });
