@@ -425,7 +425,7 @@
 
                 <!-- Camera -->
                 <div class="image-wrapper content" id="camera">
-                    <img src="img/phone/phone_case.png" alt="camera" class="engineering-drawing">
+                    <img src="img/phone/camera.png" alt="camera" class="engineering-drawing">
                     <div class="text-overlay">
                         <div class="feature-title">Camera</div>
                         <div class="toggle-container">
@@ -450,7 +450,7 @@
 
                 <!-- Display -->
                 <div class="image-wrapper content" id="display">
-                    <img src="img/phone/android14.png" alt="display" class="engineering-drawing">
+                    <img src="img/phone/display.png" alt="display" class="engineering-drawing">
                     <div class="text-overlay">
                         <div class="feature-title">Display</div>
                         <div class="toggle-container">
@@ -775,7 +775,7 @@
                 <!-- Camera -->
                 <div class="feature-wrapper-mobile" id="camera-mobile">
                     <i class="fa-solid fa-xmark xmark"></i>
-                    <img src="img/phone/phone_case.png" alt="Camera" class="engineering-drawing-mobile">
+                    <img src="img/phone/camera.png" alt="Camera" class="engineering-drawing-mobile">
                     <div class="text-overlay-mobile">
                         <div class="feature-title">Camera</div>
                         <div class="toggle-container">
@@ -801,7 +801,7 @@
                 <!-- Display -->
                 <div class="feature-wrapper-mobile" id="display-mobile">
                     <i class="fa-solid fa-xmark xmark"></i>
-                    <img src="img/phone/android14.png" alt="display" class="engineering-drawing-mobile">
+                    <img src="img/phone/display.png" alt="display" class="engineering-drawing-mobile">
                     <div class="text-overlay-mobile">
                         <div class="feature-title">Display</div>
                         <div class="toggle-container">
