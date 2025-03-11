@@ -135,7 +135,7 @@ window.addEventListener('resize', resizeFeatureWrappers);
 
 //Show and close feature-wrapper-mobile on click
 document.addEventListener('DOMContentLoaded', function() {
-    const hoverCircles = document.querySelectorAll('.circle-inner');
+    const hoverCircles = document.querySelectorAll('.circle-inner, .highlight-wrap');
     hoverCircles.forEach(circle => {
         circle.addEventListener('click', function() {
             const targetId = circle.getAttribute('data-target');
