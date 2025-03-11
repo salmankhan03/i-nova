@@ -64,9 +64,16 @@
                     <div class="bottom-padding heading text-center">Affordable, Reliable, Simplicity at its Finest</div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12">
-                    <p class="bottom-padding phone-intro">The Northlight smartphone represents INOVA’s commitment to delivering reliable and user-focused technology. Built to be practical and easy to use, ensures you stay connected to what matters most. <span class="intro-hide">With features you can trust at a price you’ll appreciate, Northlight is made for everyone.</span></p>
+            <div class="row pb-5 gx-md-5">
+                <div class="col-md-6">
+                    <div class="about-title pt-2 pb-3">Designed to Connect, Not Compete</div>
+                    <p>Northlight isn’t just a smartphone—it’s INOVA’s commitment to accessibility, simplicity, and community in action. Designed to dissolve barriers between people and technology, it strips away complexity, cost, and excess. Every feature serves a purpose: connecting you to what matters, not chasing specs you’ll never use.</p>
+                    <p>Behind every detail lies a choice: prioritize people over pixels, purpose over prestige.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="about-title pt-2 pb-3">Building Bridges, Not Gadgets</div>
+                    <p>INOVA’s vision has always been about connection—not just between devices, but between people. Northlight is a tool for the teenager navigating their first phone, the retiree video-calling grandkids, or the entrepreneur juggling work and life. It’s a reminder that innovation isn’t about pixels or megawatts—it’s about dissolving barriers.</p>
+                    <p>Because at INOVA, we don’t engineer phones. We craft tools that let you focus on what truly matters: the people on the other side of the screen.</p>
                 </div>
             </div>
 
@@ -298,53 +305,28 @@
                     </svg>
                 </div>
 
-                <!-- SIM Card -->
-                <div class="image-wrapper content" id="sim-card">
-                    <img src="img/phone/dualSIM_card.png" alt="Dual SIM card" class="engineering-drawing">
+                <!-- Case -->
+                <div class="image-wrapper content" id="case">
+                    <img src="img/phone/phone_case.png" alt="case" class="engineering-drawing">
                     <div class="text-overlay">
-                        <div class="feature-title">Dual Sim Card</div>
+                        <div class="feature-title">Phone Case</div>
                         <div class="toggle-container">
-                            <div class="feature-description">Simplified Travel</div>
+                            <div class="feature-description">Durable & Lightweight Design</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content">Swap to a local SIM card instantly when traveling abroad—no more exorbitant roaming fees. Keep your home number active for emergencies while using a local plan for data, calls, and maps. Perfect for globetrotters, students abroad, or business trips.</p>
+                        <p class="toggle-content">Northlight’s body and case use ABS injection PC—<strong>a tough, lightweight plastic</strong> that resists drops and scratches. Unlike premium phones that rely on metals like aluminum or titanium (which add modest weight and cost for their durability), ABS keeps the phone practical: <strong>lighter for pockets or long calls</strong>, and affordable without compromising everyday resilience.</p>
 
                         <div class="toggle-container">
-                            <div class="feature-description">Effortless Switching</div>
+                            <div class="feature-description">Compact & Practical Size</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content">Separate work and personal life seamlessly with Dual SIM. Assign one slot for client calls and another for family chats—no juggling phones or missing important updates. Ideal for freelancers, entrepreneurs, or anyone craving work-life balance.</p>
+                        <p class="toggle-content">At 74mm wide (2.91 inches), <strong>Northlight fits comfortably in all hands</strong>—no stretching to reach buttons or balancing acts to avoid drops. While others chase oversized screens, we prioritize portability: it slips into small bags, jeans pockets, or your palm effortlessly, proving bigger isn’t always better.</p>
 
                         <div class="toggle-container">
-                            <div class="feature-description">Instant Switching</div>
+                            <div class="feature-description">Ergonomic Curves for All-Day Comfort</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content">Toggle between SIMs in seconds via software settings—no physical swapping needed. Pause your work line during dinner or activate a travel SIM mid-flight. Stay connected your way, without interruptions or delays.</p>
-                    </div>
-                </div>
-
-                <!-- USB-C -->
-                <div class="image-wrapper content" id="usb-c">
-                    <img src="img/phone/usb_c.png" alt="USB-C" class="engineering-drawing">
-                    <div class="text-overlay">
-                        <div class="feature-title">USB-C</div>
-                        <div class="toggle-container">
-                            <div class="feature-description">Universal Simplicity</div>
-                            <i class="fa-solid fa-angle-right arrow"></i>
-                        </div>
-                        <p class="toggle-content">USB-C is the global standard for modern devices—charge your phone, laptop, tablet, or earbuds with the same cable. No more juggling cords: transfer files, power up, or connect to monitors effortlessly. Simplify your tech life while saving money on extra accessories.</p>
-
-                        <div class="toggle-container">
-                            <div class="feature-description">Future-Ready Tech</div>
-                            <i class="fa-solid fa-angle-right arrow"></i>
-                        </div>
-                        <p class="toggle-content">USB-C supports faster charging, 4K video output, and high-speed data transfers. Compatible with the latest laptops, chargers, and peripherals, it ensures Northlight stays relevant as tech evolves. No adapter headaches or outdated ports—just seamless compatibility for years to come.</p>
-
-                        <div class="toggle-container">
-                            <div class="feature-description">Simple Connectivity</div>
-                            <i class="fa-solid fa-angle-right arrow"></i>
-                        </div>
-                        <p class="toggle-content">USB-C’s reversible design works flawlessly in any orientation—no flipping the plug three times. Whether you’re charging in the dark or rushing out the door, it’s hassle-free convenience for all ages. A small detail that makes everyday life smoother.</p>
+                        <p class="toggle-content">Designed with <strong>smooth, rounded edges</strong> and a matte finish, Northlight feels natural in your grip. The subtle curves fit snugly in palms of all sizes, whether you’re texting one-handed on a commute or snapping photos at a family BBQ. No sharp edges, no slippery surfaces—just practicality that works for everyone.</p>
                     </div>
                 </div>
 
@@ -357,7 +339,7 @@
                             <div class="feature-description">Easily Replaceable</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content">Northlight’s battery swaps in seconds with a <strong>tool-free latch system</strong>—no screws, no technician required. Simply pop off the case, replace the battery, and power up. Designed for everyone, from tech novices to busy parents, it’s as simple as changing a TV remote’s batteries.</p>
+                        <p class="toggle-content">Northlight’s battery swaps in seconds with a <strong>tool-free latch system</strong>—no screws, no technician required. <strong>Simply pop off</strong> the case, <storng>replace</storng> the battery, and power up. Designed for everyone, from tech novices to busy parents, it’s as simple as changing a TV remote’s batteries.</p>
 
                         <div class="toggle-container">
                             <div class="feature-description">Built for Daily Demands & Emergencies</div>
@@ -382,44 +364,44 @@
                             <div class="feature-description">Affordable Expansion</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content">Expand your storage affordably with a microSD card—no need to buy a pricier high-storage model. For less than the cost of a coffee, add up to 512GB for photos, videos, and apps, keeping your budget intact while future-proofing your device.</p>
+                        <p class="toggle-content">Expand your storage affordably with a <strong>microSD card</strong>—no need to buy a pricier high-storage model. Add up to <strong>512GB</strong> for photos, videos, and apps, keeping your budget intact while future-proofing your device.</p>
 
                         <div class="toggle-container">
                             <div class="feature-description">Quick & Simple</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content">Just slide in a microSD card—no setup, no formatting. Northlight recognizes it instantly, letting you store files, transfer data, or free up space in seconds. Perfect for tech newcomers or anyone craving hassle-free solutions.</p>
+                        <p class="toggle-content">Just slide in a microSD card—<strong>no setup, no formatting</strong>. Northlight recognizes it instantly, letting you store files, transfer data, or free up space in seconds. Perfect for tech newcomers or anyone craving hassle-free solutions.</p>
 
                         <div class="toggle-container">
                             <div class="feature-description">Backup Ready</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content">Use the microSD slot for reliable backups of family photos, work documents, or medical records. Unlike cloud storage (which needs Wi-Fi or subscriptions), your data stays offline, portable, and safe from accidental deletion—peace of mind in your pocket.</p>
+                        <p class="toggle-content">Use the microSD slot for <strong>reliable backups</strong> of family photos, work documents, or medical records. Unlike cloud storage (which needs Wi-Fi or subscriptions), your data stays offline, portable, and safe from accidental deletion—peace of mind in your pocket.</p>
                     </div>
                 </div>
 
-                <!-- Case -->
-                <div class="image-wrapper content" id="case">
-                    <img src="img/phone/phone_case.png" alt="case" class="engineering-drawing">
+                <!-- Dual SIM Card -->
+                <div class="image-wrapper content" id="sim-card">
+                    <img src="img/phone/dualSIM_card.png" alt="Dual SIM card" class="engineering-drawing">
                     <div class="text-overlay">
-                        <div class="feature-title">Phone Case</div>
+                        <div class="feature-title">Dual Sim Card</div>
                         <div class="toggle-container">
-                            <div class="feature-description">Durable & Lightweight Design</div>
+                            <div class="feature-description">Simplified Travel</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content">Northlight’s body and case use <strong>ABS injection PC</strong>—a tough, lightweight plastic that resists drops and scratches. Unlike premium phones that rely on metals like aluminum or titanium (which add modest weight and cost for their durability), ABS keeps the phone practical: lighter for pockets or long calls, and affordable without compromising everyday resilience.</p>
+                        <p class="toggle-content"><strong>Swap to a local SIM card instantly</strong> when traveling abroad—no more exorbitant roaming fees. Keep your home number active for emergencies while using a local plan for data, calls, and maps. Perfect for globetrotters, students abroad, or business trips.</p>
 
                         <div class="toggle-container">
-                            <div class="feature-description">Compact & Practical Size</div>
+                            <div class="feature-description">Effortless Switching</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content">At <strong>74mm wide (2.91 inches)</strong>, Northlight fits comfortably in all hands—no stretching to reach buttons or balancing acts to avoid drops. While others chase oversized screens, we prioritize portability: it slips into small bags, jeans pockets, or your palm effortlessly, proving bigger isn’t always better.</p>
+                        <p class="toggle-content"><strong>Separate work and personal life</strong> seamlessly with Dual SIM. Assign one slot for client calls and another for family chats—no juggling phones or missing important updates. Ideal for freelancers, entrepreneurs, or anyone craving work-life balance.</p>
 
                         <div class="toggle-container">
-                            <div class="feature-description">Ergonomic Curves for All-Day Comfort</div>
+                            <div class="feature-description">Instant Switching</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content">Designed with <strong>smooth, rounded edges</strong> and a matte finish, Northlight feels natural in your grip. The subtle curves fit snugly in palms of all sizes, whether you’re texting one-handed on a commute or snapping photos at a family BBQ. No sharp edges, no slippery surfaces—just practicality that works for everyone.</p>
+                        <p class="toggle-content">Toggle between SIMs <strong>in seconds</strong> via software settings—no physical swapping needed. Pause your work line during dinner or activate a travel SIM mid-flight. Stay connected your way, without interruptions or delays.</p>
                     </div>
                 </div>
 
@@ -438,63 +420,13 @@
                             <div class="feature-description">Designed for Daily Usage</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content">Northlight’s camera focuses on what truly matters: capturing life’s essentials. Scan receipts, sharing daily updates, or record your child’s first steps—all without fuss. While 48MP+ cameras excel in professional detail, most users don’t need extreme resolution for sharing moments with friends or preserving life’s simple joys.</p>
+                        <p class="toggle-content">Northlight’s camera focuses on what truly matters: <strong>capturing life’s essentials</strong>. Scan receipts, sharing daily updates, or record your child’s first steps—all without fuss. While 48MP+ cameras excel in professional detail, most users don’t need extreme resolution for sharing moments with friends or preserving life’s simple joys.</p>
 
                         <div class="toggle-container">
                             <div class="feature-description">Memory Over Megapixels</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content">The best photos aren’t defined by resolution—they’re defined by moments. A blurry birthday cake or a sunlit family dinner holds more value than technical perfection. Northlight prioritizes preserving memories, not chasing specs, because life’s magic lies in the experience, not the pixels.</p>
-                    </div>
-                </div>
-
-                <!-- Display -->
-                <div class="image-wrapper content" id="display">
-                    <img src="img/phone/display.png" alt="display" class="engineering-drawing">
-                    <div class="text-overlay">
-                        <div class="feature-title">Display</div>
-                        <div class="toggle-container">
-                            <div class="feature-description">TFT LCD</div>
-                            <i class="fa-solid fa-angle-right arrow"></i>
-                        </div>
-                        <p class="toggle-content">TFT LCD (Thin-Film Transistor Liquid Crystal Display) uses a grid of tiny transistors to control each pixel’s brightness and color, lit by a single backlight. Unlike OLED (Organic Light-Emitting Diode) screens—where each pixel emits its own light for deeper blacks and higher contrast—TFT LCDs prioritize affordability, sunlight readability, and durability. Pros include lower cost, reduced risk of screen burn-in, and brighter outdoor visibility, making it ideal for budget-friendly, everyday use.</p>
-
-                        <div class="toggle-container">
-                            <div class="feature-description">480x960 Resolution</div>
-                            <i class="fa-solid fa-angle-right arrow"></i>
-                        </div>
-                        <p class="toggle-content">On a 5.45" screen, 480x960 resolution delivers ~197 PPI (Pixels Per Inch), a measure of pixel density. For comparison, TVs average 50-100 PPI and monitors 90-150 PPI. And While premium phones tout 500+ PPI (pixels per inch), that level of density is overkill for most users: text and images don’t magically “improve” beyond what the human eye can discern at normal viewing distances. Higher PPI screens also drain battery life and inflate costs, making them impractical for budget-conscious buyers. Northlight’s resolution matches its 5MP camera perfectly—no need for ultra-sharp screens when your photos are designed for social media, not billboards.</p>
-
-                        <div class="toggle-container">
-                            <div class="feature-description">60Hz Refresh Rate</div>
-                            <i class="fa-solid fa-angle-right arrow"></i>
-                        </div>
-                        <p class="toggle-content">60Hz means the screen updates 60 times per second, matching the human eye’s ability to perceive smooth motion (most people see diminishing returns beyond 60-90Hz). TVs and monitors typically use 60Hz, while flagship phones push 120Hz+ for buttery visuals, most users won’t notice the difference in daily tasks like texting, streaming, or casual games. Higher refresh rates drain batteries faster and add unnecessary cost. Northlight’s 60Hz strikes the ideal balance: reliable performance for everyday needs, with power to spare.</p>
-                    </div>
-                </div>
-
-                <!-- 3.5mm -->
-                <div class="image-wrapper content" id="3.5mm">
-                    <img src="img/phone/headphone_jack.png" alt="3.5mm Headphone Jack" class="engineering-drawing">
-                    <div class="text-overlay">
-                        <div class="feature-title">3.5mm Headphone Jack</div>
-                        <div class="toggle-container">
-                            <div class="feature-description">Universal Compatibility</div>
-                            <i class="fa-solid fa-angle-right arrow"></i>
-                        </div>
-                        <p class="toggle-content">The 3.5mm headphone jack remains the most widely used audio standard worldwide, compatible with millions of wired headphones, earbuds, car aux systems, and speakers. Unlike Bluetooth-only phones, Northlight lets you use any pair—from dollar-store earbuds to premium studio headsets—without dongles, pairing hassles, or brand restrictions.</p>
-
-                        <div class="toggle-container">
-                            <div class="feature-description">Charge & Listen</div>
-                            <i class="fa-solid fa-angle-right arrow"></i>
-                        </div>
-                        <p class="toggle-content">Keep your phone charging via USB-C while plugging in wired headphones—no more choosing between music and battery life. Perfect for long flights, road trips, or bedside Netflix binges where uninterrupted power and sound matter most.</p>
-
-                        <div class="toggle-container">
-                            <div class="feature-description">Classic Convenience</div>
-                            <i class="fa-solid fa-angle-right arrow"></i>
-                        </div>
-                        <p class="toggle-content">The 3.5mm jack is a timeless, trusted feature. No batteries to charge, no settings to tweak—just plug in and enjoy instant, glitch-free audio. For users who crave simplicity (or hate fumbling with Bluetooth), it’s everyday ease, perfected.</p>
+                        <p class="toggle-content">The best photos aren’t defined by resolution—they’re defined by moments. A blurry birthday cake or a sunlit family dinner holds more value than technical perfection. Northlight prioritizes <strong>preserving memories</strong>, not chasing specs, because life’s magic lies in the experience, not the pixels.</p>
                     </div>
                 </div>
 
@@ -507,19 +439,94 @@
                             <div class="feature-description">Mediatek Helio A22 MT6761</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content">The Mediatek Helio A22 MT6761 features a Quad-Core CPU (four processing units) clocked at 2.0GHz, meaning it can handle multiple tasks like messaging, browsing, and light apps efficiently. Built by TSMC (the world’s most advanced semiconductor manufacturer), it ensures reliability and energy efficiency. Paired with 3GB RAM, this setup handles social media, calls, and casual multitasking smoothly, perfect for users who prioritize practicality over specs.</p>
+                        <p class="toggle-content">A <strong>Quad-Core CPU</strong> (four processing units) clocked at <strong>2.0GHz</strong>, meaning it can handle multiple tasks like messaging, browsing, social media, and streaming efficiently. While not for heavy gaming or 4K editing, it balances smooth performance with energy efficiency—perfect for video calls, music, and apps that keep you connected.</p>
 
                         <div class="toggle-container">
-                            <div class="feature-description">3GB RAM</div>
+                            <div class="feature-description">Designed for Daily Usage</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content">3GB RAM keeps your phone responsive for core tasks: browsing, texting, and video calls. While heavy apps like video editors may lag, it’s ideal for users who value reliability over power-hungry multitasking. Combined with the Helio A22’s efficiency, it’s a budget-friendly duo that stays cool under daily pressure.</p>
+                        <p class="toggle-content">The Helio A22 is designed to handle daily smartphone tasks effortlessly, whether it's browsing the web, scrolling social media, streaming videos, or managing calls and messages, this chip provides a smooth experience. For users who value practicality over specs, this chip <strong>keeps you connected without paying for power you’ll never use</strong>.</p>
 
                         <div class="toggle-container">
-                            <div class="feature-description">32GB ROM + Expandable Storage</div>
+                            <div class="feature-description">Made by MediaTek & TSMC</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content">32GB ROM stores essentials like apps, photos, and music. Need more? Add a microSD card (up to 512GB) for movies, games, or backups. Unlike phones with fixed storage, Northlight lets you expand affordably—no upfront cost for space you might never use.</p>
+                        <p class="toggle-content"><strong>MediaTek</strong>, a global leader in <strong>secure, energy-efficient processors</strong>, partners with <strong>TSMC</strong> (Taiwan Semiconductor Manufacturing Company), the world’s most advanced and reliable semiconductor manufacturer. Together, they ensure every Northlight chip is durable, secure processors, rigorously tested for safety and efficiency. Trusted engineering, without the premium cost.</p>
+                    </div>
+                </div>
+
+                <!-- 3.5mm -->
+                <div class="image-wrapper content" id="3.5mm">
+                    <img src="img/phone/headphone_jack.png" alt="3.5mm Headphone Jack" class="engineering-drawing">
+                    <div class="text-overlay">
+                        <div class="feature-title">3.5mm Headphone Jack</div>
+                        <div class="toggle-container">
+                            <div class="feature-description">Universal Compatibility</div>
+                            <i class="fa-solid fa-angle-right arrow"></i>
+                        </div>
+                        <p class="toggle-content">The 3.5mm headphone jack remains the most widely used <strong>audio standard worldwide</strong>, compatible with millions of wired headphones, earbuds, car aux systems, and speakers. Unlike Bluetooth-only phones, Northlight lets you use any pair—from dollar-store earbuds to premium studio headsets—without dongles, pairing hassles, or brand restrictions.</p>
+
+                        <div class="toggle-container">
+                            <div class="feature-description">Charge & Listen</div>
+                            <i class="fa-solid fa-angle-right arrow"></i>
+                        </div>
+                        <p class="toggle-content">Keep your phone charging via USB-C while plugging in wired headphones—no more choosing between <strong>music and battery life</strong>. Perfect for long flights, road trips, or bedside Netflix binges where uninterrupted power and sound matter most.</p>
+
+                        <div class="toggle-container">
+                            <div class="feature-description">Classic Convenience</div>
+                            <i class="fa-solid fa-angle-right arrow"></i>
+                        </div>
+                        <p class="toggle-content">The 3.5mm jack is a timeless, trusted feature. No batteries to charge, no settings to tweak—just plug in and enjoy instant, glitch-free audio. For users who crave <strong>simplicity</strong> (or hate fumbling with Bluetooth), it’s everyday ease, perfected.</p>
+                    </div>
+                </div>
+
+                <!-- USB-C -->
+                <div class="image-wrapper content" id="usb-c">
+                    <img src="img/phone/usb_c.png" alt="USB-C" class="engineering-drawing">
+                    <div class="text-overlay">
+                        <div class="feature-title">USB-C</div>
+                        <div class="toggle-container">
+                            <div class="feature-description">Universal Simplicity</div>
+                            <i class="fa-solid fa-angle-right arrow"></i>
+                        </div>
+                        <p class="toggle-content">USB-C is the <strong>global standard</strong> for modern devices—charge your phone, laptop, tablet, or earbuds with the same cable. No more juggling cords: transfer files, power up, or connect to monitors effortlessly. Simplify your tech life while saving money on extra accessories.</p>
+
+                        <div class="toggle-container">
+                            <div class="feature-description">Future-Ready Tech</div>
+                            <i class="fa-solid fa-angle-right arrow"></i>
+                        </div>
+                        <p class="toggle-content">USB-C supports faster charging, 4K video output, and high-speed data transfers. <strong>Compatible</strong> with the latest laptops, chargers, and peripherals, it ensures Northlight stays relevant as tech evolves. <strong>No adapter</strong> headaches or outdated ports—just seamless compatibility for years to come.</p>
+
+                        <div class="toggle-container">
+                            <div class="feature-description">Simple Connectivity</div>
+                            <i class="fa-solid fa-angle-right arrow"></i>
+                        </div>
+                        <p class="toggle-content">USB-C’s reversible design works flawlessly in any orientation—no flipping the plug three times. Whether you’re charging in the dark or rushing out the door, it’s <strong>hassle-free convenience</strong> for all ages. A small detail that makes everyday life smoother.</p>
+                    </div>
+                </div>
+
+                <!-- Display -->
+                <div class="image-wrapper content" id="display">
+                    <img src="img/phone/display.png" alt="display" class="engineering-drawing">
+                    <div class="text-overlay">
+                        <div class="feature-title">Display</div>
+                        <div class="toggle-container">
+                            <div class="feature-description">TFT LCD</div>
+                            <i class="fa-solid fa-angle-right arrow"></i>
+                        </div>
+                        <p class="toggle-content"><strong>TFT LCD</strong> screens use a backlight to deliver bright, <strong>sunlight-friendly visuals</strong>, ideal for outdoor use. Unlike OLED (where each pixel emits its own light), LCDs prioritize affordability, durability, and no risk of screen burn-in. Perfect for users who value practicality over premium specs.</p>
+
+                        <div class="toggle-container">
+                            <div class="feature-description">480x960 Resolution</div>
+                            <i class="fa-solid fa-angle-right arrow"></i>
+                        </div>
+                        <p class="toggle-content">At <strong>197 PPI</strong> (pixels per inch), sharper than most TVs screen, this PPI keeps text sharp for messaging, social media, and casual browsing. While premium phones push 500+ PPI (better for billboard-sized prints), Northlight’s screen matches daily needs—clear photos for social posts, no battery drain from overkill pixel density.</p>
+
+                        <div class="toggle-container">
+                            <div class="feature-description">60Hz Refresh Rate</div>
+                            <i class="fa-solid fa-angle-right arrow"></i>
+                        </div>
+                        <p class="toggle-content">A <strong>60Hz refresh rate</strong> updates the screen 60 times per second, matching most TVs and laptops. It handles scrolling, videos, and light gaming smoothly, while avoiding the battery drain and added cost of 120Hz+ displays. Designed for reliability, not specs you’ll rarely notice.</p>
                     </div>
                 </div>
             </div>
@@ -600,13 +607,13 @@
                             <div class="feature-description">Durable & Lightweight Design</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content">Northlight’s body and case use <strong>ABS injection PC</strong>—a tough, lightweight plastic that resists drops and scratches. Unlike premium phones that rely on metals like aluminum or titanium (which add modest weight and cost for their durability), ABS keeps the phone practical: lighter for pockets or long calls, and affordable without compromising everyday resilience.</p>
+                        <p class="toggle-content">Northlight’s body and case use ABS injection PC—<strong>a tough, lightweight plastic</strong> that resists drops and scratches. Unlike premium phones that rely on metals like aluminum or titanium (which add modest weight and cost for their durability), ABS keeps the phone practical: <strong>lighter for pockets or long calls</strong>, and affordable without compromising everyday resilience.</p>
 
                         <div class="toggle-container">
                             <div class="feature-description">Compact & Practical Size</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content">At <strong>74mm wide (2.91 inches)</strong>, Northlight fits comfortably in all hands—no stretching to reach buttons or balancing acts to avoid drops. While others chase oversized screens, we prioritize portability: it slips into small bags, jeans pockets, or your palm effortlessly, proving bigger isn’t always better.</p>
+                        <p class="toggle-content">At 74mm wide (2.91 inches), <strong>Northlight fits comfortably in all hands</strong>—no stretching to reach buttons or balancing acts to avoid drops. While others chase oversized screens, we prioritize portability: it slips into small bags, jeans pockets, or your palm effortlessly, proving bigger isn’t always better.</p>
 
                         <div class="toggle-container">
                             <div class="feature-description">Ergonomic Curves for All-Day Comfort</div>
@@ -626,7 +633,7 @@
                             <div class="feature-description">Easily Replaceable</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content">Northlight’s battery swaps in seconds with a <strong>tool-free latch system</strong>—no screws, no technician required. Simply pop off the case, replace the battery, and power up. Designed for everyone, from tech novices to busy parents, it’s as simple as changing a TV remote’s batteries.</p>
+                        <p class="toggle-content">Northlight’s battery swaps in seconds with a <strong>tool-free latch system</strong>—no screws, no technician required. <strong>Simply pop off</strong> the case, <storng>replace</storng> the battery, and power up. Designed for everyone, from tech novices to busy parents, it’s as simple as changing a TV remote’s batteries.</p>
 
                         <div class="toggle-container">
                             <div class="feature-description">Built for Daily Demands & Emergencies</div>
@@ -652,23 +659,23 @@
                             <div class="feature-description">Affordable Expansion</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content">Expand your storage affordably with a microSD card—no need to buy a pricier high-storage model. For less than the cost of a coffee, add up to 512GB for photos, videos, and apps, keeping your budget intact while future-proofing your device.</p>
+                        <p class="toggle-content">Expand your storage affordably with a <strong>microSD card</strong>—no need to buy a pricier high-storage model. Add up to <strong>512GB</strong> for photos, videos, and apps, keeping your budget intact while future-proofing your device.</p>
 
                         <div class="toggle-container">
                             <div class="feature-description">Quick & Simple</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content">Just slide in a microSD card—no setup, no formatting. Northlight recognizes it instantly, letting you store files, transfer data, or free up space in seconds. Perfect for tech newcomers or anyone craving hassle-free solutions.</p>
+                        <p class="toggle-content">Just slide in a microSD card—<strong>no setup, no formatting</strong>. Northlight recognizes it instantly, letting you store files, transfer data, or free up space in seconds. Perfect for tech newcomers or anyone craving hassle-free solutions.</p>
 
                         <div class="toggle-container">
                             <div class="feature-description">Backup Ready</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content">Use the microSD slot for reliable backups of family photos, work documents, or medical records. Unlike cloud storage (which needs Wi-Fi or subscriptions), your data stays offline, portable, and safe from accidental deletion—peace of mind in your pocket.</p>
+                        <p class="toggle-content">Use the microSD slot for <strong>reliable backups</strong> of family photos, work documents, or medical records. Unlike cloud storage (which needs Wi-Fi or subscriptions), your data stays offline, portable, and safe from accidental deletion—peace of mind in your pocket.</p>
                     </div>
                 </div>
 
-                <!-- SIM Card -->
+                <!-- Dual SIM Card -->
                 <div class="feature-wrapper-mobile" id="sim-card-mobile">
                     <i class="fa-solid fa-xmark xmark"></i>
                     <img src="img/phone/dualSIM_card.png" alt="SIM card" class="engineering-drawing-mobile">
@@ -678,97 +685,19 @@
                             <div class="feature-description">Simplified Travel</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content">Swap to a local SIM card instantly when traveling abroad—no more exorbitant roaming fees. Keep your home number active for emergencies while using a local plan for data, calls, and maps. Perfect for globetrotters, students abroad, or business trips.</p>
+                        <p class="toggle-content"><strong>Swap to a local SIM card instantly</strong> when traveling abroad—no more exorbitant roaming fees. Keep your home number active for emergencies while using a local plan for data, calls, and maps. Perfect for globetrotters, students abroad, or business trips.</p>
 
                         <div class="toggle-container">
                             <div class="feature-description">Effortless Switching</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content">Separate work and personal life seamlessly with Dual SIM. Assign one slot for client calls and another for family chats—no juggling phones or missing important updates. Ideal for freelancers, entrepreneurs, or anyone craving work-life balance.</p>
+                        <p class="toggle-content"><strong>Separate work and personal life</strong> seamlessly with Dual SIM. Assign one slot for client calls and another for family chats—no juggling phones or missing important updates. Ideal for freelancers, entrepreneurs, or anyone craving work-life balance.</p>
 
                         <div class="toggle-container">
                             <div class="feature-description">Instant Switching</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content">Toggle between SIMs in seconds via software settings—no physical swapping needed. Pause your work line during dinner or activate a travel SIM mid-flight. Stay connected your way, without interruptions or delays.</p>
-                    </div>
-                </div>
-
-                <!-- 3.5mm -->
-                <div class="feature-wrapper-mobile" id="3.5mm-mobile">
-                    <i class="fa-solid fa-xmark xmark"></i>
-                    <img src="img/phone/headphone_jack.png" alt="3.5mm Headphone Jack" class="engineering-drawing-mobile">
-                    <div class="text-overlay-mobile">
-                        <div class="feature-title">3.5mm Headphone Jack</div>
-                        <div class="toggle-container">
-                            <div class="feature-description">Universal Compatibility</div>
-                            <i class="fa-solid fa-angle-right arrow"></i>
-                        </div>
-                        <p class="toggle-content">The 3.5mm headphone jack remains the most widely used audio standard worldwide, compatible with millions of wired headphones, earbuds, car aux systems, and speakers. Unlike Bluetooth-only phones, Northlight lets you use any pair—from dollar-store earbuds to premium studio headsets—without dongles, pairing hassles, or brand restrictions.</p>
-
-                        <div class="toggle-container">
-                            <div class="feature-description">Charge & Listen</div>
-                            <i class="fa-solid fa-angle-right arrow"></i>
-                        </div>
-                        <p class="toggle-content">Keep your phone charging via USB-C while plugging in wired headphones—no more choosing between music and battery life. Perfect for long flights, road trips, or bedside Netflix binges where uninterrupted power and sound matter most.</p>
-
-                        <div class="toggle-container">
-                            <div class="feature-description">Classic Convenience</div>
-                            <i class="fa-solid fa-angle-right arrow"></i>
-                        </div>
-                        <p class="toggle-content">The 3.5mm jack is a timeless, trusted feature. No batteries to charge, no settings to tweak—just plug in and enjoy instant, glitch-free audio. For users who crave simplicity (or hate fumbling with Bluetooth), it’s everyday ease, perfected.</p>
-                    </div>
-                </div>
-
-                <!-- Chip -->
-                <div class="feature-wrapper-mobile" id="chip-mobile">
-                    <i class="fa-solid fa-xmark xmark"></i>
-                    <img src="img/phone/chip.png" alt="Chip" class="engineering-drawing-mobile">
-                    <div class="text-overlay-mobile">
-                        <div class="feature-title">Chip</div>
-                        <div class="toggle-container">
-                            <div class="feature-description">Mediatek Helio A22 MT6761</div>
-                            <i class="fa-solid fa-angle-right arrow"></i>
-                        </div>
-                        <p class="toggle-content">The Mediatek Helio A22 MT6761 features a Quad-Core CPU (four processing units) clocked at 2.0GHz, meaning it can handle multiple tasks like messaging, browsing, and light apps efficiently. Built by TSMC (the world’s most advanced semiconductor manufacturer), it ensures reliability and energy efficiency. Paired with 3GB RAM, this setup handles social media, calls, and casual multitasking smoothly, perfect for users who prioritize practicality over specs.</p>
-
-                        <div class="toggle-container">
-                            <div class="feature-description">3GB RAM</div>
-                            <i class="fa-solid fa-angle-right arrow"></i>
-                        </div>
-                        <p class="toggle-content">3GB RAM keeps your phone responsive for core tasks: browsing, texting, and video calls. While heavy apps like video editors may lag, it’s ideal for users who value reliability over power-hungry multitasking. Combined with the Helio A22’s efficiency, it’s a budget-friendly duo that stays cool under daily pressure.</p>
-
-                        <div class="toggle-container">
-                            <div class="feature-description">32GB ROM + Expandable Storage</div>
-                            <i class="fa-solid fa-angle-right arrow"></i>
-                        </div>
-                        <p class="toggle-content">32GB ROM stores essentials like apps, photos, and music. Need more? Add a microSD card (up to 512GB) for movies, games, or backups. Unlike phones with fixed storage, Northlight lets you expand affordably—no upfront cost for space you might never use.</p>
-                    </div>
-                </div>
-
-                <!-- USB-C -->
-                <div class="feature-wrapper-mobile" id="usb-c-mobile">
-                    <i class="fa-solid fa-xmark xmark"></i>
-                    <img src="img/phone/usb_c.png" alt="USB-C" class="engineering-drawing-mobile">
-                    <div class="text-overlay-mobile">
-                        <div class="feature-title">USB-C</div>
-                        <div class="toggle-container">
-                            <div class="feature-description">Universal Simplicity</div>
-                            <i class="fa-solid fa-angle-right arrow"></i>
-                        </div>
-                        <p class="toggle-content">USB-C is the global standard for modern devices—charge your phone, laptop, tablet, or earbuds with the same cable. No more juggling cords: transfer files, power up, or connect to monitors effortlessly. Simplify your tech life while saving money on extra accessories.</p>
-
-                        <div class="toggle-container">
-                            <div class="feature-description">Future-Ready Tech</div>
-                            <i class="fa-solid fa-angle-right arrow"></i>
-                        </div>
-                        <p class="toggle-content">USB-C supports faster charging, 4K video output, and high-speed data transfers. Compatible with the latest laptops, chargers, and peripherals, it ensures Northlight stays relevant as tech evolves. No adapter headaches or outdated ports—just seamless compatibility for years to come.</p>
-
-                        <div class="toggle-container">
-                            <div class="feature-description">Simple Connectivity</div>
-                            <i class="fa-solid fa-angle-right arrow"></i>
-                        </div>
-                        <p class="toggle-content">USB-C’s reversible design works flawlessly in any orientation—no flipping the plug three times. Whether you’re charging in the dark or rushing out the door, it’s hassle-free convenience for all ages. A small detail that makes everyday life smoother.</p>
+                        <p class="toggle-content">Toggle between SIMs <strong>in seconds</strong> via software settings—no physical swapping needed. Pause your work line during dinner or activate a travel SIM mid-flight. Stay connected your way, without interruptions or delays.</p>
                     </div>
                 </div>
 
@@ -788,13 +717,91 @@
                             <div class="feature-description">Designed for Daily Usage</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content">Northlight’s camera focuses on what truly matters: capturing life’s essentials. Scan receipts, sharing daily updates, or record your child’s first steps—all without fuss. While 48MP+ cameras excel in professional detail, most users don’t need extreme resolution for sharing moments with friends or preserving life’s simple joys.</p>
+                        <p class="toggle-content">Northlight’s camera focuses on what truly matters: <strong>capturing life’s essentials</strong>. Scan receipts, sharing daily updates, or record your child’s first steps—all without fuss. While 48MP+ cameras excel in professional detail, most users don’t need extreme resolution for sharing moments with friends or preserving life’s simple joys.</p>
 
                         <div class="toggle-container">
                             <div class="feature-description">Memory Over Megapixels</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content">The best photos aren’t defined by resolution—they’re defined by moments. A blurry birthday cake or a sunlit family dinner holds more value than technical perfection. Northlight prioritizes preserving memories, not chasing specs, because life’s magic lies in the experience, not the pixels.</p>
+                        <p class="toggle-content">The best photos aren’t defined by resolution—they’re defined by moments. A blurry birthday cake or a sunlit family dinner holds more value than technical perfection. Northlight prioritizes <strong>preserving memories</strong>, not chasing specs, because life’s magic lies in the experience, not the pixels.</p>
+                    </div>
+                </div>
+
+                <!-- Chip -->
+                <div class="feature-wrapper-mobile" id="chip-mobile">
+                    <i class="fa-solid fa-xmark xmark"></i>
+                    <img src="img/phone/chip.png" alt="Chip" class="engineering-drawing-mobile">
+                    <div class="text-overlay-mobile">
+                        <div class="feature-title">Chip</div>
+                        <div class="toggle-container">
+                            <div class="feature-description">Mediatek Helio A22 MT6761</div>
+                            <i class="fa-solid fa-angle-right arrow"></i>
+                        </div>
+                        <p class="toggle-content">A <strong>Quad-Core CPU</strong> (four processing units) clocked at <strong>2.0GHz</strong>, meaning it can handle multiple tasks like messaging, browsing, social media, and streaming efficiently. While not for heavy gaming or 4K editing, it balances smooth performance with energy efficiency—perfect for video calls, music, and apps that keep you connected.</p>
+
+                        <div class="toggle-container">
+                            <div class="feature-description">Designed for Daily Usage</div>
+                            <i class="fa-solid fa-angle-right arrow"></i>
+                        </div>
+                        <p class="toggle-content">The Helio A22 is designed to handle daily smartphone tasks effortlessly, whether it's browsing the web, scrolling social media, streaming videos, or managing calls and messages, this chip provides a smooth experience. For users who value practicality over specs, this chip <strong>keeps you connected without paying for power you’ll never use</strong>.</p>
+
+                        <div class="toggle-container">
+                            <div class="feature-description">Made by MediaTek & TSMC</div>
+                            <i class="fa-solid fa-angle-right arrow"></i>
+                        </div>
+                        <p class="toggle-content"><strong>MediaTek</strong>, a global leader in <strong>secure, energy-efficient processors</strong>, partners with <strong>TSMC</strong> (Taiwan Semiconductor Manufacturing Company), the world’s most advanced and reliable semiconductor manufacturer. Together, they ensure every Northlight chip is durable, secure processors, rigorously tested for safety and efficiency. Trusted engineering, without the premium cost.</p>
+                    </div>
+                </div>
+
+                <!-- 3.5mm -->
+                <div class="feature-wrapper-mobile" id="3.5mm-mobile">
+                    <i class="fa-solid fa-xmark xmark"></i>
+                    <img src="img/phone/headphone_jack.png" alt="3.5mm Headphone Jack" class="engineering-drawing-mobile">
+                    <div class="text-overlay-mobile">
+                        <div class="feature-title">3.5mm Headphone Jack</div>
+                        <div class="toggle-container">
+                            <div class="feature-description">Universal Compatibility</div>
+                            <i class="fa-solid fa-angle-right arrow"></i>
+                        </div>
+                        <p class="toggle-content">The 3.5mm headphone jack remains the most widely used <strong>audio standard worldwide</strong>, compatible with millions of wired headphones, earbuds, car aux systems, and speakers. Unlike Bluetooth-only phones, Northlight lets you use any pair—from dollar-store earbuds to premium studio headsets—without dongles, pairing hassles, or brand restrictions.</p>
+
+                        <div class="toggle-container">
+                            <div class="feature-description">Charge & Listen</div>
+                            <i class="fa-solid fa-angle-right arrow"></i>
+                        </div>
+                        <p class="toggle-content">Keep your phone charging via USB-C while plugging in wired headphones—no more choosing between <strong>music and battery life</strong>. Perfect for long flights, road trips, or bedside Netflix binges where uninterrupted power and sound matter most.</p>
+
+                        <div class="toggle-container">
+                            <div class="feature-description">Classic Convenience</div>
+                            <i class="fa-solid fa-angle-right arrow"></i>
+                        </div>
+                        <p class="toggle-content">The 3.5mm jack is a timeless, trusted feature. No batteries to charge, no settings to tweak—just plug in and enjoy instant, glitch-free audio. For users who crave <strong>simplicity</strong> (or hate fumbling with Bluetooth), it’s everyday ease, perfected.</p>
+                    </div>
+                </div>
+
+                <!-- USB-C -->
+                <div class="feature-wrapper-mobile" id="usb-c-mobile">
+                    <i class="fa-solid fa-xmark xmark"></i>
+                    <img src="img/phone/usb_c.png" alt="USB-C" class="engineering-drawing-mobile">
+                    <div class="text-overlay-mobile">
+                        <div class="feature-title">USB-C</div>
+                        <div class="toggle-container">
+                            <div class="feature-description">Universal Simplicity</div>
+                            <i class="fa-solid fa-angle-right arrow"></i>
+                        </div>
+                        <p class="toggle-content">USB-C is the <strong>global standard</strong> for modern devices—charge your phone, laptop, tablet, or earbuds with the same cable. No more juggling cords: transfer files, power up, or connect to monitors effortlessly. Simplify your tech life while saving money on extra accessories.</p>
+
+                        <div class="toggle-container">
+                            <div class="feature-description">Future-Ready Tech</div>
+                            <i class="fa-solid fa-angle-right arrow"></i>
+                        </div>
+                        <p class="toggle-content">USB-C supports faster charging, 4K video output, and high-speed data transfers. <strong>Compatible</strong> with the latest laptops, chargers, and peripherals, it ensures Northlight stays relevant as tech evolves. <strong>No adapter</strong> headaches or outdated ports—just seamless compatibility for years to come.</p>
+
+                        <div class="toggle-container">
+                            <div class="feature-description">Simple Connectivity</div>
+                            <i class="fa-solid fa-angle-right arrow"></i>
+                        </div>
+                        <p class="toggle-content">USB-C’s reversible design works flawlessly in any orientation—no flipping the plug three times. Whether you’re charging in the dark or rushing out the door, it’s <strong>hassle-free convenience</strong> for all ages. A small detail that makes everyday life smoother.</p>
                     </div>
                 </div>
 
@@ -808,19 +815,19 @@
                             <div class="feature-description">TFT LCD</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content">TFT LCD (Thin-Film Transistor Liquid Crystal Display) uses a grid of tiny transistors to control each pixel’s brightness and color, lit by a single backlight. Unlike OLED (Organic Light-Emitting Diode) screens—where each pixel emits its own light for deeper blacks and higher contrast—TFT LCDs prioritize affordability, sunlight readability, and durability. Pros include lower cost, reduced risk of screen burn-in, and brighter outdoor visibility, making it ideal for budget-friendly, everyday use.</p>
+                        <p class="toggle-content"><strong>TFT LCD</strong> screens use a backlight to deliver bright, <strong>sunlight-friendly visuals</strong>, ideal for outdoor use. Unlike OLED (where each pixel emits its own light), LCDs prioritize affordability, durability, and no risk of screen burn-in. Perfect for users who value practicality over premium specs.</p>
 
                         <div class="toggle-container">
                             <div class="feature-description">480x960 Resolution</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content">On a 5.45" screen, 480x960 resolution delivers ~197 PPI (Pixels Per Inch), a measure of pixel density. For comparison, TVs average 50-100 PPI and monitors 90-150 PPI. And While premium phones tout 500+ PPI (pixels per inch), that level of density is overkill for most users: text and images don’t magically “improve” beyond what the human eye can discern at normal viewing distances. Higher PPI screens also drain battery life and inflate costs, making them impractical for budget-conscious buyers. Northlight’s resolution matches its 5MP camera perfectly—no need for ultra-sharp screens when your photos are designed for social media, not billboards.</p>
+                        <p class="toggle-content">At <strong>197 PPI</strong> (pixels per inch), sharper than most TVs screen, this PPI keeps text sharp for messaging, social media, and casual browsing. While premium phones push 500+ PPI (better for billboard-sized prints), Northlight’s screen matches daily needs—clear photos for social posts, no battery drain from overkill pixel density.</p>
 
                         <div class="toggle-container">
                             <div class="feature-description">60Hz Refresh Rate</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content">60Hz means the screen updates 60 times per second, matching the human eye’s ability to perceive smooth motion (most people see diminishing returns beyond 60-90Hz). TVs and monitors typically use 60Hz, while flagship phones push 120Hz+ for buttery visuals, most users won’t notice the difference in daily tasks like texting, streaming, or casual games. Higher refresh rates drain batteries faster and add unnecessary cost. Northlight’s 60Hz strikes the ideal balance: reliable performance for everyday needs, with power to spare.</p>
+                        <p class="toggle-content">A <strong>60Hz refresh rate</strong> updates the screen 60 times per second, matching most TVs and laptops. It handles scrolling, videos, and light gaming smoothly, while avoiding the battery drain and added cost of 120Hz+ displays. Designed for reliability, not specs you’ll rarely notice.</p>
                     </div>
                 </div>
             </div>
