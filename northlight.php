@@ -70,57 +70,105 @@
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="row">
-                        <div class="col-4 col-md-2 col-lg-2 col-xl-2 p-0">
-                            <a class="highlight-wrap" data-target="display" href="northlight.php#engineering-drawing-section">
-                                <img src="img/phone/icons/icons_size.svg" alt="display" class="highlight-icon">
-                                <div class="highlight-text">5.45" LCD</div>
-                                <div class="highlight-text link">480 x 960</div>
-                            </a>
-                        </div>
+            <!-- Desktop Highlights -->
+            <div class="row d-none d-xl-flex">
+                <div class="col-4 col-md-2 p-0">
+                    <a class="highlight-wrap" data-target="display" href="northlight.php#engineering-drawing-section">
+                        <img src="img/phone/icons/icons_size.svg" alt="display" class="highlight-icon">
+                        <div class="highlight-text">5.45" LCD</div>
+                        <div class="highlight-text link">480 x 960</div>
+                    </a>
+                </div>
 
-                        <div class="col-4 col-md-2 col-lg-2 col-xl-2 p-0">
-                            <a class="highlight-wrap" data-target="camera" href="northlight.php#engineering-drawing-section">
-                                <img src="img/phone/icons/icons_camera.svg" alt="camera" class="highlight-icon">
-                                <div class="highlight-text">5MP Back</div>
-                                <div class="highlight-text link">2MP Front</div>
-                            </a>
-                        </div>
+                <div class="col-4 col-md-2 p-0">
+                    <a class="highlight-wrap" data-target="camera" href="northlight.php#engineering-drawing-section">
+                        <img src="img/phone/icons/icons_camera.svg" alt="camera" class="highlight-icon">
+                        <div class="highlight-text">5MP Back</div>
+                        <div class="highlight-text link">2MP Front</div>
+                    </a>
+                </div>
 
-                        <div class="col-4 col-md-2 col-lg-2 col-xl-2 p-0">
-                            <a class="highlight-wrap" data-target="chip" href="northlight.php#engineering-drawing-section">
-                                <img src="img/phone/icons/icons_memory.svg" alt="chip" class="highlight-icon">
-                                <div class="highlight-text">Mediatek</div>
-                                <div class="highlight-text link">Helio A22</div>
-                            </a>
-                        </div>
+                <div class="col-4 col-md-2 p-0">
+                    <a class="highlight-wrap" data-target="chip" href="northlight.php#engineering-drawing-section">
+                        <img src="img/phone/icons/icons_memory.svg" alt="chip" class="highlight-icon">
+                        <div class="highlight-text">Mediatek</div>
+                        <div class="highlight-text link">Helio A22</div>
+                    </a>
+                </div>
 
-                        <div class="col-4 col-md-2 col-lg-2 col-xl-2 p-0">
-                            <a class="highlight-wrap" data-target="sim-card" href="northlight.php#engineering-drawing-section">
-                                <img src="img/phone/icons/icons_dualsim.svg" alt="dual-sim" class="highlight-icon">
-                                <div class="highlight-text">Micro SIM</div>
-                                <div class="highlight-text link">& Nano SIM</div>
-                            </a>
-                        </div>
+                <div class="col-4 col-md-2 p-0">
+                    <a class="highlight-wrap" data-target="sim-card" href="northlight.php#engineering-drawing-section">
+                        <img src="img/phone/icons/icons_dualsim.svg" alt="dual-sim" class="highlight-icon">
+                        <div class="highlight-text">Micro SIM</div>
+                        <div class="highlight-text link">& Nano SIM</div>
+                    </a>
+                </div>
 
-                        <div class="col-4 col-md-2 col-lg-2 col-xl-2 p-0">
-                            <a class="highlight-wrap" data-target="microSD" href="northlight.php#engineering-drawing-section">
-                                <img src="img/phone/icons/icons_sd_card.svg" alt="microSD Card" class="highlight-icon">
-                                <div class="highlight-text">microSD</div>
-                                <div class="highlight-text link">Up to 512GB</div>
-                            </a>
-                        </div>
+                <div class="col-4 col-md-2 p-0">
+                    <a class="highlight-wrap" data-target="microSD" href="northlight.php#engineering-drawing-section">
+                        <img src="img/phone/icons/icons_sd_card.svg" alt="microSD Card" class="highlight-icon">
+                        <div class="highlight-text">microSD</div>
+                        <div class="highlight-text link">Up to 512GB</div>
+                    </a>
+                </div>
 
-                        <div class="col-4 col-md-2 col-lg-2 col-xl-2 p-0">
-                            <a class="highlight-wrap" data-target="battery" href="northlight.php#engineering-drawing-section">
-                                <img src="img/phone/icons/icons_battery_swap.svg" alt="battery" class="highlight-icon">
-                                <div class="highlight-text">Replaceable</div>
-                                <div class="highlight-text link">Battery</div>
-                            </a>
-                        </div>
-                    </div>
+                <div class="col-4 col-md-2 p-0">
+                    <a class="highlight-wrap" data-target="battery" href="northlight.php#engineering-drawing-section">
+                        <img src="img/phone/icons/icons_battery_swap.svg" alt="battery" class="highlight-icon">
+                        <div class="highlight-text">Replaceable</div>
+                        <div class="highlight-text link">Battery</div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Mobile Highlights -->
+            <div class="row d-xl-none">
+                <div class="col-4 col-md-2 p-0">
+                    <a class="highlight-wrap" data-target="display-mobile" href="northlight.php#engineering-drawing-section-mobile">
+                        <img src="img/phone/icons/icons_size.svg" alt="display" class="highlight-icon">
+                        <div class="highlight-text">5.45" LCD</div>
+                        <div class="highlight-text link">480 x 960</div>
+                    </a>
+                </div>
+
+                <div class="col-4 col-md-2 p-0">
+                    <a class="highlight-wrap" data-target="camera-mobile" href="northlight.php#engineering-drawing-section-mobile">
+                        <img src="img/phone/icons/icons_camera.svg" alt="camera" class="highlight-icon">
+                        <div class="highlight-text">5MP Back</div>
+                        <div class="highlight-text link">2MP Front</div>
+                    </a>
+                </div>
+
+                <div class="col-4 col-md-2 p-0">
+                    <a class="highlight-wrap" data-target="chip-mobile" href="northlight.php#engineering-drawing-section-mobile">
+                        <img src="img/phone/icons/icons_memory.svg" alt="chip" class="highlight-icon">
+                        <div class="highlight-text">Mediatek</div>
+                        <div class="highlight-text link">Helio A22</div>
+                    </a>
+                </div>
+
+                <div class="col-4 col-md-2 p-0">
+                    <a class="highlight-wrap" data-target="sim-card-mobile" href="northlight.php#engineering-drawing-section-mobile">
+                        <img src="img/phone/icons/icons_dualsim.svg" alt="dual-sim" class="highlight-icon">
+                        <div class="highlight-text">Micro SIM</div>
+                        <div class="highlight-text link">& Nano SIM</div>
+                    </a>
+                </div>
+
+                <div class="col-4 col-md-2 p-0">
+                    <a class="highlight-wrap" data-target="microSD-mobile" href="northlight.php#engineering-drawing-section-mobile">
+                        <img src="img/phone/icons/icons_sd_card.svg" alt="microSD Card" class="highlight-icon">
+                        <div class="highlight-text">microSD</div>
+                        <div class="highlight-text link">Up to 512GB</div>
+                    </a>
+                </div>
+
+                <div class="col-4 col-md-2 p-0">
+                    <a class="highlight-wrap" data-target="battery-mobile" href="northlight.php#engineering-drawing-section-mobile">
+                        <img src="img/phone/icons/icons_battery_swap.svg" alt="battery" class="highlight-icon">
+                        <div class="highlight-text">Replaceable</div>
+                        <div class="highlight-text link">Battery</div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -129,8 +177,9 @@
     <div class="bg-color overflow-hidden">
         <div class="custom-container">
             <div class="heading text-white" style="padding-top: 50px;">Let's Break it Down.</div>
-            <div class="features-container-desktop">
-                <div class="image-wrapper engineering-drawing-position engineering-drawing-lg" id="engineering-drawing-section">
+            <div class="features-container-desktop" id="engineering-drawing-section">
+                <!-- Desktop Engineering Drawing -->
+                <div class="image-wrapper engineering-drawing-position engineering-drawing-lg">
                     <img src="img/phone/Northlight-explosive-sketch.png" alt="engineering drawing" class="engineering-drawing">
                     <svg class="circle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
                         <circle class="circle" cx="36" cy="38.2">
@@ -189,6 +238,7 @@
                     </svg>
                 </div>
 
+                <!-- Small Desktop Engineering Drawing -->
                 <div class="image-wrapper engineering-drawing-position engineering-drawing-md">
                     <img src="img/phone/Northlight-explosive-sketch-mobile.png" alt="engineering drawing" class="engineering-drawing">
                     <svg class="circle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 62.64 100">
@@ -477,9 +527,9 @@
         </div>
     </div>
 
-
+    <!-- Mobile Engineering Drawing -->
     <div class="bg-color">
-        <div class="container mobile-container-padding">
+        <div class="container mobile-container-padding" id="engineering-drawing-section-mobile">
             <div class="features-container-mobile">
                 <div class="image-wrapper-mobile">
                     <img src="img/phone/Northlight-explosive-sketch-mobile.png" alt="engineering drawing" class="engineering-drawing-mobile">

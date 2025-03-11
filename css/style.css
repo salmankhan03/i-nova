@@ -379,11 +379,11 @@ a {
 
 .toggle-content {
     color: #90A3AD;
-    /* color: #63748f; */
+    margin-bottom: 0;
     max-height: 0;
     overflow: hidden;
     opacity: 0;
-    transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out, margin-bottom 0.3s ease-out;
 }
 
 .toggle-content strong {
@@ -392,6 +392,7 @@ a {
 }
 
 .toggle-content.open {
+    margin-bottom: 1rem;
     max-height: 200px;
     opacity: 1;
 }

@@ -136,8 +136,15 @@ window.addEventListener('resize', resizeFeatureWrappers);
 //Show and close feature-wrapper-mobile on click
 document.addEventListener('DOMContentLoaded', function() {
     const hoverCircles = document.querySelectorAll('.circle-inner, .highlight-wrap');
+    const closeButtons = document.querySelectorAll('.xmark');
+
     hoverCircles.forEach(circle => {
         circle.addEventListener('click', function() {
+            document.querySelectorAll('.feature-wrapper-mobile').forEach(wrapper => {
+                wrapper.classList.add('hidden');
+                wrapper.classList.remove('visible');
+            });
+
             const targetId = circle.getAttribute('data-target');
             const featureWrapper = document.getElementById(targetId);
             if (featureWrapper) {
@@ -147,7 +154,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    const closeButtons = document.querySelectorAll('.xmark');
     closeButtons.forEach(button => {
         button.addEventListener('click', function() {
             const featureWrapper = button.closest('.feature-wrapper-mobile');
@@ -158,6 +164,8 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+
 
 //Toggle Features
 document.querySelectorAll(".text-overlay, .text-overlay-mobile").forEach(section => {

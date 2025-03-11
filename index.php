@@ -4,6 +4,8 @@
 <head>
     <?php include './inc/HTMLhead.php'; ?>
     <title>INOVA: Tech Built for Accessibility & Community | Canada</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <meta name="description" content="At INova, we build tech that unites. Accessibility, simplicity, and community drive everything we create—from phones to future innovations.">
     <meta name="google-site-verification" content="o_L1bB7zVCoiwoFWgmf9baevM2gc-zt6iPyb9uvSrHU" />
     <style>
@@ -93,7 +95,7 @@
                     </a>
                 </div>
             
-                <div class="col-6 col-lg-3">
+                <!-- <div class="col-6 col-lg-3">
                     <a href="accessories.php#battery">
                         <img src="img/accessories/battery.jpg" alt="battery" class="home-product-img">
                         <div class="card-title">Battery</div>
@@ -119,7 +121,7 @@
                         <img src="img/accessories/microSD_card.jpg" alt="microSD_card" class="home-product-img">
                         <div class="card-title">microSD Card</div>
                     </a>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
