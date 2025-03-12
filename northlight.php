@@ -75,6 +75,10 @@
                     <p>INOVA’s vision has always been about connection—not just between devices, but between people. Northlight is a tool for the teenager navigating their first phone, the retiree video-calling grandkids, or the entrepreneur juggling work and life. It’s a reminder that innovation isn’t about pixels or megawatts—it’s about dissolving barriers.</p>
                     <p>Because at INOVA, we don’t engineer phones. We craft tools that let you focus on what truly matters: the people on the other side of the screen.</p>
                 </div>
+                <!-- <div class="col-12">
+                    <p>Northlight isn’t just a smartphone—it’s INOVA’s commitment to accessibility, simplicity, and community in action. Designed to dissolve barriers between people and technology, it strips away complexity, cost, and excess. Every feature serves a purpose: connecting you to what matters, not chasing specs you’ll never use. Behind every detail lies a choice: prioritize people over pixels, purpose over prestige.</p>
+                    <p>Northlight empowers the teenager navigating their first phone, the grandparent reconnecting overseas, or the entrepreneur balancing work and life. Because at INOVA, we don’t engineer gadgets—we craft tools that let you focus on what truly matters: the people on the other side of the screen. Innovation here isn’t about megawatts or marketing—it’s about dissolving barriers, one thoughtful design at a time.</p>
+                </div> -->
             </div>
 
             <!-- Desktop Highlights -->

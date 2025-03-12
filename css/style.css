@@ -231,6 +231,14 @@ a {
     border-radius: 25px;
 }
 
+.slick-slide {
+    margin-right: 10px;
+}
+
+.slick-slide:last-child {
+    margin-right: 0;
+}
+
 .phone-banner-container {
     position: relative;
     /* background-color: black; */

@@ -10,33 +10,14 @@
     <meta name="google-site-verification" content="o_L1bB7zVCoiwoFWgmf9baevM2gc-zt6iPyb9uvSrHU" />
     <style>
         .row {
-            /* --bs-gutter-x: 10px; */
             --bs-gutter-y: 1.5rem;
         }
 
-        /* @media only screen and (max-width: 1199px) {
-            .home-banner-title {
-                bottom: 20px;
-            }
-        }
-
-        @media only screen and (max-width: 991px) {
-            .home-banner-title {
-                bottom: 70px;
-            }
-        }
-
-        @media only screen and (max-width: 575px) {
-            .home-banner-title {
-                bottom: 50px;
-            }
-        } */
-
         .card-title {
-                font-size: 24px;
-                font-weight: 600;
-                text-align: center;
-            }
+            font-size: 24px;
+            font-weight: 600;
+            text-align: center;
+        }
     </style>
 </head>
 
@@ -47,7 +28,6 @@
         <img class="home-banner" src="img/home/banner_home_v2.png" alt="Banner">
     </div>
 
-    <!-- <div class="white-space"></div> -->
     <div class="philosophy">
         <div class="container">
             <a href="about.php#purpose" class="text-white">
@@ -94,40 +74,45 @@
                         <img src="img/phone/banner_bg.jpg" alt="Banner" class="home-product-img">
                     </a>
                 </div>
-            
-                <!-- <div class="col-6 col-lg-3">
-                    <a href="accessories.php#battery">
-                        <img src="img/accessories/battery.jpg" alt="battery" class="home-product-img">
-                        <div class="card-title">Battery</div>
-                    </a>
-                </div>
 
-                <div class="col-6 col-lg-3">
-                    <a href="accessories.php#battery_charger">
-                        <img src="img/accessories/battery_charger.jpg" alt="battery_charger" class="home-product-img">
-                        <div class="card-title">Battery Charger</div>
-                    </a>
+                <div class="slider">
+                    <img src="img/accessories/battery.jpg" alt="battery" class="home-product-img">
+                    <img src="img/accessories/battery_charger.jpg" alt="battery_charger" class="home-product-img">
+                    <img src="img/accessories/phone_case.jpg" alt="phone_case" class="home-product-img">
+                    <img src="img/accessories/microSD_card.jpg" alt="microSD_card" class="home-product-img">
                 </div>
-
-                <div class="col-6 col-lg-3">
-                    <a href="accessories.php#phone_case">
-                        <img src="img/accessories/phone_case.jpg" alt="phone_case" class="home-product-img">
-                        <div class="card-title">Phone Case</div>
-                    </a>
-                </div>
-
-                <div class="col-6 col-lg-3">
-                    <a href="accessories.php#microSD_card">
-                        <img src="img/accessories/microSD_card.jpg" alt="microSD_card" class="home-product-img">
-                        <div class="card-title">microSD Card</div>
-                    </a>
-                </div> -->
             </div>
         </div>
     </div>
 
     <?php include './inc/footer.php'; ?>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('.slider').slick({
+                slidesToShow: 3, // Number of images visible at a time
+                slidesToScroll: 1, // Number of images to scroll per click
+                dots: true, // Show navigation dots
+                arrows: true, // Show next/prev arrows
+                // responsive: [{
+                //         breakpoint: 768, // For smaller screens
+                //         settings: {
+                //             slidesToShow: 2
+                //         }
+                //     },
+                //     {
+                //         breakpoint: 480, // For mobile screens
+                //         settings: {
+                //             slidesToShow: 1
+                //         }
+                //     }
+                // ]
+            });
+        });
+    </script>
 </body>
 
 </html>
