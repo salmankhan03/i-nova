@@ -13,11 +13,6 @@
             --bs-gutter-y: 1.5rem;
         }
 
-        .home-product-img {
-            width: 100%;
-            border-radius: 25px;
-        }
-
         .card-title {
             font-size: 24px;
             font-weight: 600;
@@ -132,39 +127,39 @@
             </div>
 
             <a href="northlight.php">
-                <img src="img/phone/banner_bg.jpg" alt="Banner" class="home-product-img">
+                <img src="img/phone/banner_bg.jpg" alt="Banner" class="rounded-img">
             </a>
 
             <div class="title accessories-title-padding">Accessories</div>
 
             <div class="slider home-slider-padding">
                 <a href="accessories.php">
-                    <img src="img/accessories/battery.jpg" alt="battery" class="home-product-img">
+                    <img src="img/accessories/battery.jpg" alt="battery" class="rounded-img">
                     <div class="card-title">Battery</div>
                 </a>
 
                 <a href="accessories.php">
-                    <img src="img/accessories/battery_charger.jpg" alt="battery_charger" class="home-product-img">
+                    <img src="img/accessories/battery_charger.jpg" alt="battery_charger" class="rounded-img">
                     <div class="card-title">Battery Charger</div>
                 </a>
 
                 <a href="accessories.php">
-                    <img src="img/accessories/phone_case.jpg" alt="phone_case" class="home-product-img">
+                    <img src="img/accessories/phone_case.jpg" alt="phone_case" class="rounded-img">
                     <div class="card-title">Phone Case</div>
                 </a>
 
                 <a href="accessories.php">
-                    <img src="img/accessories/microSD_card.jpg" alt="microSD_card" class="home-product-img">
+                    <img src="img/accessories/microSD_card.jpg" alt="microSD_card" class="rounded-img">
                     <div class="card-title">microSD Card</div>
                 </a>
 
                 <a href="accessories.php">
-                    <img src="img/accessories/power_adapter.jpg" alt="power_adapter" class="home-product-img">
+                    <img src="img/accessories/power_adapter.jpg" alt="power_adapter" class="rounded-img">
                     <div class="card-title">Power Adapter</div>
                 </a>
 
                 <a href="accessories.php">
-                    <img src="img/accessories/USB-C_cable.jpg" alt="usb_cable" class="home-product-img">
+                    <img src="img/accessories/USB-C_cable.jpg" alt="usb_cable" class="rounded-img">
                     <div class="card-title">USB-C Cable</div>
                 </a>
             </div>

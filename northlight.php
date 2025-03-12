@@ -58,132 +58,136 @@
 
     <!-- highlights -->
     <div class="container">
-        <div class="section-padding">
-            <div class="row">
-                <div class="col-12">
-                    <div class="bottom-padding heading text-center">Affordable, Reliable, Simplicity at its Finest</div>
-                </div>
-            </div>
-
-            <!-- Desktop Highlights -->
-            <div class="row d-none d-xl-flex">
-                <div class="col-4 col-md-2 p-0">
-                    <a class="highlight-wrap" data-target="display" href="northlight.php#engineering-drawing-section">
-                        <img src="img/phone/icons/icons_size.svg" alt="display" class="highlight-icon">
-                        <div class="highlight-text">5.45" LCD</div>
-                        <div class="highlight-text link">480 x 960</div>
-                    </a>
-                </div>
-
-                <div class="col-4 col-md-2 p-0">
-                    <a class="highlight-wrap" data-target="camera" href="northlight.php#engineering-drawing-section">
-                        <img src="img/phone/icons/icons_camera.svg" alt="camera" class="highlight-icon">
-                        <div class="highlight-text">5MP Back</div>
-                        <div class="highlight-text link">2MP Front</div>
-                    </a>
-                </div>
-
-                <div class="col-4 col-md-2 p-0">
-                    <a class="highlight-wrap" data-target="chip" href="northlight.php#engineering-drawing-section">
-                        <img src="img/phone/icons/icons_memory.svg" alt="chip" class="highlight-icon">
-                        <div class="highlight-text">Mediatek</div>
-                        <div class="highlight-text link">Helio A22</div>
-                    </a>
-                </div>
-
-                <div class="col-4 col-md-2 p-0">
-                    <a class="highlight-wrap" data-target="sim-card" href="northlight.php#engineering-drawing-section">
-                        <img src="img/phone/icons/icons_dualsim.svg" alt="dual-sim" class="highlight-icon">
-                        <div class="highlight-text">Micro SIM</div>
-                        <div class="highlight-text link">& Nano SIM</div>
-                    </a>
-                </div>
-
-                <div class="col-4 col-md-2 p-0">
-                    <a class="highlight-wrap" data-target="microSD" href="northlight.php#engineering-drawing-section">
-                        <img src="img/phone/icons/icons_sd_card.svg" alt="microSD Card" class="highlight-icon">
-                        <div class="highlight-text">microSD</div>
-                        <div class="highlight-text link">Up to 512GB</div>
-                    </a>
-                </div>
-
-                <div class="col-4 col-md-2 p-0">
-                    <a class="highlight-wrap" data-target="battery" href="northlight.php#engineering-drawing-section">
-                        <img src="img/phone/icons/icons_battery_swap.svg" alt="battery" class="highlight-icon">
-                        <div class="highlight-text">Replaceable</div>
-                        <div class="highlight-text link">Battery</div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- Mobile Highlights -->
-            <div class="row d-xl-none">
-                <div class="col-4 col-md-2 p-0">
-                    <a class="highlight-wrap" data-target="display-mobile" href="northlight.php#engineering-drawing-section-mobile">
-                        <img src="img/phone/icons/icons_size.svg" alt="display" class="highlight-icon">
-                        <div class="highlight-text">5.45" LCD</div>
-                        <div class="highlight-text link">480 x 960</div>
-                    </a>
-                </div>
-
-                <div class="col-4 col-md-2 p-0">
-                    <a class="highlight-wrap" data-target="camera-mobile" href="northlight.php#engineering-drawing-section-mobile">
-                        <img src="img/phone/icons/icons_camera.svg" alt="camera" class="highlight-icon">
-                        <div class="highlight-text">5MP Back</div>
-                        <div class="highlight-text link">2MP Front</div>
-                    </a>
-                </div>
-
-                <div class="col-4 col-md-2 p-0">
-                    <a class="highlight-wrap" data-target="chip-mobile" href="northlight.php#engineering-drawing-section-mobile">
-                        <img src="img/phone/icons/icons_memory.svg" alt="chip" class="highlight-icon">
-                        <div class="highlight-text">Mediatek</div>
-                        <div class="highlight-text link">Helio A22</div>
-                    </a>
-                </div>
-
-                <div class="col-4 col-md-2 p-0">
-                    <a class="highlight-wrap" data-target="sim-card-mobile" href="northlight.php#engineering-drawing-section-mobile">
-                        <img src="img/phone/icons/icons_dualsim.svg" alt="dual-sim" class="highlight-icon">
-                        <div class="highlight-text">Micro SIM</div>
-                        <div class="highlight-text link">& Nano SIM</div>
-                    </a>
-                </div>
-
-                <div class="col-4 col-md-2 p-0">
-                    <a class="highlight-wrap" data-target="microSD-mobile" href="northlight.php#engineering-drawing-section-mobile">
-                        <img src="img/phone/icons/icons_sd_card.svg" alt="microSD Card" class="highlight-icon">
-                        <div class="highlight-text">microSD</div>
-                        <div class="highlight-text link">Up to 512GB</div>
-                    </a>
-                </div>
-
-                <div class="col-4 col-md-2 p-0">
-                    <a class="highlight-wrap" data-target="battery-mobile" href="northlight.php#engineering-drawing-section-mobile">
-                        <img src="img/phone/icons/icons_battery_swap.svg" alt="battery" class="highlight-icon">
-                        <div class="highlight-text">Replaceable</div>
-                        <div class="highlight-text link">Battery</div>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="row pb-5 gx-md-5">
-                <div class="col-md-6">
-                    <div class="about-title pt-2 pb-3">Designed to Connect, Not Compete</div>
-                    <p>Northlight isn’t just a smartphone—it’s INOVA’s commitment to accessibility, simplicity, and community in action. Designed to dissolve barriers between people and technology, it strips away complexity, cost, and excess. Every feature serves a purpose: connecting you to what matters, not chasing specs you’ll never use.</p>
-                    <p>Behind every detail lies a choice: prioritize people over pixels, purpose over prestige.</p>
-                </div>
-                <div class="col-md-6">
-                    <div class="about-title pt-2 pb-3">Building Bridges, Not Gadgets</div>
-                    <p>INOVA’s vision has always been about connection—not just between devices, but between people. Northlight is a tool for the teenager navigating their first phone, the retiree video-calling grandkids, or the entrepreneur juggling work and life. It’s a reminder that innovation isn’t about pixels or megawatts—it’s about dissolving barriers.</p>
-                    <p>Because at INOVA, we don’t engineer phones. We craft tools that let you focus on what truly matters: the people on the other side of the screen.</p>
-                </div>
-                <!-- <div class="col-12">
-                    <p>Northlight isn’t just a smartphone—it’s INOVA’s commitment to accessibility, simplicity, and community in action. Designed to dissolve barriers between people and technology, it strips away complexity, cost, and excess. Every feature serves a purpose: connecting you to what matters, not chasing specs you’ll never use. Behind every detail lies a choice: prioritize people over pixels, purpose over prestige.</p>
-                    <p>Northlight empowers the teenager navigating their first phone, the grandparent reconnecting overseas, or the entrepreneur balancing work and life. Because at INOVA, we don’t engineer gadgets—we craft tools that let you focus on what truly matters: the people on the other side of the screen. Innovation here isn’t about megawatts or marketing—it’s about dissolving barriers, one thoughtful design at a time.</p>
-                </div> -->
+        <!-- <div class="section-padding"> -->
+        <div class="row section-padding">
+            <div class="col-12">
+                <div class="heading text-center">Affordable, Reliable, Simplicity at its Finest</div>
             </div>
         </div>
+
+        <!-- Desktop Highlights -->
+        <div class="row d-none d-xl-flex">
+            <div class="col-4 col-md-2 p-0 d-flex justify-content-center">
+                <a class="highlight-wrap" data-target="display" href="northlight.php#engineering-drawing-section">
+                    <img src="img/phone/icons/icons_size.svg" alt="display" class="highlight-icon">
+                    <div class="highlight-text">5.45" LCD</div>
+                    <div class="highlight-text link">480 x 960</div>
+                </a>
+            </div>
+
+            <div class="col-4 col-md-2 p-0 d-flex justify-content-center">
+                <a class="highlight-wrap" data-target="camera" href="northlight.php#engineering-drawing-section">
+                    <img src="img/phone/icons/icons_camera.svg" alt="camera" class="highlight-icon">
+                    <div class="highlight-text">5MP Back</div>
+                    <div class="highlight-text link">2MP Front</div>
+                </a>
+            </div>
+
+            <div class="col-4 col-md-2 p-0 d-flex justify-content-center">
+                <a class="highlight-wrap" data-target="chip" href="northlight.php#engineering-drawing-section">
+                    <img src="img/phone/icons/icons_memory.svg" alt="chip" class="highlight-icon">
+                    <div class="highlight-text">Mediatek</div>
+                    <div class="highlight-text link">Helio A22</div>
+                </a>
+            </div>
+
+            <div class="col-4 col-md-2 p-0 d-flex justify-content-center">
+                <a class="highlight-wrap" data-target="sim-card" href="northlight.php#engineering-drawing-section">
+                    <img src="img/phone/icons/icons_dualsim.svg" alt="dual-sim" class="highlight-icon">
+                    <div class="highlight-text">Micro SIM</div>
+                    <div class="highlight-text link">& Nano SIM</div>
+                </a>
+            </div>
+
+            <div class="col-4 col-md-2 p-0 d-flex justify-content-center">
+                <a class="highlight-wrap" data-target="microSD" href="northlight.php#engineering-drawing-section">
+                    <img src="img/phone/icons/icons_sd_card.svg" alt="microSD Card" class="highlight-icon">
+                    <div class="highlight-text">microSD</div>
+                    <div class="highlight-text link">Up to 512GB</div>
+                </a>
+            </div>
+
+            <div class="col-4 col-md-2 p-0 d-flex justify-content-center">
+                <a class="highlight-wrap" data-target="battery" href="northlight.php#engineering-drawing-section">
+                    <img src="img/phone/icons/icons_battery_swap.svg" alt="battery" class="highlight-icon">
+                    <div class="highlight-text">Replaceable</div>
+                    <div class="highlight-text link">Battery</div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Mobile Highlights -->
+        <div class="row d-xl-none">
+            <div class="col-4 col-md-2 p-0 d-flex justify-content-center">
+                <a class="highlight-wrap" data-target="display-mobile" href="northlight.php#engineering-drawing-section-mobile">
+                    <img src="img/phone/icons/icons_size.svg" alt="display" class="highlight-icon">
+                    <div class="highlight-text">5.45" LCD</div>
+                    <div class="highlight-text link">480 x 960</div>
+                </a>
+            </div>
+
+            <div class="col-4 col-md-2 p-0 d-flex justify-content-center">
+                <a class="highlight-wrap" data-target="camera-mobile" href="northlight.php#engineering-drawing-section-mobile">
+                    <img src="img/phone/icons/icons_camera.svg" alt="camera" class="highlight-icon">
+                    <div class="highlight-text">5MP Back</div>
+                    <div class="highlight-text link">2MP Front</div>
+                </a>
+            </div>
+
+            <div class="col-4 col-md-2 p-0 d-flex justify-content-center">
+                <a class="highlight-wrap" data-target="chip-mobile" href="northlight.php#engineering-drawing-section-mobile">
+                    <img src="img/phone/icons/icons_memory.svg" alt="chip" class="highlight-icon">
+                    <div class="highlight-text">Mediatek</div>
+                    <div class="highlight-text link">Helio A22</div>
+                </a>
+            </div>
+
+            <div class="col-4 col-md-2 p-0 d-flex justify-content-center">
+                <a class="highlight-wrap" data-target="sim-card-mobile" href="northlight.php#engineering-drawing-section-mobile">
+                    <img src="img/phone/icons/icons_dualsim.svg" alt="dual-sim" class="highlight-icon">
+                    <div class="highlight-text">Micro SIM</div>
+                    <div class="highlight-text link">& Nano SIM</div>
+                </a>
+            </div>
+
+            <div class="col-4 col-md-2 p-0 d-flex justify-content-center">
+                <a class="highlight-wrap" data-target="microSD-mobile" href="northlight.php#engineering-drawing-section-mobile">
+                    <img src="img/phone/icons/icons_sd_card.svg" alt="microSD Card" class="highlight-icon">
+                    <div class="highlight-text">microSD</div>
+                    <div class="highlight-text link">Up to 512GB</div>
+                </a>
+            </div>
+
+            <div class="col-4 col-md-2 p-0 d-flex justify-content-center">
+                <a class="highlight-wrap" data-target="battery-mobile" href="northlight.php#engineering-drawing-section-mobile">
+                    <img src="img/phone/icons/icons_battery_swap.svg" alt="battery" class="highlight-icon">
+                    <div class="highlight-text">Replaceable</div>
+                    <div class="highlight-text link">Battery</div>
+                </a>
+            </div>
+        </div>
+
+        <div class="row top-padding bottom-padding-sm gx-lg-5">
+            <div class="col-lg-6 d-flex align-items-center">
+                <img src="img/phone/phone_photo_1.png" alt="" class="rounded-img">
+            </div>
+            <div class="col-lg-6 d-flex flex-column justify-content-center">
+                <div class="about-title pb-3">Designed to Connect, Not Compete</div>
+                <p>Northlight isn’t just a smartphone—it’s INOVA’s commitment to accessibility, simplicity, and community in action. Designed to dissolve barriers between people and technology, it strips away complexity, cost, and excess. Every feature serves a purpose: connecting you to what matters, not chasing specs you’ll never use.</p>
+                <p>Behind every detail lies a choice: prioritize people over pixels, purpose over prestige.</p>
+            </div>
+        </div>
+        <div class="row bottom-padding gx-lg-5">
+            <div class="col-lg-6 d-flex flex-column justify-content-center order-1 order-lg-0">
+                <div class="about-title pb-3">Building Bridges, Not Gadgets</div>
+                <p>INOVA’s vision has always been about connection—not just between devices, but between people. Northlight is a tool for the teenager navigating their first phone, the retiree video-calling grandkids, or the entrepreneur juggling work and life. It’s a reminder that innovation isn’t about pixels or megawatts—it’s about dissolving barriers.</p>
+                <p>Because at INOVA, we don’t engineer phones. We craft tools that let you focus on what truly matters: the people on the other side of the screen.</p>
+            </div>
+            <div class="col-lg-6 d-flex align-items-center order-0 order-lg-1">
+                <img src="img/phone/phone_photo_2.png" alt="" class="rounded-img">
+            </div>
+        </div>
+        <!-- </div> -->
     </div>
 
     <div class="bg-color overflow-hidden">
