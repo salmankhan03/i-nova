@@ -226,19 +226,6 @@ a {
     min-height: 300px;
 } */
 
-.home-product-img {
-    width: 100%;
-    border-radius: 25px;
-}
-
-.slick-slide {
-    margin-right: 10px;
-}
-
-.slick-slide:last-child {
-    margin-right: 0;
-}
-
 .phone-banner-container {
     position: relative;
     /* background-color: black; */
@@ -846,6 +833,25 @@ a {
     transform-origin: bottom left;
     transition: transform 0.3s ease;
 }
+
+/* .link:hover::before {
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+}
+
+.link:hover::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    transform: scaleX(0);
+    transform-origin: bottom left;
+    animation: reappear 0.3s ease 0.3s forwards;
+} */
 
 .highlight-wrap:hover .link::before {
     transform: scaleX(0);

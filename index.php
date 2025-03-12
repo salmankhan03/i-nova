@@ -13,10 +13,52 @@
             --bs-gutter-y: 1.5rem;
         }
 
+        .home-product-img {
+            width: 100%;
+            border-radius: 25px;
+        }
+
+        .slick-slide {
+            margin: 0 5px;
+        }
+
         .card-title {
             font-size: 24px;
             font-weight: 600;
-            text-align: center;
+            margin: 10px 0 0 10px;
+        }
+
+        .slick-prev::before,
+        .slick-next::before {
+            color: black !important;
+            opacity: 1;
+        }
+
+        .slick-prev:hover::before,
+        .slick-next:hover::before {
+            color: black !important;
+        }
+
+        .slick-dots {
+            bottom: -25px !important;
+        }
+
+        @media (max-width: 630px) {
+            /* .slick-prev, .slick-next {
+                display: none !important;
+            } */
+            .slider {
+                overflow: hidden;
+                padding-bottom: 30px;
+            }
+            .slick-dots {
+                bottom: 10px !important;
+                width: 100%;
+            }
+
+            .card-title {
+                font-size: 22px;
+            }
         }
     </style>
 </head>
@@ -68,20 +110,47 @@
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-12">
+            <!-- <div class="row">
+                <div class="col-12"> -->
                     <a href="northlight.php">
                         <img src="img/phone/banner_bg.jpg" alt="Banner" class="home-product-img">
                     </a>
-                </div>
+                <!-- </div> -->
+
+                <div class="title section-padding-sm">Accessories</div>
 
                 <div class="slider">
-                    <img src="img/accessories/battery.jpg" alt="battery" class="home-product-img">
-                    <img src="img/accessories/battery_charger.jpg" alt="battery_charger" class="home-product-img">
-                    <img src="img/accessories/phone_case.jpg" alt="phone_case" class="home-product-img">
-                    <img src="img/accessories/microSD_card.jpg" alt="microSD_card" class="home-product-img">
+                    <a href="accessories.php">
+                        <img src="img/accessories/battery.jpg" alt="battery" class="home-product-img">
+                        <div class="card-title">Battery</div>
+                    </a>
+
+                    <a href="accessories.php">
+                        <img src="img/accessories/battery_charger.jpg" alt="battery_charger" class="home-product-img">
+                        <div class="card-title">Battery Charger</div>
+                    </a>
+
+                    <a href="accessories.php">
+                        <img src="img/accessories/phone_case.jpg" alt="phone_case" class="home-product-img">
+                        <div class="card-title">Phone Case</div>
+                    </a>
+
+                    <a href="accessories.php">
+                        <img src="img/accessories/microSD_card.jpg" alt="microSD_card" class="home-product-img">
+                        <div class="card-title">microSD Card</div>
+                    </a>
+
+                    <a href="accessories.php">
+                        <img src="img/accessories/power_adapter.jpg" alt="power_adapter" class="home-product-img">
+                        <div class="card-title">Power Adapter</div>
+                    </a>
+
+                    <a href="accessories.php">
+                        <img src="img/accessories/USB-C_cable.jpg" alt="usb_cable" class="home-product-img">
+                        <div class="card-title">USB-C Cable</div>
+                    </a>
                 </div>
-            </div>
+            <!-- </div> -->
         </div>
     </div>
 
@@ -93,23 +162,23 @@
     <script>
         $(document).ready(function() {
             $('.slider').slick({
-                slidesToShow: 3, // Number of images visible at a time
-                slidesToScroll: 1, // Number of images to scroll per click
-                dots: true, // Show navigation dots
-                arrows: true, // Show next/prev arrows
-                // responsive: [{
-                //         breakpoint: 768, // For smaller screens
-                //         settings: {
-                //             slidesToShow: 2
-                //         }
-                //     },
-                //     {
-                //         breakpoint: 480, // For mobile screens
-                //         settings: {
-                //             slidesToShow: 1
-                //         }
-                //     }
-                // ]
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                dots: true,
+                arrows: true,
+                responsive: [{
+                        breakpoint: 992,
+                        settings: {
+                            slidesToShow: 3
+                        }
+                    },
+                    {
+                        breakpoint: 576,
+                        settings: {
+                            slidesToShow: 2
+                        }
+                    }
+                ]
             });
         });
     </script>

@@ -81,30 +81,6 @@
                     </div>
                 </div>
                 
-                <div class="col-6 col-md-4 col-lg-3 accessory" data-category="power" id="usb_cable">
-                    <div class="card">
-                        <div class="accessory-image-container">
-                            <img src="img/accessories/USB-C_cable.jpg" alt="battery" class="img-fluid accessory-image">
-                        </div>
-                        <div class="card-body">
-                            <div class="card-title">USB-C Cable</div>
-                            <div class="card-text">Fast and reliable charging with a durable USB-C cable built for convenience.</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-6 col-md-4 col-lg-3 accessory" data-category="power" id="power_adapter">
-                    <div class="card">
-                        <div class="accessory-image-container">
-                            <img src="img/accessories/power_adapter.jpg" alt="battery" class="img-fluid accessory-image">
-                        </div>
-                        <div class="card-body">
-                            <div class="card-title">Power Adapter</div>
-                            <div class="card-text">Compact and efficient adapter to power your devices safely and quickly.</div>
-                        </div>
-                    </div>
-                </div>
-                
                 <div class="col-6 col-md-4 col-lg-3 accessory" data-category="protection" id="phone_case">
                     <div class="card">
                         <div class="accessory-image-container">
@@ -128,7 +104,30 @@
                         </div>
                     </div>
                 </div>
-
+                
+                <div class="col-6 col-md-4 col-lg-3 accessory" data-category="power" id="usb_cable">
+                    <div class="card">
+                        <div class="accessory-image-container">
+                            <img src="img/accessories/USB-C_cable.jpg" alt="battery" class="img-fluid accessory-image">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">USB-C Cable</div>
+                            <div class="card-text">Fast and reliable charging with a durable USB-C cable built for convenience.</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-md-4 col-lg-3 accessory" data-category="power" id="power_adapter">
+                    <div class="card">
+                        <div class="accessory-image-container">
+                            <img src="img/accessories/power_adapter.jpg" alt="battery" class="img-fluid accessory-image">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">Power Adapter</div>
+                            <div class="card-text">Compact and efficient adapter to power your devices safely and quickly.</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
