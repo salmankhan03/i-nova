@@ -166,6 +166,7 @@
                     </a>
                 </div>
             </div>
+            
             <div class="row pb-5 gx-md-5">
                 <div class="col-md-6">
                     <div class="about-title pt-2 pb-3">Designed to Connect, Not Compete</div>

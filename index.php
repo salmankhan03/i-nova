@@ -18,46 +18,67 @@
             border-radius: 25px;
         }
 
-        .slick-slide {
-            margin: 0 5px;
-        }
-
         .card-title {
             font-size: 24px;
             font-weight: 600;
             margin: 10px 0 0 10px;
         }
 
-        .slick-prev::before,
-        .slick-next::before {
-            color: black !important;
-            opacity: 1;
+        .slick-slide {
+            margin: 0 10px;
         }
 
+        .slick-prev img, .slick-next img {
+            width: 25px;
+            height: auto;
+        }
+
+        .slick-prev img {
+            transform: rotate(180deg);
+        }
+
+        .slick-prev::before,
+        .slick-next::before,
         .slick-prev:hover::before,
         .slick-next:hover::before {
-            color: black !important;
+            display: none;
         }
 
         .slick-dots {
             bottom: -25px !important;
         }
 
+        .accessories-title-padding {
+            padding: 50px 0 14px 0;
+        }
+
+        .home-slider-padding {
+            padding-top: 36px;
+        }
+
+        @media (max-width: 767px) {
+            .card-title {
+                font-size: 20px;
+            }
+
+            .accessories-title-padding {
+                padding: 50px 0 20px 0;
+            }
+
+            .home-slider-padding {
+                padding-top: 30px;
+            }
+        }
+
         @media (max-width: 630px) {
-            /* .slick-prev, .slick-next {
-                display: none !important;
-            } */
             .slider {
                 overflow: hidden;
                 padding-bottom: 30px;
             }
+
             .slick-dots {
                 bottom: 10px !important;
                 width: 100%;
-            }
-
-            .card-title {
-                font-size: 22px;
             }
         }
     </style>
@@ -110,47 +131,43 @@
                 </div>
             </div>
 
-            <!-- <div class="row">
-                <div class="col-12"> -->
-                    <a href="northlight.php">
-                        <img src="img/phone/banner_bg.jpg" alt="Banner" class="home-product-img">
-                    </a>
-                <!-- </div> -->
+            <a href="northlight.php">
+                <img src="img/phone/banner_bg.jpg" alt="Banner" class="home-product-img">
+            </a>
 
-                <div class="title section-padding-sm">Accessories</div>
+            <div class="title accessories-title-padding">Accessories</div>
 
-                <div class="slider">
-                    <a href="accessories.php">
-                        <img src="img/accessories/battery.jpg" alt="battery" class="home-product-img">
-                        <div class="card-title">Battery</div>
-                    </a>
+            <div class="slider home-slider-padding">
+                <a href="accessories.php">
+                    <img src="img/accessories/battery.jpg" alt="battery" class="home-product-img">
+                    <div class="card-title">Battery</div>
+                </a>
 
-                    <a href="accessories.php">
-                        <img src="img/accessories/battery_charger.jpg" alt="battery_charger" class="home-product-img">
-                        <div class="card-title">Battery Charger</div>
-                    </a>
+                <a href="accessories.php">
+                    <img src="img/accessories/battery_charger.jpg" alt="battery_charger" class="home-product-img">
+                    <div class="card-title">Battery Charger</div>
+                </a>
 
-                    <a href="accessories.php">
-                        <img src="img/accessories/phone_case.jpg" alt="phone_case" class="home-product-img">
-                        <div class="card-title">Phone Case</div>
-                    </a>
+                <a href="accessories.php">
+                    <img src="img/accessories/phone_case.jpg" alt="phone_case" class="home-product-img">
+                    <div class="card-title">Phone Case</div>
+                </a>
 
-                    <a href="accessories.php">
-                        <img src="img/accessories/microSD_card.jpg" alt="microSD_card" class="home-product-img">
-                        <div class="card-title">microSD Card</div>
-                    </a>
+                <a href="accessories.php">
+                    <img src="img/accessories/microSD_card.jpg" alt="microSD_card" class="home-product-img">
+                    <div class="card-title">microSD Card</div>
+                </a>
 
-                    <a href="accessories.php">
-                        <img src="img/accessories/power_adapter.jpg" alt="power_adapter" class="home-product-img">
-                        <div class="card-title">Power Adapter</div>
-                    </a>
+                <a href="accessories.php">
+                    <img src="img/accessories/power_adapter.jpg" alt="power_adapter" class="home-product-img">
+                    <div class="card-title">Power Adapter</div>
+                </a>
 
-                    <a href="accessories.php">
-                        <img src="img/accessories/USB-C_cable.jpg" alt="usb_cable" class="home-product-img">
-                        <div class="card-title">USB-C Cable</div>
-                    </a>
-                </div>
-            <!-- </div> -->
+                <a href="accessories.php">
+                    <img src="img/accessories/USB-C_cable.jpg" alt="usb_cable" class="home-product-img">
+                    <div class="card-title">USB-C Cable</div>
+                </a>
+            </div>
         </div>
     </div>
 
@@ -166,6 +183,8 @@
                 slidesToScroll: 1,
                 dots: true,
                 arrows: true,
+                prevArrow: '<button type="button" class="slick-prev"><img src="img/phone/icons/icons_slider.svg" alt="Previous"></button>',
+                nextArrow: '<button type="button" class="slick-next"><img src="img/phone/icons/icons_slider.svg" alt="Next"></button>',
                 responsive: [{
                         breakpoint: 992,
                         settings: {
