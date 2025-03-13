@@ -38,18 +38,6 @@
                 padding-top: 30px;
             }
         }
-
-        @media (max-width: 630px) {
-            .slider {
-                overflow: hidden;
-                padding-bottom: 30px;
-            }
-
-            .slick-dots {
-                bottom: 10px !important;
-                width: 100%;
-            }
-        }
     </style>
 </head>
 

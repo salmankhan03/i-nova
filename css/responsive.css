@@ -218,6 +218,18 @@
     }
 }
 
+@media only screen and (max-width: 630px) {
+    .slider {
+        overflow: hidden;
+        padding-bottom: 30px;
+    }
+
+    .slick-dots {
+        bottom: 10px !important;
+        width: 100%;
+    }
+}
+
 @media only screen and (max-width: 575px) {
     .phone-banner-text {
         height: 570px;

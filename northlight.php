@@ -845,20 +845,33 @@
 
     <div class="container">
         <div class="heading section-padding-sm text-center">Designed for Real Life</div>
-        <div class="row bottom-padding-sm gx-lg-5 gy-lg-0 gy-4">
-            <div class="col-lg-6 d-flex align-items-center">
+        <div class="row bottom-padding-sm gx-lg-5">
+            <div class="col-lg-6">
                 <div class="slider">
                     <img src="img/phone/phone_photo_3.png" alt="" class="rounded-img">
                     <img src="img/phone/phone_photo_4.png" alt="" class="rounded-img">
                     <img src="img/phone/phone_photo_5.png" alt="" class="rounded-img">
                 </div>
             </div>
-            <div class="col-lg-6 d-flex flex-column justify-content-center">
-                <div class="about-title pb-3">First Phone for Kids & Young Adults</div>
-                <p> Northlight is the ideal starter smartphone: affordable, lightweight, and sized for smaller hands. With no complex features or premium price tag, it teaches responsibility without risk—durable enough to survive drops, simple enough for calls and homework apps, and secure for parental peace of mind.</p>
+            <div class="col-lg-6 d-flex flex-column justify-content-center mt-0">
+                <div class="senario-wrap">
+                    <div class="about-title pb-3">First Phone for Kids & Young Adults</div>
+                    <p>Northlight is the ideal starter smartphone: affordable, lightweight, and sized for smaller hands. With no complex features or premium price tag, it teaches responsibility without risk—durable enough to survive drops, simple enough for calls and homework apps, and secure for parental peace of mind.</p>
+                </div>
+
+                <div class="senario-wrap">
+                    <div class="about-title pb-3">Business-Ready Reliability</div>
+                    <p>For organizations needing cost-effective work phones, Northlight delivers: Dual SIM separates work/personal lines, MicroSD keeps data secure and portable, and replaceable batteries ensure 24/7 uptime. Budget-friendly and easy to maintain, it’s built for productivity without overspending.</p>
+                </div>
+
+                <div class="senario-wrap">
+                    <div class="about-title pb-3">Seniors’ Simplified Smartphone</div>
+                    <p>Northlight bridges familiarity and modernity for older users: Replaceable batteries feel like classic phones, while the ergonomic design (easy-grip curves, intuitive Android 14) reduces frustration. Large icons, loudspeakers, and a no-fuss interface make calls, photos, and messages effortless—tech that respects their pace.</p>
+                </div>
             </div>
         </div>
     </div>
+
 
     <?php include './inc/footer.php'; ?>
 
@@ -866,12 +879,20 @@
     <script>
         $(document).ready(function() {
             $('.slider').slick({
-                slidesToShow: 3,
+                slidesToShow: 1,
                 slidesToScroll: 1,
                 dots: true,
                 arrows: true,
+                fade: true,
                 prevArrow: '<button type="button" class="slick-prev"><img src="img/phone/icons/icons_slider.svg" alt="Previous"></button>',
                 nextArrow: '<button type="button" class="slick-next"><img src="img/phone/icons/icons_slider.svg" alt="Next"></button>',
+            });
+            
+            $(".senario-wrap").hide().eq(0).show();
+
+            $('.slider').on('beforeChange', function(event, slick, currentSlide, nextSlide) {
+                $(".senario-wrap").hide();
+                $(".senario-wrap").eq(nextSlide).fadeIn();
             });
         });
     </script>
