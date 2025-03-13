@@ -892,3 +892,27 @@ a {
     width: 100%;
     border-radius: 25px;
 }
+
+.slick-slide {
+    margin: 0 10px;
+}
+
+.slick-prev img, .slick-next img {
+    width: 25px;
+    height: auto;
+}
+
+.slick-prev img {
+    transform: rotate(180deg);
+}
+
+.slick-prev::before,
+.slick-next::before,
+.slick-prev:hover::before,
+.slick-next:hover::before {
+    display: none;
+}
+
+.slick-dots {
+    bottom: -25px !important;
+}

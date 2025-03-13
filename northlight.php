@@ -58,7 +58,6 @@
 
     <!-- highlights -->
     <div class="container">
-        <!-- <div class="section-padding"> -->
         <div class="row section-padding">
             <div class="col-12">
                 <div class="heading text-center">Affordable, Reliable, Simplicity at its Finest</div>
@@ -167,7 +166,7 @@
             </div>
         </div>
 
-        <div class="row top-padding bottom-padding-sm gx-lg-5">
+        <div class="row top-padding bottom-padding-sm gx-lg-5 gy-lg-0 gy-4">
             <div class="col-lg-6 d-flex align-items-center">
                 <img src="img/phone/phone_photo_1.png" alt="" class="rounded-img">
             </div>
@@ -177,7 +176,8 @@
                 <p>Behind every detail lies a choice: prioritize people over pixels, purpose over prestige.</p>
             </div>
         </div>
-        <div class="row bottom-padding gx-lg-5">
+
+        <div class="row bottom-padding gx-lg-5 gy-lg-0 gy-4">
             <div class="col-lg-6 d-flex flex-column justify-content-center order-1 order-lg-0">
                 <div class="about-title pb-3">Building Bridges, Not Gadgets</div>
                 <p>INOVA’s vision has always been about connection—not just between devices, but between people. Northlight is a tool for the teenager navigating their first phone, the retiree video-calling grandkids, or the entrepreneur juggling work and life. It’s a reminder that innovation isn’t about pixels or megawatts—it’s about dissolving barriers.</p>
@@ -187,14 +187,13 @@
                 <img src="img/phone/phone_photo_2.png" alt="" class="rounded-img">
             </div>
         </div>
-        <!-- </div> -->
     </div>
 
+    <!-- Desktop Engineering Drawing -->
     <div class="bg-color overflow-hidden">
         <div class="custom-container">
             <div class="heading text-white" style="padding-top: 50px;">Let's Break it Down.</div>
             <div class="features-container-desktop" id="engineering-drawing-section">
-                <!-- Desktop Engineering Drawing -->
                 <div class="image-wrapper engineering-drawing-position engineering-drawing-lg">
                     <img src="img/phone/Northlight-explosive-sketch.png" alt="engineering drawing" class="engineering-drawing">
                     <svg class="circle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
@@ -844,9 +843,38 @@
         </div>
     </div>
 
+    <div class="container">
+        <div class="heading section-padding-sm text-center">Designed for Real Life</div>
+        <div class="row bottom-padding-sm gx-lg-5 gy-lg-0 gy-4">
+            <div class="col-lg-6 d-flex align-items-center">
+                <div class="slider">
+                    <img src="img/phone/phone_photo_3.png" alt="" class="rounded-img">
+                    <img src="img/phone/phone_photo_4.png" alt="" class="rounded-img">
+                    <img src="img/phone/phone_photo_5.png" alt="" class="rounded-img">
+                </div>
+            </div>
+            <div class="col-lg-6 d-flex flex-column justify-content-center">
+                <div class="about-title pb-3">First Phone for Kids & Young Adults</div>
+                <p> Northlight is the ideal starter smartphone: affordable, lightweight, and sized for smaller hands. With no complex features or premium price tag, it teaches responsibility without risk—durable enough to survive drops, simple enough for calls and homework apps, and secure for parental peace of mind.</p>
+            </div>
+        </div>
+    </div>
+
     <?php include './inc/footer.php'; ?>
 
     <script src="js/northlight.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.slider').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                dots: true,
+                arrows: true,
+                prevArrow: '<button type="button" class="slick-prev"><img src="img/phone/icons/icons_slider.svg" alt="Previous"></button>',
+                nextArrow: '<button type="button" class="slick-next"><img src="img/phone/icons/icons_slider.svg" alt="Next"></button>',
+            });
+        });
+    </script>
 </body>
 
 </html>

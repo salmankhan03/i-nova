@@ -4,8 +4,6 @@
 <head>
     <?php include './inc/HTMLhead.php'; ?>
     <title>INOVA: Tech Built for Accessibility & Community | Canada</title>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <meta name="description" content="At INova, we build tech that unites. Accessibility, simplicity, and community drive everything we create—from phones to future innovations.">
     <meta name="google-site-verification" content="o_L1bB7zVCoiwoFWgmf9baevM2gc-zt6iPyb9uvSrHU" />
     <style>
@@ -17,30 +15,6 @@
             font-size: 24px;
             font-weight: 600;
             margin: 10px 0 0 10px;
-        }
-
-        .slick-slide {
-            margin: 0 10px;
-        }
-
-        .slick-prev img, .slick-next img {
-            width: 25px;
-            height: auto;
-        }
-
-        .slick-prev img {
-            transform: rotate(180deg);
-        }
-
-        .slick-prev::before,
-        .slick-next::before,
-        .slick-prev:hover::before,
-        .slick-next:hover::before {
-            display: none;
-        }
-
-        .slick-dots {
-            bottom: -25px !important;
         }
 
         .accessories-title-padding {
@@ -167,9 +141,6 @@
     </div>
 
     <?php include './inc/footer.php'; ?>
-
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
     <script>
         $(document).ready(function() {

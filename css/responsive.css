@@ -200,6 +200,10 @@
         font-size: 45px;
     }
 
+    .about-title {
+        font-size: 28px;
+    }
+
     .copyright {
         flex-direction: column;
         gap: 10px;
@@ -244,6 +248,10 @@
 
     .heading {
         font-size: 36px;
+    }
+
+    .about-title {
+        font-size: 24px;
     }
 
     .home-banner-title {
