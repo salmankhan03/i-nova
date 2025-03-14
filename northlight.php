@@ -549,29 +549,29 @@
                 <div class="image-wrapper-mobile">
                     <img src="img/phone/Northlight-explosive-sketch-mobile.png" alt="engineering drawing" class="engineering-drawing-mobile">
                     <svg class="circle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 62.64 100">
-                        <circle class="circle" cx="14.2" cy="36">
+                        <circle class="circle" cx="14.8" cy="34.5">
                             <animate attributeName="r" from="1.5" to="3" dur="2s" repeatCount="indefinite" />
                             <animate attributeName="fill" from="rgba(0, 123, 255, 0.7)" to="rgba(0, 123, 255, 0)" dur="2s" repeatCount="indefinite" />
                         </circle>
-                        <circle class="circle-inner" data-target="sim-card-mobile" cx="14.2" cy="36" r="1.5" />
+                        <circle class="circle-inner" data-target="sim-card-mobile" cx="14.8" cy="34.5" r="1.5" />
 
-                        <circle class="circle" cx="4.5" cy="67">
+                        <circle class="circle" cx="4.5" cy="63.5">
                             <animate attributeName="r" from="1.5" to="3" dur="2s" repeatCount="indefinite" />
                             <animate attributeName="fill" from="rgba(0, 123, 255, 0.7)" to="rgba(0, 123, 255, 0)" dur="2s" repeatCount="indefinite" />
                         </circle>
-                        <circle class="circle-inner" data-target="usb-c-mobile" cx="4.5" cy="67" r="1.5" />
+                        <circle class="circle-inner" data-target="usb-c-mobile" cx="4.5" cy="63.5" r="1.5" />
 
-                        <circle class="circle" cx="36.5" cy="23.5">
+                        <circle class="circle" cx="36.5" cy="22.5">
                             <animate attributeName="r" from="1.5" to="3" dur="2s" repeatCount="indefinite" />
                             <animate attributeName="fill" from="rgba(0, 123, 255, 0.7)" to="rgba(0, 123, 255, 0)" dur="2s" repeatCount="indefinite" />
                         </circle>
-                        <circle class="circle-inner" data-target="battery-mobile" cx="36.5" cy="23.5" r="1.5" />
+                        <circle class="circle-inner" data-target="battery-mobile" cx="36.5" cy="22.5" r="1.5" />
 
-                        <circle class="circle" cx="18.2" cy="31.5">
+                        <circle class="circle" cx="18.7" cy="30.5">
                             <animate attributeName="r" from="1.5" to="3" dur="2s" repeatCount="indefinite" />
                             <animate attributeName="fill" from="rgba(0, 123, 255, 0.7)" to="rgba(0, 123, 255, 0)" dur="2s" repeatCount="indefinite" />
                         </circle>
-                        <circle class="circle-inner" data-target="microSD-mobile" cx="18.2" cy="31.5" r="1.5" />
+                        <circle class="circle-inner" data-target="microSD-mobile" cx="18.7" cy="30.5" r="1.5" />
 
                         <circle class="circle" cx="32.5" cy="7.5">
                             <animate attributeName="r" from="1.5" to="3" dur="2s" repeatCount="indefinite" />
@@ -579,29 +579,29 @@
                         </circle>
                         <circle class="circle-inner" data-target="case-mobile" cx="32.5" cy="7.5" r="1.5" />
 
-                        <circle class="circle" cx="32" cy="91">
+                        <circle class="circle" cx="32" cy="87">
                             <animate attributeName="r" from="1.5" to="3" dur="2s" repeatCount="indefinite" />
                             <animate attributeName="fill" from="rgba(0, 123, 255, 0.7)" to="rgba(0, 123, 255, 0)" dur="2s" repeatCount="indefinite" />
                         </circle>
-                        <circle class="circle-inner" data-target="display-mobile" cx="32" cy="91" r="1.5" />
+                        <circle class="circle-inner" data-target="display-mobile" cx="32" cy="87" r="1.5" />
 
-                        <circle class="circle" cx="7.5" cy="61.5">
+                        <circle class="circle" cx="8.5" cy="59.5">
                             <animate attributeName="r" from="1.5" to="3" dur="2s" repeatCount="indefinite" />
                             <animate attributeName="fill" from="rgba(0, 123, 255, 0.7)" to="rgba(0, 123, 255, 0)" dur="2s" repeatCount="indefinite" />
                         </circle>
-                        <circle class="circle-inner" data-target="3.5mm-mobile" cx="7.5" cy="61.5" r="1.5" />
+                        <circle class="circle-inner" data-target="3.5mm-mobile" cx="8.5" cy="59.5" r="1.5" />
 
-                        <circle class="circle" cx="16" cy="65">
+                        <circle class="circle" cx="16.5" cy="62.5">
                             <animate attributeName="r" from="1.5" to="3" dur="2s" repeatCount="indefinite" />
                             <animate attributeName="fill" from="rgba(0, 123, 255, 0.7)" to="rgba(0, 123, 255, 0)" dur="2s" repeatCount="indefinite" />
                         </circle>
-                        <circle class="circle-inner" data-target="chip-mobile" cx="16" cy="65" r="1.5" />
+                        <circle class="circle-inner" data-target="chip-mobile" cx="16.5" cy="62.5" r="1.5" />
 
-                        <circle class="circle" cx="11" cy="45">
+                        <circle class="circle" cx="11.8" cy="43.5">
                             <animate attributeName="r" from="1.5" to="3" dur="2s" repeatCount="indefinite" />
                             <animate attributeName="fill" from="rgba(0, 123, 255, 0.7)" to="rgba(0, 123, 255, 0)" dur="2s" repeatCount="indefinite" />
                         </circle>
-                        <circle class="circle-inner" data-target="camera-mobile" cx="11" cy="45" r="1.5" />
+                        <circle class="circle-inner" data-target="camera-mobile" cx="11.8" cy="43.5" r="1.5" />
                     </svg>
                 </div>
 

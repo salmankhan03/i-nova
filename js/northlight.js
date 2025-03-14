@@ -118,12 +118,17 @@ function resizeFeatureWrappers() {
     if (imageWrapper && featureWrappers.length > 0) {
         // Get the width and height of the image-wrapper-mobile
         const width = imageWrapper.offsetWidth;
-        const height = imageWrapper.offsetHeight;
+        let height = imageWrapper.offsetHeight;
+
+        if (height < 620) {
+            height = 620;
+        }
 
         // Loop through all feature-wrapper-mobile elements
         featureWrappers.forEach(featureWrapper => {
             featureWrapper.style.width = `${width}px`;
             featureWrapper.style.height = `${height}px`;
+            featureWrapper.style.minHeight = "620px";
         });
     }
 }
@@ -137,6 +142,8 @@ window.addEventListener('resize', resizeFeatureWrappers);
 document.addEventListener('DOMContentLoaded', function() {
     const hoverCircles = document.querySelectorAll('.circle-inner, .highlight-wrap');
     const closeButtons = document.querySelectorAll('.xmark');
+    const featureContainer = document.querySelector('.features-container-mobile');
+    const engineeringDrawing = document.querySelector('.engineering-drawing-mobile');
 
     hoverCircles.forEach(circle => {
         circle.addEventListener('click', function() {
@@ -151,6 +158,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 featureWrapper.classList.add('visible');
                 featureWrapper.classList.remove('hidden');
             }
+            featureContainer.classList.add('open');
+            engineeringDrawing.classList.add('open');
         });
     });
 
@@ -161,6 +170,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 featureWrapper.classList.add('hidden');
                 featureWrapper.classList.remove('visible');
             }
+            featureContainer.classList.remove('open');
+            engineeringDrawing.classList.remove('open');
         });
     });
 });
