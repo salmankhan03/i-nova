@@ -45,7 +45,7 @@
     <?php include './inc/header.php'; ?>
 
     <div class="home-banner-container">
-        <img class="home-banner" src="img/home/banner_home_v2.png" alt="Banner">
+        <img class="home-banner" src="img/home/banner_home.png" alt="Banner">
     </div>
 
     <div class="philosophy">

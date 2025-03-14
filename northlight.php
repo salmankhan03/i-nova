@@ -853,7 +853,7 @@
                     <img src="img/phone/phone_photo_5.png" alt="senior users" class="rounded-img">
                 </div>
             </div>
-            <div class="col-lg-6 mt-0 overflow-y-hidden">
+            <div class="col-lg-6 mt-0">
                 <div class="senario-wrap">
                     <div class="about-title pb-3">First Phone for Young Users</div>
                     <div class="toggle-container">
