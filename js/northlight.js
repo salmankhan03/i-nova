@@ -168,7 +168,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 //Toggle Features
-document.querySelectorAll(".text-overlay, .text-overlay-mobile").forEach(section => {
+document.querySelectorAll(".text-overlay, .text-overlay-mobile, .senario-wrap").forEach(section => {
     const toggleContainers = section.querySelectorAll(".toggle-container");
 
     toggleContainers.forEach((container, index) => {
@@ -197,5 +197,25 @@ document.querySelectorAll(".text-overlay, .text-overlay-mobile").forEach(section
                 this.classList.add("active");
             }
         });
+    });
+});
+
+//initialize slider
+$(document).ready(function() {
+    $('.slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
+        arrows: true,
+        fade: true,
+        prevArrow: '<button type="button" class="slick-prev"><img src="img/phone/icons/icons_slider.svg" alt="Previous"></button>',
+        nextArrow: '<button type="button" class="slick-next"><img src="img/phone/icons/icons_slider.svg" alt="Next"></button>',
+    });
+
+    $(".senario-wrap").hide().eq(0).show();
+
+    $('.slider').on('beforeChange', function(event, slick, currentSlide, nextSlide) {
+        $(".senario-wrap").hide();
+        $(".senario-wrap").eq(nextSlide).fadeIn();
     });
 });

@@ -322,7 +322,7 @@
                             <div class="feature-description">Durable & Lightweight Design</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content">Northlight’s body and case use ABS injection PC—<strong>a tough, lightweight plastic</strong> that resists drops and scratches. Unlike premium phones that rely on metals like aluminum or titanium (which add modest weight and cost for their durability), ABS keeps the phone practical: <strong>lighter for pockets or long calls</strong>, and affordable without compromising everyday resilience.</p>
+                        <p class="toggle-content">Northlight’s body and case use ABS injection PC—a <strong>tough, lightweight</strong> plastic. Unlike premium phones that rely on metals like aluminum or titanium (which add modest weight and cost for their durability), ABS keeps the phone practical: lightweight for pockets and <strong>affordable without compromising</strong> everyday resilience.</p>
 
                         <div class="toggle-container">
                             <div class="feature-description">Compact & Practical Size</div>
@@ -447,19 +447,19 @@
                             <div class="feature-description">Mediatek Helio A22 MT6761</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content">A <strong>Quad-Core CPU</strong> (four processing units) clocked at <strong>2.0GHz</strong>, meaning it can handle multiple tasks like messaging, browsing, social media, and streaming efficiently. While not for heavy gaming or 4K editing, it balances smooth performance with energy efficiency—perfect for video calls, music, and apps that keep you connected.</p>
+                        <p class="toggle-content">A <strong>Quad-Core 2.0GHz CPU</strong> (four processing units) efficiently handles daily tasks like messaging, browsing, social media, and streaming. While not for heavy gaming or 4K editing, it delivers smooth performance with energy efficiency—perfect for video calls, music, and apps that <strong>keep you connected</strong>.</p>
 
                         <div class="toggle-container">
                             <div class="feature-description">Designed for Daily Usage</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content">The Helio A22 is designed to handle daily smartphone tasks effortlessly, whether it's browsing the web, scrolling social media, streaming videos, or managing calls and messages, this chip provides a smooth experience. For users who value practicality over specs, this chip <strong>keeps you connected without paying for power you’ll never use</strong>.</p>
+                        <p class="toggle-content">The Helio A22 chip handles daily tasks with smooth efficiency. Designed for users who prioritize <strong>practicality over specs</strong>, it delivers <strong>reliable</strong> performance <strong>without the cost</strong> of power you’ll never use.</p>
 
                         <div class="toggle-container">
                             <div class="feature-description">Made by MediaTek & TSMC</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content"><strong>MediaTek</strong>, a global leader in <strong>secure, energy-efficient processors</strong>, partners with <strong>TSMC</strong> (Taiwan Semiconductor Manufacturing Company), the world’s most advanced and reliable semiconductor manufacturer. Together, they ensure every Northlight chip is durable, secure processors, rigorously tested for safety and efficiency. Trusted engineering, without the premium cost.</p>
+                        <p class="toggle-content"><strong>MediaTek</strong> (global leader in secure, efficient processors) partners with <strong>TSMC</strong> (Taiwan Semiconductor Manufacturing Company), the world’s top semiconductor maker. Together, they deliver rigorously tested Northlight chips—<strong>durable, secure, and affordable</strong>. Trusted engineering, without the premium cost.</p>
                     </div>
                 </div>
 
@@ -472,7 +472,7 @@
                             <div class="feature-description">Universal Compatibility</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content">The 3.5mm headphone jack remains the most widely used <strong>audio standard worldwide</strong>, compatible with millions of wired headphones, earbuds, car aux systems, and speakers. Unlike Bluetooth-only phones, Northlight lets you use any pair—from dollar-store earbuds to premium studio headsets—without dongles, pairing hassles, or brand restrictions.</p>
+                        <p class="toggle-content">The 3.5mm headphone jack remains the <strong>universal standard</strong> for wired audio. Unlike USB-C-only phones, Northlight works <strong>seamlessly</strong> with any headphones—from dollarstore earbuds to premium headsets—without adapters or compatibility hassles.</p>
 
                         <div class="toggle-container">
                             <div class="feature-description">Charge & Listen</div>
@@ -615,7 +615,7 @@
                             <div class="feature-description">Durable & Lightweight Design</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content">Northlight’s body and case use ABS injection PC—<strong>a tough, lightweight plastic</strong> that resists drops and scratches. Unlike premium phones that rely on metals like aluminum or titanium (which add modest weight and cost for their durability), ABS keeps the phone practical: <strong>lighter for pockets or long calls</strong>, and affordable without compromising everyday resilience.</p>
+                        <p class="toggle-content">Northlight’s body and case use ABS injection PC—a <strong>tough, lightweight</strong> plastic. Unlike premium phones that rely on metals like aluminum or titanium (which add modest weight and cost for their durability), ABS keeps the phone practical: lightweight for pockets and <strong>affordable without compromising</strong> everyday resilience.</p>
 
                         <div class="toggle-container">
                             <div class="feature-description">Compact & Practical Size</div>
@@ -745,19 +745,19 @@
                             <div class="feature-description">Mediatek Helio A22 MT6761</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content">A <strong>Quad-Core CPU</strong> (four processing units) clocked at <strong>2.0GHz</strong>, meaning it can handle multiple tasks like messaging, browsing, social media, and streaming efficiently. While not for heavy gaming or 4K editing, it balances smooth performance with energy efficiency—perfect for video calls, music, and apps that keep you connected.</p>
+                        <p class="toggle-content">A <strong>Quad-Core 2.0GHz CPU</strong> (four processing units) efficiently handles daily tasks like messaging, browsing, social media, and streaming. While not for heavy gaming or 4K editing, it delivers smooth performance with energy efficiency—perfect for video calls, music, and apps that <strong>keep you connected</strong>.</p>
 
                         <div class="toggle-container">
                             <div class="feature-description">Designed for Daily Usage</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content">The Helio A22 is designed to handle daily smartphone tasks effortlessly, whether it's browsing the web, scrolling social media, streaming videos, or managing calls and messages, this chip provides a smooth experience. For users who value practicality over specs, this chip <strong>keeps you connected without paying for power you’ll never use</strong>.</p>
+                        <p class="toggle-content">The Helio A22 chip handles daily tasks with smooth efficiency. Designed for users who prioritize <strong>practicality over specs</strong>, it delivers <strong>reliable</strong> performance <strong>without the cost</strong> of power you’ll never use.</p>
 
                         <div class="toggle-container">
                             <div class="feature-description">Made by MediaTek & TSMC</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content"><strong>MediaTek</strong>, a global leader in <strong>secure, energy-efficient processors</strong>, partners with <strong>TSMC</strong> (Taiwan Semiconductor Manufacturing Company), the world’s most advanced and reliable semiconductor manufacturer. Together, they ensure every Northlight chip is durable, secure processors, rigorously tested for safety and efficiency. Trusted engineering, without the premium cost.</p>
+                        <p class="toggle-content"><strong>MediaTek</strong> (global leader in secure, efficient processors) partners with <strong>TSMC</strong> (Taiwan Semiconductor Manufacturing Company), the world’s top semiconductor maker. Together, they deliver rigorously tested Northlight chips—<strong>durable, secure, and affordable</strong>. Trusted engineering, without the premium cost.</p>
                     </div>
                 </div>
 
@@ -771,7 +771,7 @@
                             <div class="feature-description">Universal Compatibility</div>
                             <i class="fa-solid fa-angle-right arrow"></i>
                         </div>
-                        <p class="toggle-content">The 3.5mm headphone jack remains the most widely used <strong>audio standard worldwide</strong>, compatible with millions of wired headphones, earbuds, car aux systems, and speakers. Unlike Bluetooth-only phones, Northlight lets you use any pair—from dollar-store earbuds to premium studio headsets—without dongles, pairing hassles, or brand restrictions.</p>
+                        <p class="toggle-content">The 3.5mm headphone jack remains the <strong>universal standard</strong> for wired audio. Unlike USB-C-only phones, Northlight works <strong>seamlessly</strong> with any headphones—from dollarstore earbuds to premium headsets—without adapters or compatibility hassles.</p>
 
                         <div class="toggle-container">
                             <div class="feature-description">Charge & Listen</div>
@@ -848,25 +848,73 @@
         <div class="row bottom-padding-sm gx-lg-5">
             <div class="col-lg-6">
                 <div class="slider">
-                    <img src="img/phone/phone_photo_3.png" alt="" class="rounded-img">
-                    <img src="img/phone/phone_photo_4.png" alt="" class="rounded-img">
-                    <img src="img/phone/phone_photo_5.png" alt="" class="rounded-img">
+                    <img src="img/phone/phone_photo_3.png" alt="young users" class="rounded-img">
+                    <img src="img/phone/phone_photo_4.png" alt="business users" class="rounded-img">
+                    <img src="img/phone/phone_photo_5.png" alt="senior users" class="rounded-img">
                 </div>
             </div>
-            <div class="col-lg-6 d-flex flex-column justify-content-center mt-0">
+            <div class="col-lg-6 mt-0 overflow-y-hidden">
                 <div class="senario-wrap">
-                    <div class="about-title pb-3">First Phone for Kids & Young Adults</div>
-                    <p>Northlight is the ideal starter smartphone: affordable, lightweight, and sized for smaller hands. With no complex features or premium price tag, it teaches responsibility without risk—durable enough to survive drops, simple enough for calls and homework apps, and secure for parental peace of mind.</p>
+                    <div class="about-title pb-3">First Phone for Young Users</div>
+                    <div class="toggle-container">
+                        <div class="feature-description">Ideal for Young Users</div>
+                        <i class="fa-solid fa-angle-right arrow"></i>
+                    </div>
+                    <p class="toggle-content text-black">Northlight's 5.45" screen is compact and easy to hold, making it perfect for smaller hands or pockets. Android 14's parental controls help manage screen time and app access, ensuring a safe experience.</p>
+
+                    <div class="toggle-container">
+                        <div class="feature-description">Durability and Practicality</div>
+                        <i class="fa-solid fa-angle-right arrow"></i>
+                    </div>
+                    <p class="toggle-content text-black">With expandable storage for school projects and photos, plus a replaceable battery, Northlight encourages users to manage their device responsibly, without relying on it constantly.</p>
+
+                    <div class="toggle-container">
+                        <div class="feature-description">Grows with the User</div>
+                        <i class="fa-solid fa-angle-right arrow"></i>
+                    </div>
+                    <p class="toggle-content text-black">Designed for teens and students, Northlight offers a durable, no-frills experience with no fragile screens or expensive price tags—perfect for calls, social media, and everyday use.</p>
                 </div>
 
                 <div class="senario-wrap">
-                    <div class="about-title pb-3">Business-Ready Reliability</div>
-                    <p>For organizations needing cost-effective work phones, Northlight delivers: Dual SIM separates work/personal lines, MicroSD keeps data secure and portable, and replaceable batteries ensure 24/7 uptime. Budget-friendly and easy to maintain, it’s built for productivity without overspending.</p>
+                    <div class="about-title pb-3">Reliable Phone for Business</div>
+                    <div class="toggle-container">
+                        <div class="feature-description">Cost-Effective Efficiency</div>
+                        <i class="fa-solid fa-angle-right arrow"></i>
+                    </div>
+                    <p class="toggle-content text-black">Northlight’s Dual SIM functionality separates work and personal lines, while Android 14’s enterprise tools (remote wipe, spam blocking) and microSD encryption ensure data security.</p>
+
+                    <div class="toggle-container">
+                        <div class="feature-description">Reliable for Busy Teams</div>
+                        <i class="fa-solid fa-angle-right arrow"></i>
+                    </div>
+                    <p class="toggle-content text-black">Replaceable batteries provide 24/7 uptime for field teams and shift workers, making Northlight a dependable option for businesses that require constant connectivity.</p>
+
+                    <div class="toggle-container">
+                        <div class="feature-description">Budget-Friendly and Durable</div>
+                        <i class="fa-solid fa-angle-right arrow"></i>
+                    </div>
+                    <p class="toggle-content text-black">Perfect for startups, NGOs, or small businesses, Northlight offers rugged, practical phones that prioritize productivity and easy repairs, keeping bulk purchases cost-effective.</p>
                 </div>
 
                 <div class="senario-wrap">
-                    <div class="about-title pb-3">Seniors’ Simplified Smartphone</div>
-                    <p>Northlight bridges familiarity and modernity for older users: Replaceable batteries feel like classic phones, while the ergonomic design (easy-grip curves, intuitive Android 14) reduces frustration. Large icons, loudspeakers, and a no-fuss interface make calls, photos, and messages effortless—tech that respects their pace.</p>
+                    <div class="about-title pb-3">Simplified Phone for Seniors</div>
+                    <div class="toggle-container">
+                        <div class="feature-description">Classic Simplicity Meets Modern Tech</div>
+                        <i class="fa-solid fa-angle-right arrow"></i>
+                    </div>
+                    <p class="toggle-content text-black">Northlight combines a replaceable battery and 3.5mm headphone jack with Android 14’s larger icons and loudspeakers, offering both nostalgia and ease of use.</p>
+
+                    <div class="toggle-container">
+                        <div class="feature-description">User-Friendly Design</div>
+                        <i class="fa-solid fa-angle-right arrow"></i>
+                    </div>
+                    <p class="toggle-content text-black">Ergonomic curves prevent slips, and the intuitive interface makes tasks like video calls, prescriptions, and banking apps simple, reducing frustration for all users.</p>
+
+                    <div class="toggle-container">
+                        <div class="feature-description">Perfect for Those Seeking Simplicity</div>
+                        <i class="fa-solid fa-angle-right arrow"></i>
+                    </div>
+                    <p class="toggle-content text-black">Ideal for grandparents reconnecting with family or retirees managing daily tasks, Northlight is designed for users who want tech that respects their pace.</p>
                 </div>
             </div>
         </div>
@@ -876,26 +924,6 @@
     <?php include './inc/footer.php'; ?>
 
     <script src="js/northlight.js"></script>
-    <script>
-        $(document).ready(function() {
-            $('.slider').slick({
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                dots: true,
-                arrows: true,
-                fade: true,
-                prevArrow: '<button type="button" class="slick-prev"><img src="img/phone/icons/icons_slider.svg" alt="Previous"></button>',
-                nextArrow: '<button type="button" class="slick-next"><img src="img/phone/icons/icons_slider.svg" alt="Next"></button>',
-            });
-            
-            $(".senario-wrap").hide().eq(0).show();
-
-            $('.slider').on('beforeChange', function(event, slick, currentSlide, nextSlide) {
-                $(".senario-wrap").hide();
-                $(".senario-wrap").eq(nextSlide).fadeIn();
-            });
-        });
-    </script>
 </body>
 
 </html>
