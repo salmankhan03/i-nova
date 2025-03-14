@@ -21,6 +21,7 @@
         .card-title {
             padding: 15px 0 0 0;
         }
+
         @media only screen and (max-width: 991px) {
             .row {
                 --bs-gutter-y: 24px;
@@ -179,7 +180,15 @@
             question.addEventListener('click', function() {
                 const answer = this.nextElementSibling;
                 const icon = this.querySelector('.faq-icon');
-                answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+
+                if (answer.classList.contains('open')) {
+                    answer.style.maxHeight = null;
+                    answer.classList.remove('open');
+                } else {
+                    answer.style.maxHeight = answer.scrollHeight + "px";
+                    answer.classList.add('open');
+                }
+
                 icon.classList.toggle('open');
             });
         });

@@ -358,6 +358,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 8px;
 }
 
 .toggle-container .arrow {
@@ -473,10 +474,16 @@ a {
 }
 
 .answer {
-    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
     margin-top: 5px;
     padding-left: 52px;
     margin-bottom: 0;
+}
+
+.answer.open {
+    max-height: 200px;
 }
 
 .faq-icon {
@@ -751,7 +758,6 @@ a {
 .feature-description {
     font-size: 20px;
     font-weight: 700;
-    margin-bottom: 8px;
 }
 
 .disclaimer {
@@ -918,4 +924,9 @@ a {
 
 .slick-dots {
     bottom: -25px !important;
+}
+
+.senario-wrap {
+    max-height: 283px;
+    overflow: hidden;
 }
