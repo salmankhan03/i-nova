@@ -7,7 +7,7 @@
     <meta name="description" content="INova: Bridging gaps with simple, community-driven tech. Explore our mission to empower connections through accessible, affordable innovation.">
 </head>
 
-<body style="overflow-x: hidden;">
+<body>
     <?php include './inc/header.php'; ?>
 
     <div class="about-banner-container">
@@ -48,11 +48,11 @@
                     <div class="title fw-bold">Designed with A Purpose</div>
                 </div>
                 <div class="col-12 col-md-4 d-flex align-items-end justify-content-end">
-                    <a href="northlight.php" class="underline-link underline-link-white" style="color: white !important;">Witness the impact ></a>
+                    <a href="northlight.php" class="underline-link underline-link-white" style="color: white !important;">Witness the impact <i class="fa-solid fa-angle-right"></i></a>
                 </div>
             </div>
 
-            <div class="row text-center bottom-padding gx-5">
+            <div class="row text-center bottom-padding gx-md-5">
                 <div class="col-12 col-md-4">
                     <img src="img/about/icon_accessible.svg" alt="accessibility" class="values-icon">
                     <div class="about-title pt-2 pb-3">Accessibility</div>

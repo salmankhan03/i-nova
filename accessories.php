@@ -143,14 +143,9 @@
                 filterButtons.forEach(button => {
                     button.addEventListener("click", () => {
                         const category = button.getAttribute("data-category");
-
-                        // Remove active class from all buttons
                         filterButtons.forEach(btn => btn.classList.remove("active"));
-
-                        // Add active class to clicked button
                         button.classList.add("active");
 
-                        // Show/hide cards based on category
                         cards.forEach(card => {
                             if (category === "all" || card.getAttribute("data-category") === category) {
                                 card.style.display = "block";
@@ -161,7 +156,6 @@
                     });
                 });
             });
-
         </script>
     </body>
 </html>

@@ -84,7 +84,7 @@
                     <div class="title fw-bold">All in Our Products</div>
                 </div>
                 <div class="col-12 col-md-4 d-flex align-items-end justify-content-end">
-                    <a href="northlight.php" class="underline-link">Experience it now ></a>
+                    <a href="northlight.php" class="underline-link">Experience it now <i class="fa-solid fa-angle-right"></i></a>
                 </div>
             </div>
 
